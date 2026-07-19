@@ -1,19 +1,19 @@
 /* Service pages (light Warm paper): methodology, support, privacy, terms, invite. */
 
 /* Lead paragraph under a service H1 */
-.svc-lead { font-size: 1.12rem; color: var(--text-2); margin: 4px 0 26px; max-width: 40ch; }
+.svc-lead { font-size: 18px; color: var(--text-2); margin: 6px 0 36px; }
 
-/* Source chips (methodology) */
+/* Source chips (methodology) — rounded rect, not full pill */
 .src-chips { display: flex; flex-wrap: wrap; gap: 10px; margin: 16px 0 8px; }
-.src-chip { display: inline-block; font-weight: 700; font-size: .82rem; letter-spacing: .02em;
-  color: var(--text); background: var(--card); border: 1px solid var(--border); border-radius: 999px; padding: 7px 14px; }
+.src-chip { display: inline-block; font-weight: 600; font-size: 14px; letter-spacing: .01em;
+  color: var(--text-2); background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 8px 16px; }
 
 /* DOES / NEVER two-column split */
 .split { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin: 18px 0; }
 .split-col { padding: 20px; border: 1px solid var(--border); border-radius: 16px; background: var(--card); }
 .split-col .kicker { display: block; margin-bottom: 10px; }
 .split-col--does .kicker { color: var(--accent-ink); }
-.split-col--never .kicker { color: var(--danger-text); }
+.split-col--never .kicker { color: var(--label); }
 .split-col ul { list-style: none; padding: 0; margin: 0; }
 .split-col li { position: relative; padding-left: 18px; margin-bottom: 8px; font-size: .96rem; }
 .split-col li::before { content: "·"; position: absolute; left: 4px; font-weight: 700; }
@@ -21,11 +21,11 @@
 .split-col--never li::before { color: var(--danger-text); }
 @media (max-width: 640px) { .split { grid-template-columns: 1fr; } }
 
-/* Emphasis callout (short version / not-a-medical-device / emergency) */
-.callout { border: 1px solid var(--border-strong); background: var(--card); border-radius: 16px;
-  padding: 18px 20px; margin: 22px 0; }
+/* Emphasis callout — peach-tinted highlight (short version); warn = red-tinted. */
+.callout { border: 1px solid var(--tint-border); background: var(--tint); border-radius: 14px;
+  padding: 18px 22px; margin: 22px 0; }
 .callout .kicker { display: block; margin-bottom: 8px; color: var(--accent-ink); }
-.callout--warn { border-color: rgba(200,70,50,.4); }
+.callout--warn { background: rgba(229,72,77,.08); border-color: var(--danger-border); }
 .callout--warn .kicker { color: var(--danger-text); }
 
 /* Support: contact cards */

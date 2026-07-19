@@ -111,7 +111,7 @@ ${crumbs(crumbItems)}
 <h1>Support</h1>
 <p class="svc-lead">Real humans, usually within a day.</p>
 
-<section><span class="kicker">Quick answers</span>
+<section><h2 class="kicker kicker--muted">Quick answers</h2>
 ${qa.html}</section>
 
 <div class="contact-grid">

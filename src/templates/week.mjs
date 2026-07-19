@@ -19,10 +19,10 @@ ${prev ? `<a href="${prev.url}">← Week ${prev.week}</a>` : '<span></span>'}
 <span class="week-of">Week ${w.week} of 64</span>
 ${next ? `<a href="${next.url}">Week ${next.week} →</a>` : '<span></span>'}</div>`;
 
-    const happening = `<section><h2>What’s happening</h2>${w.happening.map((h) =>
-      `<h3>${esc(h.t)}</h3><p>${esc(h.b)}</p>`).join('')}</section>`;
+    const happening = `<section><h2>What’s happening</h2><div class="hgrid">${w.happening.map((h) =>
+      `<div class="hcard"><h3>${esc(h.t)}</h3><p>${esc(h.b)}</p></div>`).join('')}</div></section>`;
     const todo = `<section><h2>What to do</h2><ul class="dotlist">${w.todo.map((t) => `<li>${esc(t)}</li>`).join('')}</ul></section>`;
-    const checkin = `<section><h2>When to check in</h2><p>${esc(w.watching)}</p></section>`;
+    const checkin = `<section><h2>When to check in</h2><div class="checkin-box"><p>${esc(w.watching)}</p></div></section>`;
 
     // Skills to watch (§ answer 4) — between check-in and product CTA.
     const skills = w.skills.length ? `<section><h2>Skills to watch this week</h2>
@@ -36,7 +36,7 @@ ${next ? `<a href="${next.url}">Week ${next.week} →</a>` : '<span></span>'}</d
     });
 
     const exercises = w.exercises.length ? `<section class="week-ex"><h2>Exercises for week ${w.week}</h2>
-<ul class="linklist">${w.exercises.map((e) => `<li><a href="${e.url}">${esc(e.title)}</a> · ${esc(e.duration_hint)}</li>`).join('')}</ul></section>` : '';
+<div class="ex-links">${w.exercises.map((e) => `<a class="ex-link" href="${e.url}">${esc(e.title)} <span>${esc(e.duration_hint)}</span></a>`).join('')}</div></section>` : '';
 
     const reads = w.articles.length ? `<section class="week-reads"><span class="kicker">Reads for week ${w.week}</span>
 <ul class="linklist">${w.articles.slice(0, 4).map((a) => `<li><a href="${a.url}">${esc(a.title)}</a></li>`).join('')}</ul></section>` : '';
@@ -79,7 +79,7 @@ function buildWeekHub({ emit, weeks }) {
   const groups = WEEK_PERIODS.map((p) => `<section class="wk-period"><span class="kicker">${esc(p.kicker)}</span>
 <div class="weekgrid">${weeks.filter((w) => w.week >= p.from && w.week <= p.to).map((w) => `<a href="${w.url}">${w.week}</a>`).join('')}</div></section>`).join('');
 
-  const body = `<div class="wrap reading wk-hub">
+  const body = `<div class="wrap index wk-hub">
 ${crumbs([{ name: 'Home', url: '/' }, { name: 'Week by Week' }])}
 <h1>Your baby, week by week</h1>
 <p class="summary-lead">64 weeks of what’s happening, what to do and when to check in — the same guidance the app matches to your baby.</p>

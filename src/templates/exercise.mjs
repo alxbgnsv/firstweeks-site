@@ -23,13 +23,13 @@ export function buildExercises({ emit, content }) {
     const body = `<div class="wrap reading">
 ${crumbs(crumbItems)}
 <h1>${esc(e.title)}</h1>
-<div class="ex-meta"><span class="badge badge--save">${esc(e.weeksLabel)}</span> <span class="chip">${esc(e.duration_hint)}</span></div>
+<div class="ex-meta"><span class="ex-badge-weeks">${esc(e.weeksLabel)}</span> <span class="ex-badge-dur">${esc(e.duration_hint)}</span></div>
 ${eeatLine({ srcNames: [labelFor(e.source).split(' ')[0]], updated: e.updated })}
 <section><h2>Why it helps</h2><p>${esc(e.benefit)}</p></section>
 <section><h2>How to do it</h2><ol class="howto">${e.steps.map((s) => `<li>${esc(s)}</li>`).join('')}</ol></section>
 <section class="stopif"><span class="kicker">Stop if you see</span><p>${esc(e.stop_signs)}</p></section>
 ${sourcesBlock(srcs)}
-${ctaBox({ h: 'Get guided exercises matched to your baby’s week', p: 'The app queues the right 2–3 activities every week — no searching.', primary: 'Start free — 14 days, no card' })}
+${ctaBox({ variant: 'center', h: 'Get guided exercises matched to your baby’s week', p: 'The app queues the right 2–3 activities every week — no searching.', primary: 'Start free — 14 days, no card' })}
 </div>`;
 
     const meta = {
@@ -49,12 +49,12 @@ function buildExerciseHub({ emit, exercises, groups }) {
     const items = exercises.filter((e) => e.from <= g.to && e.to >= g.from);
     if (!items.length) return '';
     return `<section class="ex-group"><span class="kicker">${esc(g.label)}</span>
-<div class="grid grid--auto ex-grid">${items.map((e) => `<a class="ex-card" href="${e.url}">
-<span class="badge badge--save">${esc(e.weeksLabel)}</span> <span class="chip">${esc(e.duration_hint)}</span>
+<div class="grid ex-grid">${items.map((e) => `<a class="ex-card" href="${e.url}">
+<span class="ex-meta"><span class="ex-badge-weeks">${esc(e.weeksLabel)}</span> <span class="ex-badge-dur">${esc(e.duration_hint)}</span></span>
 <span class="ex-title">${esc(e.title)}</span><span class="muted">${esc(clip(e.benefit, 90))}</span></a>`).join('')}</div></section>`;
   }).join('');
 
-  const body = `<div class="wrap reading">
+  const body = `<div class="wrap index">
 ${crumbs([{ name: 'Home', url: '/' }, { name: 'Exercises' }])}
 <h1>Exercises &amp; play</h1>
 <p class="summary-lead">Short, safe activities that feed the skill your baby is working on right now — with clear stop-signs.</p>

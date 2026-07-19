@@ -41,9 +41,13 @@ export function buildLanding({ emit, read }) {
   </div>
   <div class="hero__store">${appStoreBadge('hero')}<span class="android-soon">Android — coming soon</span></div>
   ${flags.social_proof ? `<p class="social-proof muted">★★★★★ Loved by 12,000+ families</p>` : ''}
-  <p class="hero__tag eyebrow">Less guessing. Less searching. More confidence.</p>
 </div>
 <div class="hero__phone">${heroCrossfade()}</div>
+</div></section>`;
+
+  // --- Emotion band (own full-width statement between hero and mechanism)
+  const emotion = `<section class="emotion"><div class="wrap">
+<p class="emotion__line">Less guessing. Less searching. <span>More confidence.</span></p>
 </div></section>`;
 
   // --- How it works (mechanism)
@@ -52,23 +56,24 @@ export function buildLanding({ emit, read }) {
     ['STEP 2', 'Ask what it means', 'Plain questions, calm answers — with sources you can check.', 'scr-ask', 'Ask — answer with sources'],
     ['STEP 3', 'Get answers that know your baby', 'Every answer accounts for your baby’s age and what you’ve logged.', 'scr-today', 'Today — week-by-week guidance'],
   ];
-  const how = `<section class="section section--alt"><div class="wrap">
+  const how = `<section class="section"><div class="wrap">
 <h2 class="center">How it works</h2>
 <div class="grid grid--3 steps">${steps.map(([k, h, p, scr, alt]) => `<div class="step">
-<div class="kicker">${k}</div><h3>${esc(h)}</h3><p class="muted">${esc(p)}</p>
+<div class="step__body"><div class="kicker">${k}</div><h3>${esc(h)}</h3><p class="muted">${esc(p)}</p></div>
 <div class="step__phone"><div class="iphone iphone--mini"><div class="iphone__screen"><picture>
 <source srcset="/assets/${scr}.webp" type="image/webp">
 <img src="/assets/${scr}.png" width="1206" height="2478" alt="${esc(alt)}" loading="lazy" decoding="async"></picture></div></div></div>
 </div>`).join('')}</div></div></section>`;
 
   // --- Ask demo (mechanism/proof)
-  const askDemo = `<section class="section"><div class="wrap">
+  const askDemo = `<section class="section section--alt"><div class="wrap">
 <h2 class="center">Ask about your baby, not “babies in general”</h2>
 <p class="center muted">Tap a question — this is what answers look like.</p>
 <div class="ask-demo" data-ask-demo>
 <div class="ask-tabs" role="tablist">${asks.map((a, i) =>
     `<button class="ask-tab" role="tab" id="asktab-${i}" aria-controls="askans-${i}" aria-selected="${i === 0}">${esc(a.q)}</button>`).join('')}</div>
 ${asks.map((a, i) => `<div class="ask-answer" id="askans-${i}" role="tabpanel" aria-labelledby="asktab-${i}"${i === 0 ? '' : ' hidden'}>
+<p class="ask-q">${esc(a.q)}</p>
 <p>${esc(a.a)}</p>
 <p class="source-badge">Sources: ${esc(a.src)}</p>
 <p class="used">this answer used: ${esc(a.ctx)}</p>
@@ -76,11 +81,13 @@ ${asks.map((a, i) => `<div class="ask-answer" id="askans-${i}" role="tabpanel" a
 </div>`).join('')}
 </div></div></section>`;
 
-  // --- Red-flag (emotion / trust)
-  const redflag = `<section class="section section--alt"><div class="wrap redflag">
+  // --- Red-flag (emotion / trust) — two-column, red-bordered card
+  const redflag = `<section class="section"><div class="wrap redflag">
+<div class="redflag__intro">
 <h2>When it’s serious, we say so</h2>
 <p class="muted redflag__lead">No false reassurance. FirstWeeks knows the red-flag thresholds from pediatric guidance — and tells you plainly when something needs a doctor, not an app.</p>
-<div class="card redflag__card">
+</div>
+<div class="redflag__card">
 <p class="redflag__q">“She’s 3 weeks old and her rectal temp is 100.6 °F”</p>
 <span class="badge badge--danger">Needs a doctor now</span>
 <p>A rectal temperature of 100.4 °F (38 °C) or higher in a baby under 12 weeks always needs same-day medical attention. Call your pediatrician now — if you can’t reach them, go to urgent care or the ER.</p>
@@ -88,24 +95,24 @@ ${asks.map((a, i) => `<div class="ask-answer" id="askans-${i}" role="tabpanel" a
 </div></div></section>`;
 
   // --- Pricing (#pricing)
-  const priceSec = `<section id="pricing" class="section"><div class="wrap center">
+  const priceSec = `<section id="pricing" class="section section--alt"><div class="wrap center">
 <h2>Simple pricing</h2>
 <p class="muted">${esc(pricing.trialLine)}</p>
 ${priceCards()}
 <p class="muted freeforever">${esc(pricing.freeForever)}</p>
-<div class="center store-row">${appStoreBadge('pricing')}</div>
+<div class="store-row"><span class="muted store-row__lead">or download and start in the app</span>${appStoreBadge('pricing')}</div>
 </div></section>`;
 
-  // --- Trust
-  const trust = `<section class="section section--alt"><div class="wrap">
+  // --- Trust — 4-col accent-topped columns
+  const trust = `<section class="section"><div class="wrap">
 <h2 class="center">Built to be trusted</h2>
-<div class="grid grid--auto trust">
+<div class="grid trust">
 ${[
     ['Grounded in pediatric guidance', 'Answers draw on CDC, NIH, WHO and AAP-aligned sources — cited in every response.'],
     ['Private by design', 'Your baby’s name is removed before any AI request leaves your device.'],
     ['No ads. No data selling.', 'You’re the customer, not the product. Revenue comes from plans only.'],
     ['Encrypted', 'In transit and at rest. Export or delete everything anytime.'],
-  ].map(([h, p]) => `<div class="card trust__card"><h3>${esc(h)}</h3><p class="muted">${esc(p)}</p></div>`).join('')}
+  ].map(([h, p]) => `<div class="trust__card"><h3>${esc(h)}</h3><p class="muted">${esc(p)}</p></div>`).join('')}
 </div>
 <p class="center kicker guidance">Guidance sources</p>
 <p class="center trust__sources">${sources.join('  ·  ')}</p>
@@ -113,12 +120,12 @@ ${[
 
   // --- FAQ
   const { html: faqHtml, ld: faqLD } = faq(faqItems);
-  const faqSec = `<section class="section"><div class="wrap"><h2 class="center">Questions, answered</h2>${faqHtml}</div></section>`;
+  const faqSec = `<section class="section section--alt"><div class="wrap"><div class="faq-wrap"><h2>Questions, answered</h2>${faqHtml}</div></div></section>`;
 
   // --- mobile sticky CTA (tweak b) — no CLS (fixed overlay), JS reveals after hero.
   const sticky = `<div class="sticky-cta" data-sticky-cta><a class="btn btn--primary" href="${heroCTA}">Start free — no card</a></div>`;
 
-  const body = hero + how + askDemo + redflag + priceSec + trust + faqSec + sticky;
+  const body = hero + emotion + how + askDemo + redflag + priceSec + trust + faqSec + sticky;
 
   const orgLD = {
     '@context': 'https://schema.org', '@type': 'Organization', name: 'FirstWeeks',

@@ -1,9 +1,22 @@
 /* Content pages (light Warm paper). Reading column + week/article/exercise bits. */
-.week-nav, .week-foot { display: flex; justify-content: space-between; align-items: center;
-  color: var(--text-2); font-size: .9rem; margin: 8px 0 20px; }
-.week-foot { border-top: 1px solid var(--border); margin-top: 40px; padding-top: 20px; }
-.week-nav a, .week-foot a { color: var(--link); }
+
+/* Prev/next nav — boxed white pill bars (top + bottom) */
+.week-nav, .week-foot { display: flex; justify-content: space-between; align-items: center; gap: 12px;
+  color: var(--text-2); font-size: 14px; background: var(--card); border: 1px solid var(--border);
+  border-radius: 12px; padding: 10px 16px; margin: 8px 0 24px; }
+.week-foot { margin: 40px 0 0; }
+.week-nav a, .week-foot a { color: var(--link); font-weight: 600; }
 .week-of { color: var(--text-3); font-weight: 600; letter-spacing: .04em; text-transform: uppercase; font-size: .78rem; }
+
+/* "What's happening" — white cards */
+.hgrid { display: grid; gap: 16px; margin-top: 8px; }
+.hcard { background: var(--card); border: 1px solid var(--border); border-radius: 16px; padding: 20px 24px; }
+.hcard h3 { margin: 0 0 6px; font-size: 17px; font-weight: 650; }
+.hcard p { margin: 0; font-size: 1rem; line-height: 1.6; color: var(--text); }
+
+/* "When to check in" — red-bordered callout */
+.checkin-box { border: 1px solid var(--danger-border); border-radius: 14px; padding: 20px 24px; margin-top: 8px; background: var(--card); }
+.checkin-box p { margin: 0; font-size: 1rem; line-height: 1.7; }
 
 .dotlist { list-style: none; padding: 0; }
 .dotlist li { position: relative; padding-left: 18px; margin-bottom: 10px; }
@@ -12,6 +25,13 @@
 .linklist li { margin-bottom: 8px; }
 .linklist a { color: var(--link); }
 
+/* Exercise links (on the week page) — horizontal bordered pill cards */
+.ex-links { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 8px; }
+.ex-link { display: inline-flex; align-items: center; gap: 10px; background: var(--card); border: 1px solid var(--border-strong);
+  border-radius: 12px; padding: 12px 18px; font-size: 14.5px; font-weight: 600; color: var(--text); }
+.ex-link:hover { border-color: var(--accent); color: var(--text); }
+.ex-link span { color: var(--text-3); font-weight: 500; }
+
 .skill-list { list-style: none; padding: 0; }
 .skill-list li { margin-bottom: 12px; }
 .skill-range { display: inline-block; font-size: .72rem; font-weight: 700; letter-spacing: .04em;
@@ -19,55 +39,60 @@
 .skill-note { font-size: .95rem; margin-top: 10px; }
 
 .week-reads .kicker, .week-ex h2 { display: block; margin-top: 1.4em; }
-.wk-period { margin: 26px 0; }
-.wk-period .kicker { display: block; margin-bottom: 10px; }
 
-/* Article hub */
+/* Index period groups */
+.wk-period { margin: 34px 0; }
+.wk-period .kicker { display: block; margin-bottom: 14px; color: var(--label); letter-spacing: .05em; }
+
+/* Article hub cards */
 .art-grid { margin-top: 8px; }
-.art-card { display: grid; gap: 6px; padding: 20px; border: 1px solid var(--border); border-radius: 16px;
+.art-card { display: grid; gap: 10px; padding: 24px; border: 1px solid var(--border); border-radius: 18px;
   background: var(--card); color: var(--text); position: relative; }
 .art-card:hover { border-color: var(--accent); color: var(--text); }
-.art-card .kicker { color: var(--accent-ink); }
-.art-min { position: absolute; top: 20px; right: 20px; color: var(--text-3); font-size: .82rem; }
-.art-title { font-weight: 700; font-size: 1.05rem; letter-spacing: -.01em; }
-.art-teaser { font-size: .92rem; }
+.art-card .kicker { color: var(--link); font-size: 11.5px; letter-spacing: .05em; }
+.art-min { position: absolute; top: 24px; right: 24px; color: var(--text-3); font-size: .82rem; }
+.art-title { font-weight: 650; font-size: 18px; letter-spacing: -.01em; }
+.art-teaser { font-size: 14px; }
 .pager { display: flex; gap: 8px; margin: 30px 0; }
 .pager a, .pager span { padding: 8px 14px; border-radius: 10px; border: 1px solid var(--border); color: var(--link); }
-.pager span[aria-current] { background: var(--accent); color: var(--on-accent); border-color: var(--accent); }
+.pager span[aria-current] { background: var(--ink-chip); color: var(--on-ink-chip); border-color: var(--ink-chip); }
 
 /* Sources / related */
 .sources ul { list-style: none; padding: 0; }
 .sources a { color: var(--link); }
 .related { margin-top: 34px; }
-.rel-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; margin-top: 12px; }
-.rel-card { display: grid; gap: 6px; padding: 16px; border: 1px solid var(--border); border-radius: 14px; background: var(--card); color: var(--text); }
+.rel-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; margin-top: 12px; }
+.rel-card { display: grid; gap: 6px; padding: 20px; border: 1px solid var(--border); border-radius: 16px; background: var(--card); color: var(--text); }
 .rel-card:hover { border-color: var(--accent); color: var(--text); }
-.rel-card .kicker { color: var(--accent-ink); }
+.rel-card .kicker { color: var(--link); font-size: 11.5px; letter-spacing: .05em; }
 .rel-title { font-weight: 600; }
 .rel-card--hub { align-content: center; }
 @media (max-width: 640px) { .rel-grid { grid-template-columns: 1fr; } }
 
-/* Exercise */
-.ex-meta { display: flex; gap: 10px; align-items: center; margin: 4px 0 6px; }
+/* Exercise template */
+.ex-meta { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; margin: 4px 0 6px; }
+.ex-badge-weeks { display: inline-block; font-size: 12px; font-weight: 700; letter-spacing: .04em;
+  background: var(--tint); color: var(--accent-ink); border-radius: 14px; padding: 5px 12px; }
+.ex-badge-dur { display: inline-block; font-size: 12px; font-weight: 600; background: color-mix(in srgb, var(--text) 8%, transparent);
+  color: var(--text-2); border-radius: 14px; padding: 5px 12px; }
 .howto { counter-reset: step; list-style: none; padding: 0; }
-.howto li { counter-increment: step; position: relative; padding-left: 40px; margin-bottom: 14px; }
-.howto li::before { content: counter(step); position: absolute; left: 0; top: 0; width: 28px; height: 28px;
+.howto li { counter-increment: step; position: relative; display: flex; gap: 16px; align-items: flex-start;
+  background: var(--card); border: 1px solid var(--border); border-radius: 14px; padding: 16px 20px; margin-bottom: 12px; }
+.howto li::before { content: counter(step); flex: 0 0 auto; width: 28px; height: 28px;
   background: var(--accent); color: var(--on-accent); border-radius: 50%; display: flex; align-items: center;
   justify-content: center; font-weight: 700; font-size: .9rem; }
-.stopif { background: var(--card); border: 1px solid var(--border-strong); border-radius: 14px; padding: 16px 18px; margin: 24px 0; }
+.stopif { background: var(--card); border: 1px solid var(--danger-border); border-radius: 14px; padding: 18px 22px; margin: 24px 0; }
 .stopif .kicker { display: block; margin-bottom: 6px; color: var(--danger-text); }
-.ex-card { display: grid; gap: 8px; padding: 18px; border: 1px solid var(--border); border-radius: 16px; background: var(--card); color: var(--text); }
+.ex-card { display: grid; gap: 8px; padding: 24px; border: 1px solid var(--border); border-radius: 18px; background: var(--card); color: var(--text); }
 .ex-card:hover { border-color: var(--accent); color: var(--text); }
-.ex-title { font-weight: 700; font-size: 1.05rem; }
-.ex-group { margin: 22px 0; }
-.ex-group .kicker { display: block; margin-bottom: 12px; }
-
-/* Content-page CTA inserts use accent link color in light theme automatically. */
-.cta-text { color: var(--link); }
+.ex-title { font-weight: 650; font-size: 1.05rem; }
+.ex-group { margin: 30px 0; }
+.ex-group .kicker { display: block; margin-bottom: 14px; color: var(--label); letter-spacing: .05em; }
+.ex-grid { grid-template-columns: repeat(3, 1fr); }
+@media (max-width: 860px) { .ex-grid { grid-template-columns: 1fr; } }
 
 /* In-text links carry an underline so they aren't distinguished by colour alone
-   (WCAG "use of color" / Lighthouse link-in-text-block). Card/nav links, which
-   are block targets with their own borders, are exempt. */
-.reading p a, .sources a, .faq details a, .draft-note a, .cta-text,
-.contact-card p a, .co-fine a, .crumbs a, .linklist a, .week-nav a, .week-foot a {
+   (WCAG "use of color" / Lighthouse link-in-text-block). Card/nav links are exempt. */
+.reading p a, .sources a, .faq details a, .draft-note a,
+.contact-card p a, .co-fine a, .crumbs a, .toc a, .linklist a {
   text-decoration: underline; text-underline-offset: 2px; }

@@ -1,7 +1,7 @@
 // Article pages (/en/articles/slug/) + hub + category hubs + pagination. Light. Mockup 03.
 import { page, storeLink } from '../components/layout.mjs';
 import { crumbs, ctaBox, ctaText, appStoreBadge } from '../components/blocks.mjs';
-import { eeatLine, tocBlock, sourcesBlock, relatedBlock, articleLD } from '../components/content.mjs';
+import { eeatLine, tocBlock, tocAnchor, sourcesBlock, relatedBlock, articleLD } from '../components/content.mjs';
 import { site, ARTICLES_PER_PAGE, CATEGORIES } from '../../config.mjs';
 import { esc } from '../lib/html.mjs';
 
@@ -16,7 +16,7 @@ export function buildArticles({ emit, content }) {
 
     // Body with a text CTA after the first section and a box CTA mid-way.
     const sectionsHtml = a.body.map((b, i) => {
-      let html = (b.h ? `<h2>${esc(b.h)}</h2>` : '') + `<p>${esc(b.p)}</p>`;
+      let html = (b.h ? `<h2 id="${tocAnchor(b.h)}">${esc(b.h)}</h2>` : '') + `<p>${esc(b.p)}</p>`;
       if (i === 0) html += ctaText();
       if (i === 1 && a.body.length > 2) html += ctaBox({
         h: 'Is this normal for your baby?',
@@ -34,7 +34,7 @@ ${tocBlock(toc)}
 ${sectionsHtml}
 ${sourcesBlock(a.sources)}
 ${relatedBlock(a.relatedResolved, hub)}
-${ctaBox({ h: 'Less guessing tonight', p: 'Track the evening in one tap — then ask what it means.', primary: 'Start free — 14 days, no card' })}
+${ctaBox({ variant: 'center', h: 'Less guessing tonight', p: 'Track the evening in one tap — then ask what it means.', primary: 'Start free — 14 days, no card' })}
 </div>`;
 
     const meta = {
@@ -75,13 +75,13 @@ function hubShell({ emit, title, desc, path, heading, lead, items, activeSlug, p
     return p === pageNo ? `<span aria-current="page">${p}</span>` : `<a href="${url}">${p}</a>`;
   }).join('')}</nav>` : '';
 
-  const body = `<div class="wrap reading art-hub">
+  const body = `<div class="wrap index art-hub">
 ${crumbs(crumbItems)}
 <h1>${esc(heading)}</h1>
 <p class="summary-lead">${esc(lead)}</p>
 ${eeatLine({ srcNames: ['CDC', 'NIH', 'WHO', 'AAP'] })}
 ${chips(activeSlug)}
-<div class="grid grid--auto art-grid">${slice.map(card).join('')}</div>
+<div class="grid grid--3 art-grid">${slice.map(card).join('')}</div>
 ${pager}
 </div>`;
 

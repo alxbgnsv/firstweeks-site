@@ -18,8 +18,9 @@ export function buildCheckout({ emit }) {
 
   // Plan summary (Annual default; JS swaps if ?plan=monthly in Stage 2).
   const planSummary = `<div class="co-plan" data-plan-summary>
-<div><b>FirstWeeks Annual</b> <span class="badge badge--save">${pricing.annual.save}</span></div>
-<div class="co-plan__price">${pricing.annual.price} <small>${pricing.annual.perMonth} · billed once a year</small></div>
+<div class="co-plan__top"><b>FirstWeeks Annual</b> <span class="badge badge--save">${pricing.annual.save}</span></div>
+<div class="co-plan__sub">${pricing.annual.perMonth} · billed once a year</div>
+<div class="co-due"><span>Due today</span><b>${pricing.annual.price}</b></div>
 ${live ? '<button class="co-change" data-change>change</button>' : ''}
 </div>`;
 
@@ -94,13 +95,11 @@ ${steps(1)}
 
   const body = `<div class="co-wrap">
 <div class="co-left">
-  <a class="co-back" href="/">← Back to firstweeks.app</a>
-  <h2 class="co-plan-h">Your plan</h2>
+  <h1 class="co-plan-h">Your plan</h1>
   ${planSummary}
-  <div class="co-due"><span>Due today</span><b>${pricing.annual.price}</b></div>
   ${benefits}
 </div>
-<div class="co-right card" data-checkout${live ? ' data-checkout-live' : ''}>
+<div class="co-right" data-checkout${live ? ' data-checkout-live' : ''}>
   ${stageBanner}
   ${stepEmail}${stepPayment}${stepSuccess}${stepDeclined}${stepExists}
 </div>
@@ -111,7 +110,7 @@ ${steps(1)}
     description: 'Start your FirstWeeks plan.',
     path: '/en/checkout/',
   };
-  let html = page({ meta, body, scripts: live ? ['/js/checkout.js'] : [] });
+  let html = page({ meta, body, scripts: live ? ['/js/checkout.js'] : [], chrome: 'minimal' });
   html = html.replace('</title>', '</title><meta name="robots" content="noindex">'); // Stage-2 surface
   emit('/en/checkout/', html, { indexable: false });
 }
