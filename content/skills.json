@@ -1,0 +1,260 @@
+{
+ "skills": [
+  {
+   "id": "sk01",
+   "title": "Startle (Moro) reflex",
+   "weeks": "1-8",
+   "how_to_spot": "Arms fling out at sudden sounds or movement, then pull back in.",
+   "source": "https://www.cdc.gov/act-early/milestones/index.html",
+   "emoji": "⚡"
+  },
+  {
+   "id": "sk02",
+   "title": "Rooting reflex",
+   "weeks": "1-6",
+   "how_to_spot": "Turns toward a cheek stroke with an open mouth, hunting for food.",
+   "source": "https://www.cdc.gov/act-early/milestones/index.html",
+   "emoji": "🍼"
+  },
+  {
+   "id": "sk03",
+   "title": "Strong grasp reflex",
+   "weeks": "1-9",
+   "how_to_spot": "Curls fingers tightly around yours when you touch the palm.",
+   "source": "https://www.cdc.gov/act-early/milestones/index.html",
+   "emoji": "✊"
+  },
+  {
+   "id": "sk04",
+   "title": "Random arm & leg movements",
+   "weeks": "1-5",
+   "how_to_spot": "Jerky, uncoordinated waving — the nervous system is wiring up.",
+   "source": "https://www.cdc.gov/act-early/milestones/index.html",
+   "emoji": "🦵"
+  },
+  {
+   "id": "sk05",
+   "title": "Focuses 8–12 inches away",
+   "weeks": "1-6",
+   "how_to_spot": "Locks onto your face at feeding distance; farther is still blurry.",
+   "source": "https://www.cdc.gov/act-early/milestones/index.html",
+   "emoji": "👀"
+  },
+  {
+   "id": "sk06",
+   "title": "Recognizes your voice and smell",
+   "weeks": "1-4",
+   "how_to_spot": "Calms or stills to the voice heard from inside for months.",
+   "source": "https://www.cdc.gov/act-early/milestones/index.html",
+   "emoji": "👂"
+  },
+  {
+   "id": "sk07",
+   "title": "Calms when held",
+   "weeks": "1-5",
+   "how_to_spot": "Settles against a warm chest — contact is regulation at this age.",
+   "source": "https://www.cdc.gov/act-early/milestones/index.html",
+   "emoji": "👋"
+  },
+  {
+   "id": "sk08",
+   "title": "Lifts head briefly in tummy time",
+   "weeks": "1-9",
+   "how_to_spot": "A wobbly one-two seconds at first; the reps build neck strength.",
+   "source": "https://www.cdc.gov/act-early/milestones/index.html",
+   "emoji": "👶"
+  },
+  {
+   "id": "sk09",
+   "title": "Turns head side to side lying down",
+   "weeks": "1-8",
+   "how_to_spot": "Clears the airway and starts steering attention.",
+   "source": "https://www.cdc.gov/act-early/milestones/index.html",
+   "emoji": "👶"
+  },
+  {
+   "id": "sk10",
+   "title": "Stretches arms, opens palms",
+   "weeks": "1-9",
+   "how_to_spot": "Fists gradually relax; open hands appear more often.",
+   "source": "https://www.cdc.gov/act-early/milestones/index.html",
+   "emoji": "✊"
+  },
+  {
+   "id": "sk11",
+   "title": "Reacts to loud sounds",
+   "weeks": "1-8",
+   "how_to_spot": "Startles, blinks, stirs in sleep — hearing is on the job.",
+   "source": "https://www.cdc.gov/act-early/milestones/index.html",
+   "emoji": "👂"
+  },
+  {
+   "id": "sk12",
+   "title": "Cries to communicate",
+   "weeks": "1-5",
+   "how_to_spot": "Different needs slowly acquire slightly different cries.",
+   "source": "https://www.cdc.gov/act-early/milestones/index.html",
+   "emoji": "😢"
+  },
+  {
+   "id": "sk13",
+   "title": "Makes throaty little sounds",
+   "weeks": "2-6",
+   "how_to_spot": "Grunts and sighs — the warm-up band before cooing.",
+   "source": "https://www.cdc.gov/act-early/milestones/index.html",
+   "emoji": "🗣️"
+  },
+  {
+   "id": "sk14",
+   "title": "Follows a face in a short arc",
+   "weeks": "3-8",
+   "how_to_spot": "Tracks your slow movement from one side toward the middle.",
+   "source": "https://www.cdc.gov/act-early/milestones/index.html",
+   "emoji": "👀"
+  },
+  {
+   "id": "sk15",
+   "title": "Hands find the mouth",
+   "weeks": "3-10",
+   "how_to_spot": "Fist-sucking arrives — self-soothing, not necessarily hunger.",
+   "source": "https://www.cdc.gov/act-early/milestones/index.html",
+   "emoji": "🍼"
+  },
+  {
+   "id": "sk16",
+   "title": "Studies high-contrast patterns",
+   "weeks": "2-8",
+   "how_to_spot": "Bold black-and-white shapes hold attention longest.",
+   "source": "https://www.cdc.gov/act-early/milestones/index.html",
+   "emoji": "👀"
+  },
+  {
+   "id": "sk17",
+   "title": "Quiets to a familiar routine",
+   "weeks": "3-9",
+   "how_to_spot": "The bath-feed-lullaby chain starts to signal what's next.",
+   "source": "https://www.cdc.gov/act-early/milestones/index.html",
+   "emoji": "🫶"
+  },
+  {
+   "id": "sk18",
+   "title": "Social smile",
+   "weeks": "4-8",
+   "how_to_spot": "Smiles back at your face and voice — the first true conversation.",
+   "source": "https://www.cdc.gov/act-early/milestones/index.html",
+   "emoji": "😊"
+  },
+  {
+   "id": "sk19",
+   "title": "Coos vowel sounds",
+   "weeks": "5-10",
+   "how_to_spot": "'Ooo' and 'aah' in calm, alert moments.",
+   "source": "https://www.cdc.gov/act-early/milestones/index.html",
+   "emoji": "🗣️"
+  },
+  {
+   "id": "sk20",
+   "title": "Calms when spoken to or picked up",
+   "weeks": "4-9",
+   "how_to_spot": "Your response reliably down-shifts the crying.",
+   "source": "https://www.cdc.gov/act-early/milestones/index.html",
+   "emoji": "🫶"
+  },
+  {
+   "id": "sk21",
+   "title": "Watches you as you move",
+   "weeks": "5-9",
+   "how_to_spot": "Eyes follow you across short distances around the room.",
+   "source": "https://www.cdc.gov/act-early/milestones/index.html",
+   "emoji": "👀"
+  },
+  {
+   "id": "sk22",
+   "title": "Holds head up in tummy time",
+   "weeks": "6-10",
+   "how_to_spot": "Steadier lifts, chin well off the mat.",
+   "source": "https://www.cdc.gov/act-early/milestones/index.html",
+   "emoji": "👶"
+  },
+  {
+   "id": "sk23",
+   "title": "Smoother arm and leg motion",
+   "weeks": "6-10",
+   "how_to_spot": "Newborn jerkiness gives way to flowing movement.",
+   "source": "https://www.cdc.gov/act-early/milestones/index.html",
+   "emoji": "👋"
+  },
+  {
+   "id": "sk24",
+   "title": "Turn-taking sounds",
+   "weeks": "7-12",
+   "how_to_spot": "Coos, pauses when you talk, then 'answers' again.",
+   "source": "https://www.cdc.gov/act-early/milestones/index.html",
+   "emoji": "🗣️"
+  },
+  {
+   "id": "sk25",
+   "title": "Brings hands together",
+   "weeks": "8-13",
+   "how_to_spot": "Midline discovery — hands meet, clasp and inspect each other.",
+   "source": "https://www.cdc.gov/act-early/milestones/index.html",
+   "emoji": "👋"
+  },
+  {
+   "id": "sk26",
+   "title": "Bats and swipes at objects",
+   "weeks": "9-13",
+   "how_to_spot": "Aims at dangling toys; contact is the victory.",
+   "source": "https://www.cdc.gov/act-early/milestones/index.html",
+   "emoji": "👋"
+  },
+  {
+   "id": "sk27",
+   "title": "Briefly holds a toy",
+   "weeks": "9-13",
+   "how_to_spot": "Keeps a light rattle in the grip for a few seconds.",
+   "source": "https://www.cdc.gov/act-early/milestones/index.html",
+   "emoji": "🧸"
+  },
+  {
+   "id": "sk28",
+   "title": "Pushes up on forearms",
+   "weeks": "9-13",
+   "how_to_spot": "Mini push-ups raise the chest in tummy time.",
+   "source": "https://www.cdc.gov/act-early/milestones/index.html",
+   "emoji": "👋"
+  },
+  {
+   "id": "sk29",
+   "title": "Steadier head held upright",
+   "weeks": "9-13",
+   "how_to_spot": "Less wobble when carried or held sitting.",
+   "source": "https://www.cdc.gov/act-early/milestones/index.html",
+   "emoji": "👶"
+  },
+  {
+   "id": "sk30",
+   "title": "Squeals and gurgles",
+   "weeks": "9-13",
+   "how_to_spot": "Volume experiments — the voice is a new toy.",
+   "source": "https://www.cdc.gov/act-early/milestones/index.html",
+   "emoji": "🗣️"
+  },
+  {
+   "id": "sk31",
+   "title": "Turns toward interesting sounds",
+   "weeks": "8-13",
+   "how_to_spot": "Rotates head to find a rattle or your voice off to the side.",
+   "source": "https://www.cdc.gov/act-early/milestones/index.html",
+   "emoji": "👂"
+  },
+  {
+   "id": "sk32",
+   "title": "Faster smiles for familiar faces",
+   "weeks": "10-13",
+   "how_to_spot": "Known people get instant warmth; strangers get study.",
+   "source": "https://www.cdc.gov/act-early/milestones/index.html",
+   "emoji": "😊"
+  }
+ ]
+}

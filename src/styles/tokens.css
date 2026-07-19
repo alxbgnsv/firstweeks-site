@@ -1,0 +1,42 @@
+/* SITE-2 design tokens (§2). Dark = brand/landing/checkout/product; Light 1a "Warm paper" = content. */
+:root {
+  /* Dark brand theme */
+  --bg: #0B0B0D;
+  --bg-alt: #101014;
+  --card: #1B1B20;
+  --border: rgba(235,235,245,.10);
+  --border-strong: rgba(235,235,245,.12);
+  --text: #EBEBF5;
+  --text-2: rgba(235,235,245,.60);
+  --text-3: rgba(235,235,245,.35);
+  --accent: #E8A37F;
+  --on-accent: #2A150B;
+  --link: #0A84FF;
+  --link-hover: #3D9DFF;
+  --danger: #E5484D;
+  --danger-text: #FF7A70;
+
+  --radius-card: 18px;
+  --radius-btn: 13px;
+  --maxw: 1120px;
+  --read: 680px;
+  --font: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, system-ui, sans-serif;
+}
+
+/* Light "Warm paper" 1a — applied on content pages via <body class="light"> */
+.light {
+  --bg: #FAF6F0;
+  --bg-alt: #F3ECE2;
+  --card: #FFFFFF;
+  --border: rgba(32,27,22,.10);
+  --border-strong: rgba(32,27,22,.12);
+  --text: #201B16;
+  --text-2: #6E655C;
+  --text-3: #8A7E70;
+  --accent: #E8A37F;
+  --on-accent: #2A150B;
+  --link: #B4622F;        /* content deep accent */
+  --link-hover: #8f4d24;
+  --danger: #C0362B;
+  --danger-text: #B4291E;
+}

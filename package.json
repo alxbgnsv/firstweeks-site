@@ -1,0 +1,17 @@
+{
+  "name": "firstweeks-site",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "firstweeks.app — static marketing + SEO site (self-written Node generator).",
+  "scripts": {
+    "build": "node tools/build.mjs",
+    "images": "node tools/gen-images.mjs",
+    "og": "node tools/gen-og.mjs",
+    "serve": "node --watch tools/build.mjs || true; python3 -m http.server 8930 --directory dist",
+    "dev": "node tools/build.mjs && python3 -m http.server 8930 --directory dist"
+  },
+  "devDependencies": {
+    "sharp": "^0.33.0"
+  }
+}

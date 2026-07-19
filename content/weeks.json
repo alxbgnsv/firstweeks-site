@@ -1,0 +1,1732 @@
+{
+ "weeks": [
+  {
+   "week": 1,
+   "badge": "Landing week",
+   "summary": "You're both brand new at this. This week is about feeding, sleeping and healing — nothing more is required of anyone.",
+   "happening": [
+    {
+     "t": "Feeding sets the rhythm",
+     "b": "Most newborns feed 8–12 times per 24 hours. A tiny stomach means small, frequent meals — day and night. Weight commonly dips a few percent after birth and starts climbing back within days."
+    },
+    {
+     "t": "Sleep is everywhere and nowhere",
+     "b": "Expect 14–17 hours of sleep in short stretches of 1–3 hours, with no day/night pattern yet. That's typical for week one."
+    },
+    {
+     "t": "Body basics",
+     "b": "The umbilical cord stump is drying out — keep it clean and dry until it falls off on its own (usually 1–3 weeks). Skin may peel or look blotchy; both are commonly seen."
+    }
+   ],
+   "todo": [
+    "Feed on hunger cues (rooting, hand-to-mouth) rather than the clock",
+    "Always place baby on the back to sleep, on a firm flat surface, no loose bedding",
+    "Sleep when the baby sleeps — this week that's a survival rule, not a cliché"
+   ],
+   "watching": "Fewer than 6 wet diapers a day after day 5, a rectal temperature of 100.4°F (38°C) or higher, unusual sleepiness or refusal to feed — call your pediatrician.",
+   "source": "https://medlineplus.gov/infantandnewborncare.html",
+   "period_type": "calm"
+  },
+  {
+   "week": 2,
+   "badge": "Settling in",
+   "summary": "Adaptation week: most of the newborn transition states peak and start to fade by the end of this week.",
+   "happening": [
+    {
+     "t": "Jaundice peaks and fades",
+     "b": "A yellow tint to skin and eyes is very commonly seen — it usually peaks around days 3–5 and fades by the end of week 2. Frequent feeding helps it pass."
+    },
+    {
+     "t": "Kidneys switch on",
+     "b": "You may briefly see reddish-orange dust in the diaper (urate crystals) in the first days; it typically disappears as feeding volume grows."
+    },
+    {
+     "t": "Hormone shifts",
+     "b": "Mild breast swelling or a little discharge can appear in both boys and girls as maternal hormones leave the body. It's painless, symmetric and temporary."
+    }
+   ],
+   "todo": [
+    "Keep gentle hygiene: warm water is enough for most of the body",
+    "Avoid overheating — light layers, room around 68–72°F",
+    "Note feeds and diapers; the counts answer half of your worries"
+   ],
+   "watching": "Yellow tint spreading below the knees, deepening after day 5, or paired with poor feeding or unusual sleepiness — call your pediatrician the same day.",
+   "source": "https://medlineplus.gov/infantandnewborncare.html",
+   "period_type": "calm"
+  },
+  {
+   "week": 3,
+   "badge": "Growth in motion",
+   "summary": "A hungry, clingy stretch is common around now — many babies hit their first big growth spurt.",
+   "happening": [
+    {
+     "t": "Cluster feeding evenings",
+     "b": "Feeding every 30–60 minutes for a few hours, often in the evening, is commonly seen and usually signals a growth spurt — not low milk supply."
+    },
+    {
+     "t": "More alert minutes",
+     "b": "Awake windows stretch a little. Baby focuses best 8–12 inches away — exactly the distance to your face during feeds."
+    },
+    {
+     "t": "Weight check",
+     "b": "By now most babies are back to birth weight and gaining roughly 5–7 oz a week."
+    }
+   ],
+   "todo": [
+    "Follow the appetite — supply adjusts to demand",
+    "Use short awake windows for face-to-face time and gentle tummy time",
+    "Hand off one stretch a day to a partner if you can"
+   ],
+   "watching": "No return to birth weight by the two-week checkup, or consistently fewer than 6 wet diapers a day — bring it up with your pediatrician.",
+   "source": "https://www.cdc.gov/breastfeeding/index.html",
+   "period_type": "growth"
+  },
+  {
+   "week": 4,
+   "badge": "Louder week",
+   "summary": "Crying starts climbing toward its normal peak. It's a phase with a shape — it rises, peaks, and falls.",
+   "happening": [
+    {
+     "t": "Crying curve goes up",
+     "b": "Total daily crying commonly increases from around week 2, peaks near month 2, and eases by months 3–4. Some of it has no findable reason — that's part of normal development."
+    },
+    {
+     "t": "Evening fussiness",
+     "b": "The 'witching hour' — a fussy stretch in the late afternoon or evening — is one of the most commonly reported patterns at this age."
+    },
+    {
+     "t": "First head control",
+     "b": "During tummy time many babies briefly lift the head and turn it side to side."
+    }
+   ],
+   "todo": [
+    "Build a soothing rotation: hold, rock, feed, white noise, fresh air",
+    "It's okay to put baby down safely and step away for a few minutes if you feel overwhelmed — that protects both of you",
+    "Never shake a baby — hand them to someone or put them down safely instead"
+   ],
+   "watching": "A cry that sounds unlike your baby (high-pitched, weak) plus fever, vomiting or refusal to feed — call your pediatrician now.",
+   "source": "https://www.cdc.gov/child-abuse-neglect/about/preventing-shaken-baby-syndrome.html",
+   "period_type": "fussy"
+  },
+  {
+   "week": 5,
+   "badge": "Peak fussy, almost",
+   "summary": "For many babies this is the loudest stretch. You're not doing anything wrong — the curve just hasn't turned yet.",
+   "happening": [
+    {
+     "t": "Crying near its top",
+     "b": "Daily crying is close to its natural maximum for many babies around weeks 5–8. Soothing helps in the moment; time is what actually ends it."
+    },
+    {
+     "t": "Eyes lock on",
+     "b": "Baby follows your face in a small arc and studies high-contrast patterns."
+    },
+    {
+     "t": "Sounds beyond crying",
+     "b": "Little throaty noises and early cooing may show up in calm moments."
+    }
+   ],
+   "todo": [
+    "Trade shifts with a partner during the evening peak",
+    "Take crying breaks in another room when you need them — a safely placed crying baby is okay for a few minutes",
+    "Track sleep to spot the day's calmest window and protect it for yourself"
+   ],
+   "watching": "Crying paired with fever 100.4°F+, vomiting (not spit-up), fewer wet diapers, or a bulging soft spot — call your pediatrician.",
+   "source": "https://www.cdc.gov/child-abuse-neglect/about/preventing-shaken-baby-syndrome.html",
+   "period_type": "fussy"
+  },
+  {
+   "week": 6,
+   "badge": "First real smiles",
+   "summary": "The payoff week: social smiles often arrive right when parents need them most.",
+   "happening": [
+    {
+     "t": "Smiles that mean you",
+     "b": "By around 2 months most babies smile in response to you — not just gas. If it hasn't happened yet, the window is still wide open."
+    },
+    {
+     "t": "Calms to your voice",
+     "b": "Baby quiets or turns toward a familiar voice more reliably now."
+    },
+    {
+     "t": "Another appetite jump",
+     "b": "A growth spurt around week 6 is commonly seen — expect a hungrier couple of days."
+    }
+   ],
+   "todo": [
+    "Talk and sing face-to-face during awake windows — conversation is development",
+    "Keep tummy time daily, a few minutes at a time",
+    "Book the 2-month checkup if you haven't yet"
+   ],
+   "watching": "By 2 months: no response to loud sounds, or not watching things as they move — mention it at the checkup.",
+   "source": "https://www.cdc.gov/act-early/milestones/index.html",
+   "period_type": "growth"
+  },
+  {
+   "week": 7,
+   "badge": "Brighter days",
+   "summary": "Awake time gets genuinely interactive: more looking, more cooing, more of baby showing up as a person.",
+   "happening": [
+    {
+     "t": "Cooing conversations",
+     "b": "Vowel sounds ('ooo', 'aah') appear and baby may 'answer' when you pause — the first turn-taking."
+    },
+    {
+     "t": "Hands drift to mouth",
+     "b": "Self-soothing via hands and fists is commonly seen and completely fine."
+    },
+    {
+     "t": "Crying starts easing",
+     "b": "For many babies the crying curve begins its slow descent around now."
+    }
+   ],
+   "todo": [
+    "Narrate your day out loud — it's language input, not silliness",
+    "Offer a high-contrast toy to track side to side",
+    "Start a simple, repeatable wind-down before night sleep"
+   ],
+   "watching": "Baby doesn't calm at all when held and fed, most days — worth a conversation with your pediatrician.",
+   "source": "https://www.cdc.gov/act-early/milestones/index.html",
+   "period_type": "calm"
+  },
+  {
+   "week": 8,
+   "badge": "Checkup week",
+   "summary": "The 2-month visit: measurements, milestones and the first big round of vaccines.",
+   "happening": [
+    {
+     "t": "The 2-month milestones",
+     "b": "Around now most babies smile at people, calm when spoken to or picked up, watch you as you move, and hold the head up in tummy time."
+    },
+    {
+     "t": "Vaccine day",
+     "b": "Expect brief crying, extra sleepiness or mild fussiness for a day or so afterward — commonly seen. Your pediatrician will tell you what's expected and what's not."
+    },
+    {
+     "t": "Smoother movements",
+     "b": "Jerky newborn movements are giving way to smoother arm and leg motion."
+    }
+   ],
+   "todo": [
+    "Write your questions down before the visit — the checklist in Ask can help",
+    "Plan a quiet day after vaccines",
+    "Comfort works: feeding and holding right after shots measurably helps"
+   ],
+   "watching": "After vaccines: fever above 104°F, crying inconsolably for 3+ hours, or anything that worries you — call your pediatrician; that's what they're for.",
+   "source": "https://www.cdc.gov/act-early/milestones/index.html",
+   "period_type": "fussy"
+  },
+  {
+   "week": 9,
+   "badge": "Finding a voice",
+   "summary": "More sounds, more smiles, and the first hints of a daily rhythm.",
+   "happening": [
+    {
+     "t": "Sound experiments",
+     "b": "Squeals, gurgles and longer coo strings — baby is playing with the voice."
+    },
+    {
+     "t": "A loose pattern forms",
+     "b": "Feeds and naps start clumping at similar times. It's a sketch, not a schedule — expect it to wobble."
+    },
+    {
+     "t": "Stronger tummy time",
+     "b": "Head comes up higher and holds longer; some babies start pushing up on forearms."
+    }
+   ],
+   "todo": [
+    "Follow the sketch: aim naps at the sleepy cues, not the clock",
+    "Answer baby's sounds like a conversation — pause, reply, pause",
+    "Move tummy time to a firm floor mat for better practice"
+   ],
+   "watching": "No cooing or vocal sounds at all, and no social smiling by now — mention it to your pediatrician.",
+   "source": "https://www.cdc.gov/act-early/milestones/index.html",
+   "period_type": "calm"
+  },
+  {
+   "week": 10,
+   "badge": "Longer stretches",
+   "summary": "Night sleep often consolidates a little — some babies gift you a 4–6 hour stretch.",
+   "happening": [
+    {
+     "t": "Night sleep matures",
+     "b": "Many babies begin sleeping one longer block at night. Many others don't yet — both are commonly seen at this age."
+    },
+    {
+     "t": "Hands become fascinating",
+     "b": "Staring at hands, bringing them together, gnawing on fists — baby is discovering the body."
+    },
+    {
+     "t": "Drool arrives",
+     "b": "Salivary glands wake up around now. Drooling alone isn't teething yet."
+    }
+   ],
+   "todo": [
+    "Keep night interactions boring: dim light, quiet voice, no play",
+    "Protect your own sleep during the long stretch — go to bed early once",
+    "Offer safe objects to grasp and mouth"
+   ],
+   "watching": "Baby who slept longer stretches suddenly waking hourly for many nights plus feeding poorly — worth a pediatrician chat.",
+   "source": "https://medlineplus.gov/infantandnewborncare.html",
+   "period_type": "calm"
+  },
+  {
+   "week": 11,
+   "badge": "Reaching out",
+   "summary": "Swiping, batting, grabbing at things — movement gets intentional.",
+   "happening": [
+    {
+     "t": "First swipes",
+     "b": "Baby bats at dangling toys and may briefly hold what lands in the hand."
+    },
+    {
+     "t": "Head control improves",
+     "b": "Held upright, the head is steadier with less wobble."
+    },
+    {
+     "t": "Social memory",
+     "b": "Familiar faces get faster smiles; new faces get long study."
+    }
+   ],
+   "todo": [
+    "Hang a toy within batting range during floor play",
+    "Practice supported sitting on your lap for short spells",
+    "Keep narrating — receptive language is building fast"
+   ],
+   "watching": "Very stiff or very floppy body most of the time — bring it up with your pediatrician.",
+   "source": "https://www.cdc.gov/act-early/milestones/index.html",
+   "period_type": "calm"
+  },
+  {
+   "week": 12,
+   "badge": "Almost three months",
+   "summary": "The newborn fog is lifting: more laughter, longer awake windows, real personality.",
+   "happening": [
+    {
+     "t": "Crying curve bottoming out",
+     "b": "For most babies daily crying is clearly less than a month ago."
+    },
+    {
+     "t": "Push-ups in tummy time",
+     "b": "Chest comes off the floor on forearms; some babies attempt tiny pre-rolls — never leave baby on raised surfaces."
+    },
+    {
+     "t": "Chuckles and squeals",
+     "b": "First laughs commonly land around 3–4 months; the warm-up sounds are here."
+    }
+   ],
+   "todo": [
+    "Childproof changing routines: one hand on baby, always",
+    "Stretch awake windows gently — overtired babies sleep worse, not better",
+    "Celebrate: you got through the hardest quarter"
+   ],
+   "watching": "Not holding the head up in tummy time, or not smiling at people by 3 months — discuss at your next visit.",
+   "source": "https://www.cdc.gov/act-early/milestones/index.html",
+   "period_type": "calm"
+  },
+  {
+   "week": 13,
+   "badge": "New chapter",
+   "summary": "Three months: the 'fourth trimester' ends. Rhythms firm up and the world gets interesting.",
+   "happening": [
+    {
+     "t": "Longer, livelier awake time",
+     "b": "Play sessions stretch; baby tracks across the whole room and turns toward sounds."
+    },
+    {
+     "t": "Sleep reorganizes ahead",
+     "b": "Somewhere in the next month sleep architecture matures — night waking can temporarily increase before it improves. Forewarned is forearmed."
+    },
+    {
+     "t": "Grip gets real",
+     "b": "Toys are held, shaken and brought straight to the mouth."
+    }
+   ],
+   "todo": [
+    "Refresh the sleep basics before the 4-month shift: dark room, consistent wind-down",
+    "Rotate a few simple toys — novelty beats quantity",
+    "Take the 3-month photo you'll want later"
+   ],
+   "watching": "Loss of any skill baby previously had is always worth a call to your pediatrician.",
+   "source": "https://www.cdc.gov/act-early/milestones/index.html",
+   "period_type": "calm"
+  },
+  {
+   "week": 14,
+   "badge": "Three-month shift",
+   "period_type": "growth",
+   "summary": "The fourth trimester is behind you. A hungrier stretch is commonly seen around now — and awake time turns genuinely social.",
+   "happening": [
+    {
+     "t": "Another appetite jump",
+     "b": "A growth spurt around three months is commonly seen: more feeds, more clinginess for a few days, then it settles."
+    },
+    {
+     "t": "Hands are the main toy",
+     "b": "Staring at hands, clasping them, pulling everything to the mouth — this is how the brain maps the body."
+    },
+    {
+     "t": "Drool turns on",
+     "b": "Salivary glands are fully awake. Drool alone isn't teething yet — teeth commonly arrive later."
+    }
+   ],
+   "todo": [
+    "Feed on demand through the spurt — supply follows",
+    "Rotate two or three simple graspable toys",
+    "Keep the wind-down routine steady even on hungry days"
+   ],
+   "watching": "Feeding refusal (not just fussiness), fewer wet diapers, or fever 100.4°F+ — call your pediatrician.",
+   "source": "https://www.cdc.gov/breastfeeding/index.html"
+  },
+  {
+   "week": 15,
+   "badge": "First laughs",
+   "period_type": "calm",
+   "summary": "Squeals, chuckles and maybe a full laugh — sound play is the theme of the week.",
+   "happening": [
+    {
+     "t": "Laughing out loud",
+     "b": "First real laughs commonly land around 3–4 months. Tickles, silly sounds and peek-a-boo warm-ups are the usual triggers."
+    },
+    {
+     "t": "Push-ups get strong",
+     "b": "In tummy time the chest comes up on forearms; some babies start pivoting in a circle."
+    },
+    {
+     "t": "Early rolling attempts",
+     "b": "Side-tipping and half-rolls appear — from now on, never leave baby on any raised surface, even for a second."
+    }
+   ],
+   "todo": [
+    "Move diaper changes to low, safe surfaces now — before the first surprise roll",
+    "Give floor time daily; the floor is the gym",
+    "Answer every sound — pause, reply, pause"
+   ],
+   "watching": "No smiling at people, or baby doesn't calm with comfort most of the time — mention to your pediatrician.",
+   "source": "https://www.cdc.gov/act-early/milestones/index.html"
+  },
+  {
+   "week": 16,
+   "badge": "Sleep is rewiring",
+   "period_type": "fussy",
+   "summary": "Welcome to the famous 4-month sleep shift: sleep architecture matures, and nights commonly get bumpier before they get better.",
+   "happening": [
+    {
+     "t": "Why sleep breaks now",
+     "b": "Baby's sleep is reorganizing into adult-like cycles with light phases every 45–60 minutes. More brief night wakings are commonly seen — it's development, not a step back."
+    },
+    {
+     "t": "Falling asleep is a skill",
+     "b": "How baby falls asleep at bedtime is what they look for at 2 AM. Practicing drowsy-but-awake at bedtime commonly pays off at night."
+    },
+    {
+     "t": "Naps may shorten",
+     "b": "Thirty-to-forty-minute 'one-cycle' naps are typical during the shift."
+    }
+   ],
+   "todo": [
+    "Protect the basics: dark room, consistent wind-down, same sleep space",
+    "Pick one bedtime approach and hold it for two weeks before judging",
+    "Split the night into shifts with your partner — this stretch is a marathon"
+   ],
+   "watching": "Night waking plus fever, ear pulling with distress, or feeding falling off — that's a pediatrician call, not a sleep phase.",
+   "source": "https://medlineplus.gov/infantandnewborncare.html"
+  },
+  {
+   "week": 17,
+   "badge": "Four-month checkup",
+   "period_type": "fussy",
+   "summary": "Checkup and second vaccine round — plan a soft week around it while the sleep shift is still doing its thing.",
+   "happening": [
+    {
+     "t": "The 4-month milestones",
+     "b": "Around now most babies hold the head steady unsupported, push up to elbows in tummy time, laugh or squeal, and bring hands to the mouth constantly."
+    },
+    {
+     "t": "Vaccine day, round two",
+     "b": "Same playbook as two months: brief crying, extra sleepiness or mild fussiness for a day is commonly seen. Feeding and holding right after the shots genuinely helps."
+    },
+    {
+     "t": "Rolling front-to-back",
+     "b": "Many babies land the first full roll around now — usually tummy to back first, often to their own surprise."
+    }
+   ],
+   "todo": [
+    "Bring your question list — the doctor visit sets in Ask can help",
+    "Stop swaddling completely once rolling starts, if you haven't already",
+    "Plan nothing ambitious for vaccine day"
+   ],
+   "watching": "After vaccines: fever above 104°F, inconsolable crying 3+ hours, or anything that worries you — call your pediatrician.",
+   "source": "https://www.cdc.gov/act-early/milestones/index.html"
+  },
+  {
+   "week": 18,
+   "badge": "Rolling era begins",
+   "period_type": "fussy",
+   "summary": "New skill, restless nights: babies commonly practice rolling in their sleep exactly when you'd prefer they didn't.",
+   "happening": [
+    {
+     "t": "Practice happens at 2 AM",
+     "b": "Brains rehearse new motor skills during sleep. A baby who flips over and complains is commonly seen for a few weeks around each new skill."
+    },
+    {
+     "t": "Back to sleep, always start there",
+     "b": "Keep placing baby on the back for every sleep. Once baby rolls both ways on their own, they may stay where they roll — but the sleep space must be completely bare."
+    },
+    {
+     "t": "Reaching gets accurate",
+     "b": "Swipes become grabs; whatever is within reach is now baby's property and goes straight to the mouth."
+    }
+   ],
+   "todo": [
+    "Audit the sleep space again: nothing loose, nothing within pull distance",
+    "Move small objects out of arm's reach during floor time",
+    "Keep bedtime boring and identical every night"
+   ],
+   "watching": "Baby stuck face-down and unable to turn the head to breathe comfortably — reposition and mention it at your next visit; hard-to-rouse or breathing that looks laboured is urgent care.",
+   "source": "https://www.cdc.gov/sids/index.html"
+  },
+  {
+   "week": 19,
+   "badge": "Air clears a little",
+   "period_type": "calm",
+   "summary": "For many families the sleep shift eases; awake windows stretch and the day finds a 3-nap shape.",
+   "happening": [
+    {
+     "t": "A steadier rhythm",
+     "b": "Roughly three naps with longer awake windows in between is the commonly seen shape now. It's still a sketch — growth days will bend it."
+    },
+    {
+     "t": "Everything is a conversation",
+     "b": "Baby watches your mouth, 'answers' in coos and squeals, and repeats sound games. Narrate your day — it all counts."
+    },
+    {
+     "t": "Grab-and-mouth research",
+     "b": "Texture testing by mouth is the main science program at this age. Keep chokeable objects (anything that fits through a toilet-paper tube) away."
+    }
+   ],
+   "todo": [
+    "Aim naps at sleepy cues within the loose 3-nap frame",
+    "Offer toys with different textures — safe, big, washable",
+    "Take the break when it comes: calm weeks are for refilling your own tank"
+   ],
+   "watching": "Loss of a skill baby already had is always worth a pediatrician call.",
+   "source": "https://www.cdc.gov/act-early/milestones/index.html"
+  },
+  {
+   "week": 20,
+   "badge": "Teething watch",
+   "period_type": "calm",
+   "summary": "Drool by the litre, everything in the mouth, cranky evenings — the pre-teeth season commonly opens around now, even if the first tooth is months away.",
+   "happening": [
+    {
+     "t": "What teething commonly looks like",
+     "b": "Extra drool, gum rubbing, chewing on everything, mild fussiness. What it commonly does NOT cause: high fever, diarrhea or rash — those mean something else and deserve a pediatrician call."
+    },
+    {
+     "t": "First tooth timing is wide",
+     "b": "Anywhere from ~4 to 12+ months is commonly seen; bottom front teeth usually lead."
+    },
+    {
+     "t": "Chilled relief",
+     "b": "A refrigerated (not frozen) teether or a clean cool washcloth to chew is the safe go-to. Skip teething gels and amber necklaces — pediatric guidance advises against both."
+    }
+   ],
+   "todo": [
+    "Stock two or three solid one-piece teethers",
+    "Wipe the chin often — drool rash prevention is easier than treatment",
+    "Keep evening expectations low on cranky days"
+   ],
+   "watching": "Fever 100.4°F+, refusal to feed, or diarrhea — don't file it under teething; call your pediatrician.",
+   "source": "https://medlineplus.gov/infantandnewborncare.html"
+  },
+  {
+   "week": 21,
+   "badge": "Rolling both ways",
+   "period_type": "calm",
+   "summary": "Back-to-tummy commonly joins the repertoire — and the floor becomes a training field.",
+   "happening": [
+    {
+     "t": "The full roll",
+     "b": "Once both directions click, rolling becomes transport. Supervised floor freedom is the best gift you can give this skill."
+    },
+    {
+     "t": "Sitting practice starts",
+     "b": "Propped on your lap or between your legs, baby holds the tripod pose for moments at a time."
+    },
+    {
+     "t": "Hands work together",
+     "b": "Passing a toy hand to hand and holding two things at once are commonly seen wins around this stretch."
+    }
+   ],
+   "todo": [
+    "Clear a floor zone: blanket, three toys, zero small objects",
+    "Practice supported sitting a few minutes a day",
+    "Lower the crib mattress if it's still on the newborn height"
+   ],
+   "watching": "Body consistently stiff or floppy, or strong preference for using only one side — bring it up with your pediatrician.",
+   "source": "https://www.cdc.gov/act-early/milestones/index.html"
+  },
+  {
+   "week": 22,
+   "badge": "Babble consonants",
+   "period_type": "calm",
+   "summary": "'Ba', 'da', 'ma' — consonants enter the chat, and it starts sounding like speech rehearsal.",
+   "happening": [
+    {
+     "t": "Consonant babble",
+     "b": "Strings like 'ba-ba' commonly appear around 5–6 months. It's sound practice, not naming yet — but respond as if it's conversation, because that's how it becomes one."
+    },
+    {
+     "t": "Cause and effect clicks",
+     "b": "Shake makes noise, drop makes parent pick up — baby is running experiments on the world (and on you)."
+    },
+    {
+     "t": "Night sleep consolidates",
+     "b": "Many babies now do a solid long stretch at night; many don't yet. Both are commonly seen — your logged trend matters more than any single night."
+    }
+   ],
+   "todo": [
+    "Play turn-taking sound games — copy baby's syllable, wait, repeat",
+    "Introduce a simple shaker or crinkle toy",
+    "Compare this week's sleep chart to last month's — progress hides in trends"
+   ],
+   "watching": "No babbling sounds at all and no turning toward voices — mention to your pediatrician.",
+   "source": "https://www.cdc.gov/act-early/milestones/index.html"
+  },
+  {
+   "week": 23,
+   "badge": "Almost sitting",
+   "period_type": "calm",
+   "summary": "Stronger back, better balance: sitting with less and less support is the project of the week.",
+   "happening": [
+    {
+     "t": "Tripod to solo",
+     "b": "Baby props on hands in front, holds a few seconds, topples sideways — every fall is a data point for the balance system. Cushion the landing zone and let the reps happen."
+    },
+    {
+     "t": "Depth and detail vision",
+     "b": "Eyes now track fast movement and study small details; mirrors become fascinating."
+    },
+    {
+     "t": "Appetite fluctuates",
+     "b": "Distracted eating is commonly seen — the world is more interesting than the meal. Quieter, dimmer feeds help."
+    }
+   ],
+   "todo": [
+    "Build a cushion ring for sitting practice",
+    "Add a baby-safe mirror to floor time",
+    "Feed in a low-stimulation corner if feeds got wiggly"
+   ],
+   "watching": "Fewer wet diapers or clear feeding refusal beyond distraction — call your pediatrician.",
+   "source": "https://medlineplus.gov/infantandnewborncare.html"
+  },
+  {
+   "week": 24,
+   "badge": "Solids on the horizon",
+   "period_type": "growth",
+   "summary": "Half a year is close — time to read the readiness signs for first foods and let baby study your dinner like a textbook.",
+   "happening": [
+    {
+     "t": "Readiness signs",
+     "b": "Commonly used markers: sits with minimal support, steady head, reaches for your food, and the tongue no longer pushes everything straight out. Most babies line these up around six months — your pediatrician confirms the go."
+    },
+    {
+     "t": "Milk still leads",
+     "b": "Whatever the excitement, breast milk or formula remains the main nutrition for months ahead; first foods are practice, not replacement."
+    },
+    {
+     "t": "Appetite jump",
+     "b": "A pre-six-month growth spurt is commonly seen — hungrier days, extra feeds, then back to baseline."
+    }
+   ],
+   "todo": [
+    "Discuss the solids plan at the 6-month visit — including how your family wants to handle common allergens",
+    "Get the gear minimal: high chair with straps, soft spoons, bibs you don't love",
+    "Let baby watch family meals — appetite is social"
+   ],
+   "watching": "Poor weight gain or feeding refusal beyond distraction — bring to your pediatrician before starting solids.",
+   "source": "https://www.cdc.gov/infant-toddler-nutrition/index.html"
+  },
+  {
+   "week": 25,
+   "badge": "Six-month runway",
+   "period_type": "growth",
+   "summary": "Strength everywhere: sitting firms up, feet are discovered (and tasted), and the pre-solids appetite runs hot.",
+   "happening": [
+    {
+     "t": "Sitting solidifies",
+     "b": "Longer solo sits with hands free for toys are commonly seen around the half-year mark."
+    },
+    {
+     "t": "Feet join the toy box",
+     "b": "Grabbing feet and pulling them to the mouth is peak flexibility — enjoy the acrobatics phase."
+    },
+    {
+     "t": "Sleep pattern check",
+     "b": "Two-to-three naps and a long night block is the commonly seen shape; if nights wobble, it's usually skill practice or the upcoming teeth."
+    }
+   ],
+   "todo": [
+    "Book the 6-month checkup",
+    "Baby-proof one level down: floor-level cables, plants, small objects",
+    "Photo idea: the foot-in-mouth pose does not last"
+   ],
+   "watching": "Loss of any acquired skill — always a pediatrician call.",
+   "source": "https://www.cdc.gov/act-early/milestones/index.html"
+  },
+  {
+   "week": 26,
+   "badge": "Half a year",
+   "period_type": "fussy",
+   "summary": "Happy half-birthday: the 6-month checkup, another vaccine round, and — with your pediatrician's go — the first spoon.",
+   "happening": [
+    {
+     "t": "The 6-month milestones",
+     "b": "Around now most babies know familiar people, love mirror games, take turns making sounds, roll both ways and sit with support or briefly alone."
+    },
+    {
+     "t": "First foods, calm version",
+     "b": "Start with single-ingredient purees or soft mashed foods once a day; iron-rich options are commonly recommended first. One new food at a time, a few days apart, makes reactions easy to spot. Gagging looks scary and is commonly seen; it's the learning reflex — silent choking is the emergency."
+    },
+    {
+     "t": "Vaccine round three",
+     "b": "Same expectations as before: a sleepy, clingy day is commonly seen. Comfort works."
+    }
+   ],
+   "todo": [
+    "Do the first solids attempt on a calm morning, not vaccine day",
+    "Learn infant choking first aid this week — 10 minutes that buy peace of mind",
+    "Keep milk feeds unchanged for now"
+   ],
+   "watching": "Feeding reactions with hives, facial swelling, vomiting — call your pediatrician; struggling to breathe after food — 911.",
+   "source": "https://www.cdc.gov/infant-toddler-nutrition/index.html"
+  },
+  {
+   "week": 27,
+   "badge": "Food is science",
+   "period_type": "calm",
+   "summary": "The lab is open: textures, tastes and spectacular faces. Everything about early solids is experiments — including the mess.",
+   "happening": [
+    {
+     "t": "Faces lie",
+     "b": "Grimaces at new foods are commonly seen and don't mean 'never' — it can take many exposures for a food to land. Keep offering without pressure."
+    },
+    {
+     "t": "Iron matters",
+     "b": "Iron-rich foods (iron-fortified cereal, pureed meats, beans) are commonly emphasized at this stage because newborn iron stores run down around six months."
+    },
+    {
+     "t": "Water enters, barely",
+     "b": "Small sips of water with meals commonly start now; milk remains the main drink."
+    }
+   ],
+   "todo": [
+    "Offer one meal a day, follow baby's lead on amount",
+    "Re-offer rejected foods later — persistence without pressure",
+    "A washable floor mat under the high chair saves sanity"
+   ],
+   "watching": "Blood in stool, hives, or repeated vomiting after a new food — call your pediatrician the same day.",
+   "source": "https://www.cdc.gov/infant-toddler-nutrition/index.html"
+  },
+  {
+   "week": 28,
+   "badge": "Memory switches on",
+   "period_type": "calm",
+   "summary": "Object permanence is loading: dropped toys get searched for, hidden things exist now — and so does missing you.",
+   "happening": [
+    {
+     "t": "Peek-a-boo gets real",
+     "b": "Baby now knows the hidden thing still exists — that's why peek-a-boo suddenly produces full-body laughter."
+    },
+    {
+     "t": "Stranger awareness begins",
+     "b": "Wariness with new faces and extra clinginess with you are commonly seen from around now. It's attachment working, not regression in social skills."
+    },
+    {
+     "t": "Drop-the-spoon game",
+     "b": "Throwing things to watch you retrieve them is gravity research with a social bonus. Annoying and completely on schedule."
+    }
+   ],
+   "todo": [
+    "Play hiding games — a toy under a cloth is the perfect level",
+    "Give new people a slow warm-up next to you",
+    "Attach toys to the high chair with short clips if the drop game wears you down"
+   ],
+   "watching": "No response to own name and no babbling by now — mention at your pediatric visit.",
+   "source": "https://www.cdc.gov/act-early/milestones/index.html"
+  },
+  {
+   "week": 29,
+   "badge": "Sitting solo",
+   "period_type": "calm",
+   "summary": "Independent sitting commonly locks in around now — hands free, posture proud, world at a new angle.",
+   "happening": [
+    {
+     "t": "The sit is stable",
+     "b": "Solid solo sitting frees both hands for serious toy work: banging two things together is the hit single of the month."
+    },
+    {
+     "t": "Pre-crawling shapes",
+     "b": "Pivoting on the belly, pushing backwards, rocking on hands and knees — the launch sequence is loading in whatever order your baby prefers. Some skip crawling entirely; commonly seen and fine."
+    },
+    {
+     "t": "Two naps, maybe",
+     "b": "Many babies consolidate toward two longer naps around this stretch; the transition weeks are commonly bumpy."
+    }
+   ],
+   "todo": [
+    "Get on the floor at eye level — it's the best play position now",
+    "Give push-worthy targets: a toy just out of reach motivates movement",
+    "If naps are chaos, hold a loose 2-nap frame for a week before changing course"
+   ],
+   "watching": "Can't sit even with support, or strongly favors one side — bring to your pediatrician.",
+   "source": "https://www.cdc.gov/act-early/milestones/index.html"
+  },
+  {
+   "week": 30,
+   "badge": "Pre-launch",
+   "period_type": "calm",
+   "summary": "Rocking, scooting, reverse gear: locomotion is imminent, and the house is about to feel much smaller.",
+   "happening": [
+    {
+     "t": "Ready, set",
+     "b": "Hands-and-knees rocking commonly precedes crawling by a few weeks. Backwards motion often comes first — the engine works, the steering is learning."
+    },
+    {
+     "t": "Real babyproofing week",
+     "b": "Before movement starts, do the crawl-test yourself: outlets, cords, stair gates, cabinet locks, anchored furniture, small objects at floor level."
+    },
+    {
+     "t": "Consonant chains",
+     "b": "Long babble runs — 'bababa', 'dadada' — are commonly seen; they're speech scaffolding, not names yet (whatever grandpa claims about 'dada')."
+    }
+   ],
+   "todo": [
+    "Babyproof one room completely as the free-roam zone",
+    "Anchor tall furniture and the TV — this is the week",
+    "Cheer the effort, not just the result: struggle is the workout"
+   ],
+   "watching": "Persistent stiffness, floppiness, or no interest in moving toward toys — discuss with your pediatrician.",
+   "source": "https://medlineplus.gov/infantandnewborncare.html"
+  },
+  {
+   "week": 31,
+   "badge": "Grip upgrade",
+   "period_type": "calm",
+   "summary": "Fingers get smart: raking little objects, passing hand to hand, inspecting everything from every side.",
+   "happening": [
+    {
+     "t": "Raking grasp",
+     "b": "Whole-hand raking of small items is commonly seen now; the delicate thumb-finger pincer arrives closer to nine months. Either way, floor-level small-object patrol is now a daily chore."
+    },
+    {
+     "t": "Inspector mode",
+     "b": "Turning objects over, switching hands, mouthing then studying again — this is how material science is done at seven months."
+    },
+    {
+     "t": "Feeding gets handsy",
+     "b": "Baby wants to grab the spoon and the food. Soft finger-food pieces (melt-in-mouth, no round hard shapes) commonly enter around now if solids are going well."
+    }
+   ],
+   "todo": [
+    "Do a daily floor sweep for coin-sized objects — the toilet-roll-tube test",
+    "Offer two toys at once to work the hand-to-hand pass",
+    "Let one spoon be baby's while you use another — shared control, less battle"
+   ],
+   "watching": "Choking-risk foods to skip everywhere: whole grapes, nuts, popcorn, hot dog rounds, hard raw veg.",
+   "source": "https://www.cdc.gov/infant-toddler-nutrition/index.html"
+  },
+  {
+   "week": 32,
+   "badge": "Velcro phase",
+   "period_type": "fussy",
+   "summary": "Separation awareness commonly peaks into a clingy stretch: leaving the room becomes an event. It's love with an alarm system.",
+   "happening": [
+    {
+     "t": "Separation anxiety",
+     "b": "Crying when you leave — even to the bathroom — is commonly seen from around now and can flare at bedtime too. It means attachment built correctly; it fades as memory learns that you always come back."
+    },
+    {
+     "t": "Short goodbyes work",
+     "b": "Sneaking away commonly backfires; a quick cheerful 'be right back' plus consistent return builds the trust muscle faster."
+    },
+    {
+     "t": "Night waking, social edition",
+     "b": "Some babies now wake just to check you exist. A calm, boring, brief response is the commonly recommended tone."
+    }
+   ],
+   "todo": [
+    "Practice mini-separations at home: narrate, leave, return, repeat",
+    "Keep bedtime routine extra consistent through the clingy weeks",
+    "Hand baby to the sitter awake with a proper goodbye, not mid-sleep"
+   ],
+   "watching": "Distress that never settles with comfort, or a baby who stops engaging with familiar people — pediatrician conversation.",
+   "source": "https://www.cdc.gov/act-early/milestones/index.html"
+  },
+  {
+   "week": 33,
+   "badge": "Crawl countdown",
+   "period_type": "growth",
+   "summary": "Rocking turns into lurching, lurching into the first honest crawl for many babies over the coming weeks — in whatever style {name} invents.",
+   "happening": [
+    {
+     "t": "Every crawl style counts",
+     "b": "Classic cross-crawl, army-drag, crab-scoot, bottom-shuffle — all commonly seen, all legitimate transport. Some babies skip crawling entirely and go straight to pulling up; also normal."
+    },
+    {
+     "t": "Appetite follows the engine",
+     "b": "New mileage burns fuel: a hungrier stretch with bigger solid-food interest is commonly seen as movement takes off."
+    },
+    {
+     "t": "Sleep may wobble",
+     "b": "Motor leaps commonly rehearse at night — expect a few nights of crib gymnastics."
+    }
+   ],
+   "todo": [
+    "Open the floor: the proofed free-roam zone earns its keep now",
+    "Put one favorite toy just out of reach each floor session",
+    "Recheck outlet covers and cord routes at new reach height"
+   ],
+   "watching": "No attempts to move toward objects at all, or one side clearly dragging — mention at your pediatrician visit.",
+   "source": "https://www.cdc.gov/act-early/milestones/index.html"
+  },
+  {
+   "week": 34,
+   "badge": "Object detective",
+   "period_type": "calm",
+   "summary": "Hidden things exist now: {name} lifts cups to find toys, hunts dropped spoons and studies how objects relate.",
+   "happening": [
+    {
+     "t": "Container science",
+     "b": "Putting things IN and dumping things OUT becomes the main research program — a muffin tin and soft blocks equal a laboratory."
+    },
+    {
+     "t": "Peek-a-boo, expert level",
+     "b": "Baby now pulls the cloth off YOUR face and laughs before the reveal — prediction, memory and humor working together."
+    },
+    {
+     "t": "Babble gets conversational",
+     "b": "Long strings with adult-like intonation — it sounds like a foreign language argument, and it's speech rehearsal."
+    }
+   ],
+   "todo": [
+    "Play hide-the-toy under one of two cups — slow reveal",
+    "Narrate object games: in, out, under, gone, found",
+    "Rotate toys weekly — familiar plus one new beats a toy mountain"
+   ],
+   "watching": "No babbling at all by now, or no response to own name — bring to the pediatrician.",
+   "source": "https://www.cdc.gov/act-early/milestones/index.html"
+  },
+  {
+   "week": 35,
+   "badge": "Stranger radar",
+   "period_type": "fussy",
+   "summary": "Stranger wariness commonly sharpens: the same grandma who got smiles last month may get suspicion first. It's memory, not manners.",
+   "happening": [
+    {
+     "t": "Why the cold shoulder",
+     "b": "Baby now firmly knows who's who — and treats unknown faces as pending review. Commonly seen from 8 months and often lasting well into the second year in waves."
+    },
+    {
+     "t": "The slow-warm protocol",
+     "b": "Visitors succeed by ignoring baby at first: talk to you, stay at distance, let baby approach. Handing baby over cold commonly backfires."
+    },
+    {
+     "t": "Home base behavior",
+     "b": "Expect check-back-and-explore loops: crawl away, look back, return, repeat. You're the charging dock."
+    }
+   ],
+   "todo": [
+    "Brief visitors on the slow-warm rule before they arrive",
+    "Keep hellos and handoffs unhurried — baby sets the pace",
+    "Practice short separations at home with cheerful returns"
+   ],
+   "watching": "Total absence of preference for familiar people is worth mentioning at a visit.",
+   "source": "https://www.cdc.gov/act-early/milestones/index.html"
+  },
+  {
+   "week": 36,
+   "badge": "Nine-month runway",
+   "period_type": "calm",
+   "summary": "The 9-month checkup approaches: a screening-heavy visit — development questionnaire, growth, feeding review, usually no shots.",
+   "happening": [
+    {
+     "t": "The 9-month picture",
+     "b": "Around now: solid solo sitting, working toward pulling up, raking grasp refining toward finger-tip pincer, responds to own name, plays interactive games."
+    },
+    {
+     "t": "The questionnaire visit",
+     "b": "Many practices run a standardized development screen at 9 months — your honest everyday observations matter more than a good performance in the office."
+    },
+    {
+     "t": "Finger foods expand",
+     "b": "Soft, melt-in-mouth pieces baby can self-feed commonly become the star — messy self-feeding IS the skill being built."
+    }
+   ],
+   "todo": [
+    "Bring your logs and Ask doctor-notes to the visit",
+    "List any asymmetries or worries — 9 months is a great catch-early point",
+    "Offer two finger-food textures at family meals"
+   ],
+   "watching": "Choking-risk foods stay banned: whole grapes, nuts, popcorn, hot-dog rounds, hard raw veg.",
+   "source": "https://www.cdc.gov/infant-toddler-nutrition/index.html"
+  },
+  {
+   "week": 37,
+   "badge": "Pull-up era",
+   "period_type": "fussy",
+   "summary": "Furniture becomes gym equipment: pulling to stand commonly starts — along with the famous 8–10-month sleep wobble.",
+   "happening": [
+    {
+     "t": "Standing practice, everywhere",
+     "b": "Crib rails, couch edges, your legs — everything vertical is a pull-up bar. Wobbling and plopping down are the curriculum."
+    },
+    {
+     "t": "The 8–10 month sleep dip",
+     "b": "Commonly seen: night waking to practice standing (sometimes stuck standing and yelling), separation feelings at bedtime. It's development, not broken sleep habits."
+    },
+    {
+     "t": "Crib check, again",
+     "b": "Mattress to the lowest setting NOW if not already — pull-up plus old mattress height equals an escape attempt."
+    }
+   ],
+   "todo": [
+    "Lower the crib mattress today",
+    "Practice controlled sit-downs: guide hips down so baby learns the exit move",
+    "Keep bedtime routine identical through the wobble — boring consistency wins"
+   ],
+   "watching": "Standing stuck and crying at 2 AM: calmly lay back down once, minimal fuss, repeat — it passes with practice.",
+   "source": "https://www.cdc.gov/sids/index.html"
+  },
+  {
+   "week": 38,
+   "badge": "Cruise control",
+   "period_type": "fussy",
+   "summary": "Side-stepping along furniture — cruising — commonly begins: the bridge between standing and walking.",
+   "happening": [
+    {
+     "t": "The furniture route",
+     "b": "Baby maps the room by handholds: couch to table to chair. Expect falls onto the bottom — that's what diapers pad."
+    },
+    {
+     "t": "Barefoot is best",
+     "b": "Bare feet grip and send the brain balance data; shoes are for outside protection later, not for learning to walk."
+    },
+    {
+     "t": "Bumps happen",
+     "b": "Head-height coffee-table corners become relevant — pad or retire the sharp ones this week."
+    }
+   ],
+   "todo": [
+    "Arrange a safe cruising circuit with stable furniture",
+    "Corner-guards on sharp low tables",
+    "Skip walkers entirely — they're linked to injuries and don't speed walking"
+   ],
+   "watching": "After any fall: crying then normal behavior is reassuring; vomiting, unusual sleepiness or odd behavior after a head bump — call now.",
+   "source": "https://medlineplus.gov/infantandnewborncare.html"
+  },
+  {
+   "week": 39,
+   "badge": "Pincer precision",
+   "period_type": "calm",
+   "summary": "Thumb-and-finger pickup commonly clicks in around now — the grasp that separates humans from everything else, deployed on every crumb in your home.",
+   "happening": [
+    {
+     "t": "The pincer milestone",
+     "b": "From raking whole-hand grabs to delicate thumb-finger precision: watch {name} pick up a single puff like a jeweler."
+    },
+    {
+     "t": "Self-feeding takes off",
+     "b": "Pincer plus finger foods equals real self-feeding — slower and messier than spoon-feeding, and exactly the point."
+    },
+    {
+     "t": "Floor patrol intensifies",
+     "b": "The same precision finds every coin and button — the toilet-roll-tube test becomes a daily sweep."
+    }
+   ],
+   "todo": [
+    "Offer pea-sized soft foods for pincer practice at meals",
+    "Daily floor sweep at crawl height",
+    "Let the mess happen — a tarp under the high chair, dignity preserved"
+   ],
+   "watching": "Blood-red streaks in stool after new foods, hives, or facial swelling — same-day pediatrician call.",
+   "source": "https://www.cdc.gov/infant-toddler-nutrition/index.html"
+  },
+  {
+   "week": 40,
+   "badge": "Point and say",
+   "period_type": "calm",
+   "summary": "Communication goes gestural: pointing, arm-raising to be picked up, maybe a wave — and babble that sounds suspiciously deliberate.",
+   "happening": [
+    {
+     "t": "The pointing revolution",
+     "b": "Pointing to show you things is a massive social-cognition step — {name} is deliberately steering YOUR attention. Answer every point like a question."
+    },
+    {
+     "t": "Gestures before words",
+     "b": "Waving, arms-up, head-shaking — gestures commonly arrive before first words and predict them. A rich gesture month is a great sign."
+    },
+    {
+     "t": "Mama-dada, beta version",
+     "b": "Syllable strings commonly land on mamamama/dadada — nonspecific at first, then aimed. The aimed version tends to arrive around the first-birthday season."
+    }
+   ],
+   "todo": [
+    "Follow every point with naming: 'Dog! That's a dog'",
+    "Add gesture games: bye-bye, so-big, clapping",
+    "Read pointing books — 'where's the ball?' and wait"
+   ],
+   "watching": "No gestures at all (no pointing, waving, reaching to be picked up) by around 12 months — that's a specific thing to raise with your pediatrician.",
+   "source": "https://www.cdc.gov/act-early/milestones/index.html"
+  },
+  {
+   "week": 41,
+   "badge": "Little climber",
+   "period_type": "growth",
+   "summary": "Vertical ambition arrives: stairs, couch cushions, the dishwasher door — everything is Everest, and a growth-hungry stretch commonly rides along.",
+   "happening": [
+    {
+     "t": "Stairs enter the chat",
+     "b": "Crawling UP stairs commonly starts before any safe way down exists — gates top and bottom stop being optional."
+    },
+    {
+     "t": "Appetite spike",
+     "b": "A pre-10-month hungrier stretch is commonly seen: more solids interest, bigger portions, sometimes a extra milk feed."
+    },
+    {
+     "t": "Cause-and-effect toys win",
+     "b": "Buttons that beep, lids that flip, balls that roll down ramps — baby is testing how the world responds."
+    }
+   ],
+   "todo": [
+    "Install stair gates top AND bottom this week",
+    "Teach backwards-down-the-stairs as the house technique (later, supervised)",
+    "Anchor check: bookcases, dressers, TV — climbing changes the physics"
+   ],
+   "watching": "Loss of any acquired skill remains an always-call.",
+   "source": "https://www.cdc.gov/act-early/milestones/index.html"
+  },
+  {
+   "week": 42,
+   "badge": "Separation, round two",
+   "period_type": "fussy",
+   "summary": "A second wave of separation feelings commonly peaks near 10 months: daycare drop-offs and bedtime doors get dramatic again.",
+   "happening": [
+    {
+     "t": "Why it's back",
+     "b": "Memory and attachment are stronger; object permanence now applies to YOU. Leaving hurts precisely because the bond built correctly."
+    },
+    {
+     "t": "The goodbye formula",
+     "b": "Short, warm, predictable: same phrase, kiss, leave. Lingering and sneaking both commonly make it worse — the ritual is the reassurance."
+    },
+    {
+     "t": "Transitional objects",
+     "b": "A small lovey (for awake comfort; the crib stays bare for sleep under 12 months) commonly starts helping around now."
+    }
+   ],
+   "todo": [
+    "Build a 10-second goodbye ritual and repeat it exactly",
+    "Leave baby with sitters awake, never mid-sleep",
+    "Play peek-a-boo and short hide-and-seek — separation practice disguised as fun"
+   ],
+   "watching": "Distress that never settles after you leave (not just at the door) — worth a conversation with your pediatrician or caregiver.",
+   "source": "https://www.cdc.gov/act-early/milestones/index.html"
+  },
+  {
+   "week": 43,
+   "badge": "Copycat",
+   "period_type": "fussy",
+   "summary": "Imitation becomes the main learning engine: {name} copies your phone-to-ear, your cup-sip, your fake cough — and studies your reactions like a scientist.",
+   "happening": [
+    {
+     "t": "Imitation is the curriculum",
+     "b": "Copying actions with objects (stirring, brushing, phoning) is commonly seen around now — it's how tool use and social behavior download."
+    },
+    {
+     "t": "Reaction testing",
+     "b": "Dropping food and watching your face, the fake cough for attention — {name} is mapping what moves you. Boring responses to unwanted behavior work better than lectures."
+    },
+    {
+     "t": "First pretend glimmers",
+     "b": "Holding a toy phone to the ear or 'drinking' from an empty cup — the first sparks of pretend play."
+    }
+   ],
+   "todo": [
+    "Play copy-me games: clap, pat head, wave",
+    "Give real-life props: cup, spoon, brush, toy phone",
+    "Respond big to sounds-like-words — reinforcement grows them"
+   ],
+   "watching": "Molar-teething season may add drooly cranky days — same rules: no gels, no necklaces, cold teethers and patience.",
+   "source": "https://www.cdc.gov/act-early/milestones/index.html"
+  },
+  {
+   "week": 44,
+   "badge": "Standing solo moments",
+   "period_type": "calm",
+   "summary": "Letting go: brief hands-free standing commonly appears — two seconds of wobble that feel like a moon landing.",
+   "happening": [
+    {
+     "t": "The balance experiments",
+     "b": "Baby lets go of the couch, stands swaying, plops down, repeats. Each rep calibrates the balance system — falls onto the bottom are part of the spec."
+    },
+    {
+     "t": "Squat-and-recover",
+     "b": "Picking a toy off the floor from standing and returning up — a deceptively big strength milestone commonly practiced endlessly."
+    },
+    {
+     "t": "Push toys shine",
+     "b": "A stable push-walker (NOT a seated walker) gives supported walking practice on baby's own power."
+    }
+   ],
+   "todo": [
+    "Cheer the attempts, ignore the falls — your calm is the safety signal",
+    "Offer a heavy stable push toy on carpet first",
+    "Keep floors clear of rolling hazards along cruise routes"
+   ],
+   "watching": "Persistent toe-walking only, or legs that seem asymmetric in strength — mention at the 12-month visit.",
+   "source": "https://www.cdc.gov/act-early/milestones/index.html"
+  },
+  {
+   "week": 45,
+   "badge": "Word watch",
+   "period_type": "calm",
+   "summary": "First true words commonly appear anywhere from now through 14+ months: 'mama' aimed at mama, 'ba' meaning ball — meaning attached to sound.",
+   "happening": [
+    {
+     "t": "What counts as a word",
+     "b": "Any consistent sound aimed at a consistent thing counts — 'baba' for bottle is a word even if the phonetics need years of polish."
+    },
+    {
+     "t": "Understanding runs ahead",
+     "b": "Receptive language leads: {name} likely understands 'no', own name, 'where's daddy?' and simple requests long before saying much."
+    },
+    {
+     "t": "The naming game",
+     "b": "Point-and-name everything, then pause. The pause is where speech grows — leave silences for {name} to fill."
+    }
+   ],
+   "todo": [
+    "Keep a first-words list in notes — it becomes a treasure",
+    "Ask simple 'where is…?' questions and celebrate the looks/points",
+    "Sing the same few songs on repeat — repetition builds prediction builds words"
+   ],
+   "watching": "No response to quiet sounds or name across days — hearing check conversation with the pediatrician.",
+   "source": "https://www.cdc.gov/act-early/milestones/index.html"
+  },
+  {
+   "week": 46,
+   "badge": "Little helper",
+   "period_type": "calm",
+   "summary": "Cooperation debut: arms into sleeves, holding still-ish for diapers, handing you objects on request — {name} joins the team.",
+   "happening": [
+    {
+     "t": "Following simple requests",
+     "b": "'Give me the ball', 'come here' with a gesture — commonly understood around now. Each followed request is language plus social wiring."
+    },
+    {
+     "t": "The handing game",
+     "b": "Baby gives you things to see your reaction, then wants them back — an exchange loop that's pure social practice."
+    },
+    {
+     "t": "Routines become anchors",
+     "b": "Predictable sequences (bath→book→bed) commonly reduce protest — the routine IS the explanation for a pre-verbal person."
+    }
+   ],
+   "todo": [
+    "Narrate routines with the same words daily",
+    "Ask for the object back with an open hand and 'thank you!'",
+    "Let baby 'help': hold the spoon, pat the laundry — slow, worth it"
+   ],
+   "watching": "Nothing urgent this week — enjoy the cooperation window before toddler opinions arrive.",
+   "source": "https://www.cdc.gov/act-early/milestones/index.html"
+  },
+  {
+   "week": 47,
+   "badge": "Eleven-month sprint",
+   "period_type": "calm",
+   "summary": "The pre-birthday sprint: cruising fast, maybe steps behind a push toy, opinions forming and loudly filed.",
+   "happening": [
+    {
+     "t": "Opinions, officially",
+     "b": "Protesting a taken toy, arching at the car seat, insisting on self-feeding — will and preference are developmental progress wearing an inconvenient costume."
+    },
+    {
+     "t": "Snack architecture",
+     "b": "Three meals plus two-ish snacks commonly becomes the shape; milk feeds consolidate. Appetite varies day to day — the week's average is the honest measure."
+    },
+    {
+     "t": "Book habits stick now",
+     "b": "Short board books at the same daily slots build the reading reflex — {name} may already turn pages and point at favorites."
+    }
+   ],
+   "todo": [
+    "Offer two acceptable choices where possible — 'red cup or blue?'",
+    "Keep car-seat rules non-negotiable but boring — no drama fuel",
+    "Photograph the almost-walking wobble — it disappears fast"
+   ],
+   "watching": "Fewer wet diapers or dark urine as milk feeds shift — nudge water sips with meals and mention if persistent.",
+   "source": "https://www.cdc.gov/infant-toddler-nutrition/index.html"
+  },
+  {
+   "week": 48,
+   "badge": "Birthday logistics",
+   "period_type": "calm",
+   "summary": "One month to the birthday: 12-month checkup booking, the whole-milk transition ahead, and a party that should be smaller than the internet suggests.",
+   "happening": [
+    {
+     "t": "The 12-month visit preview",
+     "b": "Growth, development review, and a vaccine round (commonly including MMR and others per schedule) — book it now if not on the calendar."
+    },
+    {
+     "t": "Milk transition ahead",
+     "b": "At 12 months, formula typically ends and whole cow's milk can begin (breastfeeding continues as long as you both want). No transition needed before the birthday — just a heads-up."
+    },
+    {
+     "t": "Party reality check",
+     "b": "One-year-olds enjoy: one balloon, cake destruction, a nap on schedule. Keep it short, small and near naptime-free hours — the party is for the adults' memories, and that's fine."
+    }
+   ],
+   "todo": [
+    "Book the 12-month checkup",
+    "Plan the party around sleep, not against it",
+    "Start offering an open cup with water at meals — skill for the milk switch"
+   ],
+   "watching": "Nothing new to watch — steady as she goes into the birthday month.",
+   "source": "https://www.cdc.gov/vaccines-children/index.html"
+  },
+  {
+   "week": 49,
+   "badge": "First steps window",
+   "period_type": "growth",
+   "summary": "The famous window is open: first independent steps commonly land anywhere from ~9 to 18 months — this stretch is prime time, and every baby picks their own day.",
+   "happening": [
+    {
+     "t": "How first steps actually look",
+     "b": "One to three drunken-sailor steps between supports, then a proud collapse. Walking 'clicks' over days to weeks after that — regressions to crawling for speed are normal."
+    },
+    {
+     "t": "Late walking is usually just late",
+     "b": "A confident cruiser who won't let go yet is commonly just cautious. The 18-month mark is when not-walking becomes a formal conversation — before that, temperament rules."
+    },
+    {
+     "t": "Hands change jobs",
+     "b": "As legs take transport, hands free up — expect carrying objects everywhere and the first throw experiments."
+    }
+   ],
+   "todo": [
+    "Set up a step-gap: two stable supports a step apart, toy on the far one",
+    "Stay one step away with open arms — the best walking lure ever built",
+    "Film everything this month"
+   ],
+   "watching": "Consistent inability to bear weight on legs at all — that's a pediatrician conversation now, not at 18 months.",
+   "source": "https://www.cdc.gov/act-early/milestones/index.html"
+  },
+  {
+   "week": 50,
+   "badge": "Toddler-proofing",
+   "period_type": "calm",
+   "summary": "Reach and cleverness compound: babyproofing needs its level-two audit before walking multiplies the range.",
+   "happening": [
+    {
+     "t": "The new threat model",
+     "b": "Standing reach + pincer grasp + imitation = drawers opened, buttons pushed, plants taxed. Audit at standing height this time."
+    },
+    {
+     "t": "Level two checklist",
+     "b": "Cabinet locks where chemicals/meds live, stove-knob covers, toilet lock if lid-fascination appears, cords for blinds shortened, door pinch-guards on favorites."
+    },
+    {
+     "t": "The med cabinet rule",
+     "b": "All medicines — including vitamins and grandma's purse stash — up high AND locked. Purses at floor level are the classic miss."
+    }
+   ],
+   "todo": [
+    "Do the standing-height audit room by room",
+    "Lock the under-sink kingdom",
+    "Brief every visiting adult: bags up high"
+   ],
+   "watching": "Poison Control number saved in your phone: 1-800-222-1222 — hopefully never needed, cheap to have.",
+   "source": "https://medlineplus.gov/infantandnewborncare.html"
+  },
+  {
+   "week": 51,
+   "badge": "The look-back year",
+   "period_type": "calm",
+   "summary": "One week to the birthday: a good moment to look at how far you've BOTH come — the person who opened this app at week 1 wouldn't believe the current you.",
+   "happening": [
+    {
+     "t": "From reflexes to intentions",
+     "b": "Twelve months ago: reflexes and 18-hour sleep. Now: opinions, jokes, gestures, maybe steps and words. That arc happened in your living room."
+    },
+    {
+     "t": "Your data tells the story",
+     "b": "Open the sleep stats and scroll back — the night that felt endless in week 6 is a dot on a curve that bent your way. You logged the proof."
+    },
+    {
+     "t": "The parent milestone",
+     "b": "Nobody tracks it, so we will: you learned a language with no dictionary, ran a year of night shifts and kept a human alive and thriving. Worth logging."
+    }
+   ],
+   "todo": [
+    "Scroll your own history in the app — seriously, do it",
+    "Write {name} a two-line birthday note; future-you will cry appropriately",
+    "Take the one-year photo in the same spot as the newborn one if you have it"
+   ],
+   "watching": "Nothing to watch. Take the lap.",
+   "source": "https://medlineplus.gov/infantandnewborncare.html"
+  },
+  {
+   "week": 52,
+   "badge": "Happy first birthday",
+   "period_type": "fussy",
+   "summary": "Week 52: cake, the 12-month checkup with its vaccine round, and the official milk transition — a big week for a small person.",
+   "happening": [
+    {
+     "t": "The 12-month milestones",
+     "b": "Commonly by now: pulling to stand or steps, a word or two with meaning, pointing and waving, finding hidden objects, feeding self finger foods."
+    },
+    {
+     "t": "Vaccine round and after",
+     "b": "The 12-month set (commonly MMR among others) can bring a delayed mild reaction — a fever or faint rash 7–12 days later is a known pattern; your pediatrician will brief you."
+    },
+    {
+     "t": "The milk switch",
+     "b": "Formula retires; whole cow's milk enters (about 16–24 oz/day, in cups more than bottles) alongside real food. Breastfeeding continues as long as you both like."
+    }
+   ],
+   "todo": [
+    "Do vaccines a day or two away from the party if you can",
+    "Start milk as an open-cup drink with meals",
+    "Begin the slow bottle phase-out — cups take over from here"
+   ],
+   "watching": "After 12-month shots: fever spikes above 104°F, or any reaction that worries you — call; the delayed-fever pattern is worth knowing in advance.",
+   "source": "https://www.cdc.gov/vaccines-children/index.html"
+  },
+  {
+   "week": 53,
+   "badge": "Toddling in",
+   "period_type": "growth",
+   "summary": "Welcome to toddlerhood: whether walking or про-cruising, {name} is officially a toddler — with the appetite shift to prove it.",
+   "happening": [
+    {
+     "t": "Growth slows, appetite follows",
+     "b": "After the first year's tripling act, growth rate drops — and appetite commonly drops with it. A toddler eating 'nothing' for a day and feasting the next is running standard firmware."
+    },
+    {
+     "t": "The plate strategy",
+     "b": "Your job: offer variety on schedule. Their job: decide what and how much. This division of labor, held calmly, prevents most feeding battles before they start."
+    },
+    {
+     "t": "Walking practice, if underway",
+     "b": "Expect wide-stance, arms-up 'high guard' walking, faceplants onto carpet, and mileage that doubles daily."
+    }
+   ],
+   "todo": [
+    "Serve tiny portions — seconds available on request",
+    "Keep milk to meals/snacks so it doesn't replace food",
+    "Retire the infant bathtub if standing up mid-bath became a sport — non-slip mat era"
+   ],
+   "watching": "A truly shrinking child (weight curve dropping across visits) is a doctor conversation; a picky Tuesday is not.",
+   "source": "https://www.cdc.gov/infant-toddler-nutrition/index.html"
+  },
+  {
+   "week": 54,
+   "badge": "Words and wants",
+   "period_type": "calm",
+   "summary": "The vocabulary trickle: a few real words plus a rich gesture-and-grunt system that communicates shockingly well.",
+   "happening": [
+    {
+     "t": "The 1–5 word zone",
+     "b": "A handful of words at this age is commonly seen; understanding ('bring the shoe', 'where's the cat?') runs far ahead and matters more."
+    },
+    {
+     "t": "Jargoning",
+     "b": "Long babble monologues with adult intonation and zero real words — sounds like a phone call in another language, and it's healthy speech practice."
+    },
+    {
+     "t": "Point-to-request arrives",
+     "b": "Pointing now MEANS 'I want that' — respond with the name before the object: 'Banana? Here's the banana.'"
+    }
+   ],
+   "todo": [
+    "Name the pointed thing every time before handing it over",
+    "Read the same favorite books on loop — repetition is the engine",
+    "Trade screen background noise for household narration where you can"
+   ],
+   "watching": "No words AND no gestures by now — bring it up with the pediatrician rather than waiting for 18 months.",
+   "source": "https://www.cdc.gov/act-early/milestones/index.html"
+  },
+  {
+   "week": 55,
+   "badge": "Mile collector",
+   "period_type": "calm",
+   "summary": "Walking (or nearly): distance and confidence compound daily, and the world reorganizes around a mobile toddler.",
+   "happening": [
+    {
+     "t": "The gait timeline",
+     "b": "Wide stance and high arms first; smoother stride, stopping without sitting, and carrying-while-walking come over the next months. Falls remain constant; concern doesn't."
+    },
+    {
+     "t": "Outdoor upgrade",
+     "b": "Grass, sand, slight slopes — uneven terrain is balance training no toy can match. First real shoes: flexible, roomy, only for outside."
+    },
+    {
+     "t": "Climbing escalates",
+     "b": "Chairs, couches, stairs, you — everything is a route. Spotting beats forbidding: teach feet-first-down as the house rule."
+    }
+   ],
+   "todo": [
+    "Daily outdoor walking time, terrain varied",
+    "Buy shoes measured, flexible, and slightly roomy",
+    "Practice backwards-down on stairs together, every time"
+   ],
+   "watching": "Falls with head bumps: crying-then-normal reassures; vomiting, sleepiness, or acting off afterwards — call now.",
+   "source": "https://medlineplus.gov/infantandnewborncare.html"
+  },
+  {
+   "week": 56,
+   "badge": "Little scientist",
+   "period_type": "calm",
+   "summary": "Trial and error rules: dumping, stacking, banging, dropping from the high chair — each rep is physics research with a lab assistant (you).",
+   "happening": [
+    {
+     "t": "Stack and dump",
+     "b": "Two-block towers, containers emptied and refilled — commonly the core play. The knock-down is not sabotage; it's the second half of the experiment."
+    },
+    {
+     "t": "Tool use begins",
+     "b": "Spoon attempts (mostly inverted), pushing buttons that beep, pulling the string to get the toy — means-to-end thinking coming online."
+    },
+    {
+     "t": "The testing looks",
+     "b": "Doing the forbidden thing WHILE watching you — boundary research, not defiance. A calm, boring, consistent 'no + redirect' is the effective data you can provide."
+    }
+   ],
+   "todo": [
+    "Give stacking cups and a dump-truck-grade container",
+    "Let the spoon chaos happen — self-feeding accuracy comes from misses",
+    "Pick your few real no's and hold them identically every time"
+   ],
+   "watching": "Nothing urgent — molars may cameo with drooly nights; cold teethers still the answer.",
+   "source": "https://www.cdc.gov/act-early/milestones/index.html"
+  },
+  {
+   "week": 57,
+   "badge": "Fifteen-month runway",
+   "period_type": "growth",
+   "summary": "A growth-and-skills push toward 15 months: bigger appetite days, new words trickling, and the 15-month checkup on the horizon.",
+   "happening": [
+    {
+     "t": "The word count climbs",
+     "b": "Commonly 3–10ish words by 15 months with huge normal variance — plus 'jargoning' monologues and reliable gesture communication."
+    },
+    {
+     "t": "Following two-part life",
+     "b": "'Get the ball and bring it here' starts landing — memory holding two steps is new machinery."
+    },
+    {
+     "t": "Checkup preview",
+     "b": "The 15-month visit: growth, milestones, commonly another vaccine installment per schedule. Book it now."
+    }
+   ],
+   "todo": [
+    "Book the 15-month visit",
+    "Play fetch-style two-step games",
+    "Keep the first-words list growing — screenshot it for the visit"
+   ],
+   "watching": "Loss of any words or skills previously had — always the same rule: call, don't wait.",
+   "source": "https://www.cdc.gov/act-early/milestones/index.html"
+  },
+  {
+   "week": 58,
+   "badge": "Molar season",
+   "period_type": "fussy",
+   "summary": "First molars commonly arrive in this stretch — bigger teeth, grumpier nights, familiar playbook.",
+   "happening": [
+    {
+     "t": "Why molars hit harder",
+     "b": "More surface breaking through means several drooly, cheek-rubbing, night-waking days per tooth — commonly seen and finite."
+    },
+    {
+     "t": "The same honest rules",
+     "b": "Cold teethers, chilled washcloth, extra patience. Still no numbing gels, still no amber necklaces — the guidance hasn't changed, the tooth just got bigger."
+    },
+    {
+     "t": "Fever check discipline",
+     "b": "Teething may nudge temperature slightly; real fever means something else. The thermometer settles the debate that cheeks start."
+    }
+   ],
+   "todo": [
+    "Stock the freezer-adjacent teether rotation",
+    "Brush the newcomers: soft brush, rice-grain smear of fluoride toothpaste, twice daily",
+    "Protect the bedtime routine through the grumpy nights"
+   ],
+   "watching": "Fever 100.4°F+, ear pulling with distress, or feeding refusal — that's illness protocol, not teething.",
+   "source": "https://medlineplus.gov/infantandnewborncare.html"
+  },
+  {
+   "week": 59,
+   "badge": "Independent streak",
+   "period_type": "calm",
+   "summary": "'Self! Me do it!' — before those words exist, the behavior arrives: self-feeding insistence, wriggling out of help, strong preferences.",
+   "happening": [
+    {
+     "t": "Autonomy is the assignment",
+     "b": "Insisting on the spoon, refusing the coat, choosing the other cup — toddler independence is developmental homework, delivered loudly."
+    },
+    {
+     "t": "Choice architecture",
+     "b": "Two acceptable options beat open questions and beat commands: 'stairs or elevator?' works when 'come here' starts a negotiation."
+    },
+    {
+     "t": "Routines as diplomacy",
+     "b": "Transitions (leaving the park, starting the bath) go smoother with rituals and warnings: 'one more slide, then shoes' — then actually one more slide."
+    }
+   ],
+   "todo": [
+    "Offer controlled choices at friction points",
+    "Build a leaving-the-fun ritual and honor it exactly",
+    "Budget double time for anything involving toddler 'help'"
+   ],
+   "watching": "Nothing clinical — just save your no's for safety and let the coat stay unzipped sometimes.",
+   "source": "https://www.cdc.gov/act-early/milestones/index.html"
+  },
+  {
+   "week": 60,
+   "badge": "Fourteen months of data",
+   "period_type": "calm",
+   "summary": "A patterns week: your logs now hold a story — sleep consolidation, feeding evolution, growth curve — worth a five-minute review.",
+   "happening": [
+    {
+     "t": "The sleep shape now",
+     "b": "Commonly: one solid night block with occasional molar/leap interruptions and two naps, with the 2→1 nap transition looming somewhere in the next months."
+    },
+    {
+     "t": "Feeding, matured",
+     "b": "Three meals, snacks, milk in cups — the graph from cluster-feeding chaos to this is one of parenting's quiet victories."
+    },
+    {
+     "t": "The nap-transition preview",
+     "b": "When the morning nap starts sabotaging the afternoon one or bedtime, the one-nap era begins — commonly 14–18 months, arriving gradually."
+    }
+   ],
+   "todo": [
+    "Scroll your stats month-view — pattern-spotting is free reassurance",
+    "If naps start fighting each other, nudge the morning nap later by 15-minute steps",
+    "Update the growth chart at every measure"
+   ],
+   "watching": "A toddler who stops climbing/walking as before, limps, or regresses in energy across days — pediatrician call.",
+   "source": "https://medlineplus.gov/infantandnewborncare.html"
+  },
+  {
+   "week": 61,
+   "badge": "Chatterbox loading",
+   "period_type": "calm",
+   "summary": "Receptive language explodes: {name} understands far more than the word count shows — including, inconveniently, words you spell out.",
+   "happening": [
+    {
+     "t": "The comprehension gap",
+     "b": "Understanding runs months ahead of speaking. Following requests, pointing to body parts, reacting to plans overheard — the inbox is much bigger than the outbox."
+    },
+    {
+     "t": "Body-part games",
+     "b": "'Where's your nose?' commonly becomes a hit around now — naming games wire vocabulary faster than flashcards ever will."
+    },
+    {
+     "t": "First two-word glimmers",
+     "b": "'More milk', 'daddy go' — combinations may appear for some toddlers now, for many closer to 18–24 months. Both timelines are standard issue."
+    }
+   ],
+   "todo": [
+    "Play the body-part naming game at diaper changes",
+    "Expand toddler words: they say 'ball' — you say 'yes, the red ball rolls!'",
+    "Keep narration going; it's compounding interest now"
+   ],
+   "watching": "By 15 months: no words at all, no pointing, or not following simple requests — raise it at the visit rather than waiting.",
+   "source": "https://www.cdc.gov/act-early/milestones/index.html"
+  },
+  {
+   "week": 62,
+   "badge": "Junior athlete",
+   "period_type": "calm",
+   "summary": "Movement diversifies: walking backward, almost-running, stooping, climbing onto everything — the motor résumé fills fast.",
+   "happening": [
+    {
+     "t": "The new tricks",
+     "b": "Walking while pulling a toy, backing up, squatting to inspect, first stiff-legged running attempts — commonly appearing through this stretch."
+    },
+    {
+     "t": "Throwing enters",
+     "b": "Deliberate throwing (of balls, ideally) starts — a skill AND a dinner-table hazard. Redirect the arm, don't cancel the program."
+    },
+    {
+     "t": "The playground opens up",
+     "b": "Low slides with help, swings, ramps — playgrounds become genuine gross-motor gyms at this age."
+    }
+   ],
+   "todo": [
+    "Daily gross-motor outlet — weather-proof a backup indoor option",
+    "Trade 'don't throw' for 'throw the BALL' + a target",
+    "Teach climbing DOWN from the couch feet-first as a skill, not a scold"
+   ],
+   "watching": "Persistent tip-toe-only walking or one-sided movement patterns — mention at the 15-month visit.",
+   "source": "https://www.cdc.gov/act-early/milestones/index.html"
+  },
+  {
+   "week": 63,
+   "badge": "Feelings, loudly",
+   "period_type": "fussy",
+   "summary": "Proto-tantrums debut: big feelings, small vocabulary, zero patience — the combination is loud and completely on schedule.",
+   "happening": [
+    {
+     "t": "Why meltdowns now",
+     "b": "Wants are specific, words are few, impulse control is years away. Frustration overflow is a hardware limitation, not a discipline failure."
+    },
+    {
+     "t": "The calm-anchor job",
+     "b": "Your regulation is the borrowed regulation: low voice, simple words, staying near. Reasoning mid-meltdown doesn't land; presence does."
+    },
+    {
+     "t": "Prevention levers",
+     "b": "Hunger, tiredness and transitions cause most eruptions — snacks, protected naps and warning rituals prevent more tantrums than any technique resolves."
+    }
+   ],
+   "todo": [
+    "Name feelings simply: 'You're mad. The block fell.'",
+    "Keep a snack in every bag forever",
+    "Pick battles: safety yes, mismatched socks no"
+   ],
+   "watching": "Breath-holding spells during hard crying (brief, scary-looking, commonly harmless) — worth describing to your pediatrician once to confirm the pattern.",
+   "source": "https://medlineplus.gov/infantandnewborncare.html"
+  },
+  {
+   "week": 64,
+   "badge": "Fifteen months",
+   "period_type": "calm",
+   "summary": "The 15-month checkup closes this guide's arc: from reflexes to a walking, gesturing, opinionated small person — and your library here stays with you.",
+   "happening": [
+    {
+     "t": "The 15-month picture",
+     "b": "Commonly: walking (or nearly), several words plus rich gestures, following simple directions, imitating chores, stacking, self-feeding chunks."
+    },
+    {
+     "t": "The visit",
+     "b": "Growth, development screen, commonly a vaccine installment; bring the first-words list, sleep questions and any Worth-watching leftovers."
+    },
+    {
+     "t": "What continues",
+     "b": "The tracker, stats, Ask and your history keep working past the guide — the weekly chapters end here, the companion doesn't."
+    }
+   ],
+   "todo": [
+    "Bring logs, words list and doctor-notes to the 15-month visit",
+    "Ask about the 2→1 nap timing for YOUR kid's pattern",
+    "Celebrate: 64 weeks of showing up, logged and lived"
+   ],
+   "watching": "The standing rules survive the guide: fever thresholds, skill regressions and your gut feeling always warrant the call.",
+   "source": "https://www.cdc.gov/vaccines-children/index.html"
+  }
+ ]
+}

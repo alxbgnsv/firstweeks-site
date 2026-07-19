@@ -1,0 +1,334 @@
+{
+ "exercises": [
+  {
+   "id": "ex01",
+   "weeks": [
+    1,
+    2,
+    3
+   ],
+   "title": "Chest tummy time",
+   "benefit": "Builds neck strength in the safest, cosiest spot — on you.",
+   "steps": [
+    "Recline at ~45° and lay {name} tummy-down on your chest",
+    "Talk softly — your voice invites the head to lift",
+    "Start with 1–2 minutes, a few times a day"
+   ],
+   "duration_hint": "1–2 min, 3–5×/day",
+   "stop_signs": "Stop if baby fully falls asleep in this position — move to the crib on the back.",
+   "animation_id": "tummy-time",
+   "source": "https://www.cdc.gov/act-early/milestones/index.html"
+  },
+  {
+   "id": "ex02",
+   "weeks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "title": "Finger grasp play",
+   "benefit": "Feeds the grasp reflex that becomes voluntary holding.",
+   "steps": [
+    "Stroke {name}'s palm with your finger",
+    "Let the little fist close around it",
+    "Gently tug — feel the grip resist — release and repeat on the other hand"
+   ],
+   "duration_hint": "1–2 min",
+   "stop_signs": "Stop if hands stay tightly fisted and baby gets upset — try after a feed.",
+   "animation_id": "reach-and-grasp",
+   "source": "https://www.cdc.gov/act-early/milestones/index.html"
+  },
+  {
+   "id": "ex03",
+   "weeks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "title": "Face tracking",
+   "benefit": "Trains eye muscles and early focus — your face is the best target.",
+   "steps": [
+    "Hold {name} 8–12 inches from your face during calm alert time",
+    "Slowly move your face side to side",
+    "Wait for the eyes to catch up — they may lag or cross at first, that's typical"
+   ],
+   "duration_hint": "2–3 min",
+   "stop_signs": "Stop when baby looks away or fusses — that's the full-tank signal.",
+   "animation_id": "eye-tracking",
+   "source": "https://www.cdc.gov/act-early/milestones/index.html"
+  },
+  {
+   "id": "ex04",
+   "weeks": [
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "title": "Bicycle legs",
+   "benefit": "Eases gas and works the hips — the classic for a reason.",
+   "steps": [
+    "Lay baby on the back on a firm surface",
+    "Hold the shins and cycle the legs gently, one at a time",
+    "Add a slow both-knees-to-tummy press, hold 3 seconds, release"
+   ],
+   "duration_hint": "2–3 min after diaper changes",
+   "stop_signs": "Stop if any movement seems to cause pain (crying that spikes with the motion).",
+   "animation_id": "bicycle-legs",
+   "source": "https://www.cdc.gov/act-early/milestones/index.html"
+  },
+  {
+   "id": "ex05",
+   "weeks": [
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "title": "Side-lying play",
+   "benefit": "A gentle strength position that also gives the head a break from lying flat.",
+   "steps": [
+    "Lay {name} on one side on the floor, a rolled towel behind the back for support",
+    "Place your face or a high-contrast card in view",
+    "Switch sides halfway — awake and supervised only"
+   ],
+   "duration_hint": "2–4 min per side",
+   "stop_signs": "Stop and place on the back if baby starts to doze — sleep is always on the back.",
+   "animation_id": "side-lying",
+   "source": "https://www.cdc.gov/act-early/milestones/index.html"
+  },
+  {
+   "id": "ex06",
+   "weeks": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+   ],
+   "title": "Classic floor tummy time",
+   "benefit": "The main strength program: neck, shoulders, core.",
+   "steps": [
+    "Firm blanket on the floor, baby tummy-down",
+    "Get down to eye level — your face is the motivation",
+    "Short and frequent beats long and tearful: build toward 3–5 minutes"
+   ],
+   "duration_hint": "3–5 min, several times a day",
+   "stop_signs": "Stop before frustration boils over; a few grumbles are fine, distress is not.",
+   "animation_id": "tummy-time",
+   "source": "https://www.cdc.gov/act-early/milestones/index.html"
+  },
+  {
+   "id": "ex07",
+   "weeks": [
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "title": "High-contrast tracking",
+   "benefit": "Sharpens visual focus with the patterns young eyes see best.",
+   "steps": [
+    "Hold a black-and-white card 8–12 inches away",
+    "Move it slowly in a shallow arc",
+    "Follow the eyes — pause when they lock on, then continue"
+   ],
+   "duration_hint": "2–3 min",
+   "stop_signs": "Stop when gaze drifts away repeatedly — session's over.",
+   "animation_id": "eye-tracking",
+   "source": "https://www.cdc.gov/act-early/milestones/index.html"
+  },
+  {
+   "id": "ex08",
+   "weeks": [
+    4,
+    5,
+    6,
+    7,
+    8
+   ],
+   "title": "Sound turning",
+   "benefit": "Connects hearing and head control — early localization practice.",
+   "steps": [
+    "During alert time, shake a soft rattle out of view to one side",
+    "Give {name} time to turn toward the sound",
+    "Reward the turn with your face and a cheer; alternate sides"
+   ],
+   "duration_hint": "2–3 min",
+   "stop_signs": "Stop if there's never any reaction to sounds across days — mention it at the next checkup.",
+   "animation_id": "eye-tracking",
+   "source": "https://www.cdc.gov/act-early/milestones/index.html"
+  },
+  {
+   "id": "ex09",
+   "weeks": [
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+   ],
+   "title": "Hands to midline",
+   "benefit": "Bringing hands together at the chest wires the two body halves to cooperate.",
+   "steps": [
+    "With baby on the back, place a light toy on the chest",
+    "Guide both hands to touch it together",
+    "Let go and see if the hands stay — clapping games help too"
+   ],
+   "duration_hint": "2–3 min",
+   "stop_signs": "Stop if one side consistently doesn't join in — worth mentioning to your pediatrician.",
+   "animation_id": "reach-and-grasp",
+   "source": "https://www.cdc.gov/act-early/milestones/index.html"
+  },
+  {
+   "id": "ex10",
+   "weeks": [
+    6,
+    7,
+    8,
+    9,
+    10
+   ],
+   "title": "Mirror time",
+   "benefit": "Self-discovery and face study — babies are their own favorite show.",
+   "steps": [
+    "Prop a baby-safe mirror at floor level during tummy time",
+    "Let {name} study the reflection",
+    "Name what they see: 'That's you! Those are your eyes'"
+   ],
+   "duration_hint": "3–4 min",
+   "stop_signs": "Standard tummy-time limits apply — end before the meltdown.",
+   "animation_id": "tummy-time",
+   "source": "https://www.cdc.gov/act-early/milestones/index.html"
+  },
+  {
+   "id": "ex11",
+   "weeks": [
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ],
+   "title": "Sing and reply",
+   "benefit": "Serve-and-return: the core drill of language and social wiring.",
+   "steps": [
+    "Sing a short simple song with exaggerated expressions",
+    "Pause — leave space for {name} to answer with coos",
+    "Echo their sound back, then continue the song"
+   ],
+   "duration_hint": "As long as it's fun",
+   "stop_signs": "No stop signs — this one only ends when one of you is done smiling.",
+   "animation_id": "eye-tracking",
+   "source": "https://www.cdc.gov/act-early/milestones/index.html"
+  },
+  {
+   "id": "ex12",
+   "weeks": [
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+   ],
+   "title": "Reach for the toy",
+   "benefit": "Turns swipes into aimed reaches — the bridge to grabbing.",
+   "steps": [
+    "Dangle a bright toy just within arm's reach during back play",
+    "Wiggle it until the eyes lock on",
+    "Wait for the reach — don't rush to hand it over; the effort is the exercise"
+   ],
+   "duration_hint": "3–5 min",
+   "stop_signs": "Stop at frustration point — success should come at least sometimes; move the toy closer.",
+   "animation_id": "reach-and-grasp",
+   "source": "https://www.cdc.gov/act-early/milestones/index.html"
+  },
+  {
+   "id": "ex13",
+   "weeks": [
+    9,
+    10,
+    11,
+    12,
+    13
+   ],
+   "title": "Tummy pivot play",
+   "benefit": "Encourages pivoting — the first self-transport.",
+   "steps": [
+    "During tummy time, place a toy to the side just out of reach",
+    "Let {name} work to turn the body toward it",
+    "Move the toy in a slow circle over sessions — both directions"
+   ],
+   "duration_hint": "4–5 min",
+   "stop_signs": "End before exhaustion — pivoting is heavy work.",
+   "animation_id": "tummy-time",
+   "source": "https://www.cdc.gov/act-early/milestones/index.html"
+  },
+  {
+   "id": "ex14",
+   "weeks": [
+    10,
+    11,
+    12,
+    13
+   ],
+   "title": "Supported sitting",
+   "benefit": "Builds trunk control with you as the safety frame.",
+   "steps": [
+    "Sit baby between your legs on the floor, your hands at the ribs",
+    "Loosen support gradually as the back firms up",
+    "Cushion the sides — wobbles and tips are the learning"
+   ],
+   "duration_hint": "2–4 min",
+   "stop_signs": "Stop if the head consistently flops — more neck time first, sitting later.",
+   "animation_id": "side-lying",
+   "source": "https://www.cdc.gov/act-early/milestones/index.html"
+  },
+  {
+   "id": "ex15",
+   "weeks": [
+    11,
+    12,
+    13
+   ],
+   "title": "Grab and transfer",
+   "benefit": "Practices passing objects hand to hand — coordination milestone prep.",
+   "steps": [
+    "Offer a light ring toy to one hand",
+    "Once held, offer your finger to the same hand — watch the toy switch hands to grab you",
+    "Repeat starting from the other hand"
+   ],
+   "duration_hint": "2–3 min",
+   "stop_signs": "No pressure version: if transfer doesn't happen yet, just enjoy the grabbing.",
+   "animation_id": "reach-and-grasp",
+   "source": "https://www.cdc.gov/act-early/milestones/index.html"
+  },
+  {
+   "id": "ex16",
+   "weeks": [
+    12,
+    13
+   ],
+   "title": "Rolling runway",
+   "benefit": "Sets up the environment where the first roll can happen safely.",
+   "steps": [
+    "Clear floor zone, baby on the back",
+    "Hold a toy above the chest, then move it slowly to one side at floor level",
+    "Let the eyes, then shoulders, then hips follow — assist the last bit with a gentle hip guide if baby strains"
+   ],
+   "duration_hint": "3–5 min",
+   "stop_signs": "Never leave mid-session — this is exactly the practice that produces surprise rolls.",
+   "animation_id": "side-lying",
+   "source": "https://www.cdc.gov/act-early/milestones/index.html"
+  }
+ ]
+}
