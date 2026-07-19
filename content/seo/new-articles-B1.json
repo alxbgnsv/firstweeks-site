@@ -1,0 +1,528 @@
+{
+ "batch": "B1",
+ "articles": [
+  {
+   "id": "a40",
+   "week": 15,
+   "slug": "the-4-month-sleep-regression-survival-guide",
+   "title": "The 4-month sleep regression: a survival guide",
+   "category": "Sleep",
+   "read_min": 4,
+   "seo": {
+    "title": "4-Month Sleep Regression: Survival Guide | FirstWeeks",
+    "description": "Why sleep falls apart around 4 months, how long the regression lasts, and what actually helps — a calm, source-backed guide for exhausted parents.",
+    "keywords": [
+     "4 month sleep regression",
+     "baby sleep regression",
+     "4 month old waking at night",
+     "sleep regression how long",
+     "baby sleep cycles"
+    ],
+    "og_kicker": "SLEEP"
+   },
+   "body": [
+    {
+     "h": "It's not a setback — it's an upgrade",
+     "p": "Somewhere between 3 and 5 months, a baby who had started sleeping longer stretches suddenly wakes every hour or two, fights naps, and boycotts bedtime with real conviction. Here's the reframe that makes it survivable: nothing broke. Around this age the brain permanently reorganizes sleep into adult-like cycles — light sleep, deep sleep, brief wakings between cycles. The skill your baby hasn't learned yet is linking those cycles back together. That's why this one is different from other rough patches: sleep doesn't go back to the old way afterward, because the old way no longer exists."
+    },
+    {
+     "h": "What it looks like",
+     "p": "More night wakings than before (often every 60–120 minutes, at the seam between cycles), short naps that end at the 30–45 minute mark, a baby who is harder to settle but perfectly cheerful once awake. Timing varies: some babies hit it at 3.5 months, some closer to 5, a lucky minority barely registers it. The intense phase typically runs two to six weeks."
+    },
+    {
+     "h": "What actually helps",
+     "p": "Work with the new architecture instead of fighting it. Keep the sleep environment boring and identical all night — dark, white noise, same sleep space — so a baby surfacing between cycles finds nothing changed and nothing interesting. Practice putting your baby down drowsy but awake when you have the energy; falling asleep at the start of the night in the same conditions they'll meet at 2 AM is the core cycle-linking skill. Protect the day: age-appropriate wake windows and full feeds reduce overtired, hungry wakings that pile on top of the developmental ones. And lower the bar everywhere else — this is a survival window, not a performance review."
+    },
+    {
+     "h": "What doesn't help",
+     "p": "Adding new sleep props in week one of the regression (a habit acquired in a crisis tends to outlive the crisis), starting solids early to \"fill them up\" (evidence doesn't support it and guidance is to wait until around 6 months), or comparing your baby to the neighbor's unicorn sleeper. Variation here is enormous and mostly not about your choices."
+    },
+    {
+     "h": "When to check in",
+     "p": "Talk to your pediatrician if night waking comes with fever, breathing changes, feeding refusal, fewer wet diapers, or if your baby seems in pain rather than merely awake. And if it's been more than six weeks with no improvement at all, a checkup rules out the medical suspects — reflux, ear infection — hiding behind a \"regression\" label."
+    }
+   ],
+   "sources": [
+    {
+     "label": "AAP — Healthy Sleep Habits",
+     "url": "https://www.healthychildren.org/English/healthy-living/sleep/Pages/default.aspx"
+    },
+    {
+     "label": "NIH — Infant Sleep",
+     "url": "https://www.nichd.nih.gov/health/topics/sleep"
+    }
+   ],
+   "related": [
+    "wake-windows-4-to-12-months",
+    "the-4-month-sleep-shift-read-this-early",
+    "white-noise-done-safely"
+   ],
+   "schema": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "The 4-month sleep regression: a survival guide",
+    "description": "Why sleep falls apart around 4 months, how long the regression lasts, and what actually helps — a calm, source-backed guide for exhausted parents.",
+    "articleSection": "Sleep",
+    "inLanguage": "en",
+    "author": {
+     "@type": "Organization",
+     "name": "FirstWeeks",
+     "url": "https://firstweeks.app"
+    },
+    "publisher": {
+     "@type": "Organization",
+     "name": "FirstWeeks",
+     "url": "https://firstweeks.app",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://firstweeks.app/assets/icon.png"
+     }
+    },
+    "mainEntityOfPage": {
+     "@type": "WebPage",
+     "@id": "https://firstweeks.app/en/articles/the-4-month-sleep-regression-survival-guide/"
+    },
+    "dateModified": "{{BUILD_DATE}}",
+    "citation": [
+     "https://www.healthychildren.org/English/healthy-living/sleep/Pages/default.aspx",
+     "https://www.nichd.nih.gov/health/topics/sleep"
+    ]
+   }
+  },
+  {
+   "id": "a41",
+   "week": 17,
+   "slug": "wake-windows-4-to-12-months",
+   "title": "Wake windows from 4 to 12 months: the working chart",
+   "category": "Sleep",
+   "read_min": 3,
+   "seo": {
+    "title": "Wake Windows by Age, 4–12 Months: Chart | FirstWeeks",
+    "description": "Typical wake windows from 4 to 12 months, how to read your baby's sleepy cues alongside the clock, and why the ranges beat exact numbers.",
+    "keywords": [
+     "wake windows by age",
+     "baby wake windows chart",
+     "4 month old wake window",
+     "how long baby awake between naps",
+     "baby nap schedule"
+    ],
+    "og_kicker": "SLEEP"
+   },
+   "body": [
+    {
+     "h": "The idea in one line",
+     "p": "A wake window is simply how long a baby can comfortably stay awake between sleeps — long enough to build sleep pressure, short enough to avoid the overtired zone where falling asleep paradoxically gets harder."
+    },
+    {
+     "h": "Typical ranges",
+     "p": "Around 4 months: roughly 1.5–2 hours awake, usually 4 naps. By 5–6 months: 2–2.5 hours and a settling into 3 naps. From 7–9 months: 2.5–3.5 hours on 2–3 naps, with the third nap dropping in this stretch for most babies. By 10–12 months: 3–4 hours on 2 solid naps. These are ranges, not prescriptions — the first window of the day is typically the shortest and the last one before bedtime the longest, and every baby drifts within the range week to week."
+    },
+    {
+     "h": "Clock plus cues, not clock alone",
+     "p": "The chart tells you when to start watching; your baby tells you when it's time. Early sleepy cues — a zoned-out stare, slowing movement, losing interest in the toy — are the boarding call. Eye rubbing, yawning and fussing mean the train is already at the platform. Screaming means it left. Logging a few days of actual sleep times usually reveals your baby's personal windows faster than any table."
+    },
+    {
+     "h": "When the windows stop working",
+     "p": "If naps suddenly shorten or bedtime turns into a fight, the window has often simply outgrown the schedule — try stretching the awake time by 10–15 minutes every few days rather than in one heroic jump. Persistent early-morning wakings frequently trace back to a last window that's too short. And during regressions or illness, windows wobble; go back to cues and forgive the chart."
+    },
+    {
+     "h": "The honest caveat",
+     "p": "Wake-window tables are a planning tool built from typical patterns, not a medical instrument. If daytime sleep collapses for weeks, or your baby seems exhausted regardless of schedule, bring the log to your pediatrician — real data beats recollection at every visit."
+    }
+   ],
+   "sources": [
+    {
+     "label": "AAP — Healthy Sleep Habits",
+     "url": "https://www.healthychildren.org/English/healthy-living/sleep/Pages/Healthy-Sleep-Habits-How-Many-Hours-Does-Your-Child-Need.aspx"
+    }
+   ],
+   "related": [
+    "the-4-month-sleep-regression-survival-guide",
+    "wake-windows-at-the-three-month-mark",
+    "daytime-naps-a-loose-rhythm-emerges"
+   ],
+   "schema": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Wake windows from 4 to 12 months: the working chart",
+    "description": "Typical wake windows from 4 to 12 months, how to read your baby's sleepy cues alongside the clock, and why the ranges beat exact numbers.",
+    "articleSection": "Sleep",
+    "inLanguage": "en",
+    "author": {
+     "@type": "Organization",
+     "name": "FirstWeeks",
+     "url": "https://firstweeks.app"
+    },
+    "publisher": {
+     "@type": "Organization",
+     "name": "FirstWeeks",
+     "url": "https://firstweeks.app",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://firstweeks.app/assets/icon.png"
+     }
+    },
+    "mainEntityOfPage": {
+     "@type": "WebPage",
+     "@id": "https://firstweeks.app/en/articles/wake-windows-4-to-12-months/"
+    },
+    "dateModified": "{{BUILD_DATE}}",
+    "citation": [
+     "https://www.healthychildren.org/English/healthy-living/sleep/Pages/Healthy-Sleep-Habits-How-Many-Hours-Does-Your-Child-Need.aspx"
+    ]
+   }
+  },
+  {
+   "id": "a47",
+   "week": 23,
+   "slug": "starting-solids-the-readiness-checklist",
+   "title": "Starting solids: the readiness checklist",
+   "category": "Feeding",
+   "read_min": 3,
+   "seo": {
+    "title": "Starting Solids: Baby Readiness Checklist | FirstWeeks",
+    "description": "The real signs a baby is ready for solid food — and the myths that aren't. What to offer first, what to skip, and how the first weeks actually go.",
+    "keywords": [
+     "starting solids",
+     "when to start baby food",
+     "baby ready for solids signs",
+     "first foods for baby",
+     "introducing solids 6 months"
+    ],
+    "og_kicker": "FEEDING"
+   },
+   "body": [
+    {
+     "h": "The signs that count",
+     "p": "Guidance from the AAP and WHO points to around 6 months — but the calendar is the least interesting part. The body tells you: your baby sits with minimal support and holds their head rock-steady; the tongue-thrust reflex that pushes everything back out has faded; and they watch your fork travel to your mouth like it's appointment television, maybe lunging for the cargo. All three together beat any date."
+    },
+    {
+     "h": "The signs that don't count",
+     "p": "Waking more at night, chewing on fists, or being a big baby are not readiness signs — they're just being four months old. Starting solids early doesn't reliably improve sleep, and before readiness it mostly means more food on the bib than in the baby. If your baby was born early, count readiness from the adjusted age, and confirm the plan at a checkup."
+    },
+    {
+     "h": "First foods, minus the ceremony",
+     "p": "There is no medically mandated first food. Iron-rich options earn their priority — iron-fortified cereal, well-cooked meat, beans, lentils — because iron stores from birth start running down around this age. Single-ingredient, soft or thoroughly mashed, offered once a day at a calm moment when your baby is interested but not starving. Expect comedy: faces of betrayal, food worn as accessories. Intake in month one is measured in teaspoons; milk remains the main meal."
+    },
+    {
+     "h": "What to keep off the menu",
+     "p": "Honey before the first birthday (infant botulism risk — this one is absolute), cow's milk as the main drink before one year, choking-shaped foods (whole grapes, nuts, hard raw vegetables, chunks of hot dog), and added salt or sugar doing nothing useful. Juice has no required role in the first year."
+    },
+    {
+     "h": "When to check in",
+     "p": "If your baby consistently gags to the point of vomiting on smooth purees past 6–7 months, pushes out everything for weeks despite readiness signs, or you have any feeding-history worries, raise it at a visit — bring the food log. Early input beats months of quiet stress."
+    }
+   ],
+   "sources": [
+    {
+     "label": "CDC — When, What, and How to Introduce Solid Foods",
+     "url": "https://www.cdc.gov/infant-toddler-nutrition/foods-and-drinks/when-to-introduce-solid-foods.html"
+    },
+    {
+     "label": "AAP — Starting Solid Foods",
+     "url": "https://www.healthychildren.org/English/ages-stages/baby/feeding-nutrition/Pages/Starting-Solid-Foods.aspx"
+    }
+   ],
+   "related": [
+    "first-foods-and-allergens-without-fear",
+    "gagging-vs-choking-know-the-difference",
+    "growth-spurts-decoded"
+   ],
+   "schema": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Starting solids: the readiness checklist",
+    "description": "The real signs a baby is ready for solid food — and the myths that aren't. What to offer first, what to skip, and how the first weeks actually go.",
+    "articleSection": "Feeding",
+    "inLanguage": "en",
+    "author": {
+     "@type": "Organization",
+     "name": "FirstWeeks",
+     "url": "https://firstweeks.app"
+    },
+    "publisher": {
+     "@type": "Organization",
+     "name": "FirstWeeks",
+     "url": "https://firstweeks.app",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://firstweeks.app/assets/icon.png"
+     }
+    },
+    "mainEntityOfPage": {
+     "@type": "WebPage",
+     "@id": "https://firstweeks.app/en/articles/starting-solids-the-readiness-checklist/"
+    },
+    "dateModified": "{{BUILD_DATE}}",
+    "citation": [
+     "https://www.cdc.gov/infant-toddler-nutrition/foods-and-drinks/when-to-introduce-solid-foods.html",
+     "https://www.healthychildren.org/English/ages-stages/baby/feeding-nutrition/Pages/Starting-Solid-Foods.aspx"
+    ]
+   }
+  },
+  {
+   "id": "a48",
+   "week": 25,
+   "slug": "first-foods-and-allergens-without-fear",
+   "title": "First foods and allergens, without the fear",
+   "category": "Feeding",
+   "read_min": 4,
+   "seo": {
+    "title": "Introducing Allergens to Baby, Without Fear | FirstWeeks",
+    "description": "Modern guidance flipped: introducing peanut, egg and other allergens early — how to do it, what a reaction looks like, and when you need a doctor first.",
+    "keywords": [
+     "introducing allergens to baby",
+     "peanut introduction infant",
+     "baby food allergies",
+     "egg for baby",
+     "allergen introduction schedule"
+    ],
+    "og_kicker": "FEEDING"
+   },
+   "body": [
+    {
+     "h": "The guidance flipped — here's the short version",
+     "p": "For years parents were told to delay allergenic foods. Research — most famously the LEAP trial on peanut — showed the opposite: early, regular exposure in infancy is associated with a lower chance of developing some food allergies. Current US guidance supports introducing common allergens around the start of solids, roughly 4–6 months for peanut in guidance informed by LEAP, once a few first foods have gone smoothly. The fear-based delay era is over."
+    },
+    {
+     "h": "The big nine, baby-format",
+     "p": "Peanut (as thinned smooth peanut butter or peanut-puff snacks softened — never whole nuts), egg (well-cooked), cow's-milk products like yogurt as an ingredient (still not milk as the main drink before one year), wheat, soy, tree nuts as smooth butters, fish, shellfish, and sesame. One new allergen at a time, early in the day so you can watch, two or three days before the next newcomer — and once introduced, keep it in rotation; regular exposure is part of the point."
+    },
+    {
+     "h": "What a reaction looks like",
+     "p": "Most reactions, if they happen, are mild and show up within minutes to a couple of hours: hives, redness around the mouth, vomiting. Stop the food and call your pediatrician to plan next steps. Emergency signs — trouble breathing, swelling of lips or tongue, widespread hives with vomiting, sudden floppiness or pallor — mean calling emergency services now, not observing. Writing down the food, the amount and the clock time turns a scary moment into usable clinical information."
+    },
+    {
+     "h": "Who should talk to a doctor first",
+     "p": "Babies with severe eczema or an existing egg allergy are the higher-risk group — for them, guidance recommends involving your pediatrician before introducing peanut, sometimes with testing or a supervised first taste. A strong family history of food allergy is also worth a conversation. Higher risk changes the route, not the destination: these babies often benefit most from getting introduction right."
+    },
+    {
+     "h": "The calm bottom line",
+     "p": "Feed the family's normal foods in safe textures, introduce allergens one at a time and keep them coming, know the emergency signs, and log what happened. That's the entire protocol — no specialty products required."
+    }
+   ],
+   "sources": [
+    {
+     "label": "NIH/NIAID — Peanut Allergy Prevention Guidelines",
+     "url": "https://www.niaid.nih.gov/diseases-conditions/guidelines-clinicians-and-patients-food-allergy"
+    },
+    {
+     "label": "AAP — Prevention of Allergies and Asthma in Children",
+     "url": "https://www.healthychildren.org/English/healthy-living/nutrition/Pages/Prevention-of-Allergies-and-Asthma-in-Children.aspx"
+    }
+   ],
+   "related": [
+    "starting-solids-the-readiness-checklist",
+    "gagging-vs-choking-know-the-difference",
+    "spit-up-or-vomit"
+   ],
+   "schema": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "First foods and allergens, without the fear",
+    "description": "Modern guidance flipped: introducing peanut, egg and other allergens early — how to do it, what a reaction looks like, and when you need a doctor first.",
+    "articleSection": "Feeding",
+    "inLanguage": "en",
+    "author": {
+     "@type": "Organization",
+     "name": "FirstWeeks",
+     "url": "https://firstweeks.app"
+    },
+    "publisher": {
+     "@type": "Organization",
+     "name": "FirstWeeks",
+     "url": "https://firstweeks.app",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://firstweeks.app/assets/icon.png"
+     }
+    },
+    "mainEntityOfPage": {
+     "@type": "WebPage",
+     "@id": "https://firstweeks.app/en/articles/first-foods-and-allergens-without-fear/"
+    },
+    "dateModified": "{{BUILD_DATE}}",
+    "citation": [
+     "https://www.niaid.nih.gov/diseases-conditions/guidelines-clinicians-and-patients-food-allergy",
+     "https://www.healthychildren.org/English/healthy-living/nutrition/Pages/Prevention-of-Allergies-and-Asthma-in-Children.aspx"
+    ]
+   }
+  },
+  {
+   "id": "a49",
+   "week": 27,
+   "slug": "gagging-vs-choking-know-the-difference",
+   "title": "Gagging vs choking: know the difference",
+   "category": "Feeding",
+   "read_min": 3,
+   "seo": {
+    "title": "Baby Gagging vs Choking: The Difference | FirstWeeks",
+    "description": "Gagging is loud, red and normal; choking is silent and an emergency. How to tell them apart fast, what to do for each, and how to prevent choking.",
+    "keywords": [
+     "baby gagging vs choking",
+     "baby choking what to do",
+     "gag reflex baby solids",
+     "choking hazards baby food",
+     "infant choking prevention"
+    ],
+    "og_kicker": "FEEDING"
+   },
+   "body": [
+    {
+     "h": "The two-second test",
+     "p": "Gagging is loud and dramatic: coughing, sputtering, a red face, food reappearing, and — crucially — noise, because noise means air is moving. Choking is the opposite: silent or nearly silent, no effective cough, a face going dusky or blue, panic in the eyes. Loud and red — stay calm and watch. Silent and blue — act now. That inversion, scary-looking-but-fine versus quiet-but-emergency, is the single most useful thing to memorize before starting solids."
+    },
+    {
+     "h": "Why gagging is part of the plan",
+     "p": "A baby's gag trigger sits far forward on the tongue in the early months and migrates back with practice. Early eaters gag often — it's the built-in safety system rehearsing, moving food away from the airway while your baby learns to manage textures. The best response is theatrical neutrality: stay close, stay boring, let the system finish its work. Sweeping a finger into the mouth after a gag can push food deeper; offer a sip of water after the episode ends, not during."
+    },
+    {
+     "h": "If it's truly choking",
+     "p": "For a choking infant under one year who cannot cough, cry or breathe: five firm back blows between the shoulder blades with the baby face-down along your forearm, head lower than chest, then five chest thrusts with two fingers on the breastbone — alternate until the object clears or the baby becomes unresponsive, and have someone call 911 immediately (start CPR if they become unresponsive). Reading this once is not the same as hands rehearsing it: an infant CPR class, online or in person, converts panic into procedure and is the single best hour of preparation solids can buy."
+    },
+    {
+     "h": "Prevention beats technique",
+     "p": "Shape and hardness are the enemies: whole grapes and cherry tomatoes (quarter them lengthwise), nuts and seeds, hard raw vegetables, chunks of hot dog or sausage, popcorn, marshmallows, spoonfuls of thick nut butter, hard candy. Serve food your baby can squish between your fingers, keep meals seated and supervised — eating on the move is the classic setup — and skip distracted grazing in the car seat where you can't see the face."
+    },
+    {
+     "h": "When to check in",
+     "p": "After any true choking episode — even one that resolved — same-day medical review is reasonable, especially with lingering cough, drooling, wheeze or feeding refusal. And if gagging routinely escalates to vomiting for weeks, or your baby seems afraid of food, bring the log to your pediatrician: texture-pacing help exists and works."
+    }
+   ],
+   "sources": [
+    {
+     "label": "AAP — Choking Prevention",
+     "url": "https://www.healthychildren.org/English/health-issues/injuries-emergencies/Pages/Choking-Prevention.aspx"
+    },
+    {
+     "label": "CDC — Food Safety for Infants",
+     "url": "https://www.cdc.gov/infant-toddler-nutrition/foods-and-drinks/choking-hazards.html"
+    }
+   ],
+   "related": [
+    "starting-solids-the-readiness-checklist",
+    "first-foods-and-allergens-without-fear",
+    "spit-up-or-vomit"
+   ],
+   "schema": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Gagging vs choking: know the difference",
+    "description": "Gagging is loud, red and normal; choking is silent and an emergency. How to tell them apart fast, what to do for each, and how to prevent choking.",
+    "articleSection": "Feeding",
+    "inLanguage": "en",
+    "author": {
+     "@type": "Organization",
+     "name": "FirstWeeks",
+     "url": "https://firstweeks.app"
+    },
+    "publisher": {
+     "@type": "Organization",
+     "name": "FirstWeeks",
+     "url": "https://firstweeks.app",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://firstweeks.app/assets/icon.png"
+     }
+    },
+    "mainEntityOfPage": {
+     "@type": "WebPage",
+     "@id": "https://firstweeks.app/en/articles/gagging-vs-choking-know-the-difference/"
+    },
+    "dateModified": "{{BUILD_DATE}}",
+    "citation": [
+     "https://www.healthychildren.org/English/health-issues/injuries-emergencies/Pages/Choking-Prevention.aspx",
+     "https://www.cdc.gov/infant-toddler-nutrition/foods-and-drinks/choking-hazards.html"
+    ]
+   }
+  },
+  {
+   "id": "a59",
+   "week": 21,
+   "slug": "teething-timeline-and-what-actually-helps",
+   "title": "Teething: the timeline and what actually helps",
+   "category": "Health & Safety",
+   "read_min": 4,
+   "seo": {
+    "title": "Baby Teething Timeline & What Helps | FirstWeeks",
+    "description": "When teeth really come in, which symptoms are teething and which aren't, what safely helps sore gums — and the popular remedies to skip.",
+    "keywords": [
+     "baby teething timeline",
+     "teething symptoms",
+     "when do babies get teeth",
+     "teething remedies safe",
+     "teething fever myth"
+    ],
+    "og_kicker": "HEALTH & SAFETY"
+   },
+   "body": [
+    {
+     "h": "The real timeline",
+     "p": "The average first tooth — usually a bottom front incisor — arrives around 6 months, but the normal range is enormous: some babies debut at 3–4 months, some celebrate their first birthday with a gummy grin, and both are fine. Order matters more than dates: bottom front pair, top front pair, then the neighbors working outward, with first molars typically in the second year. Drooling and everything-in-the-mouth from 3–4 months is usually developmental exploration, not necessarily an imminent tooth."
+    },
+    {
+     "h": "What teething does — and doesn't — cause",
+     "p": "Genuinely attributable: sore, swollen gums for a few days around eruption, extra drool, gnawing, crankiness, some disrupted sleep. Not attributable, per pediatric guidance: high fever, diarrhea, vomiting or a truly sick baby. A temperature of 100.4 °F (38 °C) or higher is illness until proven otherwise — and in a baby under 12 weeks it always needs same-day medical attention. \"It's probably teething\" is the most common way a real illness gets missed; when in doubt, treat symptoms as symptoms."
+    },
+    {
+     "h": "What safely helps",
+     "p": "Cold and pressure are the whole toolkit: a solid rubber teether chilled in the refrigerator (not frozen solid), a clean cold wet washcloth to chew, a clean finger rubbing the gum, extra cuddles for the mood. If a rough patch needs more, age-appropriate acetaminophen — or ibuprofen after 6 months — dosed by your pediatrician's guidance for a day or two is reasonable. Wipe the drool valley on the chin and add a thin barrier layer to prevent the classic drool rash."
+    },
+    {
+     "h": "What to skip",
+     "p": "Benzocaine gels and liquids for infants (FDA-warned — risk of methemoglobinemia, a serious blood-oxygen condition), homeopathic teething tablets (FDA-warned after inconsistent belladonna content), amber teething necklaces (strangulation and choking risk with no proven benefit), and liquid-filled or frozen-hard teethers that can leak or bruise. The boring cold rubber ring outperforms the entire boutique aisle."
+    },
+    {
+     "h": "Once teeth exist, they're teeth",
+     "p": "Start brushing at tooth number one: soft infant brush, a rice-grain smear of fluoride toothpaste, twice a day. First dental visit by the first birthday or within six months of the first tooth. And no bottles in bed once teeth are in — milk pooling overnight is the classic route to early cavities."
+    }
+   ],
+   "sources": [
+    {
+     "label": "AAP — Teething: 4 to 7 Months",
+     "url": "https://www.healthychildren.org/English/ages-stages/baby/teething-tooth-care/Pages/Teething-4-to-7-Months.aspx"
+    },
+    {
+     "label": "FDA — Safely Soothing Teething Pain",
+     "url": "https://www.fda.gov/consumers/consumer-updates/safely-soothing-teething-pain-and-sensory-needs-babies-and-older-children"
+    }
+   ],
+   "related": [
+    "sneezes-hiccups-and-noisy-breathing",
+    "the-gas-toolkit",
+    "growth-spurts-decoded"
+   ],
+   "schema": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Teething: the timeline and what actually helps",
+    "description": "When teeth really come in, which symptoms are teething and which aren't, what safely helps sore gums — and the popular remedies to skip.",
+    "articleSection": "Health & Safety",
+    "inLanguage": "en",
+    "author": {
+     "@type": "Organization",
+     "name": "FirstWeeks",
+     "url": "https://firstweeks.app"
+    },
+    "publisher": {
+     "@type": "Organization",
+     "name": "FirstWeeks",
+     "url": "https://firstweeks.app",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://firstweeks.app/assets/icon.png"
+     }
+    },
+    "mainEntityOfPage": {
+     "@type": "WebPage",
+     "@id": "https://firstweeks.app/en/articles/teething-timeline-and-what-actually-helps/"
+    },
+    "dateModified": "{{BUILD_DATE}}",
+    "citation": [
+     "https://www.healthychildren.org/English/ages-stages/baby/teething-tooth-care/Pages/Teething-4-to-7-Months.aspx",
+     "https://www.fda.gov/consumers/consumer-updates/safely-soothing-teething-pain-and-sensory-needs-babies-and-older-children"
+    ]
+   }
+  }
+ ]
+}

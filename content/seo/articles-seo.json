@@ -1,0 +1,1640 @@
+[
+ {
+  "id": "a01",
+  "slug": "the-3-am-proof-sleep-setup",
+  "week": 1,
+  "category": "Sleep",
+  "seo": {
+   "title": "The 3 AM-proof sleep setup | FirstWeeks",
+   "description": "Almost every scary headline about infant sleep comes down to the sleep environment — and the environment is one of the few things entirely in your.",
+   "og_kicker": "SLEEP"
+  },
+  "read_min": 3,
+  "schema": {
+   "@context": "https://schema.org",
+   "@type": "Article",
+   "headline": "The 3 AM-proof sleep setup",
+   "description": "Almost every scary headline about infant sleep comes down to the sleep environment — and the environment is one of the few things entirely in your.",
+   "articleSection": "Sleep",
+   "inLanguage": "en",
+   "author": {
+    "@type": "Organization",
+    "name": "FirstWeeks",
+    "url": "https://firstweeks.app"
+   },
+   "publisher": {
+    "@type": "Organization",
+    "name": "FirstWeeks",
+    "url": "https://firstweeks.app",
+    "logo": {
+     "@type": "ImageObject",
+     "url": "https://firstweeks.app/assets/icon.png"
+    }
+   },
+   "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://firstweeks.app/en/articles/the-3-am-proof-sleep-setup/"
+   },
+   "dateModified": "{{BUILD_DATE}}",
+   "citation": [
+    "https://www.cdc.gov/sids/index.html"
+   ]
+  }
+ },
+ {
+  "id": "a14",
+  "slug": "diaper-decoder-week-one",
+  "week": 1,
+  "category": "Health & Safety",
+  "seo": {
+   "title": "Diaper decoder: week one | FirstWeeks",
+   "description": "In week one the diaper is the most honest dashboard you have: it reports intake and hydration without a single lab test. Learning to read it buys real.",
+   "og_kicker": "HEALTH & SAFETY"
+  },
+  "read_min": 3,
+  "schema": {
+   "@context": "https://schema.org",
+   "@type": "Article",
+   "headline": "Diaper decoder: week one",
+   "description": "In week one the diaper is the most honest dashboard you have: it reports intake and hydration without a single lab test. Learning to read it buys real.",
+   "articleSection": "Health & Safety",
+   "inLanguage": "en",
+   "author": {
+    "@type": "Organization",
+    "name": "FirstWeeks",
+    "url": "https://firstweeks.app"
+   },
+   "publisher": {
+    "@type": "Organization",
+    "name": "FirstWeeks",
+    "url": "https://firstweeks.app",
+    "logo": {
+     "@type": "ImageObject",
+     "url": "https://firstweeks.app/assets/icon.png"
+    }
+   },
+   "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://firstweeks.app/en/articles/diaper-decoder-week-one/"
+   },
+   "dateModified": "{{BUILD_DATE}}",
+   "citation": [
+    "https://medlineplus.gov/infantandnewborncare.html"
+   ]
+  }
+ },
+ {
+  "id": "a15",
+  "slug": "the-cord-stump-calmly",
+  "week": 1,
+  "category": "Health & Safety",
+  "seo": {
+   "title": "The cord stump, calmly | FirstWeeks",
+   "description": "The umbilical stump is drying leftover tissue — it darkens, shrivels and typically falls off within one to three weeks. Until then it needs almost.",
+   "og_kicker": "HEALTH & SAFETY"
+  },
+  "read_min": 3,
+  "schema": {
+   "@context": "https://schema.org",
+   "@type": "Article",
+   "headline": "The cord stump, calmly",
+   "description": "The umbilical stump is drying leftover tissue — it darkens, shrivels and typically falls off within one to three weeks. Until then it needs almost.",
+   "articleSection": "Health & Safety",
+   "inLanguage": "en",
+   "author": {
+    "@type": "Organization",
+    "name": "FirstWeeks",
+    "url": "https://firstweeks.app"
+   },
+   "publisher": {
+    "@type": "Organization",
+    "name": "FirstWeeks",
+    "url": "https://firstweeks.app",
+    "logo": {
+     "@type": "ImageObject",
+     "url": "https://firstweeks.app/assets/icon.png"
+    }
+   },
+   "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://firstweeks.app/en/articles/the-cord-stump-calmly/"
+   },
+   "dateModified": "{{BUILD_DATE}}",
+   "citation": [
+    "https://medlineplus.gov/infantandnewborncare.html"
+   ]
+  }
+ },
+ {
+  "id": "a02",
+  "slug": "jaundice-minus-the-panic",
+  "week": 2,
+  "category": "Health & Safety",
+  "seo": {
+   "title": "Jaundice, minus the panic | FirstWeeks",
+   "description": "A yellow tint to the skin and eyes shows up in most newborns — it's usually the single most googled thing in week two. The cause is bilirubin, a normal.",
+   "og_kicker": "HEALTH & SAFETY"
+  },
+  "read_min": 3,
+  "schema": {
+   "@context": "https://schema.org",
+   "@type": "Article",
+   "headline": "Jaundice, minus the panic",
+   "description": "A yellow tint to the skin and eyes shows up in most newborns — it's usually the single most googled thing in week two. The cause is bilirubin, a normal.",
+   "articleSection": "Health & Safety",
+   "inLanguage": "en",
+   "author": {
+    "@type": "Organization",
+    "name": "FirstWeeks",
+    "url": "https://firstweeks.app"
+   },
+   "publisher": {
+    "@type": "Organization",
+    "name": "FirstWeeks",
+    "url": "https://firstweeks.app",
+    "logo": {
+     "@type": "ImageObject",
+     "url": "https://firstweeks.app/assets/icon.png"
+    }
+   },
+   "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://firstweeks.app/en/articles/jaundice-minus-the-panic/"
+   },
+   "dateModified": "{{BUILD_DATE}}",
+   "citation": [
+    "https://medlineplus.gov/infantandnewborncare.html"
+   ]
+  }
+ },
+ {
+  "id": "a16",
+  "slug": "the-weight-math-of-week-two",
+  "week": 2,
+  "category": "Feeding",
+  "seo": {
+   "title": "The weight math of week two | FirstWeeks",
+   "description": "Newborns commonly lose up to about 7–10% of birth weight in the first days — mostly fluid — and regain it by around two weeks. The dip terrifies.",
+   "og_kicker": "FEEDING"
+  },
+  "read_min": 3,
+  "schema": {
+   "@context": "https://schema.org",
+   "@type": "Article",
+   "headline": "The weight math of week two",
+   "description": "Newborns commonly lose up to about 7–10% of birth weight in the first days — mostly fluid — and regain it by around two weeks. The dip terrifies.",
+   "articleSection": "Feeding",
+   "inLanguage": "en",
+   "author": {
+    "@type": "Organization",
+    "name": "FirstWeeks",
+    "url": "https://firstweeks.app"
+   },
+   "publisher": {
+    "@type": "Organization",
+    "name": "FirstWeeks",
+    "url": "https://firstweeks.app",
+    "logo": {
+     "@type": "ImageObject",
+     "url": "https://firstweeks.app/assets/icon.png"
+    }
+   },
+   "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://firstweeks.app/en/articles/the-weight-math-of-week-two/"
+   },
+   "dateModified": "{{BUILD_DATE}}",
+   "citation": [
+    "https://medlineplus.gov/infantandnewborncare.html"
+   ]
+  }
+ },
+ {
+  "id": "a17",
+  "slug": "sponge-baths-without-the-wrestling",
+  "week": 2,
+  "category": "Health & Safety",
+  "seo": {
+   "title": "Sponge baths without the wrestling | FirstWeeks",
+   "description": "While the stump is attached, sponge baths keep it dry: warm room, warm water, baby on a towel, one zone at a time while the rest stays wrapped.",
+   "og_kicker": "HEALTH & SAFETY"
+  },
+  "read_min": 3,
+  "schema": {
+   "@context": "https://schema.org",
+   "@type": "Article",
+   "headline": "Sponge baths without the wrestling",
+   "description": "While the stump is attached, sponge baths keep it dry: warm room, warm water, baby on a towel, one zone at a time while the rest stays wrapped.",
+   "articleSection": "Health & Safety",
+   "inLanguage": "en",
+   "author": {
+    "@type": "Organization",
+    "name": "FirstWeeks",
+    "url": "https://firstweeks.app"
+   },
+   "publisher": {
+    "@type": "Organization",
+    "name": "FirstWeeks",
+    "url": "https://firstweeks.app",
+    "logo": {
+     "@type": "ImageObject",
+     "url": "https://firstweeks.app/assets/icon.png"
+    }
+   },
+   "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://firstweeks.app/en/articles/sponge-baths-without-the-wrestling/"
+   },
+   "dateModified": "{{BUILD_DATE}}",
+   "citation": [
+    "https://medlineplus.gov/infantandnewborncare.html"
+   ]
+  }
+ },
+ {
+  "id": "a03",
+  "slug": "cluster-feeding-is-she-getting-enough",
+  "week": 3,
+  "category": "Feeding",
+  "seo": {
+   "title": "Cluster feeding: is she getting enough? | FirstWeeks",
+   "description": "Feeding every 30–60 minutes for a stretch of the evening is one of the most commonly seen patterns of the first weeks — and the most commonly misread.",
+   "og_kicker": "FEEDING"
+  },
+  "read_min": 3,
+  "schema": {
+   "@context": "https://schema.org",
+   "@type": "Article",
+   "headline": "Cluster feeding: is she getting enough?",
+   "description": "Feeding every 30–60 minutes for a stretch of the evening is one of the most commonly seen patterns of the first weeks — and the most commonly misread.",
+   "articleSection": "Feeding",
+   "inLanguage": "en",
+   "author": {
+    "@type": "Organization",
+    "name": "FirstWeeks",
+    "url": "https://firstweeks.app"
+   },
+   "publisher": {
+    "@type": "Organization",
+    "name": "FirstWeeks",
+    "url": "https://firstweeks.app",
+    "logo": {
+     "@type": "ImageObject",
+     "url": "https://firstweeks.app/assets/icon.png"
+    }
+   },
+   "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://firstweeks.app/en/articles/cluster-feeding-is-she-getting-enough/"
+   },
+   "dateModified": "{{BUILD_DATE}}",
+   "citation": [
+    "https://www.cdc.gov/breastfeeding/index.html"
+   ]
+  }
+ },
+ {
+  "id": "a18",
+  "slug": "spit-up-or-vomit",
+  "week": 3,
+  "category": "Feeding",
+  "seo": {
+   "title": "Spit-up or vomit? | FirstWeeks",
+   "description": "Spit-up dribbles or rolls out effortlessly, often with a burp, and the baby barely notices. Vomiting is forceful, distressing and usually repeated.",
+   "og_kicker": "FEEDING"
+  },
+  "read_min": 3,
+  "schema": {
+   "@context": "https://schema.org",
+   "@type": "Article",
+   "headline": "Spit-up or vomit?",
+   "description": "Spit-up dribbles or rolls out effortlessly, often with a burp, and the baby barely notices. Vomiting is forceful, distressing and usually repeated.",
+   "articleSection": "Feeding",
+   "inLanguage": "en",
+   "author": {
+    "@type": "Organization",
+    "name": "FirstWeeks",
+    "url": "https://firstweeks.app"
+   },
+   "publisher": {
+    "@type": "Organization",
+    "name": "FirstWeeks",
+    "url": "https://firstweeks.app",
+    "logo": {
+     "@type": "ImageObject",
+     "url": "https://firstweeks.app/assets/icon.png"
+    }
+   },
+   "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://firstweeks.app/en/articles/spit-up-or-vomit/"
+   },
+   "dateModified": "{{BUILD_DATE}}",
+   "citation": [
+    "https://medlineplus.gov/infantandnewborncare.html"
+   ]
+  }
+ },
+ {
+  "id": "a19",
+  "slug": "newborn-skin-a-field-guide",
+  "week": 3,
+  "category": "Health & Safety",
+  "seo": {
+   "title": "Newborn skin: a field guide | FirstWeeks",
+   "description": "Milia (tiny white dots), baby acne, flaky peeling, erythema toxicum (blotchy red spots with pale centers that migrate) — week three skin runs.",
+   "og_kicker": "HEALTH & SAFETY"
+  },
+  "read_min": 3,
+  "schema": {
+   "@context": "https://schema.org",
+   "@type": "Article",
+   "headline": "Newborn skin: a field guide",
+   "description": "Milia (tiny white dots), baby acne, flaky peeling, erythema toxicum (blotchy red spots with pale centers that migrate) — week three skin runs.",
+   "articleSection": "Health & Safety",
+   "inLanguage": "en",
+   "author": {
+    "@type": "Organization",
+    "name": "FirstWeeks",
+    "url": "https://firstweeks.app"
+   },
+   "publisher": {
+    "@type": "Organization",
+    "name": "FirstWeeks",
+    "url": "https://firstweeks.app",
+    "logo": {
+     "@type": "ImageObject",
+     "url": "https://firstweeks.app/assets/icon.png"
+    }
+   },
+   "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://firstweeks.app/en/articles/newborn-skin-a-field-guide/"
+   },
+   "dateModified": "{{BUILD_DATE}}",
+   "citation": [
+    "https://medlineplus.gov/infantandnewborncare.html"
+   ]
+  }
+ },
+ {
+  "id": "a04",
+  "slug": "the-crying-curve-has-a-shape",
+  "week": 4,
+  "category": "Crying & Soothing",
+  "seo": {
+   "title": "The crying curve has a shape | FirstWeeks",
+   "description": "Newborn crying isn't random — it follows a curve. Total daily crying commonly starts climbing around two weeks, peaks near two months, and eases.",
+   "og_kicker": "CRYING & SOOTHING"
+  },
+  "read_min": 3,
+  "schema": {
+   "@context": "https://schema.org",
+   "@type": "Article",
+   "headline": "The crying curve has a shape",
+   "description": "Newborn crying isn't random — it follows a curve. Total daily crying commonly starts climbing around two weeks, peaks near two months, and eases.",
+   "articleSection": "Crying & Soothing",
+   "inLanguage": "en",
+   "author": {
+    "@type": "Organization",
+    "name": "FirstWeeks",
+    "url": "https://firstweeks.app"
+   },
+   "publisher": {
+    "@type": "Organization",
+    "name": "FirstWeeks",
+    "url": "https://firstweeks.app",
+    "logo": {
+     "@type": "ImageObject",
+     "url": "https://firstweeks.app/assets/icon.png"
+    }
+   },
+   "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://firstweeks.app/en/articles/the-crying-curve-has-a-shape/"
+   },
+   "dateModified": "{{BUILD_DATE}}",
+   "citation": [
+    "https://www.cdc.gov/child-abuse-neglect/about/preventing-shaken-baby-syndrome.html"
+   ]
+  }
+ },
+ {
+  "id": "a20",
+  "slug": "the-gas-toolkit",
+  "week": 4,
+  "category": "Feeding",
+  "seo": {
+   "title": "The gas toolkit | FirstWeeks",
+   "description": "Immature gut, air swallowed while feeding and crying, a digestive system running its first month of production — gas is commonly the background noise.",
+   "og_kicker": "FEEDING"
+  },
+  "read_min": 3,
+  "schema": {
+   "@context": "https://schema.org",
+   "@type": "Article",
+   "headline": "The gas toolkit",
+   "description": "Immature gut, air swallowed while feeding and crying, a digestive system running its first month of production — gas is commonly the background noise.",
+   "articleSection": "Feeding",
+   "inLanguage": "en",
+   "author": {
+    "@type": "Organization",
+    "name": "FirstWeeks",
+    "url": "https://firstweeks.app"
+   },
+   "publisher": {
+    "@type": "Organization",
+    "name": "FirstWeeks",
+    "url": "https://firstweeks.app",
+    "logo": {
+     "@type": "ImageObject",
+     "url": "https://firstweeks.app/assets/icon.png"
+    }
+   },
+   "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://firstweeks.app/en/articles/the-gas-toolkit/"
+   },
+   "dateModified": "{{BUILD_DATE}}",
+   "citation": [
+    "https://medlineplus.gov/infantandnewborncare.html"
+   ]
+  }
+ },
+ {
+  "id": "a21",
+  "slug": "pacifiers-the-honest-brief",
+  "week": 4,
+  "category": "Crying & Soothing",
+  "seo": {
+   "title": "Pacifiers: the honest brief | FirstWeeks",
+   "description": "Sucking soothes — it's a genuine self-regulation tool. And pacifier use at sleep time is associated with reduced sleep-related risk, which is why.",
+   "og_kicker": "CRYING & SOOTHING"
+  },
+  "read_min": 3,
+  "schema": {
+   "@context": "https://schema.org",
+   "@type": "Article",
+   "headline": "Pacifiers: the honest brief",
+   "description": "Sucking soothes — it's a genuine self-regulation tool. And pacifier use at sleep time is associated with reduced sleep-related risk, which is why.",
+   "articleSection": "Crying & Soothing",
+   "inLanguage": "en",
+   "author": {
+    "@type": "Organization",
+    "name": "FirstWeeks",
+    "url": "https://firstweeks.app"
+   },
+   "publisher": {
+    "@type": "Organization",
+    "name": "FirstWeeks",
+    "url": "https://firstweeks.app",
+    "logo": {
+     "@type": "ImageObject",
+     "url": "https://firstweeks.app/assets/icon.png"
+    }
+   },
+   "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://firstweeks.app/en/articles/pacifiers-the-honest-brief/"
+   },
+   "dateModified": "{{BUILD_DATE}}",
+   "citation": [
+    "https://www.cdc.gov/breastfeeding/index.html"
+   ]
+  }
+ },
+ {
+  "id": "a05",
+  "slug": "witching-hour-an-owner-s-manual",
+  "week": 5,
+  "category": "Crying & Soothing",
+  "seo": {
+   "title": "Witching hour: an owner's manual | FirstWeeks",
+   "description": "The late-afternoon fussy stretch — feeding, fussing, dozing, waking, repeat — is so commonly seen it has a folk name. It tends to show up around weeks.",
+   "og_kicker": "CRYING & SOOTHING"
+  },
+  "read_min": 3,
+  "schema": {
+   "@context": "https://schema.org",
+   "@type": "Article",
+   "headline": "Witching hour: an owner's manual",
+   "description": "The late-afternoon fussy stretch — feeding, fussing, dozing, waking, repeat — is so commonly seen it has a folk name. It tends to show up around weeks.",
+   "articleSection": "Crying & Soothing",
+   "inLanguage": "en",
+   "author": {
+    "@type": "Organization",
+    "name": "FirstWeeks",
+    "url": "https://firstweeks.app"
+   },
+   "publisher": {
+    "@type": "Organization",
+    "name": "FirstWeeks",
+    "url": "https://firstweeks.app",
+    "logo": {
+     "@type": "ImageObject",
+     "url": "https://firstweeks.app/assets/icon.png"
+    }
+   },
+   "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://firstweeks.app/en/articles/witching-hour-an-owner-s-manual/"
+   },
+   "dateModified": "{{BUILD_DATE}}",
+   "citation": [
+    "https://www.cdc.gov/child-abuse-neglect/about/preventing-shaken-baby-syndrome.html"
+   ]
+  }
+ },
+ {
+  "id": "a22",
+  "slug": "white-noise-done-safely",
+  "week": 5,
+  "category": "Sleep",
+  "seo": {
+   "title": "White noise, done safely | FirstWeeks",
+   "description": "The womb was loud — a constant whoosh louder than a vacuum cleaner. Steady noise recreates the familiar sound floor and masks household spikes that.",
+   "og_kicker": "SLEEP"
+  },
+  "read_min": 3,
+  "schema": {
+   "@context": "https://schema.org",
+   "@type": "Article",
+   "headline": "White noise, done safely",
+   "description": "The womb was loud — a constant whoosh louder than a vacuum cleaner. Steady noise recreates the familiar sound floor and masks household spikes that.",
+   "articleSection": "Sleep",
+   "inLanguage": "en",
+   "author": {
+    "@type": "Organization",
+    "name": "FirstWeeks",
+    "url": "https://firstweeks.app"
+   },
+   "publisher": {
+    "@type": "Organization",
+    "name": "FirstWeeks",
+    "url": "https://firstweeks.app",
+    "logo": {
+     "@type": "ImageObject",
+     "url": "https://firstweeks.app/assets/icon.png"
+    }
+   },
+   "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://firstweeks.app/en/articles/white-noise-done-safely/"
+   },
+   "dateModified": "{{BUILD_DATE}}",
+   "citation": [
+    "https://www.cdc.gov/sids/index.html"
+   ]
+  }
+ },
+ {
+  "id": "a23",
+  "slug": "sneezes-hiccups-and-noisy-breathing",
+  "week": 5,
+  "category": "Health & Safety",
+  "seo": {
+   "title": "Sneezes, hiccups and noisy breathing | FirstWeeks",
+   "description": "Sneezing without a cold, hiccuping daily, snorty breathing, occasional irregular rhythms with brief pauses — the newborn respiratory system is loud.",
+   "og_kicker": "HEALTH & SAFETY"
+  },
+  "read_min": 3,
+  "schema": {
+   "@context": "https://schema.org",
+   "@type": "Article",
+   "headline": "Sneezes, hiccups and noisy breathing",
+   "description": "Sneezing without a cold, hiccuping daily, snorty breathing, occasional irregular rhythms with brief pauses — the newborn respiratory system is loud.",
+   "articleSection": "Health & Safety",
+   "inLanguage": "en",
+   "author": {
+    "@type": "Organization",
+    "name": "FirstWeeks",
+    "url": "https://firstweeks.app"
+   },
+   "publisher": {
+    "@type": "Organization",
+    "name": "FirstWeeks",
+    "url": "https://firstweeks.app",
+    "logo": {
+     "@type": "ImageObject",
+     "url": "https://firstweeks.app/assets/icon.png"
+    }
+   },
+   "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://firstweeks.app/en/articles/sneezes-hiccups-and-noisy-breathing/"
+   },
+   "dateModified": "{{BUILD_DATE}}",
+   "citation": [
+    "https://medlineplus.gov/infantandnewborncare.html"
+   ]
+  }
+ },
+ {
+  "id": "a06",
+  "slug": "the-first-smile-is-a-conversation",
+  "week": 6,
+  "category": "Development",
+  "seo": {
+   "title": "The first smile is a conversation | FirstWeeks",
+   "description": "Around six to eight weeks, the smile changes category: it starts happening in response to you — your face, your voice, your ridiculous sound effects.",
+   "og_kicker": "DEVELOPMENT"
+  },
+  "read_min": 3,
+  "schema": {
+   "@context": "https://schema.org",
+   "@type": "Article",
+   "headline": "The first smile is a conversation",
+   "description": "Around six to eight weeks, the smile changes category: it starts happening in response to you — your face, your voice, your ridiculous sound effects.",
+   "articleSection": "Development",
+   "inLanguage": "en",
+   "author": {
+    "@type": "Organization",
+    "name": "FirstWeeks",
+    "url": "https://firstweeks.app"
+   },
+   "publisher": {
+    "@type": "Organization",
+    "name": "FirstWeeks",
+    "url": "https://firstweeks.app",
+    "logo": {
+     "@type": "ImageObject",
+     "url": "https://firstweeks.app/assets/icon.png"
+    }
+   },
+   "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://firstweeks.app/en/articles/the-first-smile-is-a-conversation/"
+   },
+   "dateModified": "{{BUILD_DATE}}",
+   "citation": [
+    "https://www.cdc.gov/act-early/milestones/index.html"
+   ]
+  }
+ },
+ {
+  "id": "a24",
+  "slug": "tummy-time-troubleshooting",
+  "week": 6,
+  "category": "Development",
+  "seo": {
+   "title": "Tummy time troubleshooting | FirstWeeks",
+   "description": "Plenty of babies protest floor tummy time at first — the position is heavy work. Protest doesn't cancel the program; it changes the format.",
+   "og_kicker": "DEVELOPMENT"
+  },
+  "read_min": 3,
+  "schema": {
+   "@context": "https://schema.org",
+   "@type": "Article",
+   "headline": "Tummy time troubleshooting",
+   "description": "Plenty of babies protest floor tummy time at first — the position is heavy work. Protest doesn't cancel the program; it changes the format.",
+   "articleSection": "Development",
+   "inLanguage": "en",
+   "author": {
+    "@type": "Organization",
+    "name": "FirstWeeks",
+    "url": "https://firstweeks.app"
+   },
+   "publisher": {
+    "@type": "Organization",
+    "name": "FirstWeeks",
+    "url": "https://firstweeks.app",
+    "logo": {
+     "@type": "ImageObject",
+     "url": "https://firstweeks.app/assets/icon.png"
+    }
+   },
+   "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://firstweeks.app/en/articles/tummy-time-troubleshooting/"
+   },
+   "dateModified": "{{BUILD_DATE}}",
+   "citation": [
+    "https://www.cdc.gov/act-early/milestones/index.html"
+   ]
+  }
+ },
+ {
+  "id": "a25",
+  "slug": "growth-spurts-decoded",
+  "week": 6,
+  "category": "Development",
+  "seo": {
+   "title": "Growth spurts, decoded | FirstWeeks",
+   "description": "A previously settled baby suddenly feeds constantly, sleeps oddly and wants holding around the clock — for two or three days. Commonly seen.",
+   "og_kicker": "DEVELOPMENT"
+  },
+  "read_min": 3,
+  "schema": {
+   "@context": "https://schema.org",
+   "@type": "Article",
+   "headline": "Growth spurts, decoded",
+   "description": "A previously settled baby suddenly feeds constantly, sleeps oddly and wants holding around the clock — for two or three days. Commonly seen.",
+   "articleSection": "Development",
+   "inLanguage": "en",
+   "author": {
+    "@type": "Organization",
+    "name": "FirstWeeks",
+    "url": "https://firstweeks.app"
+   },
+   "publisher": {
+    "@type": "Organization",
+    "name": "FirstWeeks",
+    "url": "https://firstweeks.app",
+    "logo": {
+     "@type": "ImageObject",
+     "url": "https://firstweeks.app/assets/icon.png"
+    }
+   },
+   "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://firstweeks.app/en/articles/growth-spurts-decoded/"
+   },
+   "dateModified": "{{BUILD_DATE}}",
+   "citation": [
+    "https://www.cdc.gov/breastfeeding/index.html"
+   ]
+  }
+ },
+ {
+  "id": "a07",
+  "slug": "tummy-time-that-actually-happens",
+  "week": 7,
+  "category": "Development",
+  "seo": {
+   "title": "Tummy time that actually happens | FirstWeeks",
+   "description": "Because back-sleeping is non-negotiable for safety, awake time on the tummy is where neck, shoulder and core strength get built — the muscles behind.",
+   "og_kicker": "DEVELOPMENT"
+  },
+  "read_min": 3,
+  "schema": {
+   "@context": "https://schema.org",
+   "@type": "Article",
+   "headline": "Tummy time that actually happens",
+   "description": "Because back-sleeping is non-negotiable for safety, awake time on the tummy is where neck, shoulder and core strength get built — the muscles behind.",
+   "articleSection": "Development",
+   "inLanguage": "en",
+   "author": {
+    "@type": "Organization",
+    "name": "FirstWeeks",
+    "url": "https://firstweeks.app"
+   },
+   "publisher": {
+    "@type": "Organization",
+    "name": "FirstWeeks",
+    "url": "https://firstweeks.app",
+    "logo": {
+     "@type": "ImageObject",
+     "url": "https://firstweeks.app/assets/icon.png"
+    }
+   },
+   "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://firstweeks.app/en/articles/tummy-time-that-actually-happens/"
+   },
+   "dateModified": "{{BUILD_DATE}}",
+   "citation": [
+    "https://medlineplus.gov/infantandnewborncare.html"
+   ]
+  }
+ },
+ {
+  "id": "a26",
+  "slug": "flat-spots-and-head-shape",
+  "week": 7,
+  "category": "Health & Safety",
+  "seo": {
+   "title": "Flat spots and head shape | FirstWeeks",
+   "description": "Back-sleeping is non-negotiable for safety — and it means the back of the head logs serious surface hours. Mild flattening (positional plagiocephaly).",
+   "og_kicker": "HEALTH & SAFETY"
+  },
+  "read_min": 3,
+  "schema": {
+   "@context": "https://schema.org",
+   "@type": "Article",
+   "headline": "Flat spots and head shape",
+   "description": "Back-sleeping is non-negotiable for safety — and it means the back of the head logs serious surface hours. Mild flattening (positional plagiocephaly).",
+   "articleSection": "Health & Safety",
+   "inLanguage": "en",
+   "author": {
+    "@type": "Organization",
+    "name": "FirstWeeks",
+    "url": "https://firstweeks.app"
+   },
+   "publisher": {
+    "@type": "Organization",
+    "name": "FirstWeeks",
+    "url": "https://firstweeks.app",
+    "logo": {
+     "@type": "ImageObject",
+     "url": "https://firstweeks.app/assets/icon.png"
+    }
+   },
+   "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://firstweeks.app/en/articles/flat-spots-and-head-shape/"
+   },
+   "dateModified": "{{BUILD_DATE}}",
+   "citation": [
+    "https://medlineplus.gov/infantandnewborncare.html"
+   ]
+  }
+ },
+ {
+  "id": "a27",
+  "slug": "small-maintenance-nails-and-cradle-cap",
+  "week": 7,
+  "category": "Health & Safety",
+  "seo": {
+   "title": "Small maintenance: nails and cradle cap | FirstWeeks",
+   "description": "Newborn nails grow fast, are soft and scratch-capable. File during sleep with a soft baby file, or clip when hands are milk-drunk limp — press.",
+   "og_kicker": "HEALTH & SAFETY"
+  },
+  "read_min": 3,
+  "schema": {
+   "@context": "https://schema.org",
+   "@type": "Article",
+   "headline": "Small maintenance: nails and cradle cap",
+   "description": "Newborn nails grow fast, are soft and scratch-capable. File during sleep with a soft baby file, or clip when hands are milk-drunk limp — press.",
+   "articleSection": "Health & Safety",
+   "inLanguage": "en",
+   "author": {
+    "@type": "Organization",
+    "name": "FirstWeeks",
+    "url": "https://firstweeks.app"
+   },
+   "publisher": {
+    "@type": "Organization",
+    "name": "FirstWeeks",
+    "url": "https://firstweeks.app",
+    "logo": {
+     "@type": "ImageObject",
+     "url": "https://firstweeks.app/assets/icon.png"
+    }
+   },
+   "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://firstweeks.app/en/articles/small-maintenance-nails-and-cradle-cap/"
+   },
+   "dateModified": "{{BUILD_DATE}}",
+   "citation": [
+    "https://medlineplus.gov/infantandnewborncare.html"
+   ]
+  }
+ },
+ {
+  "id": "a08",
+  "slug": "vaccine-day-without-the-dread",
+  "week": 8,
+  "category": "Health & Safety",
+  "seo": {
+   "title": "Vaccine day, without the dread | FirstWeeks",
+   "description": "Measurements, a development check against the two-month milestones, your questions — and the first big round of routine vaccines. It's usually.",
+   "og_kicker": "HEALTH & SAFETY"
+  },
+  "read_min": 3,
+  "schema": {
+   "@context": "https://schema.org",
+   "@type": "Article",
+   "headline": "Vaccine day, without the dread",
+   "description": "Measurements, a development check against the two-month milestones, your questions — and the first big round of routine vaccines. It's usually.",
+   "articleSection": "Health & Safety",
+   "inLanguage": "en",
+   "author": {
+    "@type": "Organization",
+    "name": "FirstWeeks",
+    "url": "https://firstweeks.app"
+   },
+   "publisher": {
+    "@type": "Organization",
+    "name": "FirstWeeks",
+    "url": "https://firstweeks.app",
+    "logo": {
+     "@type": "ImageObject",
+     "url": "https://firstweeks.app/assets/icon.png"
+    }
+   },
+   "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://firstweeks.app/en/articles/vaccine-day-without-the-dread/"
+   },
+   "dateModified": "{{BUILD_DATE}}",
+   "citation": [
+    "https://www.cdc.gov/vaccines-children/index.html"
+   ]
+  }
+ },
+ {
+  "id": "a28",
+  "slug": "after-the-shots-a-reading-guide",
+  "week": 8,
+  "category": "Health & Safety",
+  "seo": {
+   "title": "After the shots: a reading guide | FirstWeeks",
+   "description": "Commonly seen in the 24–48 hours after two-month vaccines: extra sleepiness, mild fussiness, reduced appetite, tenderness or a small firm bump.",
+   "og_kicker": "HEALTH & SAFETY"
+  },
+  "read_min": 3,
+  "schema": {
+   "@context": "https://schema.org",
+   "@type": "Article",
+   "headline": "After the shots: a reading guide",
+   "description": "Commonly seen in the 24–48 hours after two-month vaccines: extra sleepiness, mild fussiness, reduced appetite, tenderness or a small firm bump.",
+   "articleSection": "Health & Safety",
+   "inLanguage": "en",
+   "author": {
+    "@type": "Organization",
+    "name": "FirstWeeks",
+    "url": "https://firstweeks.app"
+   },
+   "publisher": {
+    "@type": "Organization",
+    "name": "FirstWeeks",
+    "url": "https://firstweeks.app",
+    "logo": {
+     "@type": "ImageObject",
+     "url": "https://firstweeks.app/assets/icon.png"
+    }
+   },
+   "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://firstweeks.app/en/articles/after-the-shots-a-reading-guide/"
+   },
+   "dateModified": "{{BUILD_DATE}}",
+   "citation": [
+    "https://www.cdc.gov/vaccines-children/index.html"
+   ]
+  }
+ },
+ {
+  "id": "a29",
+  "slug": "mom-s-checkup-matters-too",
+  "week": 8,
+  "category": "For Parents",
+  "seo": {
+   "title": "Mom's checkup matters too | FirstWeeks",
+   "description": "Somewhere around now, the postpartum visit happens — and it's commonly the most-skipped appointment in the family. Baby has had several checkups.",
+   "og_kicker": "FOR PARENTS"
+  },
+  "read_min": 3,
+  "schema": {
+   "@context": "https://schema.org",
+   "@type": "Article",
+   "headline": "Mom's checkup matters too",
+   "description": "Somewhere around now, the postpartum visit happens — and it's commonly the most-skipped appointment in the family. Baby has had several checkups.",
+   "articleSection": "For Parents",
+   "inLanguage": "en",
+   "author": {
+    "@type": "Organization",
+    "name": "FirstWeeks",
+    "url": "https://firstweeks.app"
+   },
+   "publisher": {
+    "@type": "Organization",
+    "name": "FirstWeeks",
+    "url": "https://firstweeks.app",
+    "logo": {
+     "@type": "ImageObject",
+     "url": "https://firstweeks.app/assets/icon.png"
+    }
+   },
+   "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://firstweeks.app/en/articles/mom-s-checkup-matters-too/"
+   },
+   "dateModified": "{{BUILD_DATE}}",
+   "citation": [
+    "https://medlineplus.gov/infantandnewborncare.html"
+   ]
+  }
+ },
+ {
+  "id": "a09",
+  "slug": "coos-squeals-and-the-language-project",
+  "week": 9,
+  "category": "Development",
+  "seo": {
+   "title": "Coos, squeals and the language project | FirstWeeks",
+   "description": "Somewhere around now the repertoire expands beyond crying: coos, gurgles, squeals, experimental volume tests. It sounds like noise; it's actually phase.",
+   "og_kicker": "DEVELOPMENT"
+  },
+  "read_min": 3,
+  "schema": {
+   "@context": "https://schema.org",
+   "@type": "Article",
+   "headline": "Coos, squeals and the language project",
+   "description": "Somewhere around now the repertoire expands beyond crying: coos, gurgles, squeals, experimental volume tests. It sounds like noise; it's actually phase.",
+   "articleSection": "Development",
+   "inLanguage": "en",
+   "author": {
+    "@type": "Organization",
+    "name": "FirstWeeks",
+    "url": "https://firstweeks.app"
+   },
+   "publisher": {
+    "@type": "Organization",
+    "name": "FirstWeeks",
+    "url": "https://firstweeks.app",
+    "logo": {
+     "@type": "ImageObject",
+     "url": "https://firstweeks.app/assets/icon.png"
+    }
+   },
+   "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://firstweeks.app/en/articles/coos-squeals-and-the-language-project/"
+   },
+   "dateModified": "{{BUILD_DATE}}",
+   "citation": [
+    "https://www.cdc.gov/act-early/milestones/index.html"
+   ]
+  }
+ },
+ {
+  "id": "a30",
+  "slug": "screens-and-tiny-humans",
+  "week": 9,
+  "category": "Development",
+  "seo": {
+   "title": "Screens and tiny humans | FirstWeeks",
+   "description": "For babies this age, guidance is unusually unanimous: no screen time except video chatting. Not because a glowing rectangle causes instant harm —.",
+   "og_kicker": "DEVELOPMENT"
+  },
+  "read_min": 3,
+  "schema": {
+   "@context": "https://schema.org",
+   "@type": "Article",
+   "headline": "Screens and tiny humans",
+   "description": "For babies this age, guidance is unusually unanimous: no screen time except video chatting. Not because a glowing rectangle causes instant harm —.",
+   "articleSection": "Development",
+   "inLanguage": "en",
+   "author": {
+    "@type": "Organization",
+    "name": "FirstWeeks",
+    "url": "https://firstweeks.app"
+   },
+   "publisher": {
+    "@type": "Organization",
+    "name": "FirstWeeks",
+    "url": "https://firstweeks.app",
+    "logo": {
+     "@type": "ImageObject",
+     "url": "https://firstweeks.app/assets/icon.png"
+    }
+   },
+   "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://firstweeks.app/en/articles/screens-and-tiny-humans/"
+   },
+   "dateModified": "{{BUILD_DATE}}",
+   "citation": [
+    "https://www.cdc.gov/act-early/milestones/index.html"
+   ]
+  }
+ },
+ {
+  "id": "a31",
+  "slug": "daytime-naps-a-loose-rhythm-emerges",
+  "week": 9,
+  "category": "Sleep",
+  "seo": {
+   "title": "Daytime naps: a loose rhythm emerges | FirstWeeks",
+   "description": "Around now many babies drift from random dozing toward a sketchable day: wake, feed, play, sleepy signs, nap — repeat. It's a rhythm, not a schedule.",
+   "og_kicker": "SLEEP"
+  },
+  "read_min": 3,
+  "schema": {
+   "@context": "https://schema.org",
+   "@type": "Article",
+   "headline": "Daytime naps: a loose rhythm emerges",
+   "description": "Around now many babies drift from random dozing toward a sketchable day: wake, feed, play, sleepy signs, nap — repeat. It's a rhythm, not a schedule.",
+   "articleSection": "Sleep",
+   "inLanguage": "en",
+   "author": {
+    "@type": "Organization",
+    "name": "FirstWeeks",
+    "url": "https://firstweeks.app"
+   },
+   "publisher": {
+    "@type": "Organization",
+    "name": "FirstWeeks",
+    "url": "https://firstweeks.app",
+    "logo": {
+     "@type": "ImageObject",
+     "url": "https://firstweeks.app/assets/icon.png"
+    }
+   },
+   "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://firstweeks.app/en/articles/daytime-naps-a-loose-rhythm-emerges/"
+   },
+   "dateModified": "{{BUILD_DATE}}",
+   "citation": [
+    "https://medlineplus.gov/infantandnewborncare.html"
+   ]
+  }
+ },
+ {
+  "id": "a10",
+  "slug": "longer-nights-help-them-stick",
+  "week": 10,
+  "category": "Sleep",
+  "seo": {
+   "title": "Longer nights: help them stick | FirstWeeks",
+   "description": "Around two to three months many babies start producing one longer night block — four, five, sometimes six hours. If it's happening: enjoy, and don't.",
+   "og_kicker": "SLEEP"
+  },
+  "read_min": 3,
+  "schema": {
+   "@context": "https://schema.org",
+   "@type": "Article",
+   "headline": "Longer nights: help them stick",
+   "description": "Around two to three months many babies start producing one longer night block — four, five, sometimes six hours. If it's happening: enjoy, and don't.",
+   "articleSection": "Sleep",
+   "inLanguage": "en",
+   "author": {
+    "@type": "Organization",
+    "name": "FirstWeeks",
+    "url": "https://firstweeks.app"
+   },
+   "publisher": {
+    "@type": "Organization",
+    "name": "FirstWeeks",
+    "url": "https://firstweeks.app",
+    "logo": {
+     "@type": "ImageObject",
+     "url": "https://firstweeks.app/assets/icon.png"
+    }
+   },
+   "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://firstweeks.app/en/articles/longer-nights-help-them-stick/"
+   },
+   "dateModified": "{{BUILD_DATE}}",
+   "citation": [
+    "https://medlineplus.gov/infantandnewborncare.html"
+   ]
+  }
+ },
+ {
+  "id": "a32",
+  "slug": "car-seat-basics-for-brief-travelers",
+  "week": 10,
+  "category": "Health & Safety",
+  "seo": {
+   "title": "Car seat basics for brief travelers | FirstWeeks",
+   "description": "Rear-facing infant seat, back seat, harness snug at or below shoulder level, chest clip at armpit height, no bulky jackets between baby and straps.",
+   "og_kicker": "HEALTH & SAFETY"
+  },
+  "read_min": 3,
+  "schema": {
+   "@context": "https://schema.org",
+   "@type": "Article",
+   "headline": "Car seat basics for brief travelers",
+   "description": "Rear-facing infant seat, back seat, harness snug at or below shoulder level, chest clip at armpit height, no bulky jackets between baby and straps.",
+   "articleSection": "Health & Safety",
+   "inLanguage": "en",
+   "author": {
+    "@type": "Organization",
+    "name": "FirstWeeks",
+    "url": "https://firstweeks.app"
+   },
+   "publisher": {
+    "@type": "Organization",
+    "name": "FirstWeeks",
+    "url": "https://firstweeks.app",
+    "logo": {
+     "@type": "ImageObject",
+     "url": "https://firstweeks.app/assets/icon.png"
+    }
+   },
+   "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://firstweeks.app/en/articles/car-seat-basics-for-brief-travelers/"
+   },
+   "dateModified": "{{BUILD_DATE}}",
+   "citation": [
+    "https://medlineplus.gov/infantandnewborncare.html"
+   ]
+  }
+ },
+ {
+  "id": "a33",
+  "slug": "night-shifts-for-two-parent-teams",
+  "week": 10,
+  "category": "Sleep",
+  "seo": {
+   "title": "Night shifts for two-parent teams | FirstWeeks",
+   "description": "Two people each getting one protected 4–5 hour block beats two people surviving on shredded 90-minute fragments — same total baby care, dramatically.",
+   "og_kicker": "SLEEP"
+  },
+  "read_min": 3,
+  "schema": {
+   "@context": "https://schema.org",
+   "@type": "Article",
+   "headline": "Night shifts for two-parent teams",
+   "description": "Two people each getting one protected 4–5 hour block beats two people surviving on shredded 90-minute fragments — same total baby care, dramatically.",
+   "articleSection": "Sleep",
+   "inLanguage": "en",
+   "author": {
+    "@type": "Organization",
+    "name": "FirstWeeks",
+    "url": "https://firstweeks.app"
+   },
+   "publisher": {
+    "@type": "Organization",
+    "name": "FirstWeeks",
+    "url": "https://firstweeks.app",
+    "logo": {
+     "@type": "ImageObject",
+     "url": "https://firstweeks.app/assets/icon.png"
+    }
+   },
+   "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://firstweeks.app/en/articles/night-shifts-for-two-parent-teams/"
+   },
+   "dateModified": "{{BUILD_DATE}}",
+   "citation": [
+    "https://medlineplus.gov/infantandnewborncare.html"
+   ]
+  }
+ },
+ {
+  "id": "a11",
+  "slug": "reading-name-like-a-dashboard",
+  "week": 11,
+  "category": "Development",
+  "seo": {
+   "title": "Reading {name} like a dashboard | FirstWeeks",
+   "description": "By now your baby broadcasts three main states — hungry, tired, overstimulated — and each has tells that show up before the crying does. Catching cues.",
+   "og_kicker": "DEVELOPMENT"
+  },
+  "read_min": 3,
+  "schema": {
+   "@context": "https://schema.org",
+   "@type": "Article",
+   "headline": "Reading {name} like a dashboard",
+   "description": "By now your baby broadcasts three main states — hungry, tired, overstimulated — and each has tells that show up before the crying does. Catching cues.",
+   "articleSection": "Development",
+   "inLanguage": "en",
+   "author": {
+    "@type": "Organization",
+    "name": "FirstWeeks",
+    "url": "https://firstweeks.app"
+   },
+   "publisher": {
+    "@type": "Organization",
+    "name": "FirstWeeks",
+    "url": "https://firstweeks.app",
+    "logo": {
+     "@type": "ImageObject",
+     "url": "https://firstweeks.app/assets/icon.png"
+    }
+   },
+   "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://firstweeks.app/en/articles/reading-name-like-a-dashboard/"
+   },
+   "dateModified": "{{BUILD_DATE}}",
+   "citation": [
+    "https://medlineplus.gov/infantandnewborncare.html"
+   ]
+  }
+ },
+ {
+  "id": "a34",
+  "slug": "overstimulation-the-reset-routine",
+  "week": 11,
+  "category": "Crying & Soothing",
+  "seo": {
+   "title": "Overstimulation: the reset routine | FirstWeeks",
+   "description": "Looking away, arching, splayed fingers, hiccups mid-play, fussing that escalates with more entertainment — commonly the signs of a sensory tank.",
+   "og_kicker": "CRYING & SOOTHING"
+  },
+  "read_min": 3,
+  "schema": {
+   "@context": "https://schema.org",
+   "@type": "Article",
+   "headline": "Overstimulation: the reset routine",
+   "description": "Looking away, arching, splayed fingers, hiccups mid-play, fussing that escalates with more entertainment — commonly the signs of a sensory tank.",
+   "articleSection": "Crying & Soothing",
+   "inLanguage": "en",
+   "author": {
+    "@type": "Organization",
+    "name": "FirstWeeks",
+    "url": "https://firstweeks.app"
+   },
+   "publisher": {
+    "@type": "Organization",
+    "name": "FirstWeeks",
+    "url": "https://firstweeks.app",
+    "logo": {
+     "@type": "ImageObject",
+     "url": "https://firstweeks.app/assets/icon.png"
+    }
+   },
+   "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://firstweeks.app/en/articles/overstimulation-the-reset-routine/"
+   },
+   "dateModified": "{{BUILD_DATE}}",
+   "citation": [
+    "https://medlineplus.gov/infantandnewborncare.html"
+   ]
+  }
+ },
+ {
+  "id": "a35",
+  "slug": "introducing-a-bottle-to-a-breastfed-baby",
+  "week": 11,
+  "category": "Feeding",
+  "seo": {
+   "title": "Introducing a bottle to a breastfed baby | FirstWeeks",
+   "description": "Commonly suggested: after breastfeeding is established (around 3–4 weeks) but before rigid preferences form (by 6–8 weeks it can get harder). Week 11.",
+   "og_kicker": "FEEDING"
+  },
+  "read_min": 3,
+  "schema": {
+   "@context": "https://schema.org",
+   "@type": "Article",
+   "headline": "Introducing a bottle to a breastfed baby",
+   "description": "Commonly suggested: after breastfeeding is established (around 3–4 weeks) but before rigid preferences form (by 6–8 weeks it can get harder). Week 11.",
+   "articleSection": "Feeding",
+   "inLanguage": "en",
+   "author": {
+    "@type": "Organization",
+    "name": "FirstWeeks",
+    "url": "https://firstweeks.app"
+   },
+   "publisher": {
+    "@type": "Organization",
+    "name": "FirstWeeks",
+    "url": "https://firstweeks.app",
+    "logo": {
+     "@type": "ImageObject",
+     "url": "https://firstweeks.app/assets/icon.png"
+    }
+   },
+   "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://firstweeks.app/en/articles/introducing-a-bottle-to-a-breastfed-baby/"
+   },
+   "dateModified": "{{BUILD_DATE}}",
+   "citation": [
+    "https://www.cdc.gov/breastfeeding/index.html"
+   ]
+  }
+ },
+ {
+  "id": "a12",
+  "slug": "the-rolling-era-a-safety-sweep",
+  "week": 12,
+  "category": "Health & Safety",
+  "seo": {
+   "title": "The rolling era: a safety sweep | FirstWeeks",
+   "description": "Somewhere between now and the next few weeks, your baby lands the first roll — usually to their own astonishment, often at the least convenient moment.",
+   "og_kicker": "HEALTH & SAFETY"
+  },
+  "read_min": 3,
+  "schema": {
+   "@context": "https://schema.org",
+   "@type": "Article",
+   "headline": "The rolling era: a safety sweep",
+   "description": "Somewhere between now and the next few weeks, your baby lands the first roll — usually to their own astonishment, often at the least convenient moment.",
+   "articleSection": "Health & Safety",
+   "inLanguage": "en",
+   "author": {
+    "@type": "Organization",
+    "name": "FirstWeeks",
+    "url": "https://firstweeks.app"
+   },
+   "publisher": {
+    "@type": "Organization",
+    "name": "FirstWeeks",
+    "url": "https://firstweeks.app",
+    "logo": {
+     "@type": "ImageObject",
+     "url": "https://firstweeks.app/assets/icon.png"
+    }
+   },
+   "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://firstweeks.app/en/articles/the-rolling-era-a-safety-sweep/"
+   },
+   "dateModified": "{{BUILD_DATE}}",
+   "citation": [
+    "https://www.cdc.gov/sids/index.html"
+   ]
+  }
+ },
+ {
+  "id": "a36",
+  "slug": "babyproofing-level-one",
+  "week": 12,
+  "category": "Health & Safety",
+  "seo": {
+   "title": "Babyproofing, level one | FirstWeeks",
+   "description": "Rolling is imminent or here, and rolling is transport. The gap between 'can't move' and 'found the one cable in the room' is commonly a single.",
+   "og_kicker": "HEALTH & SAFETY"
+  },
+  "read_min": 3,
+  "schema": {
+   "@context": "https://schema.org",
+   "@type": "Article",
+   "headline": "Babyproofing, level one",
+   "description": "Rolling is imminent or here, and rolling is transport. The gap between 'can't move' and 'found the one cable in the room' is commonly a single.",
+   "articleSection": "Health & Safety",
+   "inLanguage": "en",
+   "author": {
+    "@type": "Organization",
+    "name": "FirstWeeks",
+    "url": "https://firstweeks.app"
+   },
+   "publisher": {
+    "@type": "Organization",
+    "name": "FirstWeeks",
+    "url": "https://firstweeks.app",
+    "logo": {
+     "@type": "ImageObject",
+     "url": "https://firstweeks.app/assets/icon.png"
+    }
+   },
+   "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://firstweeks.app/en/articles/babyproofing-level-one/"
+   },
+   "dateModified": "{{BUILD_DATE}}",
+   "citation": [
+    "https://medlineplus.gov/infantandnewborncare.html"
+   ]
+  }
+ },
+ {
+  "id": "a37",
+  "slug": "dressing-for-sleep-the-sleep-sack-era",
+  "week": 12,
+  "category": "Sleep",
+  "seo": {
+   "title": "Dressing for sleep: the sleep sack era | FirstWeeks",
+   "description": "Loose blankets are off the table for safe sleep, swaddles retire when rolling starts — the wearable blanket is what remains, and it's genuinely better.",
+   "og_kicker": "SLEEP"
+  },
+  "read_min": 3,
+  "schema": {
+   "@context": "https://schema.org",
+   "@type": "Article",
+   "headline": "Dressing for sleep: the sleep sack era",
+   "description": "Loose blankets are off the table for safe sleep, swaddles retire when rolling starts — the wearable blanket is what remains, and it's genuinely better.",
+   "articleSection": "Sleep",
+   "inLanguage": "en",
+   "author": {
+    "@type": "Organization",
+    "name": "FirstWeeks",
+    "url": "https://firstweeks.app"
+   },
+   "publisher": {
+    "@type": "Organization",
+    "name": "FirstWeeks",
+    "url": "https://firstweeks.app",
+    "logo": {
+     "@type": "ImageObject",
+     "url": "https://firstweeks.app/assets/icon.png"
+    }
+   },
+   "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://firstweeks.app/en/articles/dressing-for-sleep-the-sleep-sack-era/"
+   },
+   "dateModified": "{{BUILD_DATE}}",
+   "citation": [
+    "https://www.cdc.gov/sids/index.html"
+   ]
+  }
+ },
+ {
+  "id": "a13",
+  "slug": "the-4-month-sleep-shift-read-this-early",
+  "week": 13,
+  "category": "Sleep",
+  "seo": {
+   "title": "The 4-month sleep shift: read this early | FirstWeeks",
+   "description": "Sometime in the next month or so, many babies' sleep temporarily gets messier: more night wakings, shorter naps, harder settling. It has a scary.",
+   "og_kicker": "SLEEP"
+  },
+  "read_min": 3,
+  "schema": {
+   "@context": "https://schema.org",
+   "@type": "Article",
+   "headline": "The 4-month sleep shift: read this early",
+   "description": "Sometime in the next month or so, many babies' sleep temporarily gets messier: more night wakings, shorter naps, harder settling. It has a scary.",
+   "articleSection": "Sleep",
+   "inLanguage": "en",
+   "author": {
+    "@type": "Organization",
+    "name": "FirstWeeks",
+    "url": "https://firstweeks.app"
+   },
+   "publisher": {
+    "@type": "Organization",
+    "name": "FirstWeeks",
+    "url": "https://firstweeks.app",
+    "logo": {
+     "@type": "ImageObject",
+     "url": "https://firstweeks.app/assets/icon.png"
+    }
+   },
+   "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://firstweeks.app/en/articles/the-4-month-sleep-shift-read-this-early/"
+   },
+   "dateModified": "{{BUILD_DATE}}",
+   "citation": [
+    "https://medlineplus.gov/infantandnewborncare.html"
+   ]
+  }
+ },
+ {
+  "id": "a38",
+  "slug": "wake-windows-at-the-three-month-mark",
+  "week": 13,
+  "category": "Sleep",
+  "seo": {
+   "title": "Wake windows at the three-month mark | FirstWeeks",
+   "description": "Awake windows commonly lengthen to about 75–120 minutes around three months — enough for a feed, a proper play block and a wind-down before the tank.",
+   "og_kicker": "SLEEP"
+  },
+  "read_min": 3,
+  "schema": {
+   "@context": "https://schema.org",
+   "@type": "Article",
+   "headline": "Wake windows at the three-month mark",
+   "description": "Awake windows commonly lengthen to about 75–120 minutes around three months — enough for a feed, a proper play block and a wind-down before the tank.",
+   "articleSection": "Sleep",
+   "inLanguage": "en",
+   "author": {
+    "@type": "Organization",
+    "name": "FirstWeeks",
+    "url": "https://firstweeks.app"
+   },
+   "publisher": {
+    "@type": "Organization",
+    "name": "FirstWeeks",
+    "url": "https://firstweeks.app",
+    "logo": {
+     "@type": "ImageObject",
+     "url": "https://firstweeks.app/assets/icon.png"
+    }
+   },
+   "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://firstweeks.app/en/articles/wake-windows-at-the-three-month-mark/"
+   },
+   "dateModified": "{{BUILD_DATE}}",
+   "citation": [
+    "https://medlineplus.gov/infantandnewborncare.html"
+   ]
+  }
+ },
+ {
+  "id": "a39",
+  "slug": "your-4-month-visit-prepped",
+  "week": 13,
+  "category": "Health & Safety",
+  "seo": {
+   "title": "Your 4-month visit, prepped | FirstWeeks",
+   "description": "Measurements and growth curve, the four-month milestone check (head control, pushing up, laughing, hand engagement), feeding review, sleep questions.",
+   "og_kicker": "HEALTH & SAFETY"
+  },
+  "read_min": 3,
+  "schema": {
+   "@context": "https://schema.org",
+   "@type": "Article",
+   "headline": "Your 4-month visit, prepped",
+   "description": "Measurements and growth curve, the four-month milestone check (head control, pushing up, laughing, hand engagement), feeding review, sleep questions.",
+   "articleSection": "Health & Safety",
+   "inLanguage": "en",
+   "author": {
+    "@type": "Organization",
+    "name": "FirstWeeks",
+    "url": "https://firstweeks.app"
+   },
+   "publisher": {
+    "@type": "Organization",
+    "name": "FirstWeeks",
+    "url": "https://firstweeks.app",
+    "logo": {
+     "@type": "ImageObject",
+     "url": "https://firstweeks.app/assets/icon.png"
+    }
+   },
+   "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://firstweeks.app/en/articles/your-4-month-visit-prepped/"
+   },
+   "dateModified": "{{BUILD_DATE}}",
+   "citation": [
+    "https://medlineplus.gov/infantandnewborncare.html"
+   ]
+  }
+ }
+]

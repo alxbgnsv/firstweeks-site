@@ -12,7 +12,7 @@ export const read = (p) => fs.readFileSync(path.join(ROOT, p), 'utf8');
 export const content = (name) => JSON.parse(read(`content/${name}.json`));
 
 // Inlined critical CSS (tokens + base) — one <style>, no render-blocking request.
-export const CSS = (read('src/styles/tokens.css') + '\n' + read('src/styles/base.css') + '\n' + read('src/styles/landing.css'))
+export const CSS = ['tokens', 'base', 'landing', 'checkout'].map((n) => read(`src/styles/${n}.css`)).join('\n')
   .replace(/\/\*[^]*?\*\//g, '')        // strip comments first
   .replace(/\s*\n\s*/g, '\n').trim();   // collapse blank lines (keep CSS intact)
 setCSS(CSS);
@@ -53,8 +53,10 @@ fs.mkdirSync(DIST, { recursive: true });
 // Page builders (added per commit). К1: shell + styleguide.
 const { buildStyleguide } = await import('../src/templates/styleguide.mjs');
 const { buildLanding } = await import('../src/templates/landing.mjs');
+const { buildCheckout } = await import('../src/templates/checkout.mjs');
 
 buildLanding({ emit, read, CSS });
+buildCheckout({ emit, read, CSS });
 buildStyleguide({ emit, read, CSS });
 
 // Static assets + files

@@ -1,0 +1,46 @@
+/* Checkout (mockup 02). Page layout = variant B; centered card on narrow. */
+.co-wrap { max-width: 980px; margin: 0 auto; padding: 40px 24px 80px; display: grid;
+  grid-template-columns: 1fr 1fr; gap: 40px; align-items: start; }
+.co-back { color: var(--text-2); font-size: .9rem; }
+.co-plan-h { margin-top: 18px; }
+.co-plan { background: var(--card); border: 1px solid var(--border); border-radius: 14px;
+  padding: 16px; display: grid; gap: 6px; position: relative; }
+.co-plan__price { font-size: 1.5rem; font-weight: 700; letter-spacing: -.02em; }
+.co-plan__price small { font-size: .85rem; font-weight: 500; color: var(--text-2); }
+.co-change { position: absolute; top: 16px; right: 16px; background: none; border: 0;
+  color: var(--link); font: inherit; cursor: pointer; }
+.co-due { display: flex; justify-content: space-between; align-items: baseline;
+  border-top: 1px solid var(--border); border-bottom: 1px solid var(--border);
+  padding: 14px 0; margin: 16px 0; font-size: 1.1rem; }
+.co-due b { font-weight: 700; }
+.co-benefits { list-style: none; padding: 0; margin: 0; display: grid; gap: 10px; color: var(--text-2); font-size: .95rem; }
+.co-benefits li::before { content: "✓  "; color: var(--accent); }
+
+.co-right { padding: 26px; }
+.co-stage { background: rgba(232,163,127,.12); border: 1px solid rgba(232,163,127,.3);
+  color: var(--accent); border-radius: 12px; padding: 12px 14px; font-size: .9rem; margin-bottom: 18px; }
+.co-steps { color: var(--text-3); font-size: .82rem; margin-bottom: 18px; }
+.co-steps .on { color: var(--text); font-weight: 600; }
+.co-h { font-size: 1.6rem; margin-bottom: 8px; }
+.co-field { display: block; margin: 18px 0; }
+.co-field span { display: block; font-size: .85rem; color: var(--text-2); margin-bottom: 6px; }
+.co-field input { width: 100%; background: var(--card); border: 1px solid var(--border-strong);
+  border-radius: 12px; padding: 14px; color: var(--text); font: inherit; }
+.co-fine { font-size: .82rem; margin-top: 14px; }
+.co-elements { margin: 18px 0; display: grid; gap: 10px; }
+.co-elements .kicker { display: block; }
+.co-input { background: var(--card); border: 1px solid var(--border-strong); border-radius: 12px;
+  padding: 14px; color: var(--text-2); display: flex; justify-content: space-between; }
+.co-ph { color: var(--text-3); }
+.co-row { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+.co-panel + .co-panel { margin-top: 0; }
+.co-panel--center { text-align: center; }
+.co-check { width: 56px; height: 56px; margin: 0 auto 14px; border-radius: 50%;
+  background: var(--accent); color: var(--on-accent); display: flex; align-items: center;
+  justify-content: center; font-size: 1.6rem; font-weight: 700; }
+.co-center { display: flex; justify-content: center; margin: 16px 0; }
+.co-banner { background: var(--card); border: 1px solid var(--border-strong); border-radius: 12px;
+  padding: 12px 14px; font-weight: 600; margin-bottom: 12px; }
+.co-banner--danger { background: rgba(229,72,77,.14); border-color: rgba(229,72,77,.3); color: var(--danger-text); }
+.co-panel[hidden] { display: none; }
+@media (max-width: 760px) { .co-wrap { grid-template-columns: 1fr; gap: 24px; } .co-left { order: 2; } }

@@ -1,0 +1,612 @@
+{
+ "batch": "B2",
+ "articles": [
+  {
+   "id": "a42",
+   "week": 19,
+   "slug": "sleep-training-methods-an-honest-map",
+   "title": "Sleep training methods: an honest map",
+   "category": "Sleep",
+   "read_min": 4,
+   "seo": {
+    "title": "Sleep Training Methods: An Honest Map | FirstWeeks",
+    "description": "Every major sleep training method on one map — from extinction to no-cry fading — with what research actually says and how to pick for your family.",
+    "keywords": [
+     "sleep training methods",
+     "ferber method",
+     "cry it out",
+     "gentle sleep training",
+     "when to start sleep training"
+    ],
+    "og_kicker": "SLEEP"
+   },
+   "body": [
+    {
+     "h": "First, the permission slip",
+     "p": "Sleep training is optional. Plenty of families never do it and arrive at good sleep anyway; plenty of others do it and get their evenings back sooner. Pediatric guidance treats it as a legitimate choice from roughly 4–6 months for a healthy, growing baby — not a milestone you owe anyone. If you're reading this at a functional level of tired, you can close the tab guilt-free."
+    },
+    {
+     "h": "The map, from most to least structured",
+     "p": "Unmodified extinction (\"cry it out\"): settle the routine, say goodnight, return at morning. Fastest results on average, hardest on parental nerves. Graduated extinction (the Ferber approach): timed check-ins that stretch — two minutes, five, ten — offering brief reassurance without pickup. The chair method: you sit beside the crib and move the chair farther out every few nights until you're out the door. Pick-up-put-down: comfort in arms the moment crying escalates, back down the moment calm returns, repeat with the patience of a monk. Bedtime fading: shift bedtime to when your baby is genuinely sleepy, lock in fast falling-asleep, then walk it earlier. Each rung down trades speed for gentleness — and demands more consistency stamina from you."
+    },
+    {
+     "h": "What the research actually says",
+     "p": "Controlled studies of behavioral sleep methods, including graduated extinction, show improved infant sleep and parental mood in the short term, and follow-ups have found no measurable harm to attachment, stress markers or behavior. The honest limits: most studies are small, effects fade without consistency, and no trial can measure your particular household's tolerance for crying at 1 AM. Translation: the method you can execute calmly for two straight weeks beats the theoretically superior one you'll abandon on night three."
+    },
+    {
+     "h": "The setup that makes any method work",
+     "p": "A boring, consistent bedtime routine; a dark room with white noise; an age-appropriate schedule so you're not asking an under-tired baby to perform; both caregivers agreeing on the plan before the first hard night — the mid-protest strategy meeting is where methods go to die. Start on a week with no travel, no new daycare, no incoming teeth."
+    },
+    {
+     "h": "When to check in",
+     "p": "Talk to your pediatrician first if your baby was premature, has reflux or a medical condition, or isn't gaining weight steadily — night feeds may still be genuinely needed. And if two consistent weeks change nothing at all, stop and reassess with your doctor rather than doubling down: sometimes a \"sleep problem\" is an ear infection wearing a costume."
+    }
+   ],
+   "sources": [
+    {
+     "label": "AAP — Getting Your Baby to Sleep",
+     "url": "https://www.healthychildren.org/English/ages-stages/baby/sleep/Pages/getting-your-baby-to-sleep.aspx"
+    },
+    {
+     "label": "NIH — Infant Sleep Interventions",
+     "url": "https://www.nichd.nih.gov/health/topics/sleep"
+    }
+   ],
+   "related": [
+    "the-4-month-sleep-regression-survival-guide",
+    "wake-windows-4-to-12-months",
+    "longer-nights-help-them-stick"
+   ],
+   "schema": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Sleep training methods: an honest map",
+    "description": "Every major sleep training method on one map — from extinction to no-cry fading — with what research actually says and how to pick for your family.",
+    "articleSection": "Sleep",
+    "inLanguage": "en",
+    "author": {
+     "@type": "Organization",
+     "name": "FirstWeeks",
+     "url": "https://firstweeks.app"
+    },
+    "publisher": {
+     "@type": "Organization",
+     "name": "FirstWeeks",
+     "url": "https://firstweeks.app",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://firstweeks.app/assets/icon.png"
+     }
+    },
+    "mainEntityOfPage": {
+     "@type": "WebPage",
+     "@id": "https://firstweeks.app/en/articles/sleep-training-methods-an-honest-map/"
+    },
+    "citation": [
+     "https://www.healthychildren.org/English/ages-stages/baby/sleep/Pages/getting-your-baby-to-sleep.aspx",
+     "https://www.nichd.nih.gov/health/topics/sleep"
+    ],
+    "dateModified": "{{BUILD_DATE}}"
+   }
+  },
+  {
+   "id": "a53",
+   "week": 20,
+   "slug": "rolling-sitting-crawling-the-motor-map",
+   "title": "Rolling, sitting, crawling: the motor map",
+   "category": "Development",
+   "read_min": 4,
+   "seo": {
+    "title": "Rolling, Sitting, Crawling: Baby Motor Map | FirstWeeks",
+    "description": "The typical order and age ranges for rolling, sitting, crawling and pulling to stand — why some babies skip steps, and which delays deserve a checkup.",
+    "keywords": [
+     "baby motor milestones",
+     "when do babies roll over",
+     "when do babies sit up",
+     "when do babies crawl",
+     "baby not crawling"
+    ],
+    "og_kicker": "DEVELOPMENT"
+   },
+   "body": [
+    {
+     "h": "The order matters more than the dates",
+     "p": "Gross motor development runs top-down and center-out: head control first, then trunk, then hips, then legs. That's why the sequence is fairly predictable — rolling, sitting, some form of floor travel, pulling to stand — while the dates are famously not. Two healthy babies can hit the same skill four months apart and both be exactly on schedule, because \"the schedule\" is a wide range, not a date."
+    },
+    {
+     "h": "The typical windows",
+     "p": "Rolling usually debuts between 4 and 6 months, often front-to-back first and frequently mid-diaper-change, which is why the changing table earns hawk-level supervision from month three. Independent sitting consolidates anywhere from 6 to 9 months — tripod-propped at first, then hands-free with the confident wobble of a tiny Buddha. Crawling, when it happens, tends to appear between 7 and 10 months. Pulling to stand typically follows between 8 and 12, and then the furniture becomes public transport."
+    },
+    {
+     "h": "About crawling: it's optional",
+     "p": "Crawling is the one classic milestone that isn't actually required. A healthy minority of babies skip it entirely — bottom-shuffling, rolling across rooms like logs, or commando-dragging until they simply pull up and walk. Developmental checklists care about the underlying ability — getting to a sitting position, moving deliberately toward what they want, bearing weight on legs — not about textbook hands-and-knees form. Style points don't count; locomotion does."
+    },
+    {
+     "h": "How to help without a curriculum",
+     "p": "Floor time beats every gadget: a firm safe surface, bare feet, interesting objects placed just out of reach, and time. Containers — swings, bouncers, standers — are fine for a parent's shower but cap them; babies build motor skills by fighting gravity, and a container fights it for them. Once rolling starts, drop the crib mattress and re-sweep the floor at baby altitude."
+    },
+    {
+     "h": "When to check in",
+     "p": "Bring it to your pediatrician if your baby isn't rolling in either direction by about 6 months, can't sit even with support by 9, bears no weight on legs when held standing by 12 — or if anything is persistently one-sided: always rolling one way, dragging one leg, one hand doing all the work. Asymmetry is a better reason for a visit than lateness, and early evaluation is cheap reassurance either way."
+    }
+   ],
+   "sources": [
+    {
+     "label": "CDC — Developmental Milestones",
+     "url": "https://www.cdc.gov/act-early/milestones/index.html"
+    },
+    {
+     "label": "AAP — Movement Milestones",
+     "url": "https://www.healthychildren.org/English/ages-stages/baby/Pages/Movement-4-to-7-Months.aspx"
+    }
+   ],
+   "related": [
+    "the-rolling-era-a-safety-sweep",
+    "tummy-time-troubleshooting",
+    "babyproofing-level-one"
+   ],
+   "schema": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Rolling, sitting, crawling: the motor map",
+    "description": "The typical order and age ranges for rolling, sitting, crawling and pulling to stand — why some babies skip steps, and which delays deserve a checkup.",
+    "articleSection": "Development",
+    "inLanguage": "en",
+    "author": {
+     "@type": "Organization",
+     "name": "FirstWeeks",
+     "url": "https://firstweeks.app"
+    },
+    "publisher": {
+     "@type": "Organization",
+     "name": "FirstWeeks",
+     "url": "https://firstweeks.app",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://firstweeks.app/assets/icon.png"
+     }
+    },
+    "mainEntityOfPage": {
+     "@type": "WebPage",
+     "@id": "https://firstweeks.app/en/articles/rolling-sitting-crawling-the-motor-map/"
+    },
+    "citation": [
+     "https://www.cdc.gov/act-early/milestones/index.html",
+     "https://www.healthychildren.org/English/ages-stages/baby/Pages/Movement-4-to-7-Months.aspx"
+    ],
+    "dateModified": "{{BUILD_DATE}}"
+   }
+  },
+  {
+   "id": "a60",
+   "week": 31,
+   "slug": "baby-fevers-by-age-a-clear-protocol",
+   "title": "Baby fevers by age: a clear protocol",
+   "category": "Health & Safety",
+   "read_min": 4,
+   "seo": {
+    "title": "Baby Fever by Age: A Clear Protocol | FirstWeeks",
+    "description": "What counts as a fever, which numbers demand a same-day call at each age, safe medicine rules, and the red flags that skip the phone and go to the ER.",
+    "keywords": [
+     "baby fever what to do",
+     "fever in babies by age",
+     "when to call doctor baby fever",
+     "infant fever 100.4",
+     "baby fever medicine"
+    ],
+    "og_kicker": "HEALTH & SAFETY"
+   },
+   "body": [
+    {
+     "h": "One number to memorize",
+     "p": "A fever is a rectal temperature of 100.4 °F (38 °C) or higher — and in a baby under 12 weeks, that number is a same-day medical evaluation, full stop, even if the baby looks fine. Young infants can carry serious infections behind a calm face, so this is the one age where the thermometer outranks the vibe. Rectal readings are the standard for accuracy in the first months; whatever device you use, log the number, the method and the time."
+    },
+    {
+     "h": "After 3 months: the baby outranks the number",
+     "p": "Once past the newborn window, behavior becomes the better instrument. From roughly 3 to 6 months, call your pediatrician for 102 °F (38.9 °C) and up, or for any fever with unusual sleepiness or irritability. Past 6 months, a cheerful, drinking, playing baby with 102 is generally less worrying than a listless one with 100.8. Fever is the immune system doing its job — height correlates poorly with severity, and how your baby acts once the temperature dips is the most useful reading you'll take."
+    },
+    {
+     "h": "Treating: comfort, not zero",
+     "p": "The goal of fever medicine is a more comfortable baby, not a normal number on the display. Acetaminophen is the option in the early months (dosed strictly by weight and your pediatrician's chart); ibuprofen joins the toolkit after 6 months. Never aspirin for anyone under 18 — Reye's syndrome risk. Skip the folk remedies: no alcohol rubs, no ice baths, no bundling to \"sweat it out.\" Lightweight clothing, ordinary room temperature, and fluids on repeat — hydration matters more than any half-degree."
+    },
+    {
+     "h": "Straight to emergency care",
+     "p": "Skip the phone queue and seek emergency help for: trouble breathing; a baby who is limp, unresponsive or impossible to wake; a bulging soft spot; a purple pinpoint rash that doesn't fade when pressed; signs of dehydration such as no wet diapers for many hours; a first seizure; or fever with persistent inconsolable crying. Brief febrile seizures, terrifying as they look, are usually not damaging — but the first one always earns a medical evaluation the same day."
+    },
+    {
+     "h": "The log is half the visit",
+     "p": "\"Fever since Tuesday evening, peaked 102.6 rectal, acetaminophen at 2 PM, drinking well, four wet diapers\" gets better medicine than \"she's been hot.\" Track temperatures with times and doses — the pattern across a day tells a clinician more than any single reading."
+    }
+   ],
+   "sources": [
+    {
+     "label": "AAP — Fever and Your Baby",
+     "url": "https://www.healthychildren.org/English/health-issues/conditions/fever/Pages/default.aspx"
+    },
+    {
+     "label": "MedlinePlus — Fever in Infants",
+     "url": "https://medlineplus.gov/fever.html"
+    }
+   ],
+   "related": [
+    "teething-timeline-and-what-actually-helps",
+    "vaccine-day-without-the-dread",
+    "after-the-shots-a-reading-guide"
+   ],
+   "schema": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Baby fevers by age: a clear protocol",
+    "description": "What counts as a fever, which numbers demand a same-day call at each age, safe medicine rules, and the red flags that skip the phone and go to the ER.",
+    "articleSection": "Health & Safety",
+    "inLanguage": "en",
+    "author": {
+     "@type": "Organization",
+     "name": "FirstWeeks",
+     "url": "https://firstweeks.app"
+    },
+    "publisher": {
+     "@type": "Organization",
+     "name": "FirstWeeks",
+     "url": "https://firstweeks.app",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://firstweeks.app/assets/icon.png"
+     }
+    },
+    "mainEntityOfPage": {
+     "@type": "WebPage",
+     "@id": "https://firstweeks.app/en/articles/baby-fevers-by-age-a-clear-protocol/"
+    },
+    "citation": [
+     "https://www.healthychildren.org/English/health-issues/conditions/fever/Pages/default.aspx",
+     "https://medlineplus.gov/fever.html"
+    ],
+    "dateModified": "{{BUILD_DATE}}"
+   }
+  },
+  {
+   "id": "a43",
+   "week": 30,
+   "slug": "the-3-to-2-nap-transition",
+   "title": "The 3-to-2 nap transition",
+   "category": "Sleep",
+   "read_min": 3,
+   "seo": {
+    "title": "The 3-to-2 Nap Transition: When & How | FirstWeeks",
+    "description": "Signs your baby is ready to drop the third nap, a realistic two-nap day, and how to bridge the messy in-between weeks without wrecking bedtime.",
+    "keywords": [
+     "3 to 2 nap transition",
+     "when do babies drop to 2 naps",
+     "third nap",
+     "baby nap schedule 7 months",
+     "dropping a nap"
+    ],
+    "og_kicker": "SLEEP"
+   },
+   "body": [
+    {
+     "h": "When it usually happens",
+     "p": "Most babies consolidate from three naps to two somewhere between 6 and 9 months — the third catnap of the day starts getting refused, or it happens but pushes bedtime into the night shift. Like every sleep transition, it arrives gradually and messily: expect two or three weeks where some days are three-nap days and some are two, and both are correct."
+    },
+    {
+     "h": "The readiness signs",
+     "p": "The classic tell is the late-afternoon nap fight: baby clearly needs the third nap by the clock but treats the offer as beneath consideration, or takes it so late that bedtime slides past a reasonable hour. Other signs: the first two naps have organized themselves into solid stretches of an hour or more, wake windows have stretched toward 2.5–3 hours, and night sleep is getting choppy after days that contained too much daytime sleep. One rough afternoon proves nothing; a two-week pattern is a memo."
+    },
+    {
+     "h": "The shape of a two-nap day",
+     "p": "The destination looks roughly like: wake, a morning nap starting mid-morning, an early-afternoon nap, then a longer final stretch to bedtime — windows around 2.5 / 3 / 3–3.5 hours, adjusted to your actual baby. During the bridge weeks, use the escape hatches: an earlier bedtime by 30–45 minutes on two-nap days that ran out of fuel, a rescue catnap (even 20 minutes in the stroller) on days that fell apart, and no heroics about consistency until the new rhythm claims the majority of days."
+    },
+    {
+     "h": "What not to conclude",
+     "p": "A few refused naps during a leap, a cold or travel is not the transition — it's a bad week. Dropping to two naps too early tends to produce an overtired baby who ironically sleeps worse at night. When in doubt, keep offering the third nap with zero pressure: transitions you don't force have a way of completing themselves."
+    },
+    {
+     "h": "When to check in",
+     "p": "If day sleep collapses for weeks, your baby seems exhausted regardless of schedule, or loud snoring and labored breathing are part of the picture, bring the sleep log to your pediatrician — schedule problems and medical problems can wear the same disguise."
+    }
+   ],
+   "sources": [
+    {
+     "label": "AAP — Healthy Sleep Habits",
+     "url": "https://www.healthychildren.org/English/healthy-living/sleep/Pages/Healthy-Sleep-Habits-How-Many-Hours-Does-Your-Child-Need.aspx"
+    }
+   ],
+   "related": [
+    "wake-windows-4-to-12-months",
+    "daytime-naps-a-loose-rhythm-emerges",
+    "the-8-to-10-month-sleep-regression"
+   ],
+   "schema": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "The 3-to-2 nap transition",
+    "description": "Signs your baby is ready to drop the third nap, a realistic two-nap day, and how to bridge the messy in-between weeks without wrecking bedtime.",
+    "articleSection": "Sleep",
+    "inLanguage": "en",
+    "author": {
+     "@type": "Organization",
+     "name": "FirstWeeks",
+     "url": "https://firstweeks.app"
+    },
+    "publisher": {
+     "@type": "Organization",
+     "name": "FirstWeeks",
+     "url": "https://firstweeks.app",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://firstweeks.app/assets/icon.png"
+     }
+    },
+    "mainEntityOfPage": {
+     "@type": "WebPage",
+     "@id": "https://firstweeks.app/en/articles/the-3-to-2-nap-transition/"
+    },
+    "citation": [
+     "https://www.healthychildren.org/English/healthy-living/sleep/Pages/Healthy-Sleep-Habits-How-Many-Hours-Does-Your-Child-Need.aspx"
+    ],
+    "dateModified": "{{BUILD_DATE}}"
+   }
+  },
+  {
+   "id": "a54",
+   "week": 29,
+   "slug": "babble-to-first-words-the-language-runway",
+   "title": "Babble to first words: the language runway",
+   "category": "Development",
+   "read_min": 4,
+   "seo": {
+    "title": "Babble to First Words: Language Runway | FirstWeeks",
+    "description": "How babble becomes words: the typical sequence from cooing to \"mama,\" what genuinely builds language, and which quiet signs deserve a hearing check.",
+    "keywords": [
+     "when do babies talk",
+     "baby babbling stages",
+     "first words age",
+     "how to encourage baby to talk",
+     "baby not babbling"
+    ],
+    "og_kicker": "DEVELOPMENT"
+   },
+   "body": [
+    {
+     "h": "The runway, stage by stage",
+     "p": "Language taxis long before takeoff. Cooing — open vowel sounds — starts around 2–3 months. By 4–6 months the sound lab expands: squeals, raspberries, experimental volume. Somewhere between 6 and 9 months comes the milestone linguists actually watch for: canonical babbling, real consonant-vowel syllables repeated in runs — \"bababa,\" \"dadada.\" Around 9–12 months babble takes on the melody of sentences (jargon), gestures arrive — pointing, waving, arms-up — and then, typically near the first birthday, a sound gets reliably attached to a meaning. That's a word, even if only the family dialect recognizes it."
+    },
+    {
+     "h": "\"Mama\" fine print",
+     "p": "Early \"mamama\" and \"dadada\" are sound play, not billing statements — babies drill the easiest syllables regardless of who's in the room. The upgrade to a true word happens when the sound points at something consistently: \"dada\" said while looking at dada, day after day. Expect understanding to run far ahead of speaking all through this stretch — responding to their own name by around 9 months, following simple phrases like \"come here\" before saying much of anything."
+    },
+    {
+     "h": "What actually builds language",
+     "p": "Conversation, not curriculum. The serve-and-return pattern — baby makes a sound, you answer, pause, let them take another turn — is the single best-documented driver. Narrate the ordinary (\"pouring the water... cold!\"), read daily and let them chew the book a little, name what they point at within the second, and keep background TV low: ambient noise crowds out exactly the exchanges that teach. No flashcards required; the dishwasher commentary is the flashcards."
+    },
+    {
+     "h": "When to check in",
+     "p": "Raise it with your pediatrician if there's no babbling at all by 9–10 months, no response to their own name by around 9 months, no gestures like pointing or waving by 12, or if babble appeared and then faded. And any suspicion about hearing — no startle at loud sounds, no turn toward your voice — deserves a hearing test promptly at any age, even with a passed newborn screen: hearing is the runway everything else takes off from."
+    },
+    {
+     "h": "The reassuring baseline",
+     "p": "The normal range here is vast, quiet babies often understand plenty, and most late-ish babblers land in the typical range by two. Checking early isn't pessimism — it's how the rare genuine issue gets the head start that changes outcomes."
+    }
+   ],
+   "sources": [
+    {
+     "label": "CDC — Developmental Milestones",
+     "url": "https://www.cdc.gov/act-early/milestones/index.html"
+    },
+    {
+     "label": "NIH/NIDCD — Speech and Language Milestones",
+     "url": "https://www.nidcd.nih.gov/health/speech-and-language"
+    }
+   ],
+   "related": [
+    "coos-squeals-and-the-language-project",
+    "screens-and-tiny-humans",
+    "separation-anxiety-a-good-sign-that-feels-bad"
+   ],
+   "schema": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Babble to first words: the language runway",
+    "description": "How babble becomes words: the typical sequence from cooing to \"mama,\" what genuinely builds language, and which quiet signs deserve a hearing check.",
+    "articleSection": "Development",
+    "inLanguage": "en",
+    "author": {
+     "@type": "Organization",
+     "name": "FirstWeeks",
+     "url": "https://firstweeks.app"
+    },
+    "publisher": {
+     "@type": "Organization",
+     "name": "FirstWeeks",
+     "url": "https://firstweeks.app",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://firstweeks.app/assets/icon.png"
+     }
+    },
+    "mainEntityOfPage": {
+     "@type": "WebPage",
+     "@id": "https://firstweeks.app/en/articles/babble-to-first-words-the-language-runway/"
+    },
+    "citation": [
+     "https://www.cdc.gov/act-early/milestones/index.html",
+     "https://www.nidcd.nih.gov/health/speech-and-language"
+    ],
+    "dateModified": "{{BUILD_DATE}}"
+   }
+  },
+  {
+   "id": "a50",
+   "week": 33,
+   "slug": "baby-led-weaning-vs-purees-truce",
+   "title": "Baby-led weaning vs purées: a truce",
+   "category": "Feeding",
+   "read_min": 3,
+   "seo": {
+    "title": "Baby-Led Weaning vs Purees: A Truce | FirstWeeks",
+    "description": "BLW or purées? What studies actually show about growth and choking, why the either-or framing is wrong, and how most families quietly do both.",
+    "keywords": [
+     "baby led weaning vs purees",
+     "blw or purees",
+     "combination feeding solids",
+     "baby led weaning safety",
+     "how to start baby led weaning"
+    ],
+    "og_kicker": "FEEDING"
+   },
+   "body": [
+    {
+     "h": "The war nobody needed",
+     "p": "Feeding forums frame it as a doctrine choice: spoon-fed purées, graduating textures on a schedule — or baby-led weaning, where the baby self-feeds soft finger foods from day one and the spoon is contraband. In actual kitchens, the border is fiction: surveys keep finding that a large share of families mix approaches, and no major pediatric body mandates either camp. The menu is a method; the goals — iron, textures, self-regulation, safety — are the point."
+    },
+    {
+     "h": "What studies actually show",
+     "p": "Trials comparing approaches, including the BLISS randomized study, found no meaningful differences in growth or in choking risk when self-feeding followed safety guidance — appropriate food shapes, seated eating, supervision. BLW families report earlier self-feeding and less mealtime friction; purée-first families get easier iron delivery and tidier data on quantities. Both roads reach the same toddler eating lasagna off the floor."
+    },
+    {
+     "h": "A sane hybrid",
+     "p": "Offer soft graspable pieces your baby can squish between your fingers — steamed carrot batons, banana spears, toast strips — alongside iron-rich purées served on a preloaded spoon they can steer themselves. Responsive feeding is the common law of both camps: baby decides how much and whether; you decide what and when. Progress textures within weeks rather than months — long all-smooth eras make lumps harder later — and eat something yourself at the same table; imitation is the strongest seasoning."
+    },
+    {
+     "h": "Non-negotiables in every camp",
+     "p": "Seated upright, never reclining or on the move; adult eyes on; no choking-shaped foods (whole grapes, nuts, hard raw vegetables, hot-dog rounds); no honey before one; milk feeds still carry the calories for months. And know gagging from choking cold — loud and red means the safety system is working, silent means act."
+    },
+    {
+     "h": "When to check in",
+     "p": "If your baby refuses nearly all textures past 8–9 months, gags to vomiting at most meals, or drops off their growth curve, bring the feeding log to your pediatrician. Method debates are for forums; a plateauing weight line is for a professional."
+    }
+   ],
+   "sources": [
+    {
+     "label": "AAP — Starting Solid Foods",
+     "url": "https://www.healthychildren.org/English/ages-stages/baby/feeding-nutrition/Pages/Starting-Solid-Foods.aspx"
+    },
+    {
+     "label": "CDC — Fingers Foods & Textures",
+     "url": "https://www.cdc.gov/infant-toddler-nutrition/foods-and-drinks/finger-foods.html"
+    }
+   ],
+   "related": [
+    "starting-solids-the-readiness-checklist",
+    "gagging-vs-choking-know-the-difference",
+    "first-foods-and-allergens-without-fear"
+   ],
+   "schema": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Baby-led weaning vs purées: a truce",
+    "description": "BLW or purées? What studies actually show about growth and choking, why the either-or framing is wrong, and how most families quietly do both.",
+    "articleSection": "Feeding",
+    "inLanguage": "en",
+    "author": {
+     "@type": "Organization",
+     "name": "FirstWeeks",
+     "url": "https://firstweeks.app"
+    },
+    "publisher": {
+     "@type": "Organization",
+     "name": "FirstWeeks",
+     "url": "https://firstweeks.app",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://firstweeks.app/assets/icon.png"
+     }
+    },
+    "mainEntityOfPage": {
+     "@type": "WebPage",
+     "@id": "https://firstweeks.app/en/articles/baby-led-weaning-vs-purees-truce/"
+    },
+    "citation": [
+     "https://www.healthychildren.org/English/ages-stages/baby/feeding-nutrition/Pages/Starting-Solid-Foods.aspx",
+     "https://www.cdc.gov/infant-toddler-nutrition/foods-and-drinks/finger-foods.html"
+    ],
+    "dateModified": "{{BUILD_DATE}}"
+   }
+  },
+  {
+   "id": "a55",
+   "week": 35,
+   "slug": "separation-anxiety-a-good-sign-that-feels-bad",
+   "title": "Separation anxiety: a good sign that feels bad",
+   "category": "Development",
+   "read_min": 3,
+   "seo": {
+    "title": "Baby Separation Anxiety: A Good Sign | FirstWeeks",
+    "description": "Why separation anxiety appears around 8 months, why it means memory is working, and the goodbye routine that shortens the tears — yours and theirs.",
+    "keywords": [
+     "baby separation anxiety",
+     "separation anxiety 8 months",
+     "baby cries when i leave",
+     "stranger anxiety baby",
+     "daycare drop off crying"
+    ],
+    "og_kicker": "DEVELOPMENT"
+   },
+   "body": [
+    {
+     "h": "What changed overnight",
+     "p": "The baby who beamed at every stranger now welds to your leg at drop-off and treats your bathroom breaks as abandonment. Typical onset is around 6–9 months, often peaking in waves between 10 and 18. Here's the upside-down truth: it's a cognitive graduation. Your baby has developed object permanence — the understanding that things keep existing out of sight — which means they now know you exist somewhere else and can't yet grasp \"back in five minutes.\" The tears are proof of a working memory and a formed attachment. Wonderful theory; loud practice."
+    },
+    {
+     "h": "The goodbye that actually helps",
+     "p": "Short, warm, predictable, honest. A tiny ritual — hug, a set phrase like \"kiss, wave, I always come back,\" hand-off to a familiar adult, exit. No sneaking out: it saves one hard minute today and spends trust for months, because now you might vanish at any time. No laps back for one more soothe: each return teaches that enough crying rewinds the goodbye. The crying after a good handoff typically fades within minutes — ask the caregiver to text you the timestamp; the data is usually kinder than your imagination."
+    },
+    {
+     "h": "Home training, disguised as games",
+     "p": "Peek-a-boo is separation rehearsal at the lowest possible stakes. Narrated micro-departures build the same muscle: announce \"getting a towel, right back,\" leave the room, return on schedule. Repetition writes the rule they can't yet reason to: gone is temporary. Practice new caregivers in short doses on home turf before the first long shift, and keep drop-off timing away from peak tired or hungry when you can."
+    },
+    {
+     "h": "When to check in",
+     "p": "Mention it to your pediatrician if distress isn't easing at all after weeks of consistent routine, if a settled baby suddenly regresses hard without an obvious trigger like illness or a move, or if separation fear comes packaged with loss of other skills. And if drop-offs are wrecking you more than the baby — worth saying out loud to someone too; caregiver guilt is the least discussed symptom of a completely typical phase."
+    }
+   ],
+   "sources": [
+    {
+     "label": "AAP — Separation Anxiety",
+     "url": "https://www.healthychildren.org/English/ages-stages/toddler/Pages/Soothing-Your-Childs-Separation-Anxiety.aspx"
+    },
+    {
+     "label": "CDC — Social-Emotional Milestones",
+     "url": "https://www.cdc.gov/act-early/milestones/index.html"
+    }
+   ],
+   "related": [
+    "babble-to-first-words-the-language-runway",
+    "overstimulation-the-reset-routine",
+    "night-shifts-for-two-parent-teams"
+   ],
+   "schema": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Separation anxiety: a good sign that feels bad",
+    "description": "Why separation anxiety appears around 8 months, why it means memory is working, and the goodbye routine that shortens the tears — yours and theirs.",
+    "articleSection": "Development",
+    "inLanguage": "en",
+    "author": {
+     "@type": "Organization",
+     "name": "FirstWeeks",
+     "url": "https://firstweeks.app"
+    },
+    "publisher": {
+     "@type": "Organization",
+     "name": "FirstWeeks",
+     "url": "https://firstweeks.app",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://firstweeks.app/assets/icon.png"
+     }
+    },
+    "mainEntityOfPage": {
+     "@type": "WebPage",
+     "@id": "https://firstweeks.app/en/articles/separation-anxiety-a-good-sign-that-feels-bad/"
+    },
+    "citation": [
+     "https://www.healthychildren.org/English/ages-stages/toddler/Pages/Soothing-Your-Childs-Separation-Anxiety.aspx",
+     "https://www.cdc.gov/act-early/milestones/index.html"
+    ],
+    "dateModified": "{{BUILD_DATE}}"
+   }
+  }
+ ]
+}
