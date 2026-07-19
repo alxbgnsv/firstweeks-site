@@ -118,6 +118,7 @@ p { margin: 0 0 1em; }
   padding: 4px 10px; border-radius: 999px; }
 .badge--save { background: var(--accent); color: var(--on-accent); }
 .badge--danger { background: rgba(229,72,77,.16); color: var(--danger-text); text-transform: uppercase; }
+.badge--calm { background: var(--tint); color: var(--accent-ink); text-transform: uppercase; }
 .source-badge { color: var(--link); font-size: .82rem; }
 .source-badge::after { content: " ↗"; }
 

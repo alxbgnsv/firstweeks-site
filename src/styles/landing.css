@@ -42,11 +42,12 @@
 .guidance { display: block; margin-top: 40px; }
 .trust__sources { letter-spacing: .1em; color: var(--text-2); font-weight: 600; }
 
-/* Red-flag — two-column: heading left, red-bordered card right */
+/* Reassurance — two-column: heading left, calm neutral card right */
 .redflag { display: grid; grid-template-columns: 1fr 560px; gap: 64px; align-items: center; max-width: none; }
 .redflag__lead { max-width: 46ch; }
-.redflag__card { border: 1px solid var(--danger-border); border-radius: 20px; padding: 28px 32px; background: var(--card); display: grid; gap: 12px; }
+.redflag__card { border: 1px solid var(--border-strong); border-radius: 20px; padding: 28px 32px; background: var(--card); display: grid; gap: 12px; }
 .redflag__q { font-weight: 600; margin: 0; font-size: 1.05rem; }
+.redflag__src { font-size: .82rem; color: var(--label); margin: 0; }
 
 /* Pricing extras */
 .freeforever { margin: 30px 0 0; }

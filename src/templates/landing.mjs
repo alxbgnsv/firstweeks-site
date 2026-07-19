@@ -81,17 +81,18 @@ ${asks.map((a, i) => `<div class="ask-answer" id="askans-${i}" role="tabpanel" a
 </div>`).join('')}
 </div></div></section>`;
 
-  // --- Red-flag (emotion / trust) — two-column, red-bordered card
+  // --- Reassurance — common calm scenario (spit-up), full range of the answer,
+  //     neutral warm card (not danger red). Calm marker instead of "Needs a doctor".
   const redflag = `<section class="section"><div class="wrap redflag">
 <div class="redflag__intro">
-<h2>When it’s serious, we say so</h2>
-<p class="muted redflag__lead">No false reassurance. FirstWeeks knows the red-flag thresholds from pediatric guidance — and tells you plainly when something needs a doctor, not an app.</p>
+<h2>Reassuring when it should be — clear when it shouldn’t</h2>
+<p class="muted redflag__lead">Most of the time the honest answer is “this is normal” — and we say that plainly. When something genuinely needs a doctor, we say that just as plainly.</p>
 </div>
 <div class="redflag__card">
-<p class="redflag__q">“She’s 3 weeks old and her rectal temp is 100.6 °F”</p>
-<span class="badge badge--danger">Needs a doctor now</span>
-<p>A rectal temperature of 100.4 °F (38 °C) or higher in a baby under 12 weeks always needs same-day medical attention. Call your pediatrician now — if you can’t reach them, go to urgent care or the ER.</p>
-<p class="source-badge">Sources: AAP guidance</p>
+<p class="redflag__q">“She spits up after every feed — should I worry?”</p>
+<span class="badge badge--calm">Usually normal</span>
+<p>Frequent spit-up is usually normal — many babies do it daily and outgrow it. It’s likely fine if she’s gaining weight, feeding well, and content. Worth a same-day call if you see forceful vomiting, green or bloody spit-up, poor weight gain, or fewer wet diapers.</p>
+<p class="redflag__src">Reflects AAP guidance · not a diagnosis</p>
 </div></div></section>`;
 
   // --- Pricing (#pricing)
