@@ -15,7 +15,7 @@
 .skill-list { list-style: none; padding: 0; }
 .skill-list li { margin-bottom: 12px; }
 .skill-range { display: inline-block; font-size: .72rem; font-weight: 700; letter-spacing: .04em;
-  color: var(--accent); border: 1px solid rgba(232,163,127,.4); border-radius: 999px; padding: 1px 8px; margin-right: 6px; }
+  color: var(--accent-ink); border: 1px solid rgba(168,88,51,.5); border-radius: 999px; padding: 1px 8px; margin-right: 6px; }
 .skill-note { font-size: .95rem; margin-top: 10px; }
 
 .week-reads .kicker, .week-ex h2 { display: block; margin-top: 1.4em; }
@@ -27,7 +27,7 @@
 .art-card { display: grid; gap: 6px; padding: 20px; border: 1px solid var(--border); border-radius: 16px;
   background: var(--card); color: var(--text); position: relative; }
 .art-card:hover { border-color: var(--accent); color: var(--text); }
-.art-card .kicker { color: var(--accent); }
+.art-card .kicker { color: var(--accent-ink); }
 .art-min { position: absolute; top: 20px; right: 20px; color: var(--text-3); font-size: .82rem; }
 .art-title { font-weight: 700; font-size: 1.05rem; letter-spacing: -.01em; }
 .art-teaser { font-size: .92rem; }
@@ -42,7 +42,7 @@
 .rel-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; margin-top: 12px; }
 .rel-card { display: grid; gap: 6px; padding: 16px; border: 1px solid var(--border); border-radius: 14px; background: var(--card); color: var(--text); }
 .rel-card:hover { border-color: var(--accent); color: var(--text); }
-.rel-card .kicker { color: var(--accent); }
+.rel-card .kicker { color: var(--accent-ink); }
 .rel-title { font-weight: 600; }
 .rel-card--hub { align-content: center; }
 @media (max-width: 640px) { .rel-grid { grid-template-columns: 1fr; } }
@@ -64,3 +64,10 @@
 
 /* Content-page CTA inserts use accent link color in light theme automatically. */
 .cta-text { color: var(--link); }
+
+/* In-text links carry an underline so they aren't distinguished by colour alone
+   (WCAG "use of color" / Lighthouse link-in-text-block). Card/nav links, which
+   are block targets with their own borders, are exempt. */
+.reading p a, .sources a, .faq details a, .draft-note a, .cta-text,
+.contact-card p a, .co-fine a, .crumbs a, .linklist a, .week-nav a, .week-foot a {
+  text-decoration: underline; text-underline-offset: 2px; }

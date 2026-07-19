@@ -140,6 +140,7 @@ ${[
     path: '/',
     ogImage: `${site.origin}/og/home.png`,
     jsonld: [orgLD, appLD, faqLD],
+    preload: [{ href: '/assets/scr-today.webp', as: 'image', type: 'image/webp', fetchpriority: 'high' }],
   };
   emit('/', page({ meta, body, scripts: ['/js/landing.js'], stickyCTA: true }));
 }
@@ -150,7 +151,7 @@ function heroCrossfade() {
   const alts = ['Today — weekly guidance', 'Ask — answer with sources', 'Feed logging', 'Skills to watch'];
   return `<div class="iphone hero-frame"><div class="iphone__screen">
 <picture><source srcset="/assets/scr-today.webp" type="image/webp">
-<img src="/assets/scr-today.png" width="1206" height="2478" alt="FirstWeeks app" fetchpriority="high" decoding="async" class="hero-base"></picture>
-${layers.map((s, i) => `<img src="/assets/${s}.webp" width="1206" height="2478" alt="${esc(alts[i])}" class="hero-layer hero-layer--${i}" aria-hidden="true" decoding="async">`).join('')}
+<img src="/assets/scr-today.png" width="1206" height="2478" alt="FirstWeeks app" fetchpriority="high" class="hero-base"></picture>
+${layers.map((s, i) => `<img src="/assets/${s}.webp" width="1206" height="2478" alt="${esc(alts[i])}" class="hero-layer hero-layer--${i}" aria-hidden="true" decoding="async" loading="lazy" fetchpriority="low">`).join('')}
 </div></div>`;
 }

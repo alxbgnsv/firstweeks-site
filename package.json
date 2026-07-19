@@ -8,10 +8,13 @@
     "build": "node tools/build.mjs",
     "images": "node tools/gen-images.mjs",
     "og": "node tools/gen-og.mjs",
+    "lh": "node tools/lighthouse.mjs",
     "serve": "node --watch tools/build.mjs || true; python3 -m http.server 8930 --directory dist",
     "dev": "node tools/build.mjs && python3 -m http.server 8930 --directory dist"
   },
   "devDependencies": {
+    "chrome-launcher": "^1.2.1",
+    "lighthouse": "^13.4.0",
     "sharp": "^0.33.0"
   }
 }

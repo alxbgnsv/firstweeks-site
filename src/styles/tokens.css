@@ -8,8 +8,9 @@
   --border-strong: rgba(235,235,245,.12);
   --text: #EBEBF5;
   --text-2: rgba(235,235,245,.60);
-  --text-3: rgba(235,235,245,.35);
+  --text-3: rgba(235,235,245,.55);  /* AA on dark bg (5.4:1) */
   --accent: #E8A37F;
+  --accent-ink: #E8A37F;  /* accent used as TEXT — same as accent on dark (AA-safe) */
   --on-accent: #2A150B;
   --link: #0A84FF;
   --link-hover: #3D9DFF;
@@ -31,11 +32,12 @@
   --border: rgba(32,27,22,.10);
   --border-strong: rgba(32,27,22,.12);
   --text: #201B16;
-  --text-2: #6E655C;
-  --text-3: #8A7E70;
-  --accent: #E8A37F;
+  --text-2: #6E655C;      /* AA on paper (5.3:1) */
+  --text-3: #76695B;      /* darkened for AA (4.95:1) */
+  --accent: #E8A37F;      /* decorative only on light (borders, dots, badges) */
+  --accent-ink: #A85833;  /* accent as TEXT on paper — AA (4.75:1) */
   --on-accent: #2A150B;
-  --link: #B4622F;        /* content deep accent */
+  --link: #9C4F2C;        /* content deep accent — AA on paper (5.47:1) */
   --link-hover: #8f4d24;
   --danger: #C0362B;
   --danger-text: #B4291E;

@@ -17,7 +17,7 @@ p { margin: 0 0 1em; }
 .wrap { max-width: var(--maxw); margin: 0 auto; padding: 0 24px; }
 .section { padding: 72px 0; }
 .section--alt { background: var(--bg-alt); }
-.kicker { font-size: .8rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: var(--accent); }
+.kicker { font-size: .8rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: var(--accent-ink); }
 .muted { color: var(--text-2); }
 .eyebrow { color: var(--text-3); font-size: .82rem; }
 .center { text-align: center; }
