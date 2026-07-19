@@ -54,7 +54,7 @@ export function buildLanding({ emit, read }) {
   const steps = [
     ['STEP 1', 'Track in one tap', 'Sleep, feeds, diapers — logged in seconds, one-handed, at 3 AM.', 'scr-tracker', 'Tracker — one-tap logging'],
     ['STEP 2', 'Ask what it means', 'Plain questions, calm answers — with sources you can check.', 'scr-ask', 'Ask — answer with sources'],
-    ['STEP 3', 'Get answers that know your baby', 'Every answer accounts for your baby’s age and what you’ve logged.', 'scr-today', 'Today — week-by-week guidance'],
+    ['STEP 3', 'Answers that know your baby', 'Every answer fits your baby’s age and logs.', 'scr-today', 'Today — week-by-week guidance'],
   ];
   const how = `<section class="section"><div class="wrap">
 <h2 class="center">How it works</h2>
