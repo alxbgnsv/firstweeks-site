@@ -1,0 +1,20 @@
+[
+ {
+  "q": "She’s been fussy all evening — is this normal?",
+  "a": "Evening fussiness is very common at 5 weeks — crying tends to peak around weeks 4–6, often in the evening. Her feeds and sleep from your log look typical for her age. Try skin-to-skin, gentle motion or a quieter room. If she’s inconsolable for hours, feels hot or refuses to feed, check in with your pediatrician.",
+  "src": "MedlinePlus",
+  "ctx": "age 5 weeks · sleep last 24 h · evening feeds"
+ },
+ {
+  "q": "Is an occasional green diaper okay?",
+  "a": "Usually yes at this age — an occasional green stool often just reflects how fast milk is moving through. Frequent green stools with fussiness can point to a foremilk/hindmilk imbalance worth adjusting. Red streaks or white, clay-colored stools are different — those are worth a call to your pediatrician.",
+  "src": "AAP guidance",
+  "ctx": "age 5 weeks · 4 diapers logged today"
+ },
+ {
+  "q": "How long should she sleep at night now?",
+  "a": "At 5 weeks most babies still sleep in 2–4 hour stretches — 14–17 hours per day in total, day and night. A first longer stretch of 4–6 hours often appears within the next few weeks. Her longest stretch this week was 4 h 10 m, which fits the typical range.",
+  "src": "MedlinePlus",
+  "ctx": "age 5 weeks · sleep last 7 days"
+ }
+]

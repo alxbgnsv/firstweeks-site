@@ -11,8 +11,13 @@ export function minify(html) {
   return html.replace(/\n\s+/g, '\n').replace(/>\s+</g, '><').trim();
 }
 
-// Guard: any unresolved {placeholder} in final HTML is a build error (§ answer 2).
+// Guard: any unresolved single-brace {placeholder} in final HTML is a build
+// error (§ answer 2 — {name}/{pronoun} must never leak). Double-brace
+// {{BUILD_DATE}} etc. are generator build-tokens (from content-v2 schema
+// blocks); they are resolved before emit, so we ignore them here and only
+// catch a genuinely-unresolved single-brace token.
 export function assertNoPlaceholders(html, where) {
-  const m = html.match(/\{[a-z_]+\}/i);
+  const stripped = html.replace(/\{\{[^}]+\}\}/g, ''); // drop build-tokens (must be resolved earlier)
+  const m = stripped.match(/(?<!\{)\{[a-z_]+\}(?!\})/i);
   if (m) throw new Error(`Unresolved placeholder ${m[0]} in ${where}`);
 }

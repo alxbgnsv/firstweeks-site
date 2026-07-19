@@ -16,5 +16,18 @@ CI builds `dist/` with pure Node (no image deps — WebP/OG are pre-generated an
 - `app.teamID` — Apple Team ID (for AASA).
 - `flags.web_checkout` — flip to `true` only after legal sign-off (Stage 2).
 
+## Before deploy
+- Add a GitHub **remote**; for free GitHub Pages the repo must be **public**
+  (all site content is public by nature — this is fine).
+- **Never commit secrets.** The site has no keys and must never gain any.
+  Stripe keys (Stage 2 checkout) live only in CI/env, never in the repo.
+
+## Forms policy (Stage 1)
+No dead inputs. There is no backend, so there are no email-collection fields
+that silently drop input — that would be deceptive on a site selling trust.
+- Android: a plain "Android — coming soon" line (no field).
+- Support: a `mailto:hello@firstweeks.app` button with a prefilled subject.
+Real forms ship only when a backend exists for them.
+
 ## Deploy — GitHub Pages (DNS for Alex)
 See bottom of this file (added in К5).

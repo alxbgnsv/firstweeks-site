@@ -2,7 +2,7 @@
 import { page } from '../components/layout.mjs';
 import { appStoreBadge, iphone, crumbs, ctaText, ctaBox, priceCards, faq } from '../components/blocks.mjs';
 
-export function buildStyleguide({ emit }) {
+export function buildStyleguide({ emit, read }) {
   const { html: faqHtml } = faq([
     { q: 'What’s free forever?', a: 'Tracking — sleep, feeds, diapers, growth — is free with no time limit.' },
     { q: 'Is this medical advice?', a: 'No. Educational information with sources — not a diagnosis.' },

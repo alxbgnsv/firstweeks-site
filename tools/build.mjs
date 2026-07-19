@@ -12,7 +12,7 @@ export const read = (p) => fs.readFileSync(path.join(ROOT, p), 'utf8');
 export const content = (name) => JSON.parse(read(`content/${name}.json`));
 
 // Inlined critical CSS (tokens + base) — one <style>, no render-blocking request.
-export const CSS = (read('src/styles/tokens.css') + '\n' + read('src/styles/base.css'))
+export const CSS = (read('src/styles/tokens.css') + '\n' + read('src/styles/base.css') + '\n' + read('src/styles/landing.css'))
   .replace(/\/\*[^]*?\*\//g, '')        // strip comments first
   .replace(/\s*\n\s*/g, '\n').trim();   // collapse blank lines (keep CSS intact)
 setCSS(CSS);
@@ -54,8 +54,8 @@ fs.mkdirSync(DIST, { recursive: true });
 const { buildStyleguide } = await import('../src/templates/styleguide.mjs');
 const { buildLanding } = await import('../src/templates/landing.mjs');
 
-buildLanding({ emit, CSS });
-buildStyleguide({ emit, CSS });
+buildLanding({ emit, read, CSS });
+buildStyleguide({ emit, read, CSS });
 
 // Static assets + files
 copyDir(path.join(ROOT, 'public'), DIST);
