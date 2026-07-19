@@ -114,11 +114,9 @@ ${crumbs(crumbItems)}
 <section><h2 class="kicker kicker--muted">Quick answers</h2>
 ${qa.html}</section>
 
-<div class="contact-grid">
-<div class="contact-card"><h3>Email us</h3><p>Billing, accounts, bugs — anything.</p>
-<a class="btn btn--primary" href="${mailto('FirstWeeks support')}">Email ${esc(site.email)}</a></div>
-<div class="contact-card"><h3>Android</h3><p>Not out yet — we’re building it.</p>
-<span class="soon">Android — coming soon</span></div>
+<div class="contact-card contact-card--email">
+<div class="contact-card__body"><h3>Email us</h3><p>Billing, accounts, bugs — anything.</p></div>
+<a class="btn btn--primary" href="${mailto('FirstWeeks support')}">Email ${esc(site.email)}</a>
 </div>
 
 <div class="callout callout--warn"><span class="kicker">One thing first</span>

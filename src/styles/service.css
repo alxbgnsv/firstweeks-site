@@ -28,14 +28,17 @@
 .callout--warn { background: rgba(229,72,77,.08); border-color: var(--danger-border); }
 .callout--warn .kicker { color: var(--danger-text); }
 
-/* Support: contact cards */
-.contact-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin: 20px 0 8px; }
-.contact-card { padding: 20px; border: 1px solid var(--border); border-radius: 16px; background: var(--card); display: grid; gap: 8px; align-content: start; }
+/* Support: full-width Email-us card (body left, button right; stacks on mobile) */
+.contact-card { padding: 24px; border: 1px solid var(--border); border-radius: 16px; background: var(--card); margin: 20px 0 8px; }
+.contact-card--email { display: flex; align-items: center; justify-content: space-between; gap: 24px; }
+.contact-card__body { display: grid; gap: 6px; }
 .contact-card h3 { margin: 0; font-size: 1.05rem; }
 .contact-card p { margin: 0; color: var(--text-2); font-size: .95rem; }
-.contact-card .mail { font-weight: 700; color: var(--link); word-break: break-all; }
-.soon { color: var(--text-3); font-weight: 600; font-size: .95rem; }
-@media (max-width: 640px) { .contact-grid { grid-template-columns: 1fr; } }
+.contact-card--email .btn { flex: 0 0 auto; }
+@media (max-width: 560px) {
+  .contact-card--email { flex-direction: column; align-items: stretch; gap: 16px; }
+  .contact-card--email .btn { width: 100%; }
+}
 
 /* Draft/legal note */
 .draft-note { font-size: .88rem; color: var(--text-3); border-top: 1px solid var(--border); margin-top: 34px; padding-top: 16px; }
