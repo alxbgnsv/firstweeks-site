@@ -13,10 +13,11 @@ export function eeatLine({ srcNames, updated, readMin }) {
   return `<p class="eeat">${esc(parts.join(' · '))}</p>`;
 }
 
+export const tocAnchor = (t) => String(t).toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 export function tocBlock(items) {
   if (!items || items.length < 2) return '';
   return `<nav class="toc" aria-label="In this article"><span class="kicker">In this article</span>
-<ol>${items.map((t) => `<li>${esc(t)}</li>`).join('')}</ol></nav>`;
+<ul>${items.map((t) => `<li><a href="#${tocAnchor(t)}">${esc(t)}</a></li>`).join('')}</ul></nav>`;
 }
 
 // External source links: nofollow noopener (§6a — weight not passed out).

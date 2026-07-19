@@ -1,44 +1,64 @@
-/* SITE-2 design tokens (§2). Dark = brand/landing/checkout/product; Light 1a "Warm paper" = content. */
-:root {
+/* SITE-2 design tokens (§2). Dark = brand/landing/checkout/product; Light 1a "Warm paper" = content.
+   Theme is driven by data-theme on <html> (build sets the page default; the toggle + a pre-paint
+   script override it and persist). `.light` remains a nested light scope (e.g. styleguide). */
+:root, :root[data-theme="dark"] {
   /* Dark brand theme */
   --bg: #0B0B0D;
   --bg-alt: #101014;
   --card: #1B1B20;
   --border: rgba(235,235,245,.10);
-  --border-strong: rgba(235,235,245,.12);
+  --border-strong: rgba(235,235,245,.25);
+  --hairline: rgba(235,235,245,.06);
   --text: #EBEBF5;
   --text-2: rgba(235,235,245,.60);
   --text-3: rgba(235,235,245,.55);  /* AA on dark bg (5.4:1) */
+  --label: rgba(235,235,245,.55);   /* muted eyebrow/label — AA (5.4:1) */
   --accent: #E8A37F;
-  --accent-ink: #E8A37F;  /* accent used as TEXT — same as accent on dark (AA-safe) */
+  --accent-ink: #E8A37F;            /* accent used as TEXT — same as accent on dark (AA-safe) */
   --on-accent: #2A150B;
+  --tint: rgba(232,163,127,.14);    /* peach highlight background */
+  --tint-border: rgba(232,163,127,.40);
   --link: #0A84FF;
   --link-hover: #3D9DFF;
   --danger: #E5484D;
   --danger-text: #FF7A70;
+  --danger-border: rgba(229,72,77,.35);
+  --ink-chip: #EBEBF5;              /* active category chip bg (dark) */
+  --on-ink-chip: #0B0B0D;
 
-  --radius-card: 18px;
-  --radius-btn: 13px;
+  --radius-card: 14px;              /* generic content card */
+  --radius-plan: 18px;             /* price / feature card */
+  --radius-cta: 20px;              /* rich CTA inserts, step cards */
+  --radius-btn: 14px;             /* primary button */
   --maxw: 1120px;
+  --wide: 1040px;                  /* index/hub bands */
   --read: 680px;
   --font: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, system-ui, sans-serif;
+  --mono: ui-monospace, SFMono-Regular, Menlo, monospace;
 }
 
-/* Light "Warm paper" 1a — applied on content pages via <body class="light"> */
-.light {
+/* Light "Warm paper" 1a — content pages (data-theme=light) or a nested .light scope. */
+:root[data-theme="light"], .light {
   --bg: #FAF6F0;
   --bg-alt: #F3ECE2;
   --card: #FFFFFF;
   --border: rgba(32,27,22,.10);
-  --border-strong: rgba(32,27,22,.12);
+  --border-strong: rgba(32,27,22,.14);
+  --hairline: rgba(32,27,22,.08);
   --text: #201B16;
-  --text-2: #6E655C;      /* AA on paper (5.3:1) */
-  --text-3: #76695B;      /* darkened for AA (4.95:1) */
+  --text-2: #4A4239;      /* AA on paper */
+  --text-3: #76695B;      /* muted brown, AA (4.95:1) */
+  --label: #796C5D;       /* neutral eyebrow/label — AA (4.74:1) */
   --accent: #E8A37F;      /* decorative only on light (borders, dots, badges) */
-  --accent-ink: #A85833;  /* accent as TEXT on paper — AA (4.75:1) */
+  --accent-ink: #9C4F2C;  /* accent as TEXT on paper — AA on paper AND peach tint (5.47:1) */
   --on-accent: #2A150B;
+  --tint: rgba(232,163,127,.14);
+  --tint-border: rgba(232,163,127,.40);
   --link: #9C4F2C;        /* content deep accent — AA on paper (5.47:1) */
   --link-hover: #8f4d24;
   --danger: #C0362B;
   --danger-text: #B4291E;
+  --danger-border: rgba(229,72,77,.35);
+  --ink-chip: #201B16;              /* active category chip bg (light) */
+  --on-ink-chip: #FAF6F0;
 }

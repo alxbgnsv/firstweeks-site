@@ -23,8 +23,9 @@ export function head({ title, description, path, theme = 'dark', ogImage, jsonld
     `<script type="application/ld+json">${JSON.stringify(o)}</script>`).join('');
   const preloads = preload.map((p) =>
     `<link rel="preload" as="${p.as}"${p.type ? ` type="${p.type}"` : ''} href="${esc(p.href)}"${p.fetchpriority ? ` fetchpriority="${p.fetchpriority}"` : ''}>`).join('');
-  return `<!doctype html><html lang="en"><head>
+  return `<!doctype html><html lang="en" data-theme="${theme === 'light' ? 'light' : 'dark'}"><head>
 <meta charset="utf-8">
+<script>(function(){try{var t=localStorage.getItem('fw-theme');if(t==='light'||t==='dark')document.documentElement.setAttribute('data-theme',t);document.documentElement.classList.add('js');}catch(e){}})();</script>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>${esc(title)}</title>${noindex ? '\n<meta name="robots" content="noindex,follow">' : ''}
 <meta name="description" content="${esc(description)}">

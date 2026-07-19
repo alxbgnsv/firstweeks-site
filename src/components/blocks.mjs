@@ -39,31 +39,41 @@ export function iphone(screen, alt, mini = false) {
 }
 
 // Two content CTA inserts (§ mockup 05).
+// Inline peach banner: app icon · label · arrow (space-between).
 export function ctaText(label = 'Ask FirstWeeks anything about your baby', href = null) {
-  return `<a class="cta-text" href="${href || (flags.web_checkout ? '/#pricing' : storeLink('content'))}">${esc(label)} <span aria-hidden="true">→</span></a>`;
+  const dest = href || (flags.web_checkout ? '/#pricing' : storeLink('content'));
+  return `<a class="cta-text" href="${dest}"><img class="cta-text__ic" src="/assets/icon.png" width="30" height="30" alt="" aria-hidden="true"><span>${esc(label)}</span><span class="cta-text__arrow" aria-hidden="true">→</span></a>`;
 }
-export function ctaBox({ h, p, primary = 'Start free — 14 days', withBadge = true }) {
+// Rich CTA. variant "dark" = branded dark box + phone screenshot (mid-content);
+// variant "center" = centered peach panel, single button (closing CTA).
+export function ctaBox({ h, p, primary = 'Start free — 14 days, no card', screen = 'scr-today', variant = 'dark' }) {
   const href = flags.web_checkout ? '/#pricing' : storeLink('content');
-  return `<div class="cta-box"><h3>${esc(h)}</h3><p>${esc(p)}</p>
-<div class="btn-row"><a class="btn btn--primary" href="${href}">${esc(primary)}</a>
-${withBadge ? appStoreBadge('content') : ''}</div></div>`;
+  const btn = `<a class="btn btn--primary" href="${href}">${esc(primary)}</a>`;
+  if (variant === 'center') {
+    return `<div class="cta-box cta-box--center"><h3>${esc(h)}</h3><p>${esc(p)}</p><div class="btn-row">${btn}</div></div>`;
+  }
+  return `<div class="cta-box"><div><h3>${esc(h)}</h3><p>${esc(p)}</p><div class="btn-row">${btn}</div></div>
+<div class="cta-box__phone"><picture><source srcset="/assets/${screen}.webp" type="image/webp">
+<img src="/assets/${screen}.png" width="1206" height="2478" alt="" loading="lazy" decoding="async"></picture></div></div>`;
 }
 
 // Pricing cards. Stage 1: CTAs → App Store (?ct=web_pricing). Stage 2: → checkout.
 export function priceCards() {
   const dest = (plan) => flags.web_checkout ? `/en/checkout/?plan=${plan}` : storeLink('pricing');
   const a = pricing.annual, m = pricing.monthly;
+  // "$4.99/mo" → "$4.99<small>/mo</small>"
+  const price = (pm) => { const [n, unit] = pm.split('/'); return `${esc(n)}<small>/${esc(unit)}</small>`; };
   return `<div class="plans">
 <div class="plan plan--featured">
   <span class="plan__save badge badge--save">${a.save}</span>
-  <h3>Annual</h3>
-  <div class="price">${a.perMonth}</div>
+  <div class="plan__name">Annual</div>
+  <div class="price">${price(a.perMonth)}</div>
   <div class="sub">${a.billed}</div>
   <a class="btn btn--primary btn--block" href="${dest('annual')}">Start free with Annual</a>
 </div>
 <div class="plan">
-  <h3>Monthly</h3>
-  <div class="price">${m.perMonth}</div>
+  <div class="plan__name">Monthly</div>
+  <div class="price">${price(m.perMonth)}</div>
   <div class="sub">${m.note}</div>
   <a class="btn btn--secondary btn--block" href="${dest('monthly')}">Start free with Monthly</a>
 </div>
