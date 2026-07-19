@@ -12,7 +12,7 @@ export const read = (p) => fs.readFileSync(path.join(ROOT, p), 'utf8');
 export const content = (name) => JSON.parse(read(`content/${name}.json`));
 
 // Inlined critical CSS (tokens + base) — one <style>, no render-blocking request.
-export const CSS = ['tokens', 'base', 'landing', 'checkout'].map((n) => read(`src/styles/${n}.css`)).join('\n')
+export const CSS = ['tokens', 'base', 'landing', 'checkout', 'content'].map((n) => read(`src/styles/${n}.css`)).join('\n')
   .replace(/\/\*[^]*?\*\//g, '')        // strip comments first
   .replace(/\s*\n\s*/g, '\n').trim();   // collapse blank lines (keep CSS intact)
 setCSS(CSS);
@@ -54,10 +54,24 @@ fs.mkdirSync(DIST, { recursive: true });
 const { buildStyleguide } = await import('../src/templates/styleguide.mjs');
 const { buildLanding } = await import('../src/templates/landing.mjs');
 const { buildCheckout } = await import('../src/templates/checkout.mjs');
+const { buildWeeks } = await import('../src/templates/week.mjs');
+const { buildArticles } = await import('../src/templates/article.mjs');
+const { buildExercises } = await import('../src/templates/exercise.mjs');
+const { loadContent } = await import('../src/lib/content.mjs');
+const { initDates, persistDates } = await import('../src/lib/dates.mjs');
+
+// Build date (reproducible-friendly: override via BUILD_DATE).
+const BUILD_ISO = process.env.BUILD_DATE || new Date().toISOString().slice(0, 10);
+initDates(BUILD_ISO);
+const cnt = loadContent(BUILD_ISO);
 
 buildLanding({ emit, read, CSS });
 buildCheckout({ emit, read, CSS });
+buildWeeks({ emit, content: cnt });
+buildArticles({ emit, content: cnt });
+buildExercises({ emit, content: cnt });
 buildStyleguide({ emit, read, CSS });
+persistDates();
 
 // Static assets + files
 copyDir(path.join(ROOT, 'public'), DIST);

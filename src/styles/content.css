@@ -1,0 +1,66 @@
+/* Content pages (light Warm paper). Reading column + week/article/exercise bits. */
+.week-nav, .week-foot { display: flex; justify-content: space-between; align-items: center;
+  color: var(--text-2); font-size: .9rem; margin: 8px 0 20px; }
+.week-foot { border-top: 1px solid var(--border); margin-top: 40px; padding-top: 20px; }
+.week-nav a, .week-foot a { color: var(--link); }
+.week-of { color: var(--text-3); font-weight: 600; letter-spacing: .04em; text-transform: uppercase; font-size: .78rem; }
+
+.dotlist { list-style: none; padding: 0; }
+.dotlist li { position: relative; padding-left: 18px; margin-bottom: 10px; }
+.dotlist li::before { content: "·"; position: absolute; left: 4px; color: var(--accent); font-weight: 700; }
+.linklist { list-style: none; padding: 0; }
+.linklist li { margin-bottom: 8px; }
+.linklist a { color: var(--link); }
+
+.skill-list { list-style: none; padding: 0; }
+.skill-list li { margin-bottom: 12px; }
+.skill-range { display: inline-block; font-size: .72rem; font-weight: 700; letter-spacing: .04em;
+  color: var(--accent); border: 1px solid rgba(232,163,127,.4); border-radius: 999px; padding: 1px 8px; margin-right: 6px; }
+.skill-note { font-size: .95rem; margin-top: 10px; }
+
+.week-reads .kicker, .week-ex h2 { display: block; margin-top: 1.4em; }
+.wk-period { margin: 26px 0; }
+.wk-period .kicker { display: block; margin-bottom: 10px; }
+
+/* Article hub */
+.art-grid { margin-top: 8px; }
+.art-card { display: grid; gap: 6px; padding: 20px; border: 1px solid var(--border); border-radius: 16px;
+  background: var(--card); color: var(--text); position: relative; }
+.art-card:hover { border-color: var(--accent); color: var(--text); }
+.art-card .kicker { color: var(--accent); }
+.art-min { position: absolute; top: 20px; right: 20px; color: var(--text-3); font-size: .82rem; }
+.art-title { font-weight: 700; font-size: 1.05rem; letter-spacing: -.01em; }
+.art-teaser { font-size: .92rem; }
+.pager { display: flex; gap: 8px; margin: 30px 0; }
+.pager a, .pager span { padding: 8px 14px; border-radius: 10px; border: 1px solid var(--border); color: var(--link); }
+.pager span[aria-current] { background: var(--accent); color: var(--on-accent); border-color: var(--accent); }
+
+/* Sources / related */
+.sources ul { list-style: none; padding: 0; }
+.sources a { color: var(--link); }
+.related { margin-top: 34px; }
+.rel-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; margin-top: 12px; }
+.rel-card { display: grid; gap: 6px; padding: 16px; border: 1px solid var(--border); border-radius: 14px; background: var(--card); color: var(--text); }
+.rel-card:hover { border-color: var(--accent); color: var(--text); }
+.rel-card .kicker { color: var(--accent); }
+.rel-title { font-weight: 600; }
+.rel-card--hub { align-content: center; }
+@media (max-width: 640px) { .rel-grid { grid-template-columns: 1fr; } }
+
+/* Exercise */
+.ex-meta { display: flex; gap: 10px; align-items: center; margin: 4px 0 6px; }
+.howto { counter-reset: step; list-style: none; padding: 0; }
+.howto li { counter-increment: step; position: relative; padding-left: 40px; margin-bottom: 14px; }
+.howto li::before { content: counter(step); position: absolute; left: 0; top: 0; width: 28px; height: 28px;
+  background: var(--accent); color: var(--on-accent); border-radius: 50%; display: flex; align-items: center;
+  justify-content: center; font-weight: 700; font-size: .9rem; }
+.stopif { background: var(--card); border: 1px solid var(--border-strong); border-radius: 14px; padding: 16px 18px; margin: 24px 0; }
+.stopif .kicker { display: block; margin-bottom: 6px; color: var(--danger-text); }
+.ex-card { display: grid; gap: 8px; padding: 18px; border: 1px solid var(--border); border-radius: 16px; background: var(--card); color: var(--text); }
+.ex-card:hover { border-color: var(--accent); color: var(--text); }
+.ex-title { font-weight: 700; font-size: 1.05rem; }
+.ex-group { margin: 22px 0; }
+.ex-group .kicker { display: block; margin-bottom: 12px; }
+
+/* Content-page CTA inserts use accent link color in light theme automatically. */
+.cta-text { color: var(--link); }

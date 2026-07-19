@@ -1,0 +1,662 @@
+{
+  "exercise:chest-tummy-time": {
+    "hash": "cc575a91fd249c79",
+    "published": "2026-06-15",
+    "modified": "2026-06-15"
+  },
+  "exercise:finger-grasp-play": {
+    "hash": "431269d3abfd5dfa",
+    "published": "2026-06-15",
+    "modified": "2026-06-15"
+  },
+  "exercise:face-tracking": {
+    "hash": "380ab3d8a507e742",
+    "published": "2026-06-15",
+    "modified": "2026-06-15"
+  },
+  "exercise:bicycle-legs": {
+    "hash": "6e8d74f645c30299",
+    "published": "2026-06-15",
+    "modified": "2026-06-15"
+  },
+  "exercise:side-lying-play": {
+    "hash": "b63c157dabea5ac5",
+    "published": "2026-06-15",
+    "modified": "2026-06-15"
+  },
+  "exercise:classic-floor-tummy-time": {
+    "hash": "3b180ce13e02c542",
+    "published": "2026-06-15",
+    "modified": "2026-06-15"
+  },
+  "exercise:high-contrast-tracking": {
+    "hash": "ea98c14b9bb37a7c",
+    "published": "2026-06-15",
+    "modified": "2026-06-15"
+  },
+  "exercise:sound-turning": {
+    "hash": "98859d1d795d6257",
+    "published": "2026-06-15",
+    "modified": "2026-06-15"
+  },
+  "exercise:hands-to-midline": {
+    "hash": "8b477d1513aa9aae",
+    "published": "2026-06-15",
+    "modified": "2026-06-15"
+  },
+  "exercise:mirror-time": {
+    "hash": "caac37b0767e2cd6",
+    "published": "2026-06-15",
+    "modified": "2026-06-15"
+  },
+  "exercise:sing-and-reply": {
+    "hash": "9ffa74a139bf30e6",
+    "published": "2026-06-15",
+    "modified": "2026-06-15"
+  },
+  "exercise:reach-for-the-toy": {
+    "hash": "ce5216f72265f565",
+    "published": "2026-06-15",
+    "modified": "2026-06-15"
+  },
+  "exercise:tummy-pivot-play": {
+    "hash": "d2cc91c368d61bfc",
+    "published": "2026-06-15",
+    "modified": "2026-06-15"
+  },
+  "exercise:supported-sitting": {
+    "hash": "1f2b825ea7136584",
+    "published": "2026-06-15",
+    "modified": "2026-06-15"
+  },
+  "exercise:grab-and-transfer": {
+    "hash": "ed3a464a30a34ab1",
+    "published": "2026-06-15",
+    "modified": "2026-06-15"
+  },
+  "exercise:rolling-runway": {
+    "hash": "aee19ef3c02a1146",
+    "published": "2026-06-15",
+    "modified": "2026-06-15"
+  },
+  "article:the-3-am-proof-sleep-setup": {
+    "hash": "57230ad60c8cdcf8",
+    "published": "2026-06-15",
+    "modified": "2026-06-15"
+  },
+  "article:diaper-decoder-week-one": {
+    "hash": "ac5324454618f92a",
+    "published": "2026-06-15",
+    "modified": "2026-06-15"
+  },
+  "article:the-cord-stump-calmly": {
+    "hash": "4c2256dd4a9302bf",
+    "published": "2026-06-15",
+    "modified": "2026-06-15"
+  },
+  "article:jaundice-minus-the-panic": {
+    "hash": "becce2132ee25591",
+    "published": "2026-06-15",
+    "modified": "2026-06-15"
+  },
+  "article:the-weight-math-of-week-two": {
+    "hash": "2996a6b196b77baa",
+    "published": "2026-06-15",
+    "modified": "2026-06-15"
+  },
+  "article:sponge-baths-without-the-wrestling": {
+    "hash": "06f4c9a45ae0de46",
+    "published": "2026-06-15",
+    "modified": "2026-06-15"
+  },
+  "article:cluster-feeding-is-she-getting-enough": {
+    "hash": "798374768788907f",
+    "published": "2026-06-15",
+    "modified": "2026-06-15"
+  },
+  "article:spit-up-or-vomit": {
+    "hash": "efc779df0e48aa59",
+    "published": "2026-06-15",
+    "modified": "2026-06-15"
+  },
+  "article:newborn-skin-a-field-guide": {
+    "hash": "8d0605b88c1ffec6",
+    "published": "2026-06-15",
+    "modified": "2026-06-15"
+  },
+  "article:the-crying-curve-has-a-shape": {
+    "hash": "e4b0a6db52103fc3",
+    "published": "2026-06-15",
+    "modified": "2026-06-15"
+  },
+  "article:the-gas-toolkit": {
+    "hash": "217ea2afaf09df20",
+    "published": "2026-06-15",
+    "modified": "2026-06-15"
+  },
+  "article:pacifiers-the-honest-brief": {
+    "hash": "8cc97fb37476a22b",
+    "published": "2026-06-15",
+    "modified": "2026-06-15"
+  },
+  "article:witching-hour-an-owner-s-manual": {
+    "hash": "2a4548258561eb4b",
+    "published": "2026-06-15",
+    "modified": "2026-06-15"
+  },
+  "article:white-noise-done-safely": {
+    "hash": "6c985c5ab71be482",
+    "published": "2026-06-15",
+    "modified": "2026-06-15"
+  },
+  "article:sneezes-hiccups-and-noisy-breathing": {
+    "hash": "b22fe8aa606bf036",
+    "published": "2026-06-15",
+    "modified": "2026-06-15"
+  },
+  "article:the-first-smile-is-a-conversation": {
+    "hash": "35258f266077bd72",
+    "published": "2026-06-15",
+    "modified": "2026-06-15"
+  },
+  "article:tummy-time-troubleshooting": {
+    "hash": "a49dfe7f0022c005",
+    "published": "2026-06-15",
+    "modified": "2026-06-15"
+  },
+  "article:growth-spurts-decoded": {
+    "hash": "d95e7ee0a7f2332b",
+    "published": "2026-06-15",
+    "modified": "2026-06-15"
+  },
+  "article:tummy-time-that-actually-happens": {
+    "hash": "3c256826c7f3b4fa",
+    "published": "2026-06-15",
+    "modified": "2026-06-15"
+  },
+  "article:flat-spots-and-head-shape": {
+    "hash": "bd962cc60f4ccd00",
+    "published": "2026-06-15",
+    "modified": "2026-06-15"
+  },
+  "article:small-maintenance-nails-and-cradle-cap": {
+    "hash": "580f0b46767b32ea",
+    "published": "2026-06-15",
+    "modified": "2026-06-15"
+  },
+  "article:vaccine-day-without-the-dread": {
+    "hash": "649fec21ec6e55cc",
+    "published": "2026-06-15",
+    "modified": "2026-06-15"
+  },
+  "article:after-the-shots-a-reading-guide": {
+    "hash": "9d4661f8439f2e95",
+    "published": "2026-06-15",
+    "modified": "2026-06-15"
+  },
+  "article:mom-s-checkup-matters-too": {
+    "hash": "bb4bd62b8659af4c",
+    "published": "2026-06-15",
+    "modified": "2026-06-15"
+  },
+  "article:coos-squeals-and-the-language-project": {
+    "hash": "5e6e203993c6281e",
+    "published": "2026-06-15",
+    "modified": "2026-06-15"
+  },
+  "article:screens-and-tiny-humans": {
+    "hash": "7bb09783632a623f",
+    "published": "2026-06-15",
+    "modified": "2026-06-15"
+  },
+  "article:daytime-naps-a-loose-rhythm-emerges": {
+    "hash": "0d38588cebbb0e67",
+    "published": "2026-06-15",
+    "modified": "2026-06-15"
+  },
+  "article:longer-nights-help-them-stick": {
+    "hash": "4b5b9dbdaf838e28",
+    "published": "2026-06-15",
+    "modified": "2026-06-15"
+  },
+  "article:car-seat-basics-for-brief-travelers": {
+    "hash": "47ba2b850565d7fc",
+    "published": "2026-06-15",
+    "modified": "2026-06-15"
+  },
+  "article:night-shifts-for-two-parent-teams": {
+    "hash": "939d51172c798de9",
+    "published": "2026-06-15",
+    "modified": "2026-06-15"
+  },
+  "article:reading-name-like-a-dashboard": {
+    "hash": "fdedb2991d660546",
+    "published": "2026-06-15",
+    "modified": "2026-06-15"
+  },
+  "article:overstimulation-the-reset-routine": {
+    "hash": "59ce8b178d94cedd",
+    "published": "2026-06-15",
+    "modified": "2026-06-15"
+  },
+  "article:introducing-a-bottle-to-a-breastfed-baby": {
+    "hash": "fd62226400d1cb78",
+    "published": "2026-06-15",
+    "modified": "2026-06-15"
+  },
+  "article:the-rolling-era-a-safety-sweep": {
+    "hash": "e11b86d4ac715d00",
+    "published": "2026-06-15",
+    "modified": "2026-06-15"
+  },
+  "article:babyproofing-level-one": {
+    "hash": "2f7467eb521936bc",
+    "published": "2026-06-15",
+    "modified": "2026-06-15"
+  },
+  "article:dressing-for-sleep-the-sleep-sack-era": {
+    "hash": "c135d7e7d52f4209",
+    "published": "2026-06-15",
+    "modified": "2026-06-15"
+  },
+  "article:the-4-month-sleep-shift-read-this-early": {
+    "hash": "48d8971d9c87d9c5",
+    "published": "2026-06-15",
+    "modified": "2026-06-15"
+  },
+  "article:wake-windows-at-the-three-month-mark": {
+    "hash": "9bc39c28b9a0b2e3",
+    "published": "2026-06-15",
+    "modified": "2026-06-15"
+  },
+  "article:your-4-month-visit-prepped": {
+    "hash": "7f6395ea6ab554c3",
+    "published": "2026-06-15",
+    "modified": "2026-06-15"
+  },
+  "article:the-4-month-sleep-regression-survival-guide": {
+    "hash": "131de61e1e8640ef",
+    "published": "2026-07-19",
+    "modified": "2026-07-19"
+  },
+  "article:wake-windows-4-to-12-months": {
+    "hash": "3351aca56cdad234",
+    "published": "2026-07-19",
+    "modified": "2026-07-19"
+  },
+  "article:starting-solids-the-readiness-checklist": {
+    "hash": "0dd944badff6a107",
+    "published": "2026-07-19",
+    "modified": "2026-07-19"
+  },
+  "article:first-foods-and-allergens-without-fear": {
+    "hash": "2146353412f47d80",
+    "published": "2026-07-19",
+    "modified": "2026-07-19"
+  },
+  "article:gagging-vs-choking-know-the-difference": {
+    "hash": "9bcb51b30c2889b3",
+    "published": "2026-07-19",
+    "modified": "2026-07-19"
+  },
+  "article:teething-timeline-and-what-actually-helps": {
+    "hash": "6184dc5c3f5206d4",
+    "published": "2026-07-19",
+    "modified": "2026-07-19"
+  },
+  "article:sleep-training-methods-an-honest-map": {
+    "hash": "ea00038c563de337",
+    "published": "2026-07-19",
+    "modified": "2026-07-19"
+  },
+  "article:rolling-sitting-crawling-the-motor-map": {
+    "hash": "0547f1dd7a24cadd",
+    "published": "2026-07-19",
+    "modified": "2026-07-19"
+  },
+  "article:baby-fevers-by-age-a-clear-protocol": {
+    "hash": "70b3d238742143ed",
+    "published": "2026-07-19",
+    "modified": "2026-07-19"
+  },
+  "article:the-3-to-2-nap-transition": {
+    "hash": "0bb697b50bccf91e",
+    "published": "2026-07-19",
+    "modified": "2026-07-19"
+  },
+  "article:babble-to-first-words-the-language-runway": {
+    "hash": "bb147691a0e12bbc",
+    "published": "2026-07-19",
+    "modified": "2026-07-19"
+  },
+  "article:baby-led-weaning-vs-purees-truce": {
+    "hash": "bff5e9a300bec4ea",
+    "published": "2026-07-19",
+    "modified": "2026-07-19"
+  },
+  "article:separation-anxiety-a-good-sign-that-feels-bad": {
+    "hash": "079cef6709735a9d",
+    "published": "2026-07-19",
+    "modified": "2026-07-19"
+  },
+  "week:1": {
+    "hash": "91a4ac9d8083ac81",
+    "published": "2026-06-15",
+    "modified": "2026-06-15"
+  },
+  "week:2": {
+    "hash": "86e725a27bdedaed",
+    "published": "2026-06-15",
+    "modified": "2026-06-15"
+  },
+  "week:3": {
+    "hash": "a99fa4e887bb43a6",
+    "published": "2026-06-15",
+    "modified": "2026-06-15"
+  },
+  "week:4": {
+    "hash": "873134e9a4d087dc",
+    "published": "2026-06-15",
+    "modified": "2026-06-15"
+  },
+  "week:5": {
+    "hash": "0125e7cc02369250",
+    "published": "2026-06-15",
+    "modified": "2026-06-15"
+  },
+  "week:6": {
+    "hash": "433af47f37d5755a",
+    "published": "2026-06-15",
+    "modified": "2026-06-15"
+  },
+  "week:7": {
+    "hash": "ddb446d3bb471458",
+    "published": "2026-06-15",
+    "modified": "2026-06-15"
+  },
+  "week:8": {
+    "hash": "bee3c1f622ec2a87",
+    "published": "2026-06-15",
+    "modified": "2026-06-15"
+  },
+  "week:9": {
+    "hash": "ef24aa943d104538",
+    "published": "2026-06-15",
+    "modified": "2026-06-15"
+  },
+  "week:10": {
+    "hash": "6db90574992cf3b8",
+    "published": "2026-06-15",
+    "modified": "2026-06-15"
+  },
+  "week:11": {
+    "hash": "bd7fa919f042bb78",
+    "published": "2026-06-15",
+    "modified": "2026-06-15"
+  },
+  "week:12": {
+    "hash": "f04c8d23da60f1fc",
+    "published": "2026-06-15",
+    "modified": "2026-06-15"
+  },
+  "week:13": {
+    "hash": "87a42768a5382946",
+    "published": "2026-06-15",
+    "modified": "2026-06-15"
+  },
+  "week:14": {
+    "hash": "99af188a4d409e8c",
+    "published": "2026-06-15",
+    "modified": "2026-06-15"
+  },
+  "week:15": {
+    "hash": "93102ebaa0006668",
+    "published": "2026-06-15",
+    "modified": "2026-06-15"
+  },
+  "week:16": {
+    "hash": "bfa7b76f5225a48c",
+    "published": "2026-06-15",
+    "modified": "2026-06-15"
+  },
+  "week:17": {
+    "hash": "6fc6522f03e6eb91",
+    "published": "2026-06-15",
+    "modified": "2026-06-15"
+  },
+  "week:18": {
+    "hash": "253761ba4c82af07",
+    "published": "2026-06-15",
+    "modified": "2026-06-15"
+  },
+  "week:19": {
+    "hash": "7743acaff684f3c2",
+    "published": "2026-06-15",
+    "modified": "2026-06-15"
+  },
+  "week:20": {
+    "hash": "45f0a208fefb8191",
+    "published": "2026-06-15",
+    "modified": "2026-06-15"
+  },
+  "week:21": {
+    "hash": "bbb48cfe2f307ab8",
+    "published": "2026-06-15",
+    "modified": "2026-06-15"
+  },
+  "week:22": {
+    "hash": "cf5bed2e6173b06b",
+    "published": "2026-06-15",
+    "modified": "2026-06-15"
+  },
+  "week:23": {
+    "hash": "df4e3a3f0fe4acd6",
+    "published": "2026-06-15",
+    "modified": "2026-06-15"
+  },
+  "week:24": {
+    "hash": "7f05962e62b33231",
+    "published": "2026-06-15",
+    "modified": "2026-06-15"
+  },
+  "week:25": {
+    "hash": "cd6ac90ebfa4ee5e",
+    "published": "2026-06-15",
+    "modified": "2026-06-15"
+  },
+  "week:26": {
+    "hash": "3761cb74a653de81",
+    "published": "2026-06-15",
+    "modified": "2026-06-15"
+  },
+  "week:27": {
+    "hash": "a8e86f75c373ac70",
+    "published": "2026-06-15",
+    "modified": "2026-06-15"
+  },
+  "week:28": {
+    "hash": "659d9fadaa288c9a",
+    "published": "2026-06-15",
+    "modified": "2026-06-15"
+  },
+  "week:29": {
+    "hash": "2fd4433d17e5e11e",
+    "published": "2026-06-15",
+    "modified": "2026-06-15"
+  },
+  "week:30": {
+    "hash": "fb70e7352dc01c65",
+    "published": "2026-06-15",
+    "modified": "2026-06-15"
+  },
+  "week:31": {
+    "hash": "5f142554cd0fd4d3",
+    "published": "2026-06-15",
+    "modified": "2026-06-15"
+  },
+  "week:32": {
+    "hash": "b9df689163ff18a1",
+    "published": "2026-06-15",
+    "modified": "2026-06-15"
+  },
+  "week:33": {
+    "hash": "f69cd994b43c9594",
+    "published": "2026-06-15",
+    "modified": "2026-06-15"
+  },
+  "week:34": {
+    "hash": "6ed82979108bedc2",
+    "published": "2026-06-15",
+    "modified": "2026-06-15"
+  },
+  "week:35": {
+    "hash": "c03c94e2509744da",
+    "published": "2026-06-15",
+    "modified": "2026-06-15"
+  },
+  "week:36": {
+    "hash": "3ea7f5e208711bd4",
+    "published": "2026-06-15",
+    "modified": "2026-06-15"
+  },
+  "week:37": {
+    "hash": "de9f1df00edb5633",
+    "published": "2026-06-15",
+    "modified": "2026-06-15"
+  },
+  "week:38": {
+    "hash": "8fe16e999db8f5f2",
+    "published": "2026-06-15",
+    "modified": "2026-06-15"
+  },
+  "week:39": {
+    "hash": "a48e361f0125a9f4",
+    "published": "2026-06-15",
+    "modified": "2026-06-15"
+  },
+  "week:40": {
+    "hash": "5563702afb6b01ca",
+    "published": "2026-06-15",
+    "modified": "2026-06-15"
+  },
+  "week:41": {
+    "hash": "430fe43243df76c2",
+    "published": "2026-06-15",
+    "modified": "2026-06-15"
+  },
+  "week:42": {
+    "hash": "682f95835ef9ea1d",
+    "published": "2026-06-15",
+    "modified": "2026-06-15"
+  },
+  "week:43": {
+    "hash": "71cbaedfb303eda3",
+    "published": "2026-06-15",
+    "modified": "2026-06-15"
+  },
+  "week:44": {
+    "hash": "2c82ae8afdaa2603",
+    "published": "2026-06-15",
+    "modified": "2026-06-15"
+  },
+  "week:45": {
+    "hash": "1a7cd342c53f03a1",
+    "published": "2026-06-15",
+    "modified": "2026-06-15"
+  },
+  "week:46": {
+    "hash": "95c768e68a103868",
+    "published": "2026-06-15",
+    "modified": "2026-06-15"
+  },
+  "week:47": {
+    "hash": "0a7de9ccedf549d4",
+    "published": "2026-06-15",
+    "modified": "2026-06-15"
+  },
+  "week:48": {
+    "hash": "aa5b3d374a4ba101",
+    "published": "2026-06-15",
+    "modified": "2026-06-15"
+  },
+  "week:49": {
+    "hash": "7fc0253aeb5f4dd9",
+    "published": "2026-06-15",
+    "modified": "2026-06-15"
+  },
+  "week:50": {
+    "hash": "05a280f06cbc89f5",
+    "published": "2026-06-15",
+    "modified": "2026-06-15"
+  },
+  "week:51": {
+    "hash": "67f136659e277afa",
+    "published": "2026-06-15",
+    "modified": "2026-06-15"
+  },
+  "week:52": {
+    "hash": "ffc62e33c7823da0",
+    "published": "2026-06-15",
+    "modified": "2026-06-15"
+  },
+  "week:53": {
+    "hash": "3da765b1452b1b6f",
+    "published": "2026-06-15",
+    "modified": "2026-06-15"
+  },
+  "week:54": {
+    "hash": "56326fd6c4b02ab9",
+    "published": "2026-06-15",
+    "modified": "2026-06-15"
+  },
+  "week:55": {
+    "hash": "c1283c463bccc7cf",
+    "published": "2026-06-15",
+    "modified": "2026-06-15"
+  },
+  "week:56": {
+    "hash": "919ab0843fe9d006",
+    "published": "2026-06-15",
+    "modified": "2026-06-15"
+  },
+  "week:57": {
+    "hash": "cf0ce09f4221ee98",
+    "published": "2026-06-15",
+    "modified": "2026-06-15"
+  },
+  "week:58": {
+    "hash": "2def72e43d2bb82e",
+    "published": "2026-06-15",
+    "modified": "2026-06-15"
+  },
+  "week:59": {
+    "hash": "e53fc65d28768f2c",
+    "published": "2026-06-15",
+    "modified": "2026-06-15"
+  },
+  "week:60": {
+    "hash": "087f4f09adb4734f",
+    "published": "2026-06-15",
+    "modified": "2026-06-15"
+  },
+  "week:61": {
+    "hash": "11a1cd0c42532fd9",
+    "published": "2026-06-15",
+    "modified": "2026-06-15"
+  },
+  "week:62": {
+    "hash": "91aa5a58f7d9091f",
+    "published": "2026-06-15",
+    "modified": "2026-06-15"
+  },
+  "week:63": {
+    "hash": "bbf87b751fc34045",
+    "published": "2026-06-15",
+    "modified": "2026-06-15"
+  },
+  "week:64": {
+    "hash": "3eea8603e14848cd",
+    "published": "2026-06-15",
+    "modified": "2026-06-15"
+  }
+}
