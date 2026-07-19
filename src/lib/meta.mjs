@@ -16,15 +16,17 @@ function alternates(path) {
   return rows.join('');
 }
 
-export function head({ title, description, path, theme = 'dark', ogImage, jsonld = [], css = CSS }) {
+export function head({ title, description, path, theme = 'dark', ogImage, jsonld = [], css = CSS, noindex = false, preload = [] }) {
   const canonical = `${site.origin}${path.endsWith('/') ? path : path + '/'}`;
   const og = ogImage || `${site.origin}/og/home.png`;
   const ld = jsonld.filter(Boolean).map((o) =>
     `<script type="application/ld+json">${JSON.stringify(o)}</script>`).join('');
+  const preloads = preload.map((p) =>
+    `<link rel="preload" as="${p.as}"${p.type ? ` type="${p.type}"` : ''} href="${esc(p.href)}"${p.fetchpriority ? ` fetchpriority="${p.fetchpriority}"` : ''}>`).join('');
   return `<!doctype html><html lang="en"><head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>${esc(title)}</title>
+<title>${esc(title)}</title>${noindex ? '\n<meta name="robots" content="noindex,follow">' : ''}
 <meta name="description" content="${esc(description)}">
 <link rel="canonical" href="${esc(canonical)}">
 ${alternates(path)}
@@ -39,7 +41,7 @@ ${alternates(path)}
 <meta name="twitter:card" content="summary_large_image">
 <link rel="icon" href="/assets/icon.png" type="image/png">
 <link rel="apple-touch-icon" href="/assets/icon.png">
-<style>${css}</style>
+${preloads}<style>${css}</style>
 ${ld}
 </head>`;
 }

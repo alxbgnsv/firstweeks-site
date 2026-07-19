@@ -2,7 +2,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { site } from '../config.mjs';
+import { site, app } from '../config.mjs';
 import { minify, assertNoPlaceholders } from '../src/lib/html.mjs';
 import { setCSS } from '../src/lib/meta.mjs';
 
@@ -12,7 +12,7 @@ export const read = (p) => fs.readFileSync(path.join(ROOT, p), 'utf8');
 export const content = (name) => JSON.parse(read(`content/${name}.json`));
 
 // Inlined critical CSS (tokens + base) — one <style>, no render-blocking request.
-export const CSS = ['tokens', 'base', 'landing', 'checkout', 'content'].map((n) => read(`src/styles/${n}.css`)).join('\n')
+export const CSS = ['tokens', 'base', 'landing', 'checkout', 'content', 'service'].map((n) => read(`src/styles/${n}.css`)).join('\n')
   .replace(/\/\*[^]*?\*\//g, '')        // strip comments first
   .replace(/\s*\n\s*/g, '\n').trim();   // collapse blank lines (keep CSS intact)
 setCSS(CSS);
@@ -57,6 +57,7 @@ const { buildCheckout } = await import('../src/templates/checkout.mjs');
 const { buildWeeks } = await import('../src/templates/week.mjs');
 const { buildArticles } = await import('../src/templates/article.mjs');
 const { buildExercises } = await import('../src/templates/exercise.mjs');
+const { buildService } = await import('../src/templates/service.mjs');
 const { loadContent } = await import('../src/lib/content.mjs');
 const { initDates, persistDates } = await import('../src/lib/dates.mjs');
 
@@ -70,11 +71,25 @@ buildCheckout({ emit, read, CSS });
 buildWeeks({ emit, content: cnt });
 buildArticles({ emit, content: cnt });
 buildExercises({ emit, content: cnt });
+buildService({ emit, emitFile });
 buildStyleguide({ emit, read, CSS });
 persistDates();
 
 // Static assets + files
 copyDir(path.join(ROOT, 'public'), DIST);
+
+// Apple App Site Association (universal links → /invite/*). Served at
+// /.well-known/apple-app-site-association with NO extension and JSON body.
+// appID = {TEAMID}.{bundleID}; Alex fills the real Team ID (README).
+const aasa = {
+  applinks: {
+    apps: [],
+    details: [{ appID: `${app.teamID}.${app.bundleID}`, paths: ['/invite/*'] }],
+  },
+};
+emitFile('.well-known/apple-app-site-association', JSON.stringify(aasa, null, 2));
+// Root copy too (older iOS checks site root before .well-known).
+emitFile('apple-app-site-association', JSON.stringify(aasa, null, 2));
 
 // sitemap.xml (indexable pages only)
 const sitemap = `<?xml version="1.0" encoding="UTF-8"?>

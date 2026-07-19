@@ -1,0 +1,47 @@
+/* Service pages (light Warm paper): methodology, support, privacy, terms, invite. */
+
+/* Lead paragraph under a service H1 */
+.svc-lead { font-size: 1.12rem; color: var(--text-2); margin: 4px 0 26px; max-width: 40ch; }
+
+/* Source chips (methodology) */
+.src-chips { display: flex; flex-wrap: wrap; gap: 10px; margin: 16px 0 8px; }
+.src-chip { display: inline-block; font-weight: 700; font-size: .82rem; letter-spacing: .02em;
+  color: var(--text); background: var(--card); border: 1px solid var(--border); border-radius: 999px; padding: 7px 14px; }
+
+/* DOES / NEVER two-column split */
+.split { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin: 18px 0; }
+.split-col { padding: 20px; border: 1px solid var(--border); border-radius: 16px; background: var(--card); }
+.split-col .kicker { display: block; margin-bottom: 10px; }
+.split-col--does .kicker { color: var(--accent-ink); }
+.split-col--never .kicker { color: var(--danger-text); }
+.split-col ul { list-style: none; padding: 0; margin: 0; }
+.split-col li { position: relative; padding-left: 18px; margin-bottom: 8px; font-size: .96rem; }
+.split-col li::before { content: "·"; position: absolute; left: 4px; font-weight: 700; }
+.split-col--does li::before { color: var(--accent); }
+.split-col--never li::before { color: var(--danger-text); }
+@media (max-width: 640px) { .split { grid-template-columns: 1fr; } }
+
+/* Emphasis callout (short version / not-a-medical-device / emergency) */
+.callout { border: 1px solid var(--border-strong); background: var(--card); border-radius: 16px;
+  padding: 18px 20px; margin: 22px 0; }
+.callout .kicker { display: block; margin-bottom: 8px; color: var(--accent-ink); }
+.callout--warn { border-color: rgba(200,70,50,.4); }
+.callout--warn .kicker { color: var(--danger-text); }
+
+/* Support: contact cards */
+.contact-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin: 20px 0 8px; }
+.contact-card { padding: 20px; border: 1px solid var(--border); border-radius: 16px; background: var(--card); display: grid; gap: 8px; align-content: start; }
+.contact-card h3 { margin: 0; font-size: 1.05rem; }
+.contact-card p { margin: 0; color: var(--text-2); font-size: .95rem; }
+.contact-card .mail { font-weight: 700; color: var(--link); word-break: break-all; }
+.soon { color: var(--text-3); font-weight: 600; font-size: .95rem; }
+@media (max-width: 640px) { .contact-grid { grid-template-columns: 1fr; } }
+
+/* Draft/legal note */
+.draft-note { font-size: .88rem; color: var(--text-3); border-top: 1px solid var(--border); margin-top: 34px; padding-top: 16px; }
+
+/* Invite page */
+.invite { text-align: center; padding: 20px 0 8px; }
+.invite .invite-ic { width: 72px; height: 72px; border-radius: 20px; margin: 0 auto 18px; display: block; }
+.invite .btn-row { justify-content: center; margin-top: 8px; }
+.invite .muted { margin-top: 14px; }
