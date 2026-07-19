@@ -17,17 +17,17 @@
 | a54 | 29 | babble-to-first-words-the-language-runway | Development | Med | **B2 ✓** |
 | a50 | 33 | baby-led-weaning-vs-purees-truce | Feeding | Med | **B2 ✓** |
 | a55 | 35 | separation-anxiety-a-good-sign-that-feels-bad | Development | Med | **B2 ✓** |
-| a44 | 37 | the-8-to-10-month-sleep-regression | Sleep | High | B3 |
-| a61 | 40 | babyproofing-level-two-the-mobile-baby | Health & Safety | Med | B3 |
-| a56 | 43 | cruising-to-first-steps | Development | Med | B3 |
-| a51 | 45 | from-bottle-to-cup-the-off-ramp | Feeding | Med | B3 |
-| a62 | 47 | first-colds-and-ear-infections | Health & Safety | High | B3 |
-| a45 | 48 | night-weaning-when-and-how | Sleep | Med | B3 |
-| a64 | 49 | returning-to-work-the-logistics-of-leaving | For Parents | Med | B4 |
-| a57 | 51 | pointing-waving-and-other-superpowers | Development | Low | B4 |
-| a52 | 53 | whole-milk-and-the-one-year-food-flip | Feeding | Med | B4 |
-| a63 | 55 | tantrums-before-two-the-preview | Crying & Soothing | Med | B4 |
-| a46 | 56 | the-2-to-1-nap-transition | Sleep | Med | B4 |
-| a58 | 59 | early-talkers-late-talkers-what-matters | Development | High | B4 |
+| a44 | 37 | the-8-to-10-month-sleep-regression | Sleep | High | **B3 ✓** |
+| a61 | 40 | babyproofing-level-two-the-mobile-baby | Health & Safety | Med | **B3 ✓** |
+| a56 | 43 | cruising-to-first-steps | Development | Med | **B3 ✓** |
+| a51 | 45 | from-bottle-to-cup-the-off-ramp | Feeding | Med | **B3 ✓** |
+| a62 | 47 | first-colds-and-ear-infections | Health & Safety | High | **B3 ✓** |
+| a45 | 48 | night-weaning-when-and-how | Sleep | Med | **B3 ✓** |
+| a64 | 49 | returning-to-work-the-logistics-of-leaving | For Parents | Med | **B4 ✓** |
+| a57 | 51 | pointing-waving-and-other-superpowers | Development | Low | **B4 ✓** |
+| a52 | 53 | whole-milk-and-the-one-year-food-flip | Feeding | Med | **B4 ✓** |
+| a63 | 55 | tantrums-before-two-the-preview | Crying & Soothing | Med | **B4 ✓** |
+| a46 | 56 | the-2-to-1-nap-transition | Sleep | Med | **B4 ✓** |
+| a58 | 59 | early-talkers-late-talkers-what-matters | Development | High | **B4 ✓** |
 
 Правила для всех батчей: тон «calm, clear, never falsely reassuring»; факты по AAP/CDC/NIH/WHO с source-ссылкой; секция «when to check in» там, где тема медицинская; каждый текст уникален (не пересказ week-страниц — статья раскрывает одну тему глубоко, week-страница обозревает неделю); SEO-блок обязателен: title ≤60 с брендом, description ≤155, keywords 5–6, og_kicker = категория.

@@ -1,0 +1,528 @@
+{
+ "batch": "B4",
+ "articles": [
+  {
+   "id": "a64",
+   "week": 49,
+   "slug": "returning-to-work-the-logistics-of-leaving",
+   "title": "Returning to work: the logistics of leaving",
+   "category": "For Parents",
+   "read_min": 4,
+   "seo": {
+    "title": "Returning to Work After Baby: Logistics | FirstWeeks",
+    "description": "A calm checklist for going back to work: childcare handoff, a feeding plan, a pumping setup that survives real days, and the guilt nobody warns you about.",
+    "keywords": [
+     "returning to work after baby",
+     "back to work maternity leave",
+     "pumping at work schedule",
+     "daycare transition tips",
+     "working parent guilt"
+    ],
+    "og_kicker": "FOR PARENTS"
+   },
+   "body": [
+    {
+     "h": "Start before the first day",
+     "p": "The transition goes better when day one isn't a cliff. If the calendar allows, start childcare a few days before you actually return — half-days first — so the first real workday isn't also the first separation. Do a dry run of the whole morning choreography once: the wake-up, the bag, the handoff, the commute, timed with a real clock. The rehearsal surfaces the bottleneck (it's always the bottle-and-shoes interval) while the stakes are still zero."
+    },
+    {
+     "h": "The handoff document",
+     "p": "Whoever cares for your baby inherits a rhythm you carry in your head — write it down. A single page: typical nap windows, feed amounts and timing, comfort tricks that work and the ones that don't, allergies, the pediatrician's number, and how you want to be reached. Keep it factual and short; a caregiver reads a one-pager, not an essay. A shared log that both of you can see turns \"how was today?\" from an interrogation into a glance — and catches the pattern shifts that matter."
+    },
+    {
+     "h": "The feeding plan, decided in advance",
+     "p": "However you feed, name the plan before the deadline arrives. If you're continuing breast milk, a rough rule is to pump around each feed the baby would take while you're apart, refrigerate or freeze on a schedule, and know your workplace pumping rights in advance (US law protects reasonable break time and a private, non-bathroom space for many workers). Build a small freezer buffer in the weeks before you return, but don't chase a mountain — a few days' cushion beats a stress-fueled stockpile. If you're moving toward formula or combination feeding, start the transition gradually while you're still home to watch how it goes. There is no morally superior column here; there's the plan that keeps your baby fed and you functional."
+    },
+    {
+     "h": "The pumping setup that survives a real day",
+     "p": "The logistics are half the battle: a labeled bag, spare parts (a forgotten valve ends a session), a hands-free option so a pump break can double as an email break, a cooler for transport, and blocks actually held on your calendar so they don't evaporate under meetings. Supply often dips slightly with the schedule change and stress — usually manageable with consistency and hydration, and worth a lactation consult if it drops sharply."
+    },
+    {
+     "h": "The part nobody schedules",
+     "p": "The guilt is real and it is not evidence you're doing anything wrong. Children thrive with responsive caregivers, and a parent who models work is giving something too. The first week is typically the hardest for you and often easier than expected for the baby — the tears at drop-off usually stop within minutes of your car leaving. If low mood, anxiety or dread runs deep or lingers past the adjustment, that's worth raising with your own doctor; the returning-to-work window is a common trigger for postpartum mood changes, and support exists."
+    }
+   ],
+   "sources": [
+    {
+     "label": "CDC — Breastfeeding and Going Back to Work",
+     "url": "https://www.cdc.gov/breastfeeding-special-circumstances/php/returning-to-work/"
+    },
+    {
+     "label": "AAP — Working Parents",
+     "url": "https://www.healthychildren.org/English/family-life/work-play/Pages/default.aspx"
+    }
+   ],
+   "related": [
+    "mom-s-checkup-matters-too",
+    "introducing-a-bottle-to-a-breastfed-baby",
+    "separation-anxiety-a-good-sign-that-feels-bad"
+   ],
+   "schema": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Returning to work: the logistics of leaving",
+    "description": "A calm checklist for going back to work: childcare handoff, a feeding plan, a pumping setup that survives real days, and the guilt nobody warns you about.",
+    "articleSection": "For Parents",
+    "inLanguage": "en",
+    "author": {
+     "@type": "Organization",
+     "name": "FirstWeeks",
+     "url": "https://firstweeks.app"
+    },
+    "publisher": {
+     "@type": "Organization",
+     "name": "FirstWeeks",
+     "url": "https://firstweeks.app",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://firstweeks.app/assets/icon.png"
+     }
+    },
+    "mainEntityOfPage": {
+     "@type": "WebPage",
+     "@id": "https://firstweeks.app/en/articles/returning-to-work-the-logistics-of-leaving/"
+    },
+    "citation": [
+     "https://www.cdc.gov/breastfeeding-special-circumstances/php/returning-to-work/",
+     "https://www.healthychildren.org/English/family-life/work-play/Pages/default.aspx"
+    ],
+    "dateModified": "{{BUILD_DATE}}"
+   }
+  },
+  {
+   "id": "a57",
+   "week": 51,
+   "slug": "pointing-waving-and-other-superpowers",
+   "title": "Pointing, waving and other superpowers",
+   "category": "Development",
+   "read_min": 3,
+   "seo": {
+    "title": "Pointing & Waving: Baby Gesture Milestones | FirstWeeks",
+    "description": "Why gestures like pointing and waving matter more than first words, what they predict about language, and which missing gestures are worth a mention.",
+    "keywords": [
+     "baby pointing milestone",
+     "when do babies wave",
+     "baby gestures development",
+     "baby not pointing",
+     "gestures before talking"
+    ],
+    "og_kicker": "DEVELOPMENT"
+   },
+   "body": [
+    {
+     "h": "Small movements, big meaning",
+     "p": "Waving bye-bye, clapping, raising arms to be picked up, shaking the head no, and — the crown jewel — pointing: these gestures near the first birthday are among the most useful developmental signals there are. They're proof of the idea underneath all language: I have something in my mind and I want to put it in yours. A baby who points at the dog and then checks your face is running the full communication loop before owning a single word for it."
+    },
+    {
+     "h": "The pointing distinction worth knowing",
+     "p": "There are two kinds, and both matter. Requesting points — that, give me that — come first and get the job done. The developmental gold is the declarative point: pointing purely to share, look at that!, with the telltale glance back to make sure you saw. That glance is joint attention, the shared-focus skill that language is built on top of. Most babies are pointing to share somewhere around 12 months, give or take the usual generous range."
+    },
+    {
+     "h": "How to feed the loop",
+     "p": "Gestures grow through use, not drills. Wave every hello and goodbye and narrate it. Model pointing on walks and in books — \"look, a truck!\" — and when your baby points, reward it instantly by naming the target: the point says what's that and your word is the payoff that keeps the loop spinning. Songs with motions (clap, wave, arms up) hand babies a gesture vocabulary in the most repeatable format there is. A little baby sign — milk, more, all done — can ease the frustration gap before speech and, contrary to old worry, doesn't slow talking."
+    },
+    {
+     "h": "When to check in",
+     "p": "Bring it up with your pediatrician if there's no pointing, waving or other gestures by about 12 months, no joint-attention glance to share interest, no response to their name, or — importantly — a loss of gestures or social skills that were already there. Gesture delays and, especially, regressions are on the early-signs list for developmental screening; raising them early is exactly how support starts on time. This isn't cause for panic — most late gesturers are simply on their own schedule — it's cause for a conversation."
+    },
+    {
+     "h": "The reassuring frame",
+     "p": "One skipped gesture in an otherwise connected, engaged, babbling baby is usually nothing. It's the whole picture that speaks — eye contact, back-and-forth, response to name, a growing kit of ways to share the world with you. That picture, more than any single milestone, is what a checkup is reading."
+    }
+   ],
+   "sources": [
+    {
+     "label": "CDC — Developmental Milestones",
+     "url": "https://www.cdc.gov/act-early/milestones/index.html"
+    },
+    {
+     "label": "NIH/NIDCD — Speech and Language Milestones",
+     "url": "https://www.nidcd.nih.gov/health/speech-and-language"
+    }
+   ],
+   "related": [
+    "babble-to-first-words-the-language-runway",
+    "early-talkers-late-talkers-what-matters",
+    "coos-squeals-and-the-language-project"
+   ],
+   "schema": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Pointing, waving and other superpowers",
+    "description": "Why gestures like pointing and waving matter more than first words, what they predict about language, and which missing gestures are worth a mention.",
+    "articleSection": "Development",
+    "inLanguage": "en",
+    "author": {
+     "@type": "Organization",
+     "name": "FirstWeeks",
+     "url": "https://firstweeks.app"
+    },
+    "publisher": {
+     "@type": "Organization",
+     "name": "FirstWeeks",
+     "url": "https://firstweeks.app",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://firstweeks.app/assets/icon.png"
+     }
+    },
+    "mainEntityOfPage": {
+     "@type": "WebPage",
+     "@id": "https://firstweeks.app/en/articles/pointing-waving-and-other-superpowers/"
+    },
+    "citation": [
+     "https://www.cdc.gov/act-early/milestones/index.html",
+     "https://www.nidcd.nih.gov/health/speech-and-language"
+    ],
+    "dateModified": "{{BUILD_DATE}}"
+   }
+  },
+  {
+   "id": "a52",
+   "week": 53,
+   "slug": "whole-milk-and-the-one-year-food-flip",
+   "title": "Whole milk and the one-year food flip",
+   "category": "Feeding",
+   "read_min": 3,
+   "seo": {
+    "title": "Whole Milk at One Year: The Food Flip | FirstWeeks",
+    "description": "At the first birthday the rules change: whole cow's milk is fine, food becomes the main event, appetite drops on purpose. What the flip really means.",
+    "keywords": [
+     "whole milk one year old",
+     "cow milk baby 12 months",
+     "toddler appetite drop",
+     "one year old feeding",
+     "how much milk toddler"
+    ],
+    "og_kicker": "FEEDING"
+   },
+   "body": [
+    {
+     "h": "The switch flips at twelve months",
+     "p": "The first birthday quietly rewrites the feeding rulebook. Cow's milk as a main drink — off-limits before now — becomes fine, and whole (full-fat) milk is the standard choice, because the fat matters for a growing brain in the second year. Honey joins the safe list too. Formula's job is essentially done for most babies. And the biggest shift: food moves from side act to headliner, while milk steps back to roughly two-to-three servings a day rather than the main event."
+    },
+    {
+     "h": "The appetite drop is a feature",
+     "p": "Right around now, many toddlers seem to fire their appetite. This alarms every parent and is almost always normal: growth slows dramatically after the first year's tripling act, so the body simply needs less fuel per pound. Add the new toddler agenda — walking is more interesting than eating — and mealtimes get shorter and pickier. A toddler who's active, growing along their curve and hydrated is eating enough, even when a given day's intake looks, to an adult eye, like three crackers and a philosophical objection to vegetables."
+    },
+    {
+     "h": "The division of responsibility",
+     "p": "The most useful feeding frame for the toddler years: you decide what is offered and when and where; your child decides whether and how much. Offer a variety of family foods on a rough schedule of meals and snacks, include something you know they'll accept alongside the new thing, and then step back. Pressure, bribery and the airplane spoon tend to backfire into bigger battles. New foods often need many low-key exposures before acceptance — the job is to keep calmly offering, not to win today's standoff."
+    },
+    {
+     "h": "The milk trap",
+     "p": "Too much milk is the classic second-year pitfall: it's filling, it crowds out food, and in large amounts it can interfere with iron absorption and lead to iron-deficiency anemia. A rough ceiling of around 16–24 oz a day keeps room for food. Serve milk in a cup with meals rather than a bottle carried around all day — the roaming milk cup is how the trap springs. Water is the between-meals drink; juice remains optional and limited."
+    },
+    {
+     "h": "When to check in",
+     "p": "Raise it with your pediatrician if weight falls off the curve, if your toddler gags on or refuses nearly all textures, if the diet has narrowed to a tiny handful of foods for weeks, or if you suspect a milk allergy or intolerance. And the 12-month well visit is the natural moment to confirm the milk plan and iron status — bring the food log."
+    }
+   ],
+   "sources": [
+    {
+     "label": "AAP — Recommended Drinks for Young Children",
+     "url": "https://www.healthychildren.org/English/healthy-living/nutrition/Pages/recommended-drinks-for-young-children-ages-0-5.aspx"
+    },
+    {
+     "label": "CDC — Toddler Feeding",
+     "url": "https://www.cdc.gov/infant-toddler-nutrition/foods-and-drinks/index.html"
+    }
+   ],
+   "related": [
+    "from-bottle-to-cup-the-off-ramp",
+    "starting-solids-the-readiness-checklist",
+    "baby-led-weaning-vs-purees-truce"
+   ],
+   "schema": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Whole milk and the one-year food flip",
+    "description": "At the first birthday the rules change: whole cow's milk is fine, food becomes the main event, appetite drops on purpose. What the flip really means.",
+    "articleSection": "Feeding",
+    "inLanguage": "en",
+    "author": {
+     "@type": "Organization",
+     "name": "FirstWeeks",
+     "url": "https://firstweeks.app"
+    },
+    "publisher": {
+     "@type": "Organization",
+     "name": "FirstWeeks",
+     "url": "https://firstweeks.app",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://firstweeks.app/assets/icon.png"
+     }
+    },
+    "mainEntityOfPage": {
+     "@type": "WebPage",
+     "@id": "https://firstweeks.app/en/articles/whole-milk-and-the-one-year-food-flip/"
+    },
+    "citation": [
+     "https://www.healthychildren.org/English/healthy-living/nutrition/Pages/recommended-drinks-for-young-children-ages-0-5.aspx",
+     "https://www.cdc.gov/infant-toddler-nutrition/foods-and-drinks/index.html"
+    ],
+    "dateModified": "{{BUILD_DATE}}"
+   }
+  },
+  {
+   "id": "a63",
+   "week": 55,
+   "slug": "tantrums-before-two-the-preview",
+   "title": "Tantrums before two: the preview",
+   "category": "Crying & Soothing",
+   "read_min": 3,
+   "seo": {
+    "title": "Early Tantrums Before Two: What Helps | FirstWeeks",
+    "description": "Why tantrums arrive before the terrible twos, what's happening in a flooded toddler brain, and calm responses that shorten them without rewarding them.",
+    "keywords": [
+     "toddler tantrums",
+     "tantrums before 2",
+     "how to handle tantrums",
+     "why do toddlers tantrum",
+     "one year old meltdowns"
+    ],
+    "og_kicker": "CRYING & SOOTHING"
+   },
+   "body": [
+    {
+     "h": "Why they start early",
+     "p": "Tantrums often arrive well before the second birthday, and the reason is a mismatch: a toddler now has big wants, strong opinions and a fierce drive for independence, but almost none of the equipment to manage any of it. The part of the brain that handles impulse control and big feelings is years from finished. So when frustration, tiredness or a thwarted plan hits, there's no brake — just flood. A tantrum isn't manipulation or bad parenting; it's a small nervous system overwhelmed by feelings too big for it, in public, at the worst possible moment."
+    },
+    {
+     "h": "The reframe that changes your response",
+     "p": "A melting-down toddler isn't giving you a hard time; they're having a hard time. In full meltdown the thinking brain is offline — which means reasoning, lecturing, and negotiating all bounce off, because there's no one home to receive them. The goal in the moment isn't to teach a lesson or win; it's to keep everyone safe and be a calm anchor until the storm passes. The lesson lands later, when the brain is back online."
+    },
+    {
+     "h": "What actually helps in the moment",
+     "p": "Stay calm and lend your steadiness — your regulated nervous system is the tool; matching their volume just adds a second storm. Keep it safe: move them somewhere they can't get hurt, get low, stay near. Name the feeling simply — \"you're so mad the cracker broke\" — which, over time, builds the emotional vocabulary that eventually replaces the screaming. Keep talk minimal mid-storm and offer comfort after. Prevention does more than any in-the-moment technique: most tantrums are downstream of hunger, tiredness or overstimulation, so protecting naps and snacks quietly deletes a large share of them, and offering small real choices (\"blue cup or green cup?\") feeds the independence drive before it detonates."
+    },
+    {
+     "h": "What not to do",
+     "p": "Don't give in to the tantrum itself — surrendering to the screaming teaches that screaming is the tool, though calmly revisiting a decision once everyone's regulated is fine and different. Don't punish the feeling; the anger is allowed even when the behavior needs a limit. And don't take it personally or perform for the audience of strangers — their opinions have never once helped a toddler down from a meltdown."
+    },
+    {
+     "h": "When to check in",
+     "p": "Mention it to your pediatrician if tantrums are extreme in frequency or duration well beyond the typical, if your child regularly hurts themselves or others during them, if they hold their breath to the point of passing out (frightening, usually benign, but worth confirming), or if tantrums come packaged with lost skills or a persistent absence of words and gestures. For the everyday kind, this is normal, exhausting, developmental weather — and it passes as the brain builds its brakes."
+    }
+   ],
+   "sources": [
+    {
+     "label": "AAP — Temper Tantrums",
+     "url": "https://www.healthychildren.org/English/ages-stages/toddler/Pages/Temper-Tantrums.aspx"
+    },
+    {
+     "label": "CDC — Positive Parenting Tips (Toddlers)",
+     "url": "https://www.cdc.gov/child-development/positive-parenting-tips/toddler-1-2-years.html"
+    }
+   ],
+   "related": [
+    "separation-anxiety-a-good-sign-that-feels-bad",
+    "overstimulation-the-reset-routine",
+    "the-2-to-1-nap-transition"
+   ],
+   "schema": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Tantrums before two: the preview",
+    "description": "Why tantrums arrive before the terrible twos, what's happening in a flooded toddler brain, and calm responses that shorten them without rewarding them.",
+    "articleSection": "Crying & Soothing",
+    "inLanguage": "en",
+    "author": {
+     "@type": "Organization",
+     "name": "FirstWeeks",
+     "url": "https://firstweeks.app"
+    },
+    "publisher": {
+     "@type": "Organization",
+     "name": "FirstWeeks",
+     "url": "https://firstweeks.app",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://firstweeks.app/assets/icon.png"
+     }
+    },
+    "mainEntityOfPage": {
+     "@type": "WebPage",
+     "@id": "https://firstweeks.app/en/articles/tantrums-before-two-the-preview/"
+    },
+    "citation": [
+     "https://www.healthychildren.org/English/ages-stages/toddler/Pages/Temper-Tantrums.aspx",
+     "https://www.cdc.gov/child-development/positive-parenting-tips/toddler-1-2-years.html"
+    ],
+    "dateModified": "{{BUILD_DATE}}"
+   }
+  },
+  {
+   "id": "a46",
+   "week": 56,
+   "slug": "the-2-to-1-nap-transition",
+   "title": "The 2-to-1 nap transition",
+   "category": "Sleep",
+   "read_min": 3,
+   "seo": {
+    "title": "The 2-to-1 Nap Transition: When & How | FirstWeeks",
+    "description": "Signs your toddler is ready to drop to one nap, the age it happens, how to bridge the rough weeks, and the early-bedtime safety net that saves them.",
+    "keywords": [
+     "2 to 1 nap transition",
+     "when do toddlers drop to one nap",
+     "one nap schedule",
+     "toddler nap transition",
+     "dropping morning nap"
+    ],
+    "og_kicker": "SLEEP"
+   },
+   "body": [
+    {
+     "h": "When it usually happens",
+     "p": "The drop from two naps to one typically lands between about 14 and 18 months — later than most sleep-deprived parents hope, and worth waiting for. Rush it and you get an overtired toddler who ironically sleeps worse; the two-nap system is usually worth defending until the signs are unmistakable and persistent, not just present on one chaotic Tuesday."
+    },
+    {
+     "h": "The readiness signs",
+     "p": "The tells cluster: your toddler starts refusing one of the two naps outright — usually the morning one is fought or the afternoon one gets pushed so late it mugs bedtime; naps that used to be solid turn short and stingy; bedtime becomes a negotiation because there's simply too much daytime sleep in the tank; or early-morning wake-ups appear from the same oversupply. One rough week during a leap, a cold or travel proves nothing. A two-week pattern is the memo that the system has outgrown itself."
+    },
+    {
+     "h": "How to bridge the messy weeks",
+     "p": "The destination is a single midday nap, but you get there by walking the morning nap gradually later — 15–30 minutes every few days — until it slides into the early afternoon and becomes the one nap, ideally landing somewhere around midday so the awake stretch to bedtime is survivable. During the transition, alternate: offer one nap on the days that can handle it and rescue with two on the days that fall apart. The single most useful tool is an aggressively early bedtime — sometimes 6 pm — on one-nap days, to soak up the deficit before it curdles into overtired bedtime battles and 5 am wake-ups."
+    },
+    {
+     "h": "What to expect",
+     "p": "Expect weeks of wobble, not a clean switch — some days one nap, some days two, both correct while the body recalibrates. Behavior often gets crankier before it settles as the schedule reshuffles; a temporary uptick in late-afternoon meltdowns is the transition talking, not a new personality. Once the single nap consolidates, many toddlers actually sleep better at night, because the sleep is finally organized rather than scattered."
+    },
+    {
+     "h": "When to check in",
+     "p": "Bring the sleep log to your pediatrician if day sleep collapses for weeks and your toddler seems exhausted regardless of what you try, if the drop triggers night sleep that stays broken, or if loud snoring and labored breathing are part of the picture — schedule problems and medical ones can wear the same costume, and the log tells them apart."
+    }
+   ],
+   "sources": [
+    {
+     "label": "AAP — Healthy Sleep Habits",
+     "url": "https://www.healthychildren.org/English/healthy-living/sleep/Pages/Healthy-Sleep-Habits-How-Many-Hours-Does-Your-Child-Need.aspx"
+    }
+   ],
+   "related": [
+    "the-3-to-2-nap-transition",
+    "night-weaning-when-and-how",
+    "tantrums-before-two-the-preview"
+   ],
+   "schema": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "The 2-to-1 nap transition",
+    "description": "Signs your toddler is ready to drop to one nap, the age it happens, how to bridge the rough weeks, and the early-bedtime safety net that saves them.",
+    "articleSection": "Sleep",
+    "inLanguage": "en",
+    "author": {
+     "@type": "Organization",
+     "name": "FirstWeeks",
+     "url": "https://firstweeks.app"
+    },
+    "publisher": {
+     "@type": "Organization",
+     "name": "FirstWeeks",
+     "url": "https://firstweeks.app",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://firstweeks.app/assets/icon.png"
+     }
+    },
+    "mainEntityOfPage": {
+     "@type": "WebPage",
+     "@id": "https://firstweeks.app/en/articles/the-2-to-1-nap-transition/"
+    },
+    "citation": [
+     "https://www.healthychildren.org/English/healthy-living/sleep/Pages/Healthy-Sleep-Habits-How-Many-Hours-Does-Your-Child-Need.aspx"
+    ],
+    "dateModified": "{{BUILD_DATE}}"
+   }
+  },
+  {
+   "id": "a58",
+   "week": 59,
+   "slug": "early-talkers-late-talkers-what-matters",
+   "title": "Early talkers, late talkers: what matters",
+   "category": "Development",
+   "read_min": 4,
+   "seo": {
+    "title": "Early vs Late Talkers: What Actually Matters | FirstWeeks",
+    "description": "Word counts vary wildly and mostly don't predict much. What genuinely matters at 18 months, the real red flags, and why understanding outranks talking.",
+    "keywords": [
+     "late talker toddler",
+     "how many words 18 months",
+     "when to worry about speech",
+     "speech delay signs",
+     "early talker vs late talker"
+    ],
+    "og_kicker": "DEVELOPMENT"
+   },
+   "body": [
+    {
+     "h": "The range is enormous — and mostly fine",
+     "p": "By around 18 months a rough guidepost is a handful to a couple dozen words, often climbing toward fifty by two — but the honest truth is that the spread is vast and a single word count predicts remarkably little about the eventual reader in your house. Plenty of quiet toddlers who bank words silently for months suddenly turn on the tap and catch up completely. Comparing your child's tally to the verbose kid at daycare is a fast route to worry that the data rarely justifies."
+    },
+    {
+     "h": "Understanding outranks talking",
+     "p": "The more informative signal isn't how much your toddler says — it's how much they understand and how hard they try to connect. A child who follows simple instructions, points to name body parts or pictures, brings you things to show you, uses gestures generously and clearly gets the back-and-forth of communication is doing the deep work of language, even while the spoken output lags. Receptive language (understanding) leading expressive language (talking) is the normal shape of things, and strong comprehension is genuinely reassuring."
+    },
+    {
+     "h": "What actually builds words",
+     "p": "The drivers are unchanged from infancy, just scaled up: talk with them constantly and narrate the day; read daily and let them turn pages, point, and 'read' back; expand what they offer (child: \"dog\"; you: \"yes, a big brown dog!\"); ask real questions and leave silence for an answer; sing; and keep screens minimal, because they crowd out exactly the live back-and-forth that teaches. Following their lead — naming what they're already interested in — beats any drilling regimen."
+    },
+    {
+     "h": "The real red flags",
+     "p": "Some signs earn a proactive conversation rather than a wait-and-see: no words at all by around 16–18 months, no meaningful two-word combinations by about 24 months, no or very few gestures, more interest in objects than people, not responding to their name, and — most important of all — losing words or social skills that were already there. Any suspicion about hearing belongs at the top of the list and warrants a prompt test at any age, even after a passed newborn screen; you cannot learn to say what you cannot clearly hear."
+    },
+    {
+     "h": "Why acting early is the opposite of panic",
+     "p": "Here's the reframe that resolves the tension between \"it's probably fine\" and \"but what if.\" Both are true, and the response to both is the same: if anything on the red-flag list fits, ask. Most late talkers turn out to be exactly that — late, then fine — but the minority who need support benefit enormously from starting early, and early-intervention services (free evaluations exist in the US regardless of the eventual answer) are designed for precisely this uncertainty. Raising it isn't pessimism; it's how the head start happens for the kids who need it, and how the rest of us get reassured. Bring your word list and your observations to the visit — the specifics turn a vague worry into a useful conversation."
+    }
+   ],
+   "sources": [
+    {
+     "label": "CDC — Developmental Milestones",
+     "url": "https://www.cdc.gov/act-early/milestones/index.html"
+    },
+    {
+     "label": "NIH/NIDCD — Speech and Language Milestones",
+     "url": "https://www.nidcd.nih.gov/health/speech-and-language"
+    }
+   ],
+   "related": [
+    "babble-to-first-words-the-language-runway",
+    "pointing-waving-and-other-superpowers",
+    "screens-and-tiny-humans"
+   ],
+   "schema": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Early talkers, late talkers: what matters",
+    "description": "Word counts vary wildly and mostly don't predict much. What genuinely matters at 18 months, the real red flags, and why understanding outranks talking.",
+    "articleSection": "Development",
+    "inLanguage": "en",
+    "author": {
+     "@type": "Organization",
+     "name": "FirstWeeks",
+     "url": "https://firstweeks.app"
+    },
+    "publisher": {
+     "@type": "Organization",
+     "name": "FirstWeeks",
+     "url": "https://firstweeks.app",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://firstweeks.app/assets/icon.png"
+     }
+    },
+    "mainEntityOfPage": {
+     "@type": "WebPage",
+     "@id": "https://firstweeks.app/en/articles/early-talkers-late-talkers-what-matters/"
+    },
+    "citation": [
+     "https://www.cdc.gov/act-early/milestones/index.html",
+     "https://www.nidcd.nih.gov/health/speech-and-language"
+    ],
+    "dateModified": "{{BUILD_DATE}}"
+   }
+  }
+ ]
+}

@@ -1,0 +1,533 @@
+{
+ "batch": "B3",
+ "articles": [
+  {
+   "id": "a44",
+   "week": 37,
+   "slug": "the-8-to-10-month-sleep-regression",
+   "title": "The 8-to-10-month sleep regression",
+   "category": "Sleep",
+   "read_min": 3,
+   "seo": {
+    "title": "8-10 Month Sleep Regression: What Helps | FirstWeeks",
+    "description": "Why sleep wobbles again around 8-10 months — mobility, separation anxiety, nap changes — how long it lasts, and what steadies nights without new habits.",
+    "keywords": [
+     "8 month sleep regression",
+     "9 month sleep regression",
+     "10 month old waking at night",
+     "baby standing in crib",
+     "sleep regression second half year"
+    ],
+    "og_kicker": "SLEEP"
+   },
+   "body": [
+    {
+     "h": "A different animal than 4 months",
+     "p": "The 4-month shift rebuilt sleep architecture permanently. This one is simpler and kinder: a temporary collision of three big developments. Your baby just acquired motion (crawling, pulling up), a working memory of you (separation awareness peaks in this stretch), and often a nap schedule in mid-renovation. The brain rehearses new skills at night, the body pops into standing at 2 AM without knowing how to get down, and the heart objects loudly to your exit. Typical run: two to six weeks, then sleep returns to its previous baseline — because unlike at 4 months, nothing structural changed."
+    },
+    {
+     "h": "What it looks like",
+     "p": "Sudden night wakings in a formerly solid sleeper, crib gymnastics at bedtime, a baby standing in the dark holding the rail like a tiny night watchman, nap refusal — usually the third nap dying on schedule — and dramatic protest at goodnight that ends fast once you leave. Cheerful days, chaotic nights: that combination is the signature of a developmental regression rather than illness."
+    },
+    {
+     "h": "What steadies it",
+     "p": "Give the skills a daytime gym: lots of floor practice pulling up and — critically — sitting back down, so the 2 AM standing trap has an exit your baby knows. Keep bedtime boring and identical; this is the worst possible fortnight to renovate the routine. Handle wakings with minimum viable comfort — brief, low-light, low-drama — and resist importing new habits (a rocking-to-sleep service launched during a regression tends to outlive it by months). For the separation piece, an extra dose of unhurried together-time before bed pays back at night."
+    },
+    {
+     "h": "What not to do",
+     "p": "Don't drop to one nap because naps got messy — at this age that usually backfires into overtiredness. Don't test three strategies in three nights; nothing gets a fair trial. And don't benchmark against the baby next door whose regression lasted four days."
+    },
+    {
+     "h": "When to check in",
+     "p": "See your pediatrician if wakings come with fever, ear-pulling plus crying, breathing changes, feeding refusal, or if weeks pass with zero improvement — ear infections and reflux both audition for the role of \"regression\" convincingly. Bring the sleep log; the pattern across two weeks answers questions memory can't."
+    }
+   ],
+   "sources": [
+    {
+     "label": "AAP — Healthy Sleep Habits",
+     "url": "https://www.healthychildren.org/English/healthy-living/sleep/Pages/default.aspx"
+    },
+    {
+     "label": "CDC — Developmental Milestones",
+     "url": "https://www.cdc.gov/act-early/milestones/index.html"
+    }
+   ],
+   "related": [
+    "the-4-month-sleep-regression-survival-guide",
+    "the-3-to-2-nap-transition",
+    "separation-anxiety-a-good-sign-that-feels-bad"
+   ],
+   "schema": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "The 8-to-10-month sleep regression",
+    "description": "Why sleep wobbles again around 8-10 months — mobility, separation anxiety, nap changes — how long it lasts, and what steadies nights without new habits.",
+    "articleSection": "Sleep",
+    "inLanguage": "en",
+    "author": {
+     "@type": "Organization",
+     "name": "FirstWeeks",
+     "url": "https://firstweeks.app"
+    },
+    "publisher": {
+     "@type": "Organization",
+     "name": "FirstWeeks",
+     "url": "https://firstweeks.app",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://firstweeks.app/assets/icon.png"
+     }
+    },
+    "mainEntityOfPage": {
+     "@type": "WebPage",
+     "@id": "https://firstweeks.app/en/articles/the-8-to-10-month-sleep-regression/"
+    },
+    "citation": [
+     "https://www.healthychildren.org/English/healthy-living/sleep/Pages/default.aspx",
+     "https://www.cdc.gov/act-early/milestones/index.html"
+    ],
+    "dateModified": "{{BUILD_DATE}}"
+   }
+  },
+  {
+   "id": "a61",
+   "week": 40,
+   "slug": "babyproofing-level-two-the-mobile-baby",
+   "title": "Babyproofing level two: the mobile baby",
+   "category": "Health & Safety",
+   "read_min": 4,
+   "seo": {
+    "title": "Babyproofing for a Mobile Baby: Level Two | FirstWeeks",
+    "description": "Crawling and pulling up change the risk map. The level-two sweep: furniture anchors, gates, cords, small objects — ranked by what actually causes harm.",
+    "keywords": [
+     "babyproofing checklist",
+     "baby proofing for crawling",
+     "furniture anchors baby",
+     "stair gates baby",
+     "childproofing house"
+    ],
+    "og_kicker": "HEALTH & SAFETY"
+   },
+   "body": [
+    {
+     "h": "The risk map just changed",
+     "p": "Level one babyproofing assumed a stationary baby. A crawler who pulls to stand rewrites the physics: everything within a vertical arm's reach is now reachable, everything unstable is now a lever, and the floor is the primary habitat. The good news: real-world injury data is concentrated in a short list, so a focused sweep beats padding the entire house."
+    },
+    {
+     "h": "The heavy hitters, in order",
+     "p": "Anchor furniture and the TV first — tip-overs of dressers and televisions are among the most serious home hazards for this exact age, and the fix is a $10 strap into a wall stud. Stairs second: hardware-mounted gates at the top (pressure gates are for doorways, never for the top of stairs). Third, strangulation lines: blind cords looped up out of reach or replaced with cordless, cables shortened, nothing dangling over the crib. Fourth, water: hot-water heater dialed to 120 °F (49 °C) or below, and never leave a baby alone in bath water — not for the length of one text message."
+    },
+    {
+     "h": "The floor census",
+     "p": "Get down to baby altitude and crawl the route yourself; you'll find coins, buttons, batteries and the dog's kibble your standing eyes miss. The choking gauge: anything that fits through a toilet-paper tube is airway-sized. Button batteries and magnets are their own emergency category — if swallowed, that's immediate emergency care, not watchful waiting. Medications, vitamins and cleaning products go up high and locked (\"child-resistant\" caps buy seconds, not safety), and save Poison Control in your phone now: 1-800-222-1222."
+    },
+    {
+     "h": "The kitchen and the edges",
+     "p": "Pot handles turned inward, back burners preferred, oven-door zone treated as hot territory, sharp corner guards where the coffee table meets a wobbly new stander. Outlet covers on unused sockets. Houseplants audited — several common ones are toxic — and trash cans with latching lids, because a baby's curiosity rates garbage five stars."
+    },
+    {
+     "h": "Supervision math",
+     "p": "No sweep replaces eyes — but a well-proofed home changes what supervision means: from goalkeeper lunges to calm presence. Re-run the audit every couple of months; a baby who can climb rewrites the map again, and the stroller-height shelf that was safe in month eight is a ladder rung in month fourteen."
+    }
+   ],
+   "sources": [
+    {
+     "label": "AAP — Childproofing Your Home",
+     "url": "https://www.healthychildren.org/English/safety-prevention/at-home/Pages/Childproofing-Your-Home.aspx"
+    },
+    {
+     "label": "CPSC — Anchor It",
+     "url": "https://www.anchorit.gov/"
+    }
+   ],
+   "related": [
+    "babyproofing-level-one",
+    "the-rolling-era-a-safety-sweep",
+    "gagging-vs-choking-know-the-difference"
+   ],
+   "schema": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Babyproofing level two: the mobile baby",
+    "description": "Crawling and pulling up change the risk map. The level-two sweep: furniture anchors, gates, cords, small objects — ranked by what actually causes harm.",
+    "articleSection": "Health & Safety",
+    "inLanguage": "en",
+    "author": {
+     "@type": "Organization",
+     "name": "FirstWeeks",
+     "url": "https://firstweeks.app"
+    },
+    "publisher": {
+     "@type": "Organization",
+     "name": "FirstWeeks",
+     "url": "https://firstweeks.app",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://firstweeks.app/assets/icon.png"
+     }
+    },
+    "mainEntityOfPage": {
+     "@type": "WebPage",
+     "@id": "https://firstweeks.app/en/articles/babyproofing-level-two-the-mobile-baby/"
+    },
+    "citation": [
+     "https://www.healthychildren.org/English/safety-prevention/at-home/Pages/Childproofing-Your-Home.aspx",
+     "https://www.anchorit.gov/"
+    ],
+    "dateModified": "{{BUILD_DATE}}"
+   }
+  },
+  {
+   "id": "a56",
+   "week": 43,
+   "slug": "cruising-to-first-steps",
+   "title": "Cruising to first steps",
+   "category": "Development",
+   "read_min": 3,
+   "seo": {
+    "title": "Cruising to First Steps: What to Expect | FirstWeeks",
+    "description": "From furniture-cruising to walking: the typical timeline, what helps (bare feet, push toys), what doesn't (walkers), and when a delay needs a visit.",
+    "keywords": [
+     "when do babies walk",
+     "baby cruising furniture",
+     "first steps age",
+     "baby walker safety",
+     "baby not walking 15 months"
+    ],
+    "og_kicker": "DEVELOPMENT"
+   },
+   "body": [
+    {
+     "h": "The staircase to walking",
+     "p": "Walking isn't one skill; it's a stack. Pulling to stand (typically 8–12 months) to cruising sideways along the couch, hands doing the balancing to standing unsupported for a few seconds, usually to everyone's held breath to and finally steps, most often somewhere between 9 and 15 months, with plenty of healthy babies strolling in later. The average hides enormous, perfectly normal spread — and early walking predicts exactly nothing about future athletics, despite what the playground economy of bragging suggests."
+    },
+    {
+     "h": "What genuinely helps",
+     "p": "Bare feet indoors: toes grip, arches load, balance calibrates — shoes are for outdoor protection, not for learning. Furniture arranged into a cruising highway with safe gaps that invite a reach-and-step. A sturdy push toy or a laundry basket with a book inside for weight — something that moves when pushed but doesn't run away. And falls: dozens a day onto a padded bottom are the curriculum, not a problem. Your job is a safe landing zone and a calm face; a parent who gasps at every plop teaches that falling is scary."
+    },
+    {
+     "h": "What doesn't help",
+     "p": "Seated baby walkers with wheels — pediatric guidance recommends against them: they're linked to injuries (stairs, tipping, reaching hot and heavy things at new speed) and don't teach walking; the motion pattern is wrong and the baby travels without balancing. Hard-soled \"first walker\" shoes indoors are marketing, not medicine. And hours of hand-walking a baby who isn't initiating it mostly trains your back."
+    },
+    {
+     "h": "When to check in",
+     "p": "Bring it up with your pediatrician if your baby isn't bearing weight on legs when supported by 12 months, isn't pulling to stand by 12, or isn't taking independent steps by 18 — that's the checkpoint where an evaluation is standard, not alarmist. Also worth a look at any age: consistent asymmetry (one leg dragging, one side doing the work), toe-walking that never varies, or losing a skill that was solid."
+    },
+    {
+     "h": "One honest heads-up",
+     "p": "A new walker's sleep often wobbles and their appetite may dip while the world becomes a gym — both typical, both temporary. The house sweep from your babyproofing pass deserves a re-run the week steps happen: altitude and speed just changed."
+    }
+   ],
+   "sources": [
+    {
+     "label": "CDC — Developmental Milestones",
+     "url": "https://www.cdc.gov/act-early/milestones/index.html"
+    },
+    {
+     "label": "AAP — Baby Walkers: A Dangerous Choice",
+     "url": "https://www.healthychildren.org/English/safety-prevention/at-home/Pages/Baby-Walkers-A-Dangerous-Choice.aspx"
+    }
+   ],
+   "related": [
+    "rolling-sitting-crawling-the-motor-map",
+    "babyproofing-level-two-the-mobile-baby",
+    "the-8-to-10-month-sleep-regression"
+   ],
+   "schema": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Cruising to first steps",
+    "description": "From furniture-cruising to walking: the typical timeline, what helps (bare feet, push toys), what doesn't (walkers), and when a delay needs a visit.",
+    "articleSection": "Development",
+    "inLanguage": "en",
+    "author": {
+     "@type": "Organization",
+     "name": "FirstWeeks",
+     "url": "https://firstweeks.app"
+    },
+    "publisher": {
+     "@type": "Organization",
+     "name": "FirstWeeks",
+     "url": "https://firstweeks.app",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://firstweeks.app/assets/icon.png"
+     }
+    },
+    "mainEntityOfPage": {
+     "@type": "WebPage",
+     "@id": "https://firstweeks.app/en/articles/cruising-to-first-steps/"
+    },
+    "citation": [
+     "https://www.cdc.gov/act-early/milestones/index.html",
+     "https://www.healthychildren.org/English/safety-prevention/at-home/Pages/Baby-Walkers-A-Dangerous-Choice.aspx"
+    ],
+    "dateModified": "{{BUILD_DATE}}"
+   }
+  },
+  {
+   "id": "a51",
+   "week": 45,
+   "slug": "from-bottle-to-cup-the-off-ramp",
+   "title": "From bottle to cup: the off-ramp",
+   "category": "Feeding",
+   "read_min": 3,
+   "seo": {
+    "title": "Bottle to Cup: The Off-Ramp Plan | FirstWeeks",
+    "description": "When and how to move from bottle to cup: the 6-month practice start, the 12-to-18-month wean window, cup types ranked, and the bedtime bottle problem.",
+    "keywords": [
+     "weaning from bottle",
+     "bottle to cup transition",
+     "when to stop bottle",
+     "sippy cup vs straw cup",
+     "bedtime bottle teeth"
+    ],
+    "og_kicker": "FEEDING"
+   },
+   "body": [
+    {
+     "h": "The timeline nobody tells you",
+     "p": "Cup practice starts far earlier than cup dependence ends: offer small sips from a cup around 6 months, right alongside solids. The actual off-ramp: begin phasing bottles out around the first birthday, aiming to be done by about 18 months. The reasons are unglamorous and real — prolonged bottle use is linked with tooth decay (especially the bedtime bottle), with drinking so much milk that food gets crowded out, and with a habit that only gets more beloved and harder to retire each month past two."
+    },
+    {
+     "h": "Cup types, ranked honestly",
+     "p": "An open cup — tiny, adult-assisted, gloriously messy — is the gold standard for mouth-muscle development, and babies can start practicing sips before they can walk. A straw cup is a close second and travels better. The classic hard-spout sippy is the most convenient and the least useful: it preserves a sucking pattern rather than teaching drinking, so treat it as a transitional tool, not a destination. Whatever the vessel: milk and water only — juice has no required role, and sweet drinks in constant-access cups are the cavity delivery system."
+    },
+    {
+     "h": "How the wean actually goes",
+     "p": "One bottle at a time, easiest first: midday usually surrenders quietly, morning next, bedtime last — it's the emotional one. Swap the routine, not just the container: the bedtime bottle's job gets replaced by milk in a cup with a snack before the bath, then the familiar books-and-songs sequence, so comfort survives the container change. Expect a few days of protest per dropped bottle, offer the cup matter-of-factly, and don't negotiate at 2 AM — night bottles for a baby past a year are habit, not hunger, for the vast majority."
+    },
+    {
+     "h": "The hard no",
+     "p": "No bottle in the crib — ever, at any age. Milk pooling around teeth overnight is the classic route to early childhood cavities, and a bottle as a solo sleep prop also has aspiration and ear-infection associations. If that ship already sailed, the fix is gradual: water down the crib bottle over a week or two until it's just water, at which point most babies fire it themselves."
+    },
+    {
+     "h": "When to check in",
+     "p": "Talk to your pediatrician if your baby refuses all cup formats past 12 months, if milk intake stays so high that meals barely happen, or if weight wobbles during the transition. And the first dental visit — by the first birthday — is the natural checkpoint to sanity-check the plan."
+    }
+   ],
+   "sources": [
+    {
+     "label": "AAP — Discontinuing the Bottle",
+     "url": "https://www.healthychildren.org/English/ages-stages/baby/feeding-nutrition/Pages/Discontinuing-the-Bottle.aspx"
+    },
+    {
+     "label": "CDC — Choosing Drinks",
+     "url": "https://www.cdc.gov/infant-toddler-nutrition/foods-and-drinks/choosing-drinks.html"
+    }
+   ],
+   "related": [
+    "whole-milk-and-the-one-year-food-flip",
+    "introducing-a-bottle-to-a-breastfed-baby",
+    "starting-solids-the-readiness-checklist"
+   ],
+   "schema": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "From bottle to cup: the off-ramp",
+    "description": "When and how to move from bottle to cup: the 6-month practice start, the 12-to-18-month wean window, cup types ranked, and the bedtime bottle problem.",
+    "articleSection": "Feeding",
+    "inLanguage": "en",
+    "author": {
+     "@type": "Organization",
+     "name": "FirstWeeks",
+     "url": "https://firstweeks.app"
+    },
+    "publisher": {
+     "@type": "Organization",
+     "name": "FirstWeeks",
+     "url": "https://firstweeks.app",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://firstweeks.app/assets/icon.png"
+     }
+    },
+    "mainEntityOfPage": {
+     "@type": "WebPage",
+     "@id": "https://firstweeks.app/en/articles/from-bottle-to-cup-the-off-ramp/"
+    },
+    "citation": [
+     "https://www.healthychildren.org/English/ages-stages/baby/feeding-nutrition/Pages/Discontinuing-the-Bottle.aspx",
+     "https://www.cdc.gov/infant-toddler-nutrition/foods-and-drinks/choosing-drinks.html"
+    ],
+    "dateModified": "{{BUILD_DATE}}"
+   }
+  },
+  {
+   "id": "a62",
+   "week": 47,
+   "slug": "first-colds-and-ear-infections",
+   "title": "First colds and ear infections",
+   "category": "Health & Safety",
+   "read_min": 4,
+   "seo": {
+    "title": "Baby Colds & Ear Infections: A Field Guide | FirstWeeks",
+    "description": "Why 8-10 colds a year is normal, what safely relieves a congested baby, how ear infections announce themselves, and the signs that mean call today.",
+    "keywords": [
+     "baby cold what to do",
+     "how many colds baby normal",
+     "ear infection baby signs",
+     "baby congestion relief",
+     "cold medicine for babies"
+    ],
+    "og_kicker": "HEALTH & SAFETY"
+   },
+   "body": [
+    {
+     "h": "The shocking-but-normal number",
+     "p": "Eight to ten colds in the first couple of years is typical — more with daycare or an older sibling running a personal import business in viruses. Each one runs one to two weeks, they overlap in winter, and the math means some months feel like one continuous cold. This is the immune system taking its coursework, not a sign that something is wrong with your baby or your cleaning."
+    },
+    {
+     "h": "What actually relieves a cold",
+     "p": "Comfort measures do the real work: saline drops followed by gentle suction before feeds and sleep (the nose is a feeding instrument at this age), a cool-mist humidifier in the sleep room, extra fluids, extra holding, and patience. What's off the menu: over-the-counter cough and cold medicines are not recommended for young children — guidance says not under 4 years — because they don't work well at this age and carry real risks. No honey before the first birthday, even for cough. Fever gets treated by the fever rules (comfort-dosed acetaminophen; ibuprofen after 6 months), not by reflex."
+    },
+    {
+     "h": "How ear infections announce themselves",
+     "p": "The classic sequence: a cold runs for several days, then things worsen instead of fading — new or returning fever, a baby markedly crankier lying down (pressure shifts), rough nights, feeding refusal because sucking hurts, sometimes fluid draining from an ear. Ear-tugging alone is famously unreliable — babies grab ears recreationally — it's the combination with a cold and mood change that matters. Middle-ear infections cluster in this exact age band because tiny horizontal ear tubes drain poorly; it's plumbing, not parenting."
+    },
+    {
+     "h": "What the doctor decides",
+     "p": "Diagnosis needs an actual look at the eardrum — no app or guess replaces it. From there, guidance splits by age and severity: many mild cases in older babies get a watchful-waiting window because a good share resolve alone, while younger babies and clearly severe cases get antibiotics promptly. If antibiotics are prescribed: the full course, even after day two's miraculous recovery. Repeat infections stacking up over months is a conversation worth having — that's where hearing checks and, in persistent cases, ear-tube referrals live."
+    },
+    {
+     "h": "Call today, not someday",
+     "p": "Same-day medical advice for: fever by the age rules (any 100.4 °F rectal under 12 weeks; sustained high fever later), labored or fast breathing, drinking little with few wet diapers, fluid or blood from an ear, a baby who's unusually limp or hard to wake, symptoms past ten days without improvement, or your gut saying this isn't a normal cold. On breathing especially: skip the phone and seek emergency care."
+    }
+   ],
+   "sources": [
+    {
+     "label": "AAP — Ear Infections",
+     "url": "https://www.healthychildren.org/English/health-issues/conditions/ear-nose-throat/Pages/Ear-Infection-Information.aspx"
+    },
+    {
+     "label": "FDA — Cough and Cold Products for Children",
+     "url": "https://www.fda.gov/consumers/consumer-updates/should-you-give-kids-medicine-coughs-and-colds"
+    }
+   ],
+   "related": [
+    "baby-fevers-by-age-a-clear-protocol",
+    "sneezes-hiccups-and-noisy-breathing",
+    "the-8-to-10-month-sleep-regression"
+   ],
+   "schema": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "First colds and ear infections",
+    "description": "Why 8-10 colds a year is normal, what safely relieves a congested baby, how ear infections announce themselves, and the signs that mean call today.",
+    "articleSection": "Health & Safety",
+    "inLanguage": "en",
+    "author": {
+     "@type": "Organization",
+     "name": "FirstWeeks",
+     "url": "https://firstweeks.app"
+    },
+    "publisher": {
+     "@type": "Organization",
+     "name": "FirstWeeks",
+     "url": "https://firstweeks.app",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://firstweeks.app/assets/icon.png"
+     }
+    },
+    "mainEntityOfPage": {
+     "@type": "WebPage",
+     "@id": "https://firstweeks.app/en/articles/first-colds-and-ear-infections/"
+    },
+    "citation": [
+     "https://www.healthychildren.org/English/health-issues/conditions/ear-nose-throat/Pages/Ear-Infection-Information.aspx",
+     "https://www.fda.gov/consumers/consumer-updates/should-you-give-kids-medicine-coughs-and-colds"
+    ],
+    "dateModified": "{{BUILD_DATE}}"
+   }
+  },
+  {
+   "id": "a45",
+   "week": 48,
+   "slug": "night-weaning-when-and-how",
+   "title": "Night weaning: when and how",
+   "category": "Sleep",
+   "read_min": 4,
+   "seo": {
+    "title": "Night Weaning: When and How to Start | FirstWeeks",
+    "description": "How to tell habit-wakings from hunger, when night weaning is realistic, two gradual methods that work, and the cases where night feeds should stay.",
+    "keywords": [
+     "night weaning",
+     "when to stop night feeds",
+     "baby waking to eat at night",
+     "how to night wean",
+     "dream feed"
+    ],
+    "og_kicker": "SLEEP"
+   },
+   "body": [
+    {
+     "h": "First, is it hunger?",
+     "p": "By the second half of the first year, many healthy, well-growing babies are physiologically capable of going through the night without calories — capable, not obligated, and the range is wide. The tell is in the pattern: a baby who nurses or drinks a full feed hungrily at 3 AM may genuinely need it; a baby who takes two comfort sips and drifts off is using milk as a sleep switch, and it's the switch — not the calories — keeping the waking alive. A week of logging feed lengths and volumes at night usually answers the question better than debate."
+    },
+    {
+     "h": "The green-light checklist",
+     "p": "Reasonable to consider when: your baby is past roughly six months, growing steadily along their curve, eating well by day, your pediatrician has no objections — and, crucially, nobody in the house is mid-crisis. Never launch during illness, new teeth breaking through, a developmental leap, travel or the first daycare week. And if night feeds are working fine for your family, there is no deadline: night weaning is an option, not an assignment."
+    },
+    {
+     "h": "Two gradual routes",
+     "p": "The taper: shrink the feed itself — two fewer minutes of nursing or an ounce less in the bottle every few nights — while shifting those calories into daytime meals, until the remaining feed is small enough to retire. The substitution: the non-feeding parent takes the waking and offers the full comfort toolkit minus milk — patting, holding, a steady voice — which is louder for a few nights and decisively breaks the milk-equals-sleep link. Both routes share one engine: consistency. Feeding at 2 AM on night four teaches that persistence pays, which is the exact wrong lesson at the exact right age for learning it."
+    },
+    {
+     "h": "What to expect",
+     "p": "Nights one through three are the tax; most babies renegotiate in under a week when the plan is steady. Daytime appetite typically rises to claim the moved calories — let it. For nursing mothers: taper rather than stop cold, both for supply management and comfort, and expect some feelings of your own; the 3 AM feed is often the last quiet ritual, and retiring it can be genuinely bittersweet."
+    },
+    {
+     "h": "When to check in",
+     "p": "Loop in your pediatrician before starting if your baby was premature, is under-curve on weight, has reflux or any medical condition — for some babies night calories are still part of the job. And if a week of consistent effort changes nothing, stop and reassess: pain, an ear infection or apnea-style snoring can impersonate hunger convincingly."
+    }
+   ],
+   "sources": [
+    {
+     "label": "AAP — Sleep and Night Feedings",
+     "url": "https://www.healthychildren.org/English/ages-stages/baby/sleep/Pages/default.aspx"
+    },
+    {
+     "label": "NIH — Infant Sleep",
+     "url": "https://www.nichd.nih.gov/health/topics/sleep"
+    }
+   ],
+   "related": [
+    "sleep-training-methods-an-honest-map",
+    "the-8-to-10-month-sleep-regression",
+    "longer-nights-help-them-stick"
+   ],
+   "schema": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Night weaning: when and how",
+    "description": "How to tell habit-wakings from hunger, when night weaning is realistic, two gradual methods that work, and the cases where night feeds should stay.",
+    "articleSection": "Sleep",
+    "inLanguage": "en",
+    "author": {
+     "@type": "Organization",
+     "name": "FirstWeeks",
+     "url": "https://firstweeks.app"
+    },
+    "publisher": {
+     "@type": "Organization",
+     "name": "FirstWeeks",
+     "url": "https://firstweeks.app",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://firstweeks.app/assets/icon.png"
+     }
+    },
+    "mainEntityOfPage": {
+     "@type": "WebPage",
+     "@id": "https://firstweeks.app/en/articles/night-weaning-when-and-how/"
+    },
+    "citation": [
+     "https://www.healthychildren.org/English/ages-stages/baby/sleep/Pages/default.aspx",
+     "https://www.nichd.nih.gov/health/topics/sleep"
+    ],
+    "dateModified": "{{BUILD_DATE}}"
+   }
+  }
+ ]
+}
