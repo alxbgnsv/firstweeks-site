@@ -34,8 +34,7 @@ export function header() {
 <svg class="menu__ic menu__ic--x" viewBox="0 0 24 24" width="24" height="24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" d="M6 6l12 12M18 6 6 18"/></svg>
 </summary>
 <div class="menu__panel"><nav aria-label="Mobile">${links}</nav>
-<a class="btn btn--primary btn--block" href="${cta}">Start free</a>
-<button class="theme-toggle theme-toggle--row" type="button" data-theme-toggle>${THEME_ICONS}<span class="theme-toggle__label">Switch theme</span></button></div>
+<a class="btn btn--primary btn--block" href="${cta}">Start free</a></div>
 </details>
 </div>
 </div></header>`;

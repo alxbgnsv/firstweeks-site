@@ -22,14 +22,15 @@
 .hero-layer--3 { animation-delay: 12s; }
 @media (prefers-reduced-motion: reduce) { .hero-layer { display: none; } }
 
-/* How it works — filled step cards, phone image bleeds to the bottom edge */
+/* How it works — full-width cards stacked one after another; readable phone at right */
 .steps { margin-top: 32px; }
-.grid--3.steps { gap: 24px; }
-.step { background: var(--card); border: 1px solid var(--border); border-radius: 20px; padding: 28px 28px 0; overflow: hidden; }
-.step .kicker { display: block; margin-bottom: 6px; }
-.step h3 { margin: 0 0 8px; }
-.step__body p { margin-bottom: 20px; }
-.step__phone { max-width: 200px; margin: 4px auto 0; }
+.grid--3.steps { grid-template-columns: 1fr; gap: 20px; }
+.step { display: grid; grid-template-columns: 1fr 300px; gap: 48px; align-items: center;
+  background: var(--card); border: 1px solid var(--border); border-radius: 16px; padding: 40px; }
+.step .kicker { display: block; margin-bottom: 8px; }
+.step h3 { margin: 0 0 10px; font-size: 1.35rem; }
+.step__body p { margin: 0; font-size: 1.08rem; color: var(--text-2); }
+.step__phone { width: 300px; max-width: 100%; margin: 0; }
 
 /* Ask demo section heading centered; layout handled in base.css (.ask-demo) */
 
@@ -48,8 +49,8 @@
 .redflag__q { font-weight: 600; margin: 0; font-size: 1.05rem; }
 
 /* Pricing extras */
-.freeforever { margin-top: 20px; }
-.store-row { margin-top: 14px; display: flex; align-items: center; justify-content: center; gap: 14px; flex-wrap: wrap; }
+.freeforever { margin: 30px 0 0; }
+.store-row { margin-top: 12px; display: flex; align-items: center; justify-content: center; gap: 16px; flex-wrap: wrap; }
 .store-row__lead { font-size: 14px; }
 
 /* FAQ column */
@@ -63,11 +64,9 @@
   .hero__phone { width: min(300px, 78vw); max-width: none; margin: 18px auto 0; }
   .hero-frame { margin: 0 auto; }
   .emotion__line { font-size: 23px; }
-  .grid--3.steps { grid-template-columns: 1fr; }
-  .step { display: grid; grid-template-columns: 76px 1fr; gap: 18px; align-items: center; padding: 20px; border-radius: 18px; }
-  .step__phone { max-width: 76px; margin: 0; order: -1; }
-  .step h3 { font-size: 1.05rem; }
-  .step__body p { margin-bottom: 0; }
+  .step { grid-template-columns: 1fr; gap: 26px; padding: 28px; text-align: center; }
+  .step__phone { width: 240px; margin: 0 auto; }
+  .step h3 { font-size: 1.2rem; }
   .trust { grid-template-columns: 1fr 1fr; gap: 22px; }
   .redflag { grid-template-columns: 1fr; gap: 24px; }
   .redflag__card { padding: 22px; }

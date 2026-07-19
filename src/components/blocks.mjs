@@ -6,7 +6,7 @@ import { storeLink } from './layout.mjs';
 export function appStoreBadge(tag = 'hero') {
   // Official-style Apple badge: black pill, Apple mark + "Download on the / App Store".
   return `<a class="appstore" href="${storeLink(tag)}" aria-label="Download on the App Store">
-<svg class="appstore__apple" viewBox="0 0 24 24" width="21" height="21" aria-hidden="true" focusable="false"><path fill="currentColor" d="M16.365 1.43c0 1.14-.42 2.22-1.15 3.02-.79.87-2.08 1.55-3.13 1.47-.14-1.1.44-2.28 1.13-3.03.78-.85 2.13-1.5 3.15-1.46zm3.93 16.03c-.57 1.31-.85 1.9-1.58 3.06-1.02 1.62-2.46 3.63-4.25 3.65-1.58.02-1.99-.99-4.14-.98-2.15.01-2.6 1-4.18.97-1.79-.02-3.15-1.83-4.17-3.44-2.85-4.51-3.15-9.8-1.39-12.62 1.25-2 3.22-3.17 5.08-3.17 1.89 0 3.08 1.04 4.64 1.04 1.51 0 2.43-1.04 4.62-1.04 1.65 0 3.4.9 4.65 2.45-4.09 2.24-3.42 8.08.98 10.13z"/></svg>
+<svg class="appstore__apple" viewBox="0 0 384 512" width="18" height="22" aria-hidden="true" focusable="false"><path fill="currentColor" d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5c0 26.2 4.8 53.3 14.4 81.2 12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z"/></svg>
 <span class="appstore__txt"><small>Download on the</small><b>App Store</b></span></a>`;
 }
 
