@@ -22,15 +22,15 @@
 .hero-layer--3 { animation-delay: 12s; }
 @media (prefers-reduced-motion: reduce) { .hero-layer { display: none; } }
 
-/* How it works — full-width cards stacked one after another; readable phone at right */
+/* How it works — desktop: 3-col filled cards, phone bleeds to the bottom edge.
+   Mobile (≤860): full-width stacked cards, text over a readable centered phone. */
 .steps { margin-top: 32px; }
-.grid--3.steps { grid-template-columns: 1fr; gap: 20px; }
-.step { display: grid; grid-template-columns: 1fr 300px; gap: 48px; align-items: center;
-  background: var(--card); border: 1px solid var(--border); border-radius: 16px; padding: 40px; }
-.step .kicker { display: block; margin-bottom: 8px; }
-.step h3 { margin: 0 0 10px; font-size: 1.35rem; }
-.step__body p { margin: 0; font-size: 1.08rem; color: var(--text-2); }
-.step__phone { width: 300px; max-width: 100%; margin: 0; }
+.grid--3.steps { gap: 24px; }
+.step { background: var(--card); border: 1px solid var(--border); border-radius: 20px; padding: 28px 28px 0; overflow: hidden; }
+.step .kicker { display: block; margin-bottom: 6px; }
+.step h3 { margin: 0 0 8px; }
+.step__body p { margin-bottom: 20px; color: var(--text-2); }
+.step__phone { max-width: 200px; margin: 4px auto 0; }
 
 /* Ask demo section heading centered; layout handled in base.css (.ask-demo) */
 
@@ -64,9 +64,10 @@
   .hero__phone { width: min(300px, 78vw); max-width: none; margin: 18px auto 0; }
   .hero-frame { margin: 0 auto; }
   .emotion__line { font-size: 23px; }
-  .step { grid-template-columns: 1fr; gap: 26px; padding: 28px; text-align: center; }
-  .step__phone { width: 240px; margin: 0 auto; }
+  .step { padding: 28px; text-align: center; }
+  .step__phone { max-width: 240px; margin: 22px auto 0; }
   .step h3 { font-size: 1.2rem; }
+  .step__body p { margin-bottom: 0; }
   .trust { grid-template-columns: 1fr 1fr; gap: 22px; }
   .redflag { grid-template-columns: 1fr; gap: 24px; }
   .redflag__card { padding: 22px; }
