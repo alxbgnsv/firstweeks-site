@@ -32,15 +32,17 @@ p { margin: 0 0 1em; }
 .btn--primary:hover { color: var(--on-accent); filter: brightness(1.04); }
 .btn--secondary { background: var(--card); color: var(--text); border: 1px solid var(--border-strong); }
 .btn--block { width: 100%; }
-.btn--lg { padding: 17px 26px; font-size: 1.02rem; }
 .link-arrow { color: var(--link); font-weight: 600; }
 .link-arrow::after { content: " →"; }
 
-/* App Store badge (inline SVG-free, text lockup) */
-.appstore { display: inline-flex; align-items: center; gap: 10px; background: #000; color: #fff;
-  border: 1px solid rgba(255,255,255,.22); border-radius: 12px; padding: 9px 16px; min-height: 50px; }
-.appstore small { display: block; font-size: .62rem; line-height: 1.1; color: rgba(255,255,255,.75); }
-.appstore b { font-size: 1.15rem; font-weight: 600; letter-spacing: -.01em; }
+/* Official-style App Store badge: black pill, Apple mark + text lockup. */
+.appstore { display: inline-flex; align-items: center; gap: 9px; background: #000; color: #fff;
+  border: 1px solid rgba(255,255,255,.28); border-radius: 11px; padding: 0 15px; height: 50px; }
+.appstore:hover { color: #fff; filter: brightness(1.12); }
+.appstore__apple { flex: 0 0 auto; margin-bottom: 2px; }
+.appstore__txt { display: flex; flex-direction: column; line-height: 1; text-align: left; }
+.appstore__txt small { font-size: .62rem; font-weight: 400; letter-spacing: .01em; color: rgba(255,255,255,.85); }
+.appstore__txt b { font-size: 1.16rem; font-weight: 600; letter-spacing: -.01em; margin-top: 2px; }
 .light .appstore { color: #fff; }
 .android-soon { color: var(--text-3); font-size: .85rem; }
 
@@ -51,10 +53,32 @@ p { margin: 0 0 1em; }
 .brand { display: inline-flex; align-items: center; gap: 10px; font-weight: 700; color: var(--text); font-size: 1.05rem; }
 .brand img { width: 30px; height: 30px; border-radius: 8px; }
 .nav { display: flex; gap: 24px; margin-left: 8px; }
-.nav a { color: var(--text-2); font-weight: 500; }
+.nav a { color: var(--text-2); font-weight: 500; font-size: 15px; }
 .nav a:hover { color: var(--text); }
 .header-cta { margin-left: auto; }
-@media (max-width: 720px) { .nav { display: none; } .site-header .wrap { gap: 12px; } }
+
+/* Mobile hamburger (CSS-only <details>; desktop hides it) */
+.menu { display: none; }
+.menu > summary { list-style: none; cursor: pointer; width: 46px; height: 46px;
+  display: inline-flex; align-items: center; justify-content: center; color: var(--text);
+  border: 1px solid var(--border-strong); border-radius: 11px; background: var(--card); }
+.menu > summary::-webkit-details-marker { display: none; }
+.menu__ic--x { display: none; }
+.menu[open] .menu__ic--bars { display: none; }
+.menu[open] .menu__ic--x { display: inline; }
+.menu__panel { position: absolute; top: 100%; left: 0; right: 0; background: var(--bg);
+  border-bottom: 1px solid var(--border); box-shadow: 0 24px 48px rgba(0,0,0,.45); padding: 6px 24px 20px; }
+.menu__panel nav { display: flex; flex-direction: column; }
+.menu__panel nav a { padding: 14px 2px; color: var(--text); font-weight: 500; font-size: 1.05rem;
+  border-bottom: 1px solid var(--border); }
+.menu__panel nav a:hover { color: var(--accent-ink); }
+.menu__panel .btn { margin-top: 16px; }
+@media (max-width: 720px) {
+  .nav { display: none; }
+  .header-cta { display: none; }
+  .menu { display: block; margin-left: auto; }
+  .site-header .wrap { gap: 12px; }
+}
 
 /* Footer */
 .site-footer { border-top: 1px solid var(--border); background: var(--bg-alt); padding: 48px 0; }

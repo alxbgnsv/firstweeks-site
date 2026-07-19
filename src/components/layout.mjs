@@ -14,10 +14,22 @@ const NAV = [
 
 export function header() {
   // Stage 1: "Start free" → App Store (?ct=web_header). Anchors are same on both themes.
+  const cta = flags.web_checkout ? '/#pricing' : storeLink('header');
+  const links = NAV.map(([t, h]) => `<a href="${h}">${t}</a>`).join('');
+  // Desktop: .nav + .header-cta. Mobile (≤720): CSS-only <details> hamburger reveals
+  // the same links + Start free. Pure CSS so it works on content pages too (no JS).
   return `<header class="site-header"><div class="wrap">
 <a class="brand" href="/"><img src="/assets/icon.png" width="30" height="30" alt="FirstWeeks"> FirstWeeks</a>
-<nav class="nav" aria-label="Primary">${NAV.map(([t, h]) => `<a href="${h}">${t}</a>`).join('')}</nav>
-<a class="btn btn--primary header-cta" href="${flags.web_checkout ? '/#pricing' : storeLink('header')}">Start free</a>
+<nav class="nav" aria-label="Primary">${links}</nav>
+<a class="btn btn--primary header-cta" href="${cta}">Start free</a>
+<details class="menu">
+<summary class="menu__btn" aria-label="Menu" role="button">
+<svg class="menu__ic menu__ic--bars" viewBox="0 0 24 24" width="24" height="24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" d="M4 7h16M4 12h16M4 17h16"/></svg>
+<svg class="menu__ic menu__ic--x" viewBox="0 0 24 24" width="24" height="24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" d="M6 6l12 12M18 6 6 18"/></svg>
+</summary>
+<div class="menu__panel"><nav aria-label="Mobile">${links}</nav>
+<a class="btn btn--primary btn--block" href="${cta}">Start free</a></div>
+</details>
 </div></header>`;
 }
 

@@ -36,7 +36,7 @@ export function buildLanding({ emit, read }) {
   <h1>Understand what’s happening with your baby</h1>
   <p class="muted hero__sub">Track feeding, sleep and changes in seconds — then ask what they mean. Answers that know your baby’s age and patterns.</p>
   <div class="hero__cta">
-    <a class="btn btn--primary btn--lg" href="${heroCTA}">Start free — 14 days, no card</a>
+    <a class="btn btn--primary" href="${heroCTA}">Start free — 14 days, no card</a>
     <a class="link-arrow" href="#pricing">See pricing</a>
   </div>
   <div class="hero__store">${appStoreBadge('hero')}<span class="android-soon">Android — coming soon</span></div>

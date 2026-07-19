@@ -5,7 +5,11 @@
 .hero__store { display: flex; gap: 14px; align-items: center; flex-wrap: wrap; margin-top: 16px; }
 .hero__tag { margin-top: 22px; }
 .social-proof { margin-top: 14px; letter-spacing: .04em; }
-@media (max-width: 860px) { .hero__grid { grid-template-columns: 1fr; } .hero__phone { max-width: 300px; margin: 8px auto 0; } }
+/* Mobile: give the phone a DEFINITE width — its content is all position:absolute
+   (zero intrinsic width), so auto/max-width would collapse it via aspect-ratio. */
+@media (max-width: 860px) { .hero__grid { grid-template-columns: 1fr; }
+  .hero__phone { width: min(320px, 82vw); max-width: none; margin: 10px auto 0; }
+  .hero-frame { margin: 0 auto; } }
 
 /* Hero crossfade (§4): layers fade over a static base; reduced-motion → base only. */
 .hero-frame { max-width: 340px; margin-left: auto; }
