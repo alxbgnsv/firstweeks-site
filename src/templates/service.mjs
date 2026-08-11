@@ -248,30 +248,74 @@ ${crumbs(crumbItems)}
 
 function buildTerms({ emit }) {
   const crumbItems = [{ name: 'Home', url: '/' }, { name: 'Terms' }];
+  // TERMS-PUBLISH (Aug 2026): full reviewed terms from the owner
+  // (firstweeks-terms-en.md, verbatim), noindex lifted. Layout preserved:
+  // header, "The short version" callout, sections, shared footer.
+  const TERMS_UPDATED = 'August 2026';
+
   const body = `<div class="wrap reading">
 ${crumbs(crumbItems)}
 <h1>Terms of Use</h1>
-<p class="eeat">Updated ${esc(REVIEWED)} · Applies to the FirstWeeks app and firstweeks.app</p>
+<p class="eeat">Updated ${esc(TERMS_UPDATED)} · Applies to the FirstWeeks iOS app and firstweeks.app</p>
 
-<section><h2>1. What FirstWeeks is</h2>
-<p>FirstWeeks is an educational tracking and guidance app for parents. It provides general information — it is not a medical device, does not diagnose or treat, and does not replace your pediatrician. In an emergency, call 911.</p></section>
+<div class="callout"><span class="kicker">The short version</span>
+<p>FirstWeeks is an educational app, not a medical device. Tracking is free forever; subscriptions are billed by Apple and cancellable anytime. Your records are yours. Be kind to the service, and always trust your pediatrician over any app — including ours.</p></div>
 
-<section><h2>2. Your account</h2>
-<p>You’re responsible for keeping your login secure and for the accuracy of what you log. Tracking is free; paid plans are billed through the App Store and cancellable anytime.</p></section>
+<section><h2>1. Who we are and what these terms cover</h2>
+<p>FirstWeeks is operated by WAZZAPPS GLOBAL LIMITED, 16 Anexartisias street, 3036 Limassol, Cyprus (&ldquo;we&rdquo;, &ldquo;us&rdquo;). These terms are an agreement between you and us covering the FirstWeeks iOS app and the firstweeks.app website (together, the &ldquo;Service&rdquo;). By creating an account or using the Service you accept them. If you do not agree, please do not use the Service.</p></section>
 
-<section><h2>3. Acceptable use</h2>
-<p>Use FirstWeeks for your own family. Don’t resell, scrape, or attempt to misuse the service or its content.</p></section>
+<section><h2>2. Not medical advice</h2>
+<p>FirstWeeks provides educational information for parents, built on published guidance from sources such as the CDC, NIH and WHO. It is not a medical device; it does not diagnose, treat, or monitor any condition, and it is not a substitute for professional medical advice. Always consult your pediatrician about your baby&rsquo;s health, and never delay seeking care because of something you read in the app. In an emergency, call your local emergency number immediately (911 in the US, 112 in the EU).</p></section>
 
-<p class="draft-note">The complete terms — billing and refunds, liability, governing law and dispute resolution — are being finalized with counsel and will be published here before launch.</p>
+<section><h2>3. AI features</h2>
+<p>Some features — voice logging and answers to your questions — use artificial intelligence. AI output can be incomplete or wrong. Voice-logged records are shown to you for review before saving, and answers are educational information, not recommendations for your specific child. You are responsible for reviewing what is saved and for any decisions you make.</p></section>
+
+<section><h2>4. Who can use FirstWeeks</h2>
+<p>You must be at least 18 years old and able to enter into a contract. The Service is built for parents and caregivers; the records you keep about your child are entered and controlled by you.</p></section>
+
+<section><h2>5. Your account</h2>
+<p>You sign in with your Apple or Google account and are responsible for keeping that access secure and for what happens under your account. You can invite a partner to share your baby&rsquo;s records; you control that access and can revoke it at any time in Settings.</p></section>
+
+<section><h2>6. Your content</h2>
+<p>The records, notes and questions you create belong to you. You grant us only the limited license needed to operate the Service: to store your content, sync it between your devices and your invited partner, display it back to you, and process it to provide features you use (statistics, answers, export). We do not use your content for advertising and do not sell it. You can export everything as a CSV file and delete your account at any time — deletion works as described in our <a href="/en/privacy/">Privacy Policy</a>.</p></section>
+
+<section><h2>7. Subscriptions and payments</h2>
+<p>The core tracker — logging, history and timeline — is free forever, with or without a subscription. A paid subscription unlocks additional features as described in the app at the time of purchase.</p>
+<p>Subscriptions are billed by Apple through your App Store account. Prices, periods and any introductory offers are shown in the app before you buy. Subscriptions renew automatically unless you cancel at least 24 hours before the end of the current period; you can manage or cancel anytime in your iOS subscription settings. Refunds are handled by Apple under App Store rules — we cannot issue them ourselves, but write to us and we will help you find the right path. If a free trial is offered, the paid period starts when the trial ends unless you cancel before then.</p>
+<p>We may change subscription pricing or what a plan includes going forward; changes never apply retroactively to a period you have already paid for, and material changes will be shown in the app before they affect you.</p></section>
+
+<section><h2>8. Acceptable use</h2>
+<p>Use FirstWeeks for your own family. You agree not to: resell, rent or redistribute the Service or its content; scrape, bulk-download or use our content or the Service to build or train a competing product or an AI model; probe, overload or attempt to bypass security or usage limits; upload malicious code; use the Service unlawfully or to harm others; or misrepresent the app&rsquo;s output as medical advice.</p></section>
+
+<section><h2>9. Our content</h2>
+<p>Articles, weekly guides, illustrations and other materials in the Service are ours or licensed to us. We give you a personal, non-transferable right to use them within the Service for your family. Sharing an excerpt with your pediatrician or partner is fine; republishing our content is not.</p></section>
+
+<section><h2>10. Availability and changes to the Service</h2>
+<p>We work to keep the Service reliable, but it is provided &ldquo;as is&rdquo; and &ldquo;as available&rdquo; — we cannot promise it will always be uninterrupted or error-free, and features may change, improve or be withdrawn over time. If we ever discontinue the Service, we will give you reasonable notice and time to export your data.</p></section>
+
+<section><h2>11. Termination</h2>
+<p>You can stop using FirstWeeks and delete your account at any time in Settings. We may suspend or terminate accounts that materially breach these terms — where reasonable, we will warn you first. After termination, sections that by their nature should survive (your content rights, disclaimers, liability limits, governing law) continue to apply.</p></section>
+
+<section><h2>12. Liability</h2>
+<p>Nothing in these terms excludes liability that cannot be excluded by law, including for intent or gross negligence, or your statutory consumer rights. Beyond that, to the extent permitted by law: we are not liable for indirect or consequential losses, loss of data caused by factors outside our control, or decisions you make based on educational content; and our total liability for all claims in any 12-month period is limited to the amount you paid us for the Service in those 12 months (or &euro;50 if you paid nothing). This reflects that FirstWeeks is an informational tool — responsibility for your baby&rsquo;s care always sits with you and your medical professionals, not with an app.</p></section>
+
+<section><h2>13. Governing law and disputes</h2>
+<p>These terms are governed by the laws of the Republic of Cyprus. If you are a consumer in the EU/EEA or elsewhere, you keep the protection of any mandatory consumer rules of your country of residence, and you may bring claims in your local courts where the law gives you that right. Let&rsquo;s be practical, though: if something is wrong, write to <a href="${mailto('Terms')}">${esc(site.email)}</a> first — most issues are fixable in one email. EU residents can also use the European Commission&rsquo;s Online Dispute Resolution platform.</p></section>
+
+<section><h2>14. Changes to these terms</h2>
+<p>If we make material changes, we will update the date above and notify you in the app before the changes take effect. Continued use after that means the updated terms apply.</p></section>
+
+<section><h2>15. Contact</h2>
+<p>WAZZAPPS GLOBAL LIMITED &middot; 16 Anexartisias street, 3036 Limassol, Cyprus &middot; <a href="${mailto('Terms')}">${esc(site.email)}</a>.</p></section>
 </div>`;
 
   const meta = {
     title: 'Terms of Use | FirstWeeks',
-    description: 'The terms for using FirstWeeks: an educational app, not a medical device; free tracking, cancellable plans, and fair-use rules.',
-    path: '/en/terms/', theme: 'light', noindex: true,
+    description: 'The FirstWeeks terms of use: an educational app, not a medical device; free tracking forever; subscriptions billed by Apple and cancellable anytime; your records are yours.',
+    path: '/en/terms/', theme: 'light',
     jsonld: pageLD('Terms of Use', '/en/terms/', crumbItems),
   };
-  emit('/en/terms/', page({ meta, body, theme: 'light' }), { indexable: false });
+  emit('/en/terms/', page({ meta, body, theme: 'light' }));
 }
 
 // --------------------------------------------------------------------- Invite
