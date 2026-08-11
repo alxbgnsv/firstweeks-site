@@ -138,33 +138,107 @@ ${qa.html}</section>
 // ships — README flags the flip.
 function buildPrivacy({ emit }) {
   const crumbItems = [{ name: 'Home', url: '/' }, { name: 'Privacy' }];
+  // PRIVACY-PUBLISH (Aug 2026): full reviewed policy from the owner
+  // (firstweeks-privacy-en.md, verbatim), noindex lifted — Apple review and
+  // users find this page via search. Layout preserved: header, "The short
+  // version" callout, sections, footer from the shared page shell.
+  const PRIVACY_UPDATED = 'August 2026';
+
+  const subRows = [
+    ['Supabase', 'Database, sync, authentication', 'Encrypted records, account identifiers'],
+    ['OpenAI', 'Voice transcription, record parsing, answers', 'Audio (transient), transcripts, questions, numeric summaries — no names'],
+    ['Apple', 'Sign in with Apple, push notifications, subscriptions', 'Sign-in identifier; purchase receipts'],
+    ['Google', 'Sign in with Google', 'Sign-in identifier, email'],
+    ['RevenueCat', 'Subscription management', 'Purchase receipts, random app identifier — no personal details'],
+    ['Google Firebase', 'Product analytics', 'Usage events, random app-instance identifier — no names, no records'],
+  ].map(([a, b, c]) => `<tr><td><b>${a}</b></td><td>${b}</td><td>${c}</td></tr>`).join('');
+
   const body = `<div class="wrap reading">
 ${crumbs(crumbItems)}
 <h1>Privacy Policy</h1>
-<p class="eeat">Updated ${esc(REVIEWED)} · Applies to the FirstWeeks app and firstweeks.app</p>
+<p class="eeat">Updated ${esc(PRIVACY_UPDATED)} · Applies to the FirstWeeks iOS app and firstweeks.app</p>
 
 <div class="callout"><span class="kicker">The short version</span>
-<p>Your baby’s name never reaches the AI. We run no ads, sell no data, and you can export or delete everything anytime.</p></div>
+<p>Your baby&rsquo;s name never reaches the AI. We run no ads, sell no data, and you can export or delete everything anytime.</p></div>
 
-<section><h2>1. What we collect</h2>
-<p>Your account email, the logs you create (sleep, feeds, diapers, growth), and the questions you ask. Identifiers are stripped before any AI request.</p></section>
+<section><h2>1. Who we are</h2>
+<p>FirstWeeks is a baby-tracking and parent-guidance app operated by WAZZAPPS GLOBAL LIMITED, 16 Anexartisias street, 3036 Limassol, Cyprus (&ldquo;we&rdquo;, &ldquo;us&rdquo;). For anything in this policy, write to <a href="${mailto('Privacy policy')}">${esc(site.email)}</a>. We are the data controller for the personal data described below.</p></section>
 
-<section><h2>2. What we never do</h2>
-<p>No advertising, no sale or sharing of personal data, no tracking across other apps or sites.</p></section>
+<section><h2>2. What we collect</h2>
+<p><b>Account.</b> When you sign in with Apple or Google, we receive your name (if you choose to share it), your email address — or Apple&rsquo;s private relay address if you hide your email — and a sign-in identifier. We never see your passwords. There is no email-and-password sign-up.</p>
+<p><b>Your baby&rsquo;s profile.</b> The name, date of birth and sex you enter, and the due date if you enable corrected age. You provide this data; you can change or remove it at any time.</p>
+<p><b>The records you create.</b> Sleep, feeds, pumping, diapers, health entries (temperature, symptoms, medications, vaccinations), activities, measurements and notes. This is the core of the app, and it exists so you can see it — not so we can.</p>
+<p><b>Your questions.</b> Questions you ask in the app, and your thumbs-up/down feedback on answers.</p>
+<p><b>Voice recordings.</b> If you log by voice, your recording is sent over an encrypted connection to be transcribed and turned into records. We do not store your recordings. Our speech provider may retain audio briefly for abuse monitoring and then deletes it; recordings are never used to train AI models. The transcript is shown to you for review before anything is saved.</p>
+<p><b>Basic product analytics.</b> We use Google Firebase to see which screens and features are used, tied to a random app-instance identifier — so we can tell, for example, where onboarding loses people. No advertising identifiers, no tracking across other apps or websites, and analytics data is not combined with your baby&rsquo;s records.</p>
+<p><b>Website.</b> firstweeks.app is a content site. Our hosting provider keeps standard server logs (IP address, pages requested) for security and capacity purposes. The site sets no advertising or cross-site tracking cookies.</p></section>
 
-<section><h2>3. Your controls</h2>
-<p>Export a full copy or delete your account and data at any time from <b>Settings → Privacy</b>, or email <a href="${mailto('Privacy request')}">${esc(site.email)}</a>.</p></section>
+<section><h2>3. How the AI features work</h2>
+<p>When you ask a question, we send our AI provider: your question, your baby&rsquo;s age in weeks, and a short numeric summary of recent records (counts and durations — for example, &ldquo;8 feeds, 6 wet diapers&rdquo;). Your baby&rsquo;s name, your name and your contact details are stripped on the device and never leave it as part of an AI request. Answers are built from our pediatric content library first, with AI used to match and phrase them.</p>
+<p>Your questions and records are not used to train AI models — neither by us nor, under our agreements, by our providers.</p></section>
 
-<p class="draft-note">The complete policy — data retention, sub-processors, regional rights (GDPR/CCPA) and contact details — is being finalized with counsel and will be published here before launch.</p>
+<section><h2>4. What we never do</h2>
+<ul>
+<li>No advertising in the app, ever.</li>
+<li>No sale of personal data. No sharing of personal data for advertising.</li>
+<li>No tracking across other companies&rsquo; apps or websites.</li>
+<li>No location collection — the app never asks for or records where you are.</li>
+<li>No use of your or your baby&rsquo;s data for AI training.</li>
+<li>We never contact you about your baby&rsquo;s health data; the app is a tool in your hands, not a monitoring service.</li>
+</ul></section>
+
+<section><h2>5. Where your data lives and how it&rsquo;s protected</h2>
+<p>Records are stored on your device and synced, encrypted in transit (TLS) and at rest, to our cloud database so your data survives a lost phone and can be shared with a partner you invite. Access inside the database is restricted per account: your family&rsquo;s records are readable by your family only.</p>
+<p>Our providers run on servers in the European Union and the United States. Where data leaves the EU/EEA, the transfer is protected by recognized safeguards such as the EU Standard Contractual Clauses or the EU&ndash;US Data Privacy Framework. And an honest note no policy should skip: no app or transmission over the internet is completely secure — we take reasonable, industry-standard precautions, but cannot promise the impossible.</p>
+<p>If you invite a partner, they get access to your baby&rsquo;s records, and you can revoke that access at any time in Settings — revoking removes the shared records from their devices.</p></section>
+
+<section><h2>6. Sub-processors</h2>
+<p>We use a small number of service providers to run FirstWeeks. They process data only on our instructions:</p>
+<div class="table-scroll"><table class="subproc">
+<thead><tr><th>Provider</th><th>What for</th><th>What they see</th></tr></thead>
+<tbody>${subRows}</tbody>
+</table></div>
+<p>We will keep this table current if providers change.</p>
+<p>Beyond that, we disclose personal data only if the law requires it (for example, a valid legal request), to protect someone&rsquo;s vital interests, or — if FirstWeeks is ever acquired or merged — to the successor, who will be bound by this policy or one at least as protective, with notice to you before any change takes effect.</p></section>
+
+<section><h2>7. Payments</h2>
+<p>Purchases are processed by Apple through your App Store account. We never see your card details. Tracking stays free regardless of subscription status.</p></section>
+
+<section><h2>8. How long we keep data</h2>
+<p>Your records are kept for as long as your account exists — that is the point of a baby journal. If you delete your account, it is scheduled for deletion with a 30-day grace period: sign back in within 30 days and everything is restored; after that, your account and synced data are permanently deleted from our systems. Backups age out on a rolling basis shortly after.</p></section>
+
+<section><h2>9. Your controls and rights</h2>
+<p>From <b>Settings &rarr; Privacy</b> you can:</p>
+<ul>
+<li>Export a full copy of your records as a CSV file that belongs to you.</li>
+<li>Delete your account and all synced data (30-day grace period, see above).</li>
+<li>Manage notifications and partner access.</li>
+</ul>
+<p>Depending on where you live, you also have legal rights to access, correct, delete, restrict or port your personal data, and to object to processing — including under the GDPR (EU/EEA and UK) and the CCPA/CPRA (California). We honor these rights for everyone, not only where the law requires it. To exercise them, use Settings &rarr; Privacy or email <a href="${mailto('Privacy request')}">${esc(site.email)}</a>; we respond within 30 days. For your protection we may need to verify your identity before acting on a request. EU/EEA residents may also lodge a complaint with their local supervisory authority.</p>
+<p>We make no automated decisions about you that produce legal or similarly significant effects.</p>
+<p>Under the GDPR, our legal bases are: performance of a contract (providing the app you signed up for), your consent (optional features such as notifications), and legitimate interests (keeping the service secure and improving it with basic analytics).</p>
+<p>We do not &ldquo;sell&rdquo; or &ldquo;share&rdquo; personal information as those terms are defined in the CCPA, and we do not process personal data for targeted advertising.</p></section>
+
+<section><h2>10. Children</h2>
+<p>FirstWeeks is built for parents and caregivers and is intended for users 18 and older. The app is not directed at children, and we do not knowingly collect data from children directly. Information about your baby is entered by you and processed solely to provide the app&rsquo;s features to you. You can delete it at any time.</p></section>
+
+<section><h2>11. Health information</h2>
+<p>Records you keep about your baby — including temperature, symptoms and medications — are used only to show them back to you, power your statistics and answer your questions. FirstWeeks is not a medical device, and nothing in the app is medical advice.</p></section>
+
+<section><h2>12. Changes to this policy</h2>
+<p>If we make material changes, we will update the date at the top and let you know in the app before the changes take effect. Continued use after that means the updated policy applies.</p></section>
+
+<section><h2>13. Contact</h2>
+<p>Questions, requests, concerns: <a href="${mailto('Privacy')}">${esc(site.email)}</a>.</p></section>
 </div>`;
 
   const meta = {
     title: 'Privacy Policy | FirstWeeks',
-    description: 'How FirstWeeks handles your data: your baby’s name never reaches the AI, no ads, no data selling, and you can export or delete everything anytime.',
-    path: '/en/privacy/', theme: 'light', noindex: true,
+    description: 'How FirstWeeks handles your data: your baby\u2019s name never reaches the AI, no ads, no data selling, no tracking, and you can export or delete everything anytime.',
+    path: '/en/privacy/', theme: 'light',
     jsonld: pageLD('Privacy Policy', '/en/privacy/', crumbItems),
   };
-  emit('/en/privacy/', page({ meta, body, theme: 'light' }), { indexable: false });
+  emit('/en/privacy/', page({ meta, body, theme: 'light' }));
 }
 
 function buildTerms({ emit }) {

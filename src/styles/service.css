@@ -48,3 +48,10 @@
 .invite .invite-ic { width: 72px; height: 72px; border-radius: 20px; margin: 0 auto 18px; display: block; }
 .invite .btn-row { justify-content: center; margin-top: 8px; }
 .invite .muted { margin-top: 14px; }
+
+/* PRIVACY-PUBLISH: sub-processors table — scrolls inside its own container,
+   the page body never scrolls horizontally. */
+.table-scroll { overflow-x: auto; margin: 14px 0; }
+.subproc { width: 100%; border-collapse: collapse; font-size: .92rem; min-width: 560px; }
+.subproc th, .subproc td { text-align: left; padding: 10px 12px; border-bottom: 1px solid var(--border); vertical-align: top; }
+.subproc th { font-size: .8rem; text-transform: uppercase; letter-spacing: .04em; color: var(--text-3); }

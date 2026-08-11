@@ -38,7 +38,7 @@ const PAGES = [
   ['landing', '/'], ['week', '/en/week-by-week/week-5/'], ['week-hub', '/en/week-by-week/'],
   ['article', '/en/articles/the-3-am-proof-sleep-setup/'], ['article-hub', '/en/articles/'],
   ['category-hub', '/en/articles/sleep/'], ['exercise', '/en/exercises/chest-tummy-time/'],
-  ['exercise-hub', '/en/exercises/'], ['support', '/en/support/'], ['methodology', '/en/methodology/'],
+  ['exercise-hub', '/en/exercises/'], ['support', '/en/support/'], ['methodology', '/en/methodology/'], ['privacy', '/en/privacy/'],
 ];
 const chrome = await chromeLauncher.launch({ chromeFlags: ['--headless=new', '--no-sandbox', '--disable-gpu'] });
 const opts = { port: chrome.port, output: 'json', logLevel: 'error',
