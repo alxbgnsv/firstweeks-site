@@ -18,8 +18,8 @@ export const app = {
   // Replace with the real App Store URL after approval.
   storeURL: 'https://apps.apple.com/app/idPLACEHOLDER',
   // AASA appID = {TEAMID}.{bundle}; release bundle is com.firstweeks.app.
-  teamID: 'TEAMID',
-  bundleID: 'com.firstweeks.app',
+  teamID: 'WS9ALUMGN4',        // WAZZAPPS GLOBAL LIMITED (BUNDLE-SWITCH-2)
+  bundleID: 'com.wazzapps.firstweeks',
 };
 
 // Feature flags (§5). All ship in markup; behaviour toggles here.
