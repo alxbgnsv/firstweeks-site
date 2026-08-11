@@ -2,7 +2,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { site, app } from '../config.mjs';
+import { site, app, flags } from '../config.mjs';
 import { minify, assertNoPlaceholders } from '../src/lib/html.mjs';
 import { setCSS } from '../src/lib/meta.mjs';
 
@@ -54,6 +54,7 @@ fs.mkdirSync(DIST, { recursive: true });
 const { buildStyleguide } = await import('../src/templates/styleguide.mjs');
 const { buildLanding } = await import('../src/templates/landing.mjs');
 const { buildCheckout } = await import('../src/templates/checkout.mjs');
+// SITE-NOPRICE: страницы checkout (с ценами) не собираются до pricing_public
 const { buildWeeks } = await import('../src/templates/week.mjs');
 const { buildArticles } = await import('../src/templates/article.mjs');
 const { buildExercises } = await import('../src/templates/exercise.mjs');
@@ -67,12 +68,13 @@ initDates(BUILD_ISO);
 const cnt = loadContent(BUILD_ISO);
 
 buildLanding({ emit, read, CSS });
-buildCheckout({ emit, read, CSS });
+if (flags.pricing_public) buildCheckout({ emit, read, CSS });
 buildWeeks({ emit, content: cnt });
 buildArticles({ emit, content: cnt });
 buildExercises({ emit, content: cnt });
 buildService({ emit, emitFile });
-buildStyleguide({ emit, read, CSS });
+// SITE-NOPRICE: styleguide показывает priceCards — прячем вместе с ценами
+if (flags.pricing_public) buildStyleguide({ emit, read, CSS });
 persistDates();
 
 // Static assets + files

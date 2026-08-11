@@ -9,7 +9,8 @@ const NAV = [
   ['Articles', '/en/articles/'],
   ['Week by Week', '/en/week-by-week/'],
   ['Exercises', '/en/exercises/'],
-  ['Pricing', '/#pricing'],
+  // SITE-NOPRICE: Pricing вернётся с flags.pricing_public
+  ...(flags.pricing_public ? [['Pricing', '/#pricing']] : []),
 ];
 
 // Sun/moon icons for the theme toggle (currentColor).

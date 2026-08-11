@@ -31,6 +31,10 @@ export const flags = {
   social_proof: false,
   // Analytics slot — deferred (no cookie banner, no consent). null = nothing loaded.
   analytics: null,
+  // SITE-NOPRICE (11.08.2026): все цены/планы/триал скрыты до запуска платной
+  // подписки. ON — вернуть pricing-секцию, Pricing в навигации, checkout,
+  // FAQ о планах и Offer-разметку одним флагом.
+  pricing_public: false,
 };
 
 // App Store campaign tags per placement (§1). Appended to storeURL as ?ct=.

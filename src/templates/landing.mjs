@@ -21,10 +21,20 @@ const FAQ_ORDER = [
 export function buildLanding({ emit, read }) {
   const faqsMap = JSON.parse(read('content/landing-faqs.json'));
   // Android answer must not promise a form field that doesn't exist (§ correction 7).
+  // SITE-NOPRICE: партнёрский ответ без упоминания плана
+  if (!flags.pricing_public) {
+    faqsMap['Can my partner use it too?'] =
+      'Yes — both parents use the same account, and logs sync between devices in seconds.';
+  }
   faqsMap['When is Android coming?'] =
     'We’re iOS-first for now. Android is planned — email us at ' + site.email +
     ' and we’ll tell you when it ships.';
-  const faqItems = FAQ_ORDER.map((q) => ({ q, a: esc(faqsMap[q]) }));
+  // SITE-NOPRICE: до запуска подписки вопросы о планах/отмене/триале скрыты
+  const PRICING_QS = new Set(['What’s free forever?', 'How do I cancel?',
+                              'How does the 14-day trial work without a card?']);
+  const faqItems = FAQ_ORDER
+    .filter((q) => flags.pricing_public || !PRICING_QS.has(q))
+    .map((q) => ({ q, a: esc(faqsMap[q]) }));
   const asks = JSON.parse(read('content/landing-asks.json'));
 
   const heroCTA = flags.web_checkout ? '/#pricing' : storeLink('hero');
@@ -36,8 +46,8 @@ export function buildLanding({ emit, read }) {
   <h1>Understand what’s happening with your baby</h1>
   <p class="muted hero__sub">Track feeding, sleep and changes in seconds — then ask what they mean. Answers that know your baby’s age and patterns.</p>
   <div class="hero__cta">
-    <a class="btn btn--primary" href="${heroCTA}">Start free — 14 days, no card</a>
-    <a class="link-arrow" href="#pricing">See pricing</a>
+    <a class="btn btn--primary" href="${heroCTA}">${flags.pricing_public ? 'Start free — 14 days, no card' : 'Get FirstWeeks — free'}</a>
+    ${flags.pricing_public ? '<a class="link-arrow" href="#pricing">See pricing</a>' : ''}
   </div>
   <div class="hero__store">${appStoreBadge('hero')}<span class="android-soon">Android — coming soon</span></div>
   ${flags.social_proof ? `<p class="social-proof muted">★★★★★ Loved by 12,000+ families</p>` : ''}
@@ -111,7 +121,9 @@ ${priceCards()}
 ${[
     ['Grounded in pediatric guidance', 'Answers draw on CDC, NIH, WHO and AAP-aligned sources — cited in every response.'],
     ['Private by design', 'Your baby’s name is removed before any AI request leaves your device.'],
-    ['No ads. No data selling.', 'You’re the customer, not the product. Revenue comes from plans only.'],
+    ['No ads. No data selling.', flags.pricing_public
+      ? 'You’re the customer, not the product. Revenue comes from plans only.'
+      : 'You’re the customer, not the product.'],
     ['Encrypted', 'In transit and at rest. Export or delete everything anytime.'],
   ].map(([h, p]) => `<div class="trust__card"><h3>${esc(h)}</h3><p class="muted">${esc(p)}</p></div>`).join('')}
 </div>
@@ -124,9 +136,10 @@ ${[
   const faqSec = `<section class="section section--alt"><div class="wrap"><div class="faq-wrap"><h2>Questions, answered</h2>${faqHtml}</div></div></section>`;
 
   // --- mobile sticky CTA (tweak b) — no CLS (fixed overlay), JS reveals after hero.
-  const sticky = `<div class="sticky-cta" data-sticky-cta><a class="btn btn--primary" href="${heroCTA}">Start free — no card</a></div>`;
+  const sticky = `<div class="sticky-cta" data-sticky-cta><a class="btn btn--primary" href="${heroCTA}">${flags.pricing_public ? 'Start free — no card' : 'Get FirstWeeks — free'}</a></div>`;
 
-  const body = hero + emotion + how + askDemo + redflag + priceSec + trust + faqSec + sticky;
+  const body = hero + emotion + how + askDemo + redflag
+    + (flags.pricing_public ? priceSec : '') + trust + faqSec + sticky;
 
   const orgLD = {
     '@context': 'https://schema.org', '@type': 'Organization', name: 'FirstWeeks',
@@ -136,15 +149,20 @@ ${[
     '@context': 'https://schema.org', '@type': 'MobileApplication', name: 'FirstWeeks',
     operatingSystem: 'iOS', applicationCategory: 'HealthApplication',
     offers: [
-      { '@type': 'Offer', price: '59.99', priceCurrency: 'USD', name: 'Annual plan' },
-      { '@type': 'Offer', price: '9.99', priceCurrency: 'USD', name: 'Monthly plan' },
+      // SITE-NOPRICE: Offer-разметка вернётся с pricing_public
+      ...(flags.pricing_public ? [
+        { '@type': 'Offer', price: '59.99', priceCurrency: 'USD', name: 'Annual plan' },
+        { '@type': 'Offer', price: '9.99', priceCurrency: 'USD', name: 'Monthly plan' },
+      ] : [{ '@type': 'Offer', price: '0', priceCurrency: 'USD', name: 'Free' }]),
     ],
     url: site.origin,
   };
 
   const meta = {
     title: 'FirstWeeks — Understand What’s Happening With Your Baby',
-    description: 'Track feeding and sleep in seconds, then ask what they mean. Calm, sourced answers matched to your baby’s age. Free 14-day trial, no card.',
+    description: flags.pricing_public
+      ? 'Track feeding and sleep in seconds, then ask what they mean. Calm, sourced answers matched to your baby’s age. Free 14-day trial, no card.'
+      : 'Track feeding and sleep in seconds, then ask what they mean. Calm, sourced answers matched to your baby’s age. Free on iPhone.',
     path: '/',
     ogImage: `${site.origin}/og/home.png`,
     jsonld: [orgLD, appLD, faqLD],

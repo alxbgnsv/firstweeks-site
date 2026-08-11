@@ -4,7 +4,7 @@
 // short version now; full legal text is pending review → noindex until then.
 import { page, storeLink } from '../components/layout.mjs';
 import { crumbs, crumbLD, faq } from '../components/blocks.mjs';
-import { site, app, ct, sources } from '../../config.mjs';
+import { site, app, ct, sources, flags } from '../../config.mjs';
 import { esc, minify } from '../lib/html.mjs';
 
 const REVIEWED = site.reviewedLabel; // visible "Updated <month year>"
@@ -97,12 +97,17 @@ function buildSupport({ emit }) {
   const crumbItems = [{ name: 'Home', url: '/' }, { name: 'Support' }];
 
   // Quick-answers FAQ (native <details>, JS enhances single-open on load).
+  // SITE-NOPRICE: вопросы о планах/отмене/restore скрыты до pricing_public
   const qa = faq([
-    { q: 'What’s free forever?', a: '<p>Tracking — sleep, feeds, diapers, growth — is free with no time limit. The plan adds Ask, weekly guidance and insights.</p>' },
-    { q: 'How do I cancel?', a: '<p>In the app: <b>Settings → Subscription → Cancel</b>. It’s one tap, no retention flow. Your plan runs until the end of the paid period; tracking stays free after.</p>' },
-    { q: 'How do I restore purchases?', a: '<p>Open the app on the same Apple ID and tap <b>Settings → Restore purchases</b>. Your plan reactivates automatically.</p>' },
+    ...(flags.pricing_public ? [
+      { q: 'What’s free forever?', a: '<p>Tracking — sleep, feeds, diapers, growth — is free with no time limit. The plan adds Ask, weekly guidance and insights.</p>' },
+      { q: 'How do I cancel?', a: '<p>In the app: <b>Settings → Subscription → Cancel</b>. It’s one tap, no retention flow. Your plan runs until the end of the paid period; tracking stays free after.</p>' },
+      { q: 'How do I restore purchases?', a: '<p>Open the app on the same Apple ID and tap <b>Settings → Restore purchases</b>. Your plan reactivates automatically.</p>' },
+    ] : []),
     { q: 'Can I export data for my pediatrician?', a: '<p>Yes — <b>Settings → Help &amp; data export</b> produces a clean summary you can share or print.</p>' },
-    { q: 'How does partner sync work?', a: '<p>Both parents use the same plan and see the same live log. Invite from <b>Settings → Care team</b>.</p>' },
+    { q: 'How does partner sync work?', a: flags.pricing_public
+        ? '<p>Both parents use the same plan and see the same live log. Invite from <b>Settings → Care team</b>.</p>'
+        : '<p>Both parents use the same account and see the same live log. Invite from <b>Settings → Care team</b>.</p>' },
     { q: 'How do I delete my data?', a: `<p>Ask any time at <a href="${mailto('Delete my data')}">${esc(site.email)}</a>, or from <b>Settings → Privacy → Delete account</b>. Deletion is permanent.</p>` },
   ]);
 
