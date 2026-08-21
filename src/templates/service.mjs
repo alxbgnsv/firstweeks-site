@@ -151,7 +151,8 @@ function buildPrivacy({ emit }) {
 
   const subRows = [
     ['Supabase', 'Database, sync, authentication', 'Encrypted records, account identifiers'],
-    ['OpenAI', 'Voice transcription, record parsing, answers', 'Audio (transient), transcripts, questions, numeric summaries — no names'],
+    ['Anthropic', 'Answers to your questions (Ask)', 'Questions, baby&rsquo;s age in weeks, numeric summaries of records — no names'],
+    ['OpenAI', 'Voice transcription and record parsing', 'Audio (transient), transcripts — no names'],
     ['Apple', 'Sign in with Apple, push notifications, subscriptions', 'Sign-in identifier; purchase receipts'],
     ['Google', 'Sign in with Google', 'Sign-in identifier, email'],
     ['RevenueCat', 'Subscription management', 'Purchase receipts, random app identifier — no personal details'],
@@ -174,12 +175,12 @@ ${crumbs(crumbItems)}
 <p><b>Your baby&rsquo;s profile.</b> The name, date of birth and sex you enter, and the due date if you enable corrected age. You provide this data; you can change or remove it at any time.</p>
 <p><b>The records you create.</b> Sleep, feeds, pumping, diapers, health entries (temperature, symptoms, medications, vaccinations), activities, measurements and notes. This is the core of the app, and it exists so you can see it — not so we can.</p>
 <p><b>Your questions.</b> Questions you ask in the app, and your thumbs-up/down feedback on answers.</p>
-<p><b>Voice recordings.</b> If you log by voice, your recording is sent over an encrypted connection to be transcribed and turned into records. We do not store your recordings. Our speech provider may retain audio briefly for abuse monitoring and then deletes it; recordings are never used to train AI models. The transcript is shown to you for review before anything is saved.</p>
+<p><b>Voice recordings.</b> If you log by voice, your recording is sent over an encrypted connection to be transcribed and turned into records. We do not store your recordings. Our speech provider (OpenAI) may retain audio briefly for abuse monitoring and then deletes it; recordings are never used to train AI models. The transcript is shown to you for review before anything is saved.</p>
 <p><b>Basic product analytics.</b> We use Google Firebase to see which screens and features are used, tied to a random app-instance identifier — so we can tell, for example, where onboarding loses people. No advertising identifiers, no tracking across other apps or websites, and analytics data is not combined with your baby&rsquo;s records.</p>
 <p><b>Website.</b> firstweeks.app is a content site. Our hosting provider keeps standard server logs (IP address, pages requested) for security and capacity purposes. The site sets no advertising or cross-site tracking cookies.</p></section>
 
 <section><h2>3. How the AI features work</h2>
-<p>When you ask a question, we send our AI provider: your question, your baby&rsquo;s age in weeks, and a short numeric summary of recent records (counts and durations — for example, &ldquo;8 feeds, 6 wet diapers&rdquo;). Your baby&rsquo;s name, your name and your contact details are stripped on the device and never leave it as part of an AI request. Answers are built from our pediatric content library first, with AI used to match and phrase them.</p>
+<p>Two features use third-party AI providers, and the app asks for your consent in each flow before anything is sent. When you ask a question, we send <b>Anthropic</b>: your question, your baby&rsquo;s age in weeks, and a short numeric summary of recent records (counts and durations — for example, &ldquo;8 feeds, 6 wet diapers&rdquo;). When you log by voice, your audio clip is sent to <b>OpenAI</b> for transcription and parsing into records. Your baby&rsquo;s name, your name and your contact details are stripped on the device and never leave it as part of an AI request. Answers are built from our pediatric content library first, with AI used to match and phrase them.</p>
 <p>Your questions and records are not used to train AI models — neither by us nor, under our agreements, by our providers.</p></section>
 
 <section><h2>4. What we never do</h2>
